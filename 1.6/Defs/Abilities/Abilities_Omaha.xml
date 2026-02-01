@@ -11,6 +11,7 @@
       <verbClass>Verb_CastAbility</verbClass>
       <range>28</range>
       <warmupTime>2.0</warmupTime>
+      <requireLineOfSight>false</requireLineOfSight>
       <targetParams>
         <canTargetLocations>true</canTargetLocations>
         <canTargetPawns>true</canTargetPawns>
@@ -37,6 +38,7 @@
       <damageAmountBase>150</damageAmountBase>
       <speed>45</speed>
       <explosionRadius>3.9</explosionRadius>
+      <flyOverhead>true</flyOverhead>
       <arcHeightFactor>2.0</arcHeightFactor>
       <shadowSize>0.6</shadowSize>
     </projectile>
@@ -68,6 +70,7 @@
       <verbClass>Verb_CastAbility</verbClass>
       <range>32</range>
       <warmupTime>2.5</warmupTime>
+      <requireLineOfSight>false</requireLineOfSight>
       <targetParams>
         <canTargetLocations>true</canTargetLocations>
       </targetParams>
@@ -93,6 +96,7 @@
       <damageAmountBase>200</damageAmountBase>
       <speed>40</speed>
       <explosionRadius>3.9</explosionRadius>
+      <flyOverhead>true</flyOverhead>
       <arcHeightFactor>2.5</arcHeightFactor>
       <shadowSize>0.8</shadowSize>
     </projectile>
