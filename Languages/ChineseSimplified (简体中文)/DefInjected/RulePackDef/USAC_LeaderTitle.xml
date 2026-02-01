@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <!-- LeaderTitleMaker_USAC -->
+    <LeaderTitleMaker_USAC.rulePack.rulesStrings.0>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</LeaderTitleMaker_USAC.rulePack.rulesStrings.0>
+    <LeaderTitleMaker_USAC.rulePack.rulesStrings.1>r_leaderTitle(p=6)->[cultureLeaderAdjective] [cultureLeaderNoun]</LeaderTitleMaker_USAC.rulePack.rulesStrings.1>
+    <LeaderTitleMaker_USAC.rulePack.rulesStrings.2>r_leaderTitle(p=3)->[cultureLeaderTitle]</LeaderTitleMaker_USAC.rulePack.rulesStrings.2>
+    <LeaderTitleMaker_USAC.rulePack.rulesStrings.3>cultureLeaderAdjective->首席</LeaderTitleMaker_USAC.rulePack.rulesStrings.3>
+    <LeaderTitleMaker_USAC.rulePack.rulesStrings.4>cultureLeaderAdjective->高级</LeaderTitleMaker_USAC.rulePack.rulesStrings.4>
+    <LeaderTitleMaker_USAC.rulePack.rulesStrings.5>cultureLeaderAdjective->执行</LeaderTitleMaker_USAC.rulePack.rulesStrings.5>
+    <LeaderTitleMaker_USAC.rulePack.rulesStrings.6>cultureLeaderAdjective->总</LeaderTitleMaker_USAC.rulePack.rulesStrings.6>
+    <LeaderTitleMaker_USAC.rulePack.rulesStrings.7>cultureLeaderAdjective->常务</LeaderTitleMaker_USAC.rulePack.rulesStrings.7>
+    <LeaderTitleMaker_USAC.rulePack.rulesStrings.8>cultureLeaderNoun->官</LeaderTitleMaker_USAC.rulePack.rulesStrings.8>
+    <LeaderTitleMaker_USAC.rulePack.rulesStrings.9>cultureLeaderNoun->董事</LeaderTitleMaker_USAC.rulePack.rulesStrings.9>
+    <LeaderTitleMaker_USAC.rulePack.rulesStrings.10>cultureLeaderNoun->总裁</LeaderTitleMaker_USAC.rulePack.rulesStrings.10>
+    <LeaderTitleMaker_USAC.rulePack.rulesStrings.11>cultureLeaderNoun->主席</LeaderTitleMaker_USAC.rulePack.rulesStrings.11>
+    <LeaderTitleMaker_USAC.rulePack.rulesStrings.12>cultureLeaderNoun->经理</LeaderTitleMaker_USAC.rulePack.rulesStrings.12>
+    <LeaderTitleMaker_USAC.rulePack.rulesStrings.13>cultureLeaderTitle->首席执行官</LeaderTitleMaker_USAC.rulePack.rulesStrings.13>
+    <LeaderTitleMaker_USAC.rulePack.rulesStrings.14>cultureLeaderTitle->首席财务官</LeaderTitleMaker_USAC.rulePack.rulesStrings.14>
+    <LeaderTitleMaker_USAC.rulePack.rulesStrings.15>cultureLeaderTitle->首席运营官</LeaderTitleMaker_USAC.rulePack.rulesStrings.15>
+    <LeaderTitleMaker_USAC.rulePack.rulesStrings.16>cultureLeaderTitle->首席技术官</LeaderTitleMaker_USAC.rulePack.rulesStrings.16>
+
+</LanguageData>

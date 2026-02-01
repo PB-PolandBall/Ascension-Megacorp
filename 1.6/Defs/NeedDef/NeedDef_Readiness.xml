@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- 整备需求 -->
+  <NeedDef>
+    <defName>USAC_Readiness</defName>
+    <needClass>USAC.Need_Readiness</needClass>
+    <label>readiness</label>
+    <description>A measure of the mechanoid's operational readiness. Low readiness causes decreased combat effectiveness. Resupply with industrial components.</description>
+    <showOnNeedList>true</showOnNeedList>
+    <minIntelligence>ToolUser</minIntelligence>
+    <onlyIfCausedByHediff>false</onlyIfCausedByHediff>
+    <listPriority>9500</listPriority>
+    <freezeWhileSleeping>true</freezeWhileSleeping>
+    <showForCaravanMembers>true</showForCaravanMembers>
+    <major>true</major>
+  </NeedDef>
+
+  <!-- 低整备 Hediff -->
+  <HediffDef>
+    <defName>USAC_LowReadiness</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>low readiness</label>
+    <description>This mechanoid is running low on operational supplies. Its combat effectiveness is reduced.</description>
+    <isBad>true</isBad>
+    <defaultLabelColor>(0.8, 0.6, 0.2)</defaultLabelColor>
+    <stages>
+      <li>
+        <label>degraded</label>
+        <statOffsets>
+          <ShootingAccuracyPawn>-1.0</ShootingAccuracyPawn>
+          <MoveSpeed>-1.0</MoveSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+</Defs>

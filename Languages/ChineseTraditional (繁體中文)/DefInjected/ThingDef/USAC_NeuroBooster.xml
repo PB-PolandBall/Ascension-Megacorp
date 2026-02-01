@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <USAC_NeuroBooster.label>強化劑</USAC_NeuroBooster.label>
+  <USAC_NeuroBooster.description>跟魔鬼素一樣成癮，並且提供(階段性)帶寬擴充升級(對機械師)，並且每層增加疼痛及意識。\n\n一種神經增強藥劑(Neuro augment Serum)，透過內含的奈米機械強化服用者的腦神經活躍性與理性思考能力，對於在USAC企業下工作的技術工人及軍人而言是一種十分普遍的工作用強化劑，由於奈米機械會隨時間緩慢失活並使得施用者感到焦躁與情緒不穩定，並且有少量易感人群案例表明低活躍性可能導致不明原因的誘發性過敏休克，因此在第一次服用之後需要持續不斷的定期施用來維持奈米機械活躍性。</USAC_NeuroBooster.description>
+  
+  <USAC_NeuroBoosterHigh.label>強化效果</USAC_NeuroBoosterHigh.label>
+  <USAC_NeuroBoosterHigh.description>奈米機械強化的腦神經，提供更強的運算能力。每層增加機械帶寬及意識，但會伴隨痛苦。這種效果不會隨時間消失，但需要神經強化劑來維持穩定性。</USAC_NeuroBoosterHigh.description>
+  
+  <USAC_NeuroBoosterAddiction.label>神經強化劑依賴</USAC_NeuroBoosterAddiction.label>
+  <USAC_NeuroBoosterAddiction.description>由於奈米機械會隨時間緩慢失活並使得施用者感到焦躁與情緒不穩定，並且有少量易感人群案例表明低活躍性可能導致不明原因的誘發性過敏休克，因此在第一次服用之後需要持續不斷的定期施用來維持奈米機械活躍性。</USAC_NeuroBoosterAddiction.description>
+</LanguageData>

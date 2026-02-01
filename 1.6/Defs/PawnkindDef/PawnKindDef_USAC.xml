@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- USAC 基础 -->
+    <PawnKindDef Name="USAC_Base" Abstract="True">
+        <race>Human</race>
+        <defaultFactionDef>USAC_Faction</defaultFactionDef>
+        <chemicalAddictionChance>0.05</chemicalAddictionChance>
+        <invNutrition>2.55</invNutrition>
+        <itemQuality>Normal</itemQuality>
+        <backstoryCryptosleepCommonality>0.15</backstoryCryptosleepCommonality>
+        <maxGenerationAge>55</maxGenerationAge>
+        <combatEnhancingDrugsChance>0.2</combatEnhancingDrugsChance>
+        <combatEnhancingDrugsCount>0~2</combatEnhancingDrugsCount>
+        <biocodeWeaponChance>0.15</biocodeWeaponChance>
+    </PawnKindDef>
+
+    <!-- USAC 步枪兵 -->
+    <PawnKindDef ParentName="USAC_Base">
+        <defName>USAC_Rifleman</defName>
+        <label>rifleman</label>
+        <labelPlural>riflemen</labelPlural>
+        <combatPower>85</combatPower>
+        <gearHealthRange>0.8~2.5</gearHealthRange>
+        <apparelTags>
+            <li>IndustrialBasic</li>
+            <li>IndustrialMilitaryBasic</li>
+            <li>IndustrialMilitaryAdvanced</li>
+            <li>BeltDefensePop</li>
+        </apparelTags>
+        <apparelMoney>1000~1800</apparelMoney>
+        <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
+        <weaponMoney>400~800</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+        <techHediffsChance>0.1</techHediffsChance>
+        <techHediffsMoney>500~1000</techHediffsMoney>
+        <techHediffsTags>
+            <li>Simple</li>
+            <li>ImplantEmpireCommon</li>
+        </techHediffsTags>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>8~14</initialResistanceRange>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>6~12</range>
+            </li>
+        </skills>
+    </PawnKindDef>
+
+    <!-- USAC 重装兵 -->
+    <PawnKindDef ParentName="USAC_Base">
+        <defName>USAC_Heavy</defName>
+        <label>heavy</label>
+        <labelPlural>heavies</labelPlural>
+        <combatPower>140</combatPower>
+        <gearHealthRange>0.8~2.5</gearHealthRange>
+        <apparelTags>
+            <li>IndustrialMilitaryBasic</li>
+            <li>IndustrialMilitaryAdvanced</li>
+            <li>BeltDefensePop</li>
+        </apparelTags>
+        <apparelMoney>1200~2000</apparelMoney>
+        <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
+        <weaponMoney>1200~1500</weaponMoney>
+        <weaponTags>
+            <li>GunHeavy</li>
+        </weaponTags>
+        <techHediffsChance>0.15</techHediffsChance>
+        <techHediffsMoney>800~1200</techHediffsMoney>
+        <techHediffsTags>
+            <li>Simple</li>
+            <li>Advanced</li>
+            <li>ImplantEmpireCommon</li>
+        </techHediffsTags>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>12~18</initialResistanceRange>
+    </PawnKindDef>
+
+    <!-- USAC 狙击手 -->
+    <PawnKindDef ParentName="USAC_Base">
+        <defName>USAC_Sniper</defName>
+        <label>sniper</label>
+        <labelPlural>snipers</labelPlural>
+        <combatPower>110</combatPower>
+        <gearHealthRange>0.8~2.5</gearHealthRange>
+        <apparelTags>
+            <li>IndustrialBasic</li>
+            <li>IndustrialMilitaryBasic</li>
+            <li>IndustrialMilitaryAdvanced</li>
+        </apparelTags>
+        <apparelMoney>1000~1600</apparelMoney>
+        <apparelAllowHeadgearChance>0.6</apparelAllowHeadgearChance>
+        <weaponMoney>600~800</weaponMoney>
+        <weaponTags>
+            <li>SniperRifle</li>
+        </weaponTags>
+        <techHediffsChance>0.1</techHediffsChance>
+        <techHediffsMoney>600~1000</techHediffsMoney>
+        <techHediffsTags>
+            <li>Simple</li>
+            <li>ImplantEmpireCommon</li>
+        </techHediffsTags>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>14~22</initialResistanceRange>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>10~16</range>
+            </li>
+        </skills>
+    </PawnKindDef>
+
+    <!-- USAC 精英 -->
+    <PawnKindDef ParentName="USAC_Base">
+        <defName>USAC_Elite</defName>
+        <label>elite</label>
+        <labelPlural>elites</labelPlural>
+        <combatPower>150</combatPower>
+        <maxGenerationAge>45</maxGenerationAge>
+        <backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
+        <gearHealthRange>1~1</gearHealthRange>
+        <apparelTags>
+            <li>IndustrialMilitaryAdvanced</li>
+            <li>SpacerMilitary</li>
+            <li>BeltDefensePop</li>
+        </apparelTags>
+        <apparelMoney>2500~4000</apparelMoney>
+        <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
+        <weaponMoney>800~1500</weaponMoney>
+        <weaponTags>
+            <li>IndustrialGunAdvanced</li>
+        </weaponTags>
+        <techHediffsChance>0.4</techHediffsChance>
+        <techHediffsMoney>1000~1500</techHediffsMoney>
+        <techHediffsTags>
+            <li>Advanced</li>
+            <li>ImplantEmpireCommon</li>
+        </techHediffsTags>
+        <combatEnhancingDrugsChance>0.7</combatEnhancingDrugsChance>
+        <combatEnhancingDrugsCount>1~2</combatEnhancingDrugsCount>
+        <biocodeWeaponChance>0.3</biocodeWeaponChance>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>16~24</initialResistanceRange>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>10~16</range>
+            </li>
+        </skills>
+    </PawnKindDef>
+
+    <!-- USAC 执行官（领袖） -->
+    <PawnKindDef ParentName="USAC_Base">
+        <defName>USAC_Executive</defName>
+        <label>executive</label>
+        <labelPlural>executives</labelPlural>
+        <factionLeader>true</factionLeader>
+        <combatPower>180</combatPower>
+        <maxGenerationAge>50</maxGenerationAge>
+        <backstoryCryptosleepCommonality>0.3</backstoryCryptosleepCommonality>
+        <gearHealthRange>1~1</gearHealthRange>
+        <apparelTags>
+            <li>IndustrialMilitaryAdvanced</li>
+            <li>SpacerMilitary</li>
+            <li>BeltDefensePop</li>
+        </apparelTags>
+        <apparelMoney>3000~5000</apparelMoney>
+        <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
+        <weaponMoney>1000~2000</weaponMoney>
+        <weaponTags>
+            <li>IndustrialGunAdvanced</li>
+        </weaponTags>
+        <techHediffsChance>0.6</techHediffsChance>
+        <techHediffsMoney>1500~2500</techHediffsMoney>
+        <techHediffsTags>
+            <li>Advanced</li>
+            <li>ImplantEmpireCommon</li>
+        </techHediffsTags>
+        <combatEnhancingDrugsChance>0.8</combatEnhancingDrugsChance>
+        <combatEnhancingDrugsCount>1~2</combatEnhancingDrugsCount>
+        <biocodeWeaponChance>0.4</biocodeWeaponChance>
+        <initialWillRange>4~6</initialWillRange>
+        <initialResistanceRange>20~30</initialResistanceRange>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>12~18</range>
+            </li>
+            <li>
+                <skill>Social</skill>
+                <range>8~14</range>
+            </li>
+        </skills>
+    </PawnKindDef>
+
+</Defs>

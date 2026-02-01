@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <USAC_Mech_Rocky.label>M88 "Rocky"</USAC_Mech_Rocky.label>
+  <USAC_Mech_Rocky.description>A USAC Marine Corps synthetic infantry unit. Designed to use 6.8mm family weapons and can wear human armor and helmets. Provides basic infantry support with moderate protection.</USAC_Mech_Rocky.description>
+  
+  <USAC_Mech_Cobalt.label>M7 "Cobalt"</USAC_Mech_Cobalt.label>
+  <USAC_Mech_Cobalt.description>A medium quadruped cargo dog with integrated machine gun. Features shotgun-resistant armor plating, cargo hauling capability, and smoke grenade deployment system.</USAC_Mech_Cobalt.description>
+  
+  <USAC_Mech_Paraman.label>M939 "Paraman"</USAC_Mech_Paraman.label>
+  <USAC_Mech_Paraman.description>A medium mechanized airborne unit resembling a gecko but more humanoid. Designed for rapid deployment operations with enhanced mobility and moderate firepower.</USAC_Mech_Paraman.description>
+  
+  <USAC_Mech_Gonk.label>XM11 "GONK"</USAC_Mech_Gonk.label>
+  <USAC_Mech_Gonk.description>An experimental IFV-class combat platform. Armed with a high-energy plasma beam as primary weapon and equipped with Active Protection System. Features six-sided reactive armor plating on quadruped chassis.</USAC_Mech_Gonk.description>
+  
+  <USAC_Mech_Omaha.label>M1154E "OMAHA"</USAC_Mech_Omaha.label>
+  <USAC_Mech_Omaha.description>An assault breacher vehicle analog with bipedal walker structure. Equipped with a mine plow for clearing obstacles and mine-clearing rocket launchers. Designed for breaching fortified positions.</USAC_Mech_Omaha.description>
+</LanguageData>

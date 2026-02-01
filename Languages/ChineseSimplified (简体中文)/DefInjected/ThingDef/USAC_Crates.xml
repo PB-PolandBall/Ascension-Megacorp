@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <USAC_Crate_Small_Empty.label>USAC空降物资箱 (S) (空)</USAC_Crate_Small_Empty.label>
+  <USAC_Crate_Small_Empty.description>一个被掏空的USAC空降物资箱。可以提供一些掩护。</USAC_Crate_Small_Empty.description>
+
+  <USAC_Crate_Medium_Empty.label>USAC空降物资箱 (M) (空)</USAC_Crate_Medium_Empty.label>
+  <USAC_Crate_Medium_Empty.description>一个被掏空的USAC空降物资箱。可以提供一些掩护。</USAC_Crate_Medium_Empty.description>
+
+  <USAC_Crate_Large_Empty.label>USAC空降物资箱 (L) (空)</USAC_Crate_Large_Empty.label>
+  <USAC_Crate_Large_Empty.description>一个被掏空的USAC空降物资箱。可以提供一些掩护。</USAC_Crate_Large_Empty.description>
+
+  <USAC_Crate_Small.label>USAC空降物资箱 (S)</USAC_Crate_Small.label>
+  <USAC_Crate_Small.description>一个密封的USAC空降物资箱。常在USAC采矿作业后留下。可以打开获取其中的物资。</USAC_Crate_Small.description>
+
+  <USAC_Crate_Medium.label>USAC空降物资箱 (M)</USAC_Crate_Medium.label>
+  <USAC_Crate_Medium.description>一个密封的USAC空降物资箱。常在USAC采矿作业后留下。可以打开获取其中的物资。</USAC_Crate_Medium.description>
+
+  <USAC_Crate_Large.label>USAC空降物资箱 (L)</USAC_Crate_Large.label>
+  <USAC_Crate_Large.description>一个密封的USAC空降物资箱。常在USAC采矿作业后留下。可以打开获取其中的物资。</USAC_Crate_Large.description>
+
+</LanguageData>

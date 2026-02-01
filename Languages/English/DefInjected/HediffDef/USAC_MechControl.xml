@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <USAC_TempMechlinkTrigger.label>temporary mechlink</USAC_TempMechlinkTrigger.label>
+  <USAC_TempMechlinkTrigger.description>A temporary neural interface that grants mechanitor capabilities. The nanomachines forming this interface will degrade over time and be absorbed by the body.\n\nProvides 6 bandwidth for controlling mechanoids. Effect is lost upon death.</USAC_TempMechlinkTrigger.description>
+  <USAC_TempMechlinkKillSwitch.label>mechlink kill switch</USAC_TempMechlinkKillSwitch.label>
+  <USAC_TempMechlinkKillSwitch.description>This device will destroy the mechlink by overloading the neural interface after the user's death.</USAC_TempMechlinkKillSwitch.description>
+</LanguageData>

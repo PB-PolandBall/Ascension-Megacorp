@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <USAC_Faction.label>USAC</USAC_Faction.label>
+    <USAC_Faction.description>A megacorporation that rose from the Enlightenment World. After the colonial fleet departed, they monopolized the local energy industry through information and technological advantages, and expanded rapidly through cultural hegemony.</USAC_Faction.description>
+    <USAC_Faction.pawnSingular>operative</USAC_Faction.pawnSingular>
+    <USAC_Faction.pawnsPlural>operatives</USAC_Faction.pawnsPlural>
+    <USAC_Faction.leaderTitle>executive</USAC_Faction.leaderTitle>
+</LanguageData>

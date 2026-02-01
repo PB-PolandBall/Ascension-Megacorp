@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <USAC_MechOrder_Rocky.label>M88 "Rocky" order</USAC_MechOrder_Rocky.label>
+  <USAC_MechOrder_Rocky.description>A USAC military contract for one M88 "Rocky" synthetic infantry unit. Use to call in an orbital drop pod delivery of an inactive mech that can be controlled by a mechanitor.</USAC_MechOrder_Rocky.description>
+
+  <USAC_MechOrder_Paraman.label>M939 "Paraman" order</USAC_MechOrder_Paraman.label>
+  <USAC_MechOrder_Paraman.description>A USAC military contract for one M939 "Paraman" airborne unit. Use to call in an orbital drop pod delivery of an inactive mech that can be controlled by a mechanitor.</USAC_MechOrder_Paraman.description>
+
+  <USAC_MechOrder_Gonk.label>X-3 "Gonk" order</USAC_MechOrder_Gonk.label>
+  <USAC_MechOrder_Gonk.description>A USAC military contract for one X-3 "Gonk" heavy artillery mech. Use to call in an orbital drop pod delivery of an inactive mech that can be controlled by a mechanitor.</USAC_MechOrder_Gonk.description>
+
+  <USAC_MechOrder_Cobalt.label>M7 "Cobalt" order</USAC_MechOrder_Cobalt.label>
+  <USAC_MechOrder_Cobalt.description>A USAC military contract for one M7 "Cobalt" cargo mech. Use to call in an orbital drop pod delivery of an inactive mech that can be controlled by a mechanitor.</USAC_MechOrder_Cobalt.description>
+
+  <USAC_MechOrder_Omaha.label>M110 "Omaha" order</USAC_MechOrder_Omaha.label>
+  <USAC_MechOrder_Omaha.description>A USAC military contract for one M110 "Omaha" amphibious assault mech. Use to call in an orbital drop pod delivery of an inactive mech that can be controlled by a mechanitor.</USAC_MechOrder_Omaha.description>
+</LanguageData>

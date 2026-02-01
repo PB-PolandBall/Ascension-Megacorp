@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- USAC 机兵商船到访 -->
+    <USAC_MechSupplierArrival.label>USAC机兵商船到访</USAC_MechSupplierArrival.label>
+    <USAC_MechSupplierArrival.letterLabel>USAC机兵商船</USAC_MechSupplierArrival.letterLabel>
+    <USAC_MechSupplierArrival.letterText>一艘USAC机兵补给船已进入轨道。他们愿意用机兵和武器交换封包尸体、机兵残骸、冲压零件和血包。\n\n使用通讯台联系他们。</USAC_MechSupplierArrival.letterText>
+</LanguageData>

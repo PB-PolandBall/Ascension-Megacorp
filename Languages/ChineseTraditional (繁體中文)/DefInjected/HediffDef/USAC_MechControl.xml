@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <USAC_TempMechlinkHediff.label>臨時機控中樞</USAC_TempMechlinkHediff.label>
+  <USAC_TempMechlinkHediff.description>一種臨時神經介面，授予機械師能力。形成此介面的奈米機器人會隨時間降解並被身體吸收。\n\n提供6點頻寬用於控制機械體。死亡時效果失效。</USAC_TempMechlinkHediff.description>
+</LanguageData>

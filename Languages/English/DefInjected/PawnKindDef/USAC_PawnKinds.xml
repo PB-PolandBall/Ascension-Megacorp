@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <USAC_Rifleman.label>rifleman</USAC_Rifleman.label>
+    <USAC_Rifleman.labelPlural>riflemen</USAC_Rifleman.labelPlural>
+    <USAC_Heavy.label>heavy</USAC_Heavy.label>
+    <USAC_Heavy.labelPlural>heavies</USAC_Heavy.labelPlural>
+    <USAC_Sniper.label>sniper</USAC_Sniper.label>
+    <USAC_Sniper.labelPlural>snipers</USAC_Sniper.labelPlural>
+    <USAC_Elite.label>elite</USAC_Elite.label>
+    <USAC_Elite.labelPlural>elites</USAC_Elite.labelPlural>
+    <USAC_Executive.label>executive</USAC_Executive.label>
+    <USAC_Executive.labelPlural>executives</USAC_Executive.labelPlural>
+</LanguageData>

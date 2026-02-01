@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Temporary Mechlink -->
+  <ThingDef ParentName="MechanitorImplantBase" MayRequire="Ludeon.Rimworld.Biotech">
+    <defName>USAC_TempMechlink</defName>
+    <label>temporary mechlink</label>
+    <description>A neuro-augment serum that forms a temporary neural interface. Connects the user to the USAC satellite network for mechanoid control via a subscription model. Only active while brain activity is sustained.</description>
+    <thingClass>Mechlink</thingClass>
+    <descriptionHyperlinks>
+      <HediffDef>MechlinkImplant</HediffDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Mechlink</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.65</drawSize>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <statBases>
+      <MaxHitPoints>25</MaxHitPoints>
+      <MarketValue>800</MarketValue>
+      <Mass>0.5</Mass>
+      <DeteriorationRate>0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Usable">
+        <compClass>CompUsableImplant</compClass>
+        <useJob>InstallMechlink</useJob>
+        <useLabel>Install {0_label} to become mechanitor</useLabel>
+      </li>
+      <li Class="CompProperties_UseEffectInstallImplant">
+        <compClass>CompUseEffect_InstallImplantMechlink</compClass>
+        <hediffDef>MechlinkImplant</hediffDef>
+        <bodyPart>Brain</bodyPart>
+        <requiresPsychicallySensitive>false</requiresPsychicallySensitive>
+      </li>
+      <li Class="CompProperties_UseEffectInstallImplant">
+        <compClass>CompUseEffect_InstallImplantMechlink</compClass>
+        <hediffDef>USAC_TempMechlinkTrigger</hediffDef>
+        <bodyPart>Brain</bodyPart>
+        <requiresPsychicallySensitive>false</requiresPsychicallySensitive>
+      </li>
+      <li Class="CompProperties_UseEffectInstallImplant">
+        <compClass>CompUseEffect_InstallImplantMechlink</compClass>
+        <hediffDef>USAC_TempMechlinkKillSwitch</hediffDef>
+        <bodyPart>Brain</bodyPart>
+        <requiresPsychicallySensitive>false</requiresPsychicallySensitive>
+      </li>
+      <li Class="CompProperties_UseEffectPlaySound">
+        <soundOnUsed>MechlinkInstalled</soundOnUsed>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Temporary Mechlink Trigger Hediff -->
+  <HediffDef MayRequire="Ludeon.Rimworld.Biotech">
+    <defName>USAC_TempMechlinkTrigger</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>temporary mechlink</label>
+    <description>Subscription-based bandwidth control service via USAC satellite network. Provides 6 bandwidth. Lost upon brain death or service expiration.</description>
+    <defaultLabelColor>(0.5, 0.8, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <initialSeverity>1</initialSeverity>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <compClass>Fortified.HediffComp_RemoveHediffsOnDisappear</compClass>
+        <disappearsAfterTicks>1800000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <becomeVisible>true</becomeVisible>
+      </li>
+    </stages>
+    <modExtensions>
+      <li Class="Fortified.HediffsExtension">
+        <hediffs>
+          <li><hediffDef>MechlinkImplant</hediffDef></li>
+          <li><hediffDef>USAC_TempMechlinkTrigger</hediffDef></li>
+        </hediffs>
+      </li>
+    </modExtensions>
+  </HediffDef>
+
+  <HediffDef MayRequire="Ludeon.Rimworld.Biotech">
+    <defName>USAC_TempMechlinkKillSwitch</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>mechlink kill switch</label>
+    <description>Destroys the mechlink upon user death by overloading the interface.</description>
+    <defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
+    <initialSeverity>1</initialSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li>
+        <compClass>Fortified.HediffComp_RemoveHediffsOnDeath</compClass>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+    <modExtensions>
+      <li Class="Fortified.HediffsExtension">
+        <hediffs>
+          <li><hediffDef>MechlinkImplant</hediffDef></li>
+          <li><hediffDef>USAC_TempMechlinkTrigger</hediffDef></li>
+          <li><hediffDef>USAC_TempMechlinkKillSwitch</hediffDef></li>
+        </hediffs>
+      </li>
+    </modExtensions>
+  </HediffDef>
+
+</Defs>

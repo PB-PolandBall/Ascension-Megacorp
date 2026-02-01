@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <USAC_TempMechlinkHediff.label>临时机控中枢</USAC_TempMechlinkHediff.label>
+  <USAC_TempMechlinkHediff.description>一种临时神经接口，授予机械师能力。形成此接口的纳米机器人会随时间降解并被身体吸收。\n\n提供6点带宽用于控制机械体。死亡时效果失效。</USAC_TempMechlinkHediff.description>
+</LanguageData>

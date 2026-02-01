@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <USAC_DisposableBattery.label>一次性充电电池</USAC_DisposableBattery.label>
+  <USAC_DisposableBattery.description>一种圆形的一次性电池，能够快速为机械体充满电，为避免用户将充电装置私自改造重复使用造成安全隐患，该电池被设计为在放电结束后自动短路熔毁。</USAC_DisposableBattery.description>
+  
+  <USAC_DisposableRepairTool.label>一次性维修工具</USAC_DisposableRepairTool.label>
+  <USAC_DisposableRepairTool.description>一种方形的纳米储存容器，能够释放纳米机器并自动分析目标结构来修补受损部位，为避免用户私自改造造成安全隐患，因此该工具被设计为一次性使用。</USAC_DisposableRepairTool.description>
+</LanguageData>

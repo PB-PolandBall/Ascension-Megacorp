@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <USAC_Readiness.label>readiness</USAC_Readiness.label>
+  <USAC_Readiness.description>A measure of the mechanoid's operational readiness. Low readiness causes decreased combat effectiveness. Resupply with industrial components.</USAC_Readiness.description>
+</LanguageData>

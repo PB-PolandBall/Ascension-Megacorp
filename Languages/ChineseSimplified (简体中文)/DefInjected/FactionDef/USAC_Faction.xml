@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <USAC_Faction.label>联合星区武装企业</USAC_Faction.label>
+    <USAC_Faction.description>等待添加</USAC_Faction.description>
+    <USAC_Faction.pawnSingular>特工</USAC_Faction.pawnSingular>
+    <USAC_Faction.pawnsPlural>特工</USAC_Faction.pawnsPlural>
+    <USAC_Faction.leaderTitle>执行官</USAC_Faction.leaderTitle>
+</LanguageData>

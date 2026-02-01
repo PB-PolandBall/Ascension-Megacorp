@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <USAC_Readiness.label>整备</USAC_Readiness.label>
+  <USAC_Readiness.description>机兵的整备度，代表其运作状态。低整备度会导致战斗效能下降。可使用零部件补给。</USAC_Readiness.description>
+</LanguageData>

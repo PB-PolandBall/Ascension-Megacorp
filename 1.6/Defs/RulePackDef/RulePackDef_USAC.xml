@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- USAC 派系名称生成器 -->
+    <!-- 使用 Apogee(远地点) 和 Zenith(天顶) 排列组合 -->
+    <RulePackDef>
+        <defName>USAC_NamerFaction</defName>
+        <rulePack>
+            <rulesStrings>
+                <!-- 基础组合 -->
+                <li>r_name->[prefix] [suffix]</li>
+                <li>r_name->[prefix]-[suffix]</li>
+                <li>r_name->[prefix] [suffix] [grouptype]</li>
+                <li>r_name->[prefix]-[suffix] [grouptype]</li>
+                <li>r_name->[prefix] [grouptype]</li>
+                <li>r_name->[suffix] [grouptype]</li>
+                
+                <!-- 前缀词 -->
+                <li>prefix->Apogee</li>
+                <li>prefix->Zenith</li>
+                <li>prefix->Apex</li>
+                <li>prefix->Ascent</li>
+                <li>prefix->Summit</li>
+                <li>prefix->Vertex</li>
+                <li>prefix->Pinnacle</li>
+                <li>prefix->Meridian</li>
+                
+                <!-- 后缀词 -->
+                <li>suffix->Dynamics</li>
+                <li>suffix->Industries</li>
+                <li>suffix->Solutions</li>
+                <li>suffix->Systems</li>
+                <li>suffix->Corp</li>
+                <li>suffix->Holdings</li>
+                <li>suffix->Ventures</li>
+                <li>suffix->Group</li>
+                
+                <!-- 组织类型 -->
+                <li>grouptype->PMC</li>
+                <li>grouptype->Division</li>
+                <li>grouptype->Contractors</li>
+                <li>grouptype->Security</li>
+                <li>grouptype->Operations</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <!-- USAC 据点名称生成器 -->
+    <RulePackDef>
+        <defName>USAC_NamerSettlement</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->[sitetype]-[number]</li>
+                <li>r_name->[sitetype] [greek]</li>
+                <li>r_name->[prefix] [sitetype]</li>
+                <li>r_name->Outpost [greek]-[number]</li>
+                <li>r_name->Site [number]</li>
+                <li>r_name->Facility [greek]</li>
+                
+                <!-- 设施类型 -->
+                <li>sitetype->Depot</li>
+                <li>sitetype->Outpost</li>
+                <li>sitetype->Station</li>
+                <li>sitetype->Base</li>
+                <li>sitetype->Hub</li>
+                <li>sitetype->Node</li>
+                
+                <!-- 前缀 -->
+                <li>prefix->Forward</li>
+                <li>prefix->Primary</li>
+                <li>prefix->Secondary</li>
+                <li>prefix->Remote</li>
+                
+                <!-- 希腊字母 -->
+                <li>greek->Alpha</li>
+                <li>greek->Beta</li>
+                <li>greek->Gamma</li>
+                <li>greek->Delta</li>
+                <li>greek->Epsilon</li>
+                <li>greek->Zeta</li>
+                <li>greek->Theta</li>
+                <li>greek->Omega</li>
+                
+                <!-- 编号 -->
+                <li>number->01</li>
+                <li>number->02</li>
+                <li>number->03</li>
+                <li>number->07</li>
+                <li>number->09</li>
+                <li>number->12</li>
+                <li>number->17</li>
+                <li>number->21</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+</Defs>

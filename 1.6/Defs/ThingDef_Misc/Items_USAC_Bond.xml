@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- USAC Currency Category -->
+    <ThingCategoryDef>
+        <defName>USAC_Currency</defName>
+        <label>USAC currency</label>
+        <parent>Items</parent>
+    </ThingCategoryDef>
+
+    <!-- USAC Credit Bond -->
+    <ThingDef ParentName="ResourceBase">
+        <defName>USAC_Bond</defName>
+        <label>USAC credit bond</label>
+        <description>Special fiber-reinforced paper certificates issued by USAC corporate distributors. Registered and useless to other factions.</description>
+        <graphicData>
+            <texPath>Things/Item/Special/USAC_Bond</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <useHitPoints>false</useHitPoints>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <statBases>
+            <MarketValue>1000</MarketValue>
+            <Mass>0.01</Mass>
+        </statBases>
+        <thingCategories>
+            <li>USAC_Currency</li>
+        </thingCategories>
+        <stackLimit>50</stackLimit>
+        <smallVolume>true</smallVolume>
+        <tradeability>All</tradeability>
+        <tradeTags>
+            <li>USAC_Bond</li>
+        </tradeTags>
+    </ThingDef>
+
+</Defs>

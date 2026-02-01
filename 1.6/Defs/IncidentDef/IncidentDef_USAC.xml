@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- USAC 机兵商船到访事件 -->
+    <!-- 定期访问玩家殖民地，出售机兵和武器 -->
+    <IncidentDef>
+        <defName>USAC_MechSupplierArrival</defName>
+        <label>USAC mech supplier arrival</label>
+        <targetTags>
+            <li>Map_PlayerHome</li>
+        </targetTags>
+        <workerClass>USAC.IncidentWorker_USACTraderArrival</workerClass>
+        <category>OrbitalVisitor</category>
+        <baseChance>1.5</baseChance>
+        <requireColonistsPresent>true</requireColonistsPresent>
+        <canOccurOnAllPlanetLayers>true</canOccurOnAllPlanetLayers>
+        <letterLabel>USAC mech supplier</letterLabel>
+        <letterText>A USAC mech supplier ship has entered orbit. They are willing to trade mechs and weapons for corpse bags, mech wrecks, components, and hemogen packs.
+
+Use the comms console to contact them.</letterText>
+    </IncidentDef>
+
+    <!-- USAC 盗采空降事件 -->
+    <IncidentDef>
+        <defName>USAC_MiningRaid</defName>
+        <label>USAC mining raid</label>
+        <targetTags>
+            <li>Map_PlayerHome</li>
+        </targetTags>
+        <workerClass>USAC.IncidentWorker_USACMiningRaid</workerClass>
+        <category>ThreatBig</category>
+        <baseChance>2.0</baseChance>
+        <minThreatPoints>300</minThreatPoints>
+        <requireColonistsPresent>true</requireColonistsPresent>
+        <letterLabel>USAC mining raid</letterLabel>
+        <letterText>USAC has detected valuable deep resources on your map. They are deploying a mining rig with mech escorts to extract them.
+
+Destroy the mining rig or eliminate the escorts to stop the operation.</letterText>
+        <letterDef>ThreatBig</letterDef>
+    </IncidentDef>
+
+</Defs>

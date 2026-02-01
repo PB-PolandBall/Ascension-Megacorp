@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <USAC_Rifleman.label>步槍兵</USAC_Rifleman.label>
+    <USAC_Rifleman.labelPlural>步槍兵</USAC_Rifleman.labelPlural>
+    <USAC_Heavy.label>重裝兵</USAC_Heavy.label>
+    <USAC_Heavy.labelPlural>重裝兵</USAC_Heavy.labelPlural>
+    <USAC_Sniper.label>狙擊手</USAC_Sniper.label>
+    <USAC_Sniper.labelPlural>狙擊手</USAC_Sniper.labelPlural>
+    <USAC_Elite.label>精英</USAC_Elite.label>
+    <USAC_Elite.labelPlural>精英</USAC_Elite.labelPlural>
+    <USAC_Executive.label>執行官</USAC_Executive.label>
+    <USAC_Executive.labelPlural>執行官</USAC_Executive.labelPlural>
+</LanguageData>

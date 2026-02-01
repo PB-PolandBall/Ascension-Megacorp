@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <USAC_Crate_Small_Empty.label>empty USAC supply crate (S)</USAC_Crate_Small_Empty.label>
+  <USAC_Crate_Small_Empty.description>An empty USAC supply crate. Provides some cover.</USAC_Crate_Small_Empty.description>
+
+  <USAC_Crate_Medium_Empty.label>empty USAC supply crate (M)</USAC_Crate_Medium_Empty.label>
+  <USAC_Crate_Medium_Empty.description>An empty USAC supply crate. Provides some cover.</USAC_Crate_Medium_Empty.description>
+
+  <USAC_Crate_Large_Empty.label>empty USAC supply crate (L)</USAC_Crate_Large_Empty.label>
+  <USAC_Crate_Large_Empty.description>An empty USAC supply crate. Provides some cover.</USAC_Crate_Large_Empty.description>
+
+  <USAC_Crate_Small.label>USAC supply crate (S)</USAC_Crate_Small.label>
+  <USAC_Crate_Small.description>A sealed USAC supply crate. Usually left behind after mining operations. Can be opened to claim the contents.</USAC_Crate_Small.description>
+
+  <USAC_Crate_Medium.label>USAC supply crate (M)</USAC_Crate_Medium.label>
+  <USAC_Crate_Medium.description>A sealed USAC supply crate. Usually left behind after mining operations. Can be opened to claim the contents.</USAC_Crate_Medium.description>
+
+  <USAC_Crate_Large.label>USAC supply crate (L)</USAC_Crate_Large.label>
+  <USAC_Crate_Large.description>A sealed USAC supply crate. Usually left behind after mining operations. Can be opened to claim the contents.</USAC_Crate_Large.description>
+
+</LanguageData>

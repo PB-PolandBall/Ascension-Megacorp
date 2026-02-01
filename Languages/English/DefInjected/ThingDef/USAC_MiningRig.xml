@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <USAC_HeavyMiningRig.label>USAC heavy mining rig</USAC_HeavyMiningRig.label>
+    <USAC_HeavyMiningRig.description>TODO</USAC_HeavyMiningRig.description>
+    
+    <USAC_MiningRigIncoming.label>mining rig (incoming)</USAC_MiningRigIncoming.label>
+    <USAC_MiningRigLeaving.label>mining rig (leaving)</USAC_MiningRigLeaving.label>
+</LanguageData>

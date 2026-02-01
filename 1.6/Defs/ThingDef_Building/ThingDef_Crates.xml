@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- 空物资箱基类 (打开后留下的装饰/掩体) -->
+  <ThingDef Name="USAC_EmptyCrateBase" ParentName="BuildingBase" Abstract="True">
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <tickerType>Never</tickerType>
+    <altitudeLayer>Building</altitudeLayer>
+    <selectable>true</selectable>
+    <useHitPoints>true</useHitPoints>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory/>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <blockWind>false</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>0.5</Flammability>
+      <Beauty>1</Beauty>
+      <Mass>15</Mass>
+    </statBases>
+    <building>
+      <claimable>true</claimable>
+      <deconstructible>true</deconstructible>
+      <repairable>false</repairable>
+    </building>
+  </ThingDef>
+
+  <!-- 空物资箱 (S) -->
+  <ThingDef ParentName="USAC_EmptyCrateBase">
+    <defName>USAC_Crate_Small_Empty</defName>
+    <label>empty USAC supply crate (S)</label>
+    <description>An empty USAC supply crate. Provides some cover.</description>
+    <graphicData>
+      <texPath>Things/Building/Crate/USAC_Crate_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <color>(1,1,1,0.7)</color> <!-- 稍淡一些表示已空 -->
+    </graphicData>
+    <size>(1,1)</size>
+    <fillPercent>0.3</fillPercent>
+  </ThingDef>
+
+  <!-- 空物资箱 (M) -->
+  <ThingDef ParentName="USAC_EmptyCrateBase">
+    <defName>USAC_Crate_Medium_Empty</defName>
+    <label>empty USAC supply crate (M)</label>
+    <description>An empty USAC supply crate. Provides some cover.</description>
+    <graphicData>
+      <texPath>Things/Building/Crate/USAC_Crate_Medium</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,1)</drawSize>
+      <color>(1,1,1,0.7)</color>
+    </graphicData>
+    <size>(2,1)</size>
+    <fillPercent>0.35</fillPercent>
+    <rotatable>true</rotatable>
+  </ThingDef>
+
+  <!-- 空物资箱 (L) -->
+  <ThingDef ParentName="USAC_EmptyCrateBase">
+    <defName>USAC_Crate_Large_Empty</defName>
+    <label>empty USAC supply crate (L)</label>
+    <description>An empty USAC supply crate. Provides some cover.</description>
+    <graphicData>
+      <texPath>Things/Building/Crate/USAC_Crate_Large</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <color>(1,1,1,0.7)</color>
+    </graphicData>
+    <size>(2,2)</size>
+    <fillPercent>0.4</fillPercent>
+  </ThingDef>
+
+  <!-- 空降物资箱基类 (满) -->
+  <ThingDef Name="USAC_CrateBase" ParentName="BuildingBase" Abstract="True">
+    <thingClass>USAC.Building_Crate</thingClass>
+    <category>Building</category>
+    <description>A sealed supply crate used by USAC for air-dropping equipment and materials. Left behind after mining operations. Can be opened to claim the contents.</description>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <tickerType>Never</tickerType>
+    <altitudeLayer>Building</altitudeLayer>
+    <selectable>true</selectable>
+    <useHitPoints>true</useHitPoints>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory/>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <blockWind>false</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Flammability>0.5</Flammability>
+      <Beauty>2</Beauty>
+      <Mass>20</Mass>
+    </statBases>
+    <building>
+      <claimable>true</claimable>
+      <deconstructible>false</deconstructible> <!-- 满的不能直接拆解，只能打开 -->
+      <repairable>false</repairable>
+    </building>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+  </ThingDef>
+
+  <!-- 空降物资箱 (S) - 1x1 -->
+  <ThingDef ParentName="USAC_CrateBase">
+    <defName>USAC_Crate_Small</defName>
+    <label>USAC supply crate (S)</label>
+    <graphicData>
+      <texPath>Things/Building/Crate/USAC_Crate_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <size>(1,1)</size>
+    <fillPercent>0.4</fillPercent>
+    <modExtensions>
+        <li Class="USAC.CrateExtension">
+            <emptyDef>USAC_Crate_Small_Empty</emptyDef>
+            <lootGroups>
+                <!-- 50% 4~12 Yayo -->
+                <li>
+                    <chance>0.5</chance>
+                    <items>
+                        <li>
+                            <thingDef>Yayo</thingDef>
+                            <minCount>4</minCount>
+                            <maxCount>12</maxCount>
+                        </li>
+                    </items>
+                </li>
+                <!-- 25% 1 强化剂 -->
+                <li>
+                    <chance>0.25</chance>
+                    <items>
+                        <li>
+                            <thingDef>USAC_NeuroBooster</thingDef>
+                            <minCount>1</minCount>
+                            <maxCount>1</maxCount>
+                        </li>
+                    </items>
+                </li>
+                <!-- 24% 1 一次性电池 or 一次性维修包 -->
+                <li>
+                    <chance>0.24</chance>
+                    <items>
+                        <li>
+                            <thingDef>USAC_DisposableBattery</thingDef>
+                            <minCount>1</minCount>
+                            <maxCount>1</maxCount>
+                            <weight>1</weight>
+                        </li>
+                        <li>
+                            <thingDef>USAC_DisposableRepairTool</thingDef>
+                            <minCount>1</minCount>
+                            <maxCount>1</maxCount>
+                            <weight>1</weight>
+                        </li>
+                    </items>
+                </li>
+                <!-- 1% 1~2 信用债券 -->
+                <li>
+                    <chance>0.01</chance>
+                    <items>
+                        <li>
+                            <thingDef>USAC_Bond</thingDef>
+                            <minCount>1</minCount>
+                            <maxCount>2</maxCount>
+                        </li>
+                    </items>
+                </li>
+            </lootGroups>
+        </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- 空降物资箱 (M) - 2x1 -->
+  <ThingDef ParentName="USAC_CrateBase">
+    <defName>USAC_Crate_Medium</defName>
+    <label>USAC supply crate (M)</label>
+    <graphicData>
+      <texPath>Things/Building/Crate/USAC_Crate_Medium</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,1)</drawSize>
+    </graphicData>
+    <size>(2,1)</size>
+    <fillPercent>0.45</fillPercent>
+    <rotatable>true</rotatable>
+    <modExtensions>
+        <li Class="USAC.CrateExtension">
+            <emptyDef>USAC_Crate_Medium_Empty</emptyDef>
+            <lootGroups>
+                <!-- 60% 10~20 yayo or 啤酒 -->
+                <li>
+                    <chance>0.6</chance>
+                    <items>
+                        <li>
+                            <thingDef>Yayo</thingDef>
+                            <minCount>10</minCount>
+                            <maxCount>20</maxCount>
+                            <weight>1</weight>
+                        </li>
+                        <li>
+                            <thingDef>Beer</thingDef>
+                            <minCount>10</minCount>
+                            <maxCount>20</maxCount>
+                            <weight>1</weight>
+                        </li>
+                    </items>
+                </li>
+                <!-- 20% 8~12 医疗包 or 生存食品包 -->
+                <li>
+                    <chance>0.2</chance>
+                    <items>
+                        <li>
+                            <thingDef>MedicineIndustrial</thingDef>
+                            <minCount>8</minCount>
+                            <maxCount>12</maxCount>
+                            <weight>1</weight>
+                        </li>
+                        <li>
+                            <thingDef>MealSurvivalPack</thingDef>
+                            <minCount>8</minCount>
+                            <maxCount>12</maxCount>
+                            <weight>1</weight>
+                        </li>
+                    </items>
+                </li>
+                <!-- 10% 2~4 一次性电池 or 一次性维修包 -->
+                <li>
+                    <chance>0.1</chance>
+                    <items>
+                        <li>
+                            <thingDef>USAC_DisposableBattery</thingDef>
+                            <minCount>2</minCount>
+                            <maxCount>4</maxCount>
+                            <weight>1</weight>
+                        </li>
+                        <li>
+                            <thingDef>USAC_DisposableRepairTool</thingDef>
+                            <minCount>2</minCount>
+                            <maxCount>4</maxCount>
+                            <weight>1</weight>
+                        </li>
+                    </items>
+                </li>
+                <!-- 5% 2~4 强化剂 -->
+                <li>
+                    <chance>0.05</chance>
+                    <items>
+                        <li>
+                            <thingDef>USAC_NeuroBooster</thingDef>
+                            <minCount>2</minCount>
+                            <maxCount>4</maxCount>
+                        </li>
+                    </items>
+                </li>
+                <!-- 5% 1 临时机控 (USAC物品) -->
+                <li>
+                    <chance>0.05</chance>
+                    <items>
+                        <li>
+                            <thingDef>USAC_TempMechlink</thingDef>
+                            <minCount>1</minCount>
+                            <maxCount>1</maxCount>
+                        </li>
+                    </items>
+                </li>
+            </lootGroups>
+        </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- 空降物资箱 (L) - 2x2 -->
+  <ThingDef ParentName="USAC_CrateBase">
+    <defName>USAC_Crate_Large</defName>
+    <label>USAC supply crate (L)</label>
+    <graphicData>
+      <texPath>Things/Building/Crate/USAC_Crate_Large</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <size>(2,2)</size>
+    <fillPercent>0.5</fillPercent>
+    <modExtensions>
+        <li Class="USAC.CrateExtension">
+            <emptyDef>USAC_Crate_Large_Empty</emptyDef>
+            <lootGroups>
+                <!-- 20% 30~60 (任意)成瘾品 (Yayo, Flake, GoJuice, Beer) -->
+                <li>
+                    <chance>0.2</chance>
+                    <items>
+                        <li><thingDef>Yayo</thingDef><minCount>30</minCount><maxCount>60</maxCount><weight>1</weight></li>
+                        <li><thingDef>Flake</thingDef><minCount>30</minCount><maxCount>60</maxCount><weight>1</weight></li>
+                        <li><thingDef>GoJuice</thingDef><minCount>30</minCount><maxCount>60</maxCount><weight>1</weight></li>
+                        <li><thingDef>Beer</thingDef><minCount>30</minCount><maxCount>60</maxCount><weight>1</weight></li>
+                    </items>
+                </li>
+                <!-- 20% 40~75 化合燃料 or FSX(CE) or 笨基化合物(CE) -->
+                <li>
+                    <chance>0.2</chance>
+                    <items>
+                        <li><thingDef>Chemfuel</thingDef><minCount>40</minCount><maxCount>75</maxCount><weight>1</weight></li>
+                        <li MayRequire="ceteam.combatextended"><thingDef>FSX</thingDef><minCount>40</minCount><maxCount>75</maxCount><weight>1</weight></li>
+                        <li MayRequire="ceteam.combatextended"><thingDef>Promethium</thingDef><minCount>40</minCount><maxCount>75</maxCount><weight>1</weight></li>
+                    </items>
+                </li>
+                <!-- 20% 5~10 零件 -->
+                <li>
+                    <chance>0.2</chance>
+                    <items>
+                        <li>
+                            <thingDef>ComponentIndustrial</thingDef>
+                            <minCount>5</minCount>
+                            <maxCount>10</maxCount>
+                        </li>
+                    </items>
+                </li>
+                <!-- 10% 1~2 短号 导弹 (古机联动: DMSAC_StugnaATGM) -->
+                <li MayRequire="DMS.DeadManSwitch.AncientCorps">
+                    <chance>0.1</chance>
+                    <items>
+                        <li>
+                            <thingDef>DMSAC_StugnaATGM</thingDef>
+                            <minCount>1</minCount>
+                            <maxCount>2</maxCount>
+                        </li>
+                    </items>
+                </li>
+                <!-- 2% 1~2 临时机控 (USAC物品) -->
+                <li>
+                    <chance>0.02</chance>
+                    <items>
+                        <li>
+                            <thingDef>USAC_TempMechlink</thingDef>
+                            <minCount>1</minCount>
+                            <maxCount>2</maxCount>
+                        </li>
+                    </items>
+                </li>
+            </lootGroups>
+        </li>
+    </modExtensions>
+  </ThingDef>
+
+</Defs>
+

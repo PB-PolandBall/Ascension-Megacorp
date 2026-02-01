@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <USAC_Mech_Rocky.label>M88"洛基"</USAC_Mech_Rocky.label>
+  <USAC_Mech_Rocky.description>USAC陆战队合成人步兵单位。设计使用6.8mm系列武器，可穿戴人类护甲和头盔。提供基础步兵支援和中等防护能力。</USAC_Mech_Rocky.description>
+  
+  <USAC_Mech_Cobalt.label>M7"钴蓝"</USAC_Mech_Cobalt.label>
+  <USAC_Mech_Cobalt.description>中型四足货运犬，集成机枪。具有防霰弹装甲板、货物搬运能力和烟雾弹发射系统。</USAC_Mech_Cobalt.description>
+  
+  <USAC_Mech_Paraman.label>M939"伞兵"</USAC_Mech_Paraman.label>
+  <USAC_Mech_Paraman.description>中型机械化空降单位，外形类似壁虎但更偏人形。专为快速部署作战设计，具有增强的机动性和中等火力。</USAC_Mech_Paraman.description>
+  
+  <USAC_Mech_Gonk.label>XM11"冈克"</USAC_Mech_Gonk.label>
+  <USAC_Mech_Gonk.description>实验性IFV级战斗平台。主武器为高能等离子束，配备主动防护系统。四足底盘上安装六面反应装甲。</USAC_Mech_Gonk.description>
+  
+  <USAC_Mech_Omaha.label>M1154E"奥马哈"</USAC_Mech_Omaha.label>
+  <USAC_Mech_Omaha.description>突击破障车类似物，采用双足步行结构。配备排雷铲用于清除障碍物，以及扫雷火箭发射器。专为突破防御工事设计。</USAC_Mech_Omaha.description>
+</LanguageData>

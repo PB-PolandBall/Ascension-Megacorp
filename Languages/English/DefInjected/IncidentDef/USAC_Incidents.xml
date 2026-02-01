@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- USAC Mech Supplier Arrival -->
+    <USAC_MechSupplierArrival.label>USAC mech supplier arrival</USAC_MechSupplierArrival.label>
+    <USAC_MechSupplierArrival.letterLabel>USAC mech supplier</USAC_MechSupplierArrival.letterLabel>
+    <USAC_MechSupplierArrival.letterText>A USAC mech supplier ship has entered orbit. They are willing to trade mechs and weapons for corpse bags, mech wrecks, components, and hemogen packs.\n\nUse the comms console to contact them.</USAC_MechSupplierArrival.letterText>
+</LanguageData>

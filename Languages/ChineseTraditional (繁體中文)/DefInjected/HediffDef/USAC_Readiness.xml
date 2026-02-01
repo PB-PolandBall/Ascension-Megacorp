@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <USAC_LowReadiness.label>低整備</USAC_LowReadiness.label>
+  <USAC_LowReadiness.description>該機兵的運作耗材已接近耗盡。其戰鬥效能下降。</USAC_LowReadiness.description>
+  <USAC_LowReadiness.stages.degraded.label>性能下降</USAC_LowReadiness.stages.degraded.label>
+</LanguageData>

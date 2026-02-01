@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <JobDef>
+        <defName>USAC_PackCorpse</defName>
+        <driverClass>USAC.JobDriver_PackCorpse</driverClass>
+        <reportString>packing corpse into bag.</reportString>
+        <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+    </JobDef>
+
+</Defs>

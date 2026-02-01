@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <USAC_DisposableBattery.label>disposable battery</USAC_DisposableBattery.label>
+  <USAC_DisposableBattery.description>A circular disposable battery capable of quickly charging mechanoids. To prevent safety hazards from unauthorized modification for reuse, the battery is designed to automatically short-circuit and melt after discharge.</USAC_DisposableBattery.description>
+  
+  <USAC_DisposableRepairTool.label>disposable repair tool</USAC_DisposableRepairTool.label>
+  <USAC_DisposableRepairTool.description>A square nano-storage container capable of releasing nanomachines to automatically analyze and repair damaged structures. To prevent safety hazards from unauthorized modification, the tool is designed for single-use only.</USAC_DisposableRepairTool.description>
+</LanguageData>

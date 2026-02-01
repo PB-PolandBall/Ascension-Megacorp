@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- USAC 机兵空投 Skyfaller -->
+  <!-- 直接垂直下降，无空投舱，类似盗采袭击的采矿机 -->
+  <!-- 不设置 graphicData，让 Skyfaller 显示内容物的图形 -->
+  <ThingDef ParentName="SkyfallerBase">
+    <defName>USAC_MechIncoming</defName>
+    <label>mech (incoming)</label>
+    <thingClass>USAC.Skyfaller_MechIncoming</thingClass>
+    <skyfaller>
+      <movementType>Decelerate</movementType>
+      <ticksToImpactRange>120~180</ticksToImpactRange>
+      <speed>0.8</speed>
+      <shadowSize>(2,2)</shadowSize>
+      <anticipationSound>DropPod_Fall</anticipationSound>
+      <impactSound>DropPod_Open</impactSound>
+      <cameraShake>0</cameraShake>
+      <!-- 垂直下降，0度表示从屏幕顶部下来 -->
+      <angleCurve>
+        <points>
+          <li>(0, 0)</li>
+          <li>(1, 0)</li>
+        </points>
+      </angleCurve>
+    </skyfaller>
+  </ThingDef>
+
+  <!-- USAC 物资箱垂直降落 Skyfaller -->
+  <ThingDef ParentName="SkyfallerBase">
+    <defName>USAC_CrateIncoming</defName>
+    <label>crate (incoming)</label>
+    <thingClass>USAC.Skyfaller_CrateIncoming</thingClass>
+    <skyfaller>
+      <movementType>Decelerate</movementType>
+      <ticksToImpactRange>120~180</ticksToImpactRange>
+      <speed>0.8</speed>
+      <shadowSize>(1.5,1.5)</shadowSize>
+      <anticipationSound>DropPod_Fall</anticipationSound>
+      <impactSound>DropPod_Open</impactSound>
+      <cameraShake>0</cameraShake>
+      <angleCurve>
+        <points>
+          <li>(0, 0)</li>
+          <li>(1, 0)</li>
+        </points>
+      </angleCurve>
+    </skyfaller>
+  </ThingDef>
+
+</Defs>

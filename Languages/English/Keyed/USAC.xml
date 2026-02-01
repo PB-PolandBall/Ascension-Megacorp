@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- USAC Faction -->
+    <USAC_FactionName>Ascention Megacorp</USAC_FactionName>
+    <USAC_FactionDesc>A megacorporation that rose from the Enlightenment World. After the colonial fleet departed, they monopolized the local energy industry through information and technological advantages, and expanded rapidly through cultural hegemony.</USAC_FactionDesc>
+    
+    <!-- Corpse Bag -->
+    <USAC_CorpseBag_Contains>Contains: {0}</USAC_CorpseBag_Contains>
+    <USAC_CorpseBag_Value>Value: {0}</USAC_CorpseBag_Value>
+    <USAC_CorpseBag_Empty>Empty</USAC_CorpseBag_Empty>
+    <USAC_CorpseBag_Eject>Eject corpse</USAC_CorpseBag_Eject>
+    <USAC_CorpseBag_EjectDesc>Eject the corpse from this bag.</USAC_CorpseBag_EjectDesc>
+    <USAC_CorpseBag_PackCorpse>Pack {0} into corpse bag</USAC_CorpseBag_PackCorpse>
+    <USAC_CorpseBag_Currency>Corpse Bag Value</USAC_CorpseBag_Currency>
+    <USAC_CorpseBag_CurrencyDesc>The total market value of corpse bags. USAC traders only accept corpse bags as currency.</USAC_CorpseBag_CurrencyDesc>
+    
+    <!-- Messages -->
+    <USAC_HostilityReset>USAC hostility has been reset to neutral.</USAC_HostilityReset>
+    <USAC_HostilityResetDesc>The USAC faction has reset their hostility status. They are now neutral towards you again.</USAC_HostilityResetDesc>
+    
+    <!-- Mining Raid -->
+    <USAC_ResourcesInRange>Deep resources in range:</USAC_ResourcesInRange>
+    <USAC_MiningTarget>Mining target: {0}</USAC_MiningTarget>
+    <USAC_MiningPortionProgress>Mining progress: {0}</USAC_MiningPortionProgress>
+    <USAC_NoResourcesInRange>No deep resources in range</USAC_NoResourcesInRange>
+    <USAC_StoredMineralsHeader>Stored minerals:</USAC_StoredMineralsHeader>
+    <USAC_ExtractionCountdown>Extraction countdown: {0}</USAC_ExtractionCountdown>
+    <USAC_MiningRigExtracting>USAC mining rig is preparing for extraction.</USAC_MiningRigExtracting>
+    <USAC_MiningRaidFailed>USAC mining raid failed to trigger. No valid deep resources found.</USAC_MiningRaidFailed>
+    
+    <!-- Readiness System -->
+    <USAC_Readiness>Readiness</USAC_Readiness>
+    <USAC_ReadinessConsumption>Daily consumption: {0}</USAC_ReadinessConsumption>
+    
+    <!-- Mech Trade -->
+    <USAC_MechDelivered>{0} has been delivered via drop pod.</USAC_MechDelivered>
+    <USAC_UseMechOrder>Call in mech delivery</USAC_UseMechOrder>
+    <USAC_RequiresBiotech>Requires Biotech DLC.</USAC_RequiresBiotech>
+    
+    <!-- Deactivated Mech Control -->
+    <USAC_ControlMech>Control {0}</USAC_ControlMech>
+    <USAC_ControlMech_NoPath>Cannot reach mech.</USAC_ControlMech_NoPath>
+    <USAC_ControlMech_NotMechanitor>Not a mechanitor.</USAC_ControlMech_NotMechanitor>
+    <USAC_ControlMech_NeedBandwidth>Need {0} bandwidth.</USAC_ControlMech_NeedBandwidth>
+    <USAC_DeactivatedMech_Destroy>Destroy mech</USAC_DeactivatedMech_Destroy>
+    <USAC_MechControlled>{0} is now controlled by {1}.</USAC_MechControlled>
+    <USAC_DeactivateMech>Deactivate</USAC_DeactivateMech>
+    <USAC_DeactivateMechDesc>Put this mech into hibernation mode. It can be moved and reactivated later.</USAC_DeactivateMechDesc>
+    <USAC_MechDeactivated>{0} has entered hibernation mode.</USAC_MechDeactivated>
+    
+    <!-- Credit Bond -->
+    <USAC_Bond_Label>USAC Credit Bond</USAC_Bond_Label>
+    <USAC_Bond_Desc>A special paper certificate made from high-tenacity fibers, issued by USAC corporate distributors when trading with surface factions. The surface is printed with special ink, featuring elegant anti-counterfeiting marks and registered owner information.\n\nAfter goods are purchased and equipment is sold, the remaining value can be used to purchase these fixed-value certificates for use in the next transaction. Since the certificate is registered, it cannot be used by anyone other than the registered owner, making it practically worthless to other factions on the rimworld.</USAC_Bond_Desc>
+    
+    <!-- USAC Currency System -->
+    <USAC_Currency_Label>USAC Currency</USAC_Currency_Label>
+    <USAC_Currency_LabelFull>Until Next: {0} (+{1} bonds)</USAC_Currency_LabelFull>
+    <USAC_Currency_LabelBondOnly>Bonds x{0}</USAC_Currency_LabelBondOnly>
+    <USAC_Currency_LabelCorpseBagOnly>Until Next: {0}</USAC_Currency_LabelCorpseBagOnly>
+    <USAC_Currency_LabelEmpty>USAC Currency</USAC_Currency_LabelEmpty>
+    <USAC_Currency_Desc>The total currency value for trading with USAC merchants. Includes corpse bag value and credit bond value. USAC traders only accept corpse bags and credit bonds as currency.\n\nBonds are consumed first. When bonds run out, corpse bags are consumed starting from the lowest value.</USAC_Currency_Desc>
+    <USAC_Currency_Breakdown>--- Value Breakdown ---</USAC_Currency_Breakdown>
+    <USAC_Currency_CorpseBagValue>Total Corpse Bag Value: {0}</USAC_Currency_CorpseBagValue>
+    <USAC_Currency_BondValue>Credit Bonds: {0} (Value {1})</USAC_Currency_BondValue>
+    <USAC_Currency_TotalValue>Currency Total: {0}</USAC_Currency_TotalValue>
+    <USAC_Currency_SmallestBag>Smallest Bag Value: {0}</USAC_Currency_SmallestBag>
+    <USAC_Currency_UntilNextBag>Available Until Next Bag: {0}</USAC_Currency_UntilNextBag>
+
+    <!-- Consumables Interaction -->
+    <MessageTargetMustBeMechanoid>Target must be a mechanoid.</MessageTargetMustBeMechanoid>
+    <MessageTargetMustBePlayerMech>Target must be a player-controlled mechanoid.</MessageTargetMustBePlayerMech>
+    <USAC_MessageMechCharged>{0} has been fully charged.</USAC_MessageMechCharged>
+    <USAC_MessageMechRepaired>{0} has been fully repaired.</USAC_MessageMechRepaired>
+
+    <!-- Trader Arrival -->
+    <TraderArrival>A {1} named {0} has entered communication range. {2}</TraderArrival>
+    <TraderArrivalFromFaction>They are from {FACTION}.</TraderArrivalFromFaction>
+    <TraderArrivalNoFaction>They do not belong to any known faction.</TraderArrivalNoFaction>
+</LanguageData>

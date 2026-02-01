@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <USAC_HeavyMiningRig.label>USAC重型採礦機</USAC_HeavyMiningRig.label>
+    <USAC_HeavyMiningRig.description>等待添加</USAC_HeavyMiningRig.description>
+    
+    <USAC_MiningRigIncoming.label>採礦機（降落中）</USAC_MiningRigIncoming.label>
+    <USAC_MiningRigLeaving.label>採礦機（撤離中）</USAC_MiningRigLeaving.label>
+</LanguageData>

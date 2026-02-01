@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Disposable Battery -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>USAC_DisposableBattery</defName>
+    <label>disposable battery</label>
+    <description>A circular disposable battery designed to rapidly charge mechanoids. To prevent safety hazards from unauthorized modification, it is designed to short-circuit and self-destruct after a single use.</description>
+    <graphicData>
+      <texPath>Things/Item/Special/USAC_Battery</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>25</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>150</MarketValue>
+      <Mass>0.2</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <tradeTags>
+      <li>USAC_Consumable</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>USAC_UseItemOnTarget</useJob>
+        <useLabel>Use battery to charge mechanoid</useLabel>
+        <useDuration>100</useDuration>
+      </li>
+      <li Class="CompProperties_UseEffectPlaySound">
+        <soundOnUsed>EnergyShield_Reset</soundOnUsed>
+      </li>
+      <li Class="CompProperties_UseEffectDestroySelf" />
+      <li Class="CompProperties_Targetable">
+        <compClass>USAC.CompTargetable_Mechanoid</compClass>
+      </li>
+      <li>
+        <compClass>USAC.CompTargetEffect_DisposableBattery</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Disposable Repair Tool -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>USAC_DisposableRepairTool</defName>
+    <label>disposable repair tool</label>
+    <description>A square nano-storage container that releases nanomachines to analyze and repair damaged structures. Designed for single-use to ensure safety and corporate compliance.</description>
+    <graphicData>
+      <texPath>Things/Item/Special/USAC_RepairTool</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>25</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>200</MarketValue>
+      <Mass>0.3</Mass>
+      <Flammability>0.5</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <tradeTags>
+      <li>USAC_Consumable</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>USAC_UseItemOnTarget</useJob>
+        <useLabel>Use kit to repair mechanoid</useLabel>
+        <useDuration>200</useDuration>
+      </li>
+      <li Class="CompProperties_UseEffectPlaySound">
+        <soundOnUsed>Recipe_Surgery</soundOnUsed>
+      </li>
+      <li Class="CompProperties_UseEffectDestroySelf" />
+      <li Class="CompProperties_Targetable">
+        <compClass>USAC.CompTargetable_Mechanoid</compClass>
+      </li>
+      <li>
+        <compClass>USAC.CompTargetEffect_DisposableRepairTool</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

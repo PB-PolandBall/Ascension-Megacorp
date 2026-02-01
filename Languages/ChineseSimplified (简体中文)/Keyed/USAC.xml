@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- USAC 派系 -->
+    <USAC_FactionName>飞升巨企</USAC_FactionName>
+    <USAC_FactionDesc>来自启迪世界崛起的巨企，在殖民舰队离开之后透过讯息与技术优势来垄断当地的能源产业，并且透过文化霸权来快速的扩张。</USAC_FactionDesc>
+    
+    <!-- 尸体袋 -->
+    <USAC_CorpseBag_Contains>装有: {0}</USAC_CorpseBag_Contains>
+    <USAC_CorpseBag_Value>价值: {0}</USAC_CorpseBag_Value>
+    <USAC_CorpseBag_Empty>空</USAC_CorpseBag_Empty>
+    <USAC_CorpseBag_Eject>弹出尸体</USAC_CorpseBag_Eject>
+    <USAC_CorpseBag_EjectDesc>将尸体从袋子中弹出。</USAC_CorpseBag_EjectDesc>
+    <USAC_CorpseBag_PackCorpse>打包 {0} 到尸体袋</USAC_CorpseBag_PackCorpse>
+    <USAC_CorpseBag_Currency>尸体袋价值</USAC_CorpseBag_Currency>
+    <USAC_CorpseBag_CurrencyDesc>尸体袋的总市场价值。USAC 贸易商只接受尸体袋作为货币。</USAC_CorpseBag_CurrencyDesc>
+    
+    <!-- 消息 -->
+    <USAC_HostilityReset>USAC 敌对状态已重置为中立。</USAC_HostilityReset>
+    <USAC_HostilityResetDesc>USAC 派系已重置其敌对状态。他们现在对你保持中立。</USAC_HostilityResetDesc>
+    
+    <!-- 盗采空降 -->
+    <USAC_ResourcesInRange>范围内深层资源:</USAC_ResourcesInRange>
+    <USAC_MiningTarget>挖掘目标: {0}</USAC_MiningTarget>
+    <USAC_MiningPortionProgress>挖掘进度: {0}</USAC_MiningPortionProgress>
+    <USAC_NoResourcesInRange>范围内无深层资源</USAC_NoResourcesInRange>
+    <USAC_StoredMineralsHeader>已存储矿物:</USAC_StoredMineralsHeader>
+    <USAC_ExtractionCountdown>撤离倒计时: {0}</USAC_ExtractionCountdown>
+    <USAC_MiningRigExtracting>USAC采矿机正在准备撤离。</USAC_MiningRigExtracting>
+    <USAC_MiningRaidFailed>USAC盗采空降触发失败。未找到有效的深层资源。</USAC_MiningRaidFailed>
+    
+    <!-- 整备系统 -->
+    <USAC_Readiness>整备</USAC_Readiness>
+    <USAC_ReadinessConsumption>每日消耗百分比: {0}%</USAC_ReadinessConsumption>
+    
+    <!-- 机兵交易 -->
+    <USAC_MechDelivered>{0} 已通过空投舱送达。</USAC_MechDelivered>
+    <USAC_UseMechOrder>呼叫机兵空投</USAC_UseMechOrder>
+    <USAC_RequiresBiotech>需要生物科技DLC。</USAC_RequiresBiotech>
+    
+    <!-- 未激活机兵控制 -->
+    <USAC_ControlMech>控制 {0}</USAC_ControlMech>
+    <USAC_ControlMech_NoPath>无法到达机兵。</USAC_ControlMech_NoPath>
+    <USAC_ControlMech_NotMechanitor>不是机械师。</USAC_ControlMech_NotMechanitor>
+    <USAC_ControlMech_NeedBandwidth>需要 {0} 带宽。</USAC_ControlMech_NeedBandwidth>
+    <USAC_DeactivatedMech_Destroy>销毁机兵</USAC_DeactivatedMech_Destroy>
+    <USAC_MechControlled>{0} 现在由 {1} 控制。</USAC_MechControlled>
+    <USAC_DeactivateMech>休眠</USAC_DeactivateMech>
+    <USAC_DeactivateMechDesc>让机兵进入休眠模式。可以搬运移动并在之后重新激活。</USAC_DeactivateMechDesc>
+    <USAC_MechDeactivated>{0} 已进入休眠模式。</USAC_MechDeactivated>
+    
+    <!-- 信用债券 -->
+    <USAC_Bond_Label>USAC信用债券</USAC_Bond_Label>
+    <USAC_Bond_Desc>一种由高韧度纤维制成的特殊纸张，是USAC企业经销商与地面阵营交易时所印发的实体记名凭证，其表面采用特殊油墨印刷，具有精美的防伪标识与记名所有者信息。\n\n在商品收购与装备销售后，结余的剩余价值能被用来买入这种具备固定购买力的凭证用于下次交易。由于凭证具有记名性因此无法由记名所有人以外的人使用，因此对边缘世界中的其他阵营来说，这张十分耐磨损的纸基本没有任何实际用途。</USAC_Bond_Desc>
+    
+    <!-- USAC货币系统 -->
+    <USAC_Currency_Label>USAC货币</USAC_Currency_Label>
+    <USAC_Currency_LabelFull>距下袋: {0} (含债券x{1})</USAC_Currency_LabelFull>
+    <USAC_Currency_LabelBondOnly>债券 x{0}</USAC_Currency_LabelBondOnly>
+    <USAC_Currency_LabelCorpseBagOnly>距下袋: {0}</USAC_Currency_LabelCorpseBagOnly>
+    <USAC_Currency_LabelEmpty>USAC货币</USAC_Currency_LabelEmpty>
+    <USAC_Currency_Desc>用于与USAC商人交易的货币总价值。包含尸体袋价值和信用债券价值。USAC贸易商只接受尸体袋和信用债券作为货币。\n\n交易时优先消耗债券，债券不足时再消耗尸体袋（从价值最小的开始）。</USAC_Currency_Desc>
+    <USAC_Currency_Breakdown>--- 价值明细 ---</USAC_Currency_Breakdown>
+    <USAC_Currency_CorpseBagValue>尸体袋总价值: {0}</USAC_Currency_CorpseBagValue>
+    <USAC_Currency_BondValue>信用债券: {0}张 (价值 {1})</USAC_Currency_BondValue>
+    <USAC_Currency_TotalValue>货币总计: {0}</USAC_Currency_TotalValue>
+    <USAC_Currency_SmallestBag>最小尸体袋价值: {0}</USAC_Currency_SmallestBag>
+    <USAC_Currency_UntilNextBag>距下袋可用: {0}</USAC_Currency_UntilNextBag>
+
+    <!-- 消耗品交互 -->
+    <MessageTargetMustBeMechanoid>目标必须是机械体。</MessageTargetMustBeMechanoid>
+    <MessageTargetMustBePlayerMech>目标必须是己方机械体。</MessageTargetMustBePlayerMech>
+    <USAC_MessageMechCharged>已为 {0} 充满电量。</USAC_MessageMechCharged>
+    <USAC_MessageMechRepaired>已修复 {0} 的所有损伤。</USAC_MessageMechRepaired>
+
+    <!-- 商船到访 -->
+    <TraderArrival>{0} ({1}) 已进入通讯轨道。{2}</TraderArrival>
+    <TraderArrivalFromFaction>他们来自 {FACTION}。</TraderArrivalFromFaction>
+    <TraderArrivalNoFaction>他们不属于任何已知派系。</TraderArrivalNoFaction>
+</LanguageData>

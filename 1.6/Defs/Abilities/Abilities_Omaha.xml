@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <AbilityDef>
+    <defName>USAC_MICLIC</defName>
+    <label>占位符</label>
+    <description>占位符</description>
+    <iconPath>UI/Abilities/MICLIC</iconPath>
+    <cooldownTicksRange>3600</cooldownTicksRange>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>28</range>
+      <warmupTime>2.0</warmupTime>
+      <requireLineOfSight>false</requireLineOfSight>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetBuildings>true</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="USAC.CompProperties_AbilityMICLIC">
+        <projectileDef>USAC_Projectile_MICLIC</projectileDef>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>USAC_Projectile_MICLIC</defName>
+    <label>mineclearing rocket</label>
+    <thingClass>USAC.Projectile_MICLIC</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/RocketHighTech</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>150</damageAmountBase>
+      <speed>45</speed>
+      <explosionRadius>3.9</explosionRadius>
+      <flyOverhead>true</flyOverhead>
+      <arcHeightFactor>2.0</arcHeightFactor>
+      <shadowSize>0.6</shadowSize>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef>
+    <defName>USAC_MICLIC_Segment</defName>
+    <label>mineclearing line segment</label>
+    <thingClass>USAC.MineClearingLineSegment</thingClass>
+    <category>Ethereal</category>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <drawerType>RealtimeOnly</drawerType>
+    <graphicData>
+      <texPath>Things/Mote/SparkFlash</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+  </ThingDef>
+
+  <AbilityDef>
+    <defName>USAC_MICLIC_Towed</defName>
+    <label>towed mineclearing line</label>
+    <description>Launch a rocket that tows a continuous demolition cable behind it. Upon impact, the cable detonates along its entire path to clear mines.</description>
+    <iconPath>UI/Abilities/MICLIC</iconPath>
+    <cooldownTicksRange>3600</cooldownTicksRange>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>32</range>
+      <warmupTime>2.5</warmupTime>
+      <requireLineOfSight>false</requireLineOfSight>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="USAC.CompProperties_AbilityMICLIC">
+        <projectileDef>USAC_Projectile_MICLIC_Towed</projectileDef>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>USAC_Projectile_MICLIC_Towed</defName>
+    <label>towed mineclearing rocket</label>
+    <thingClass>USAC.Projectile_MICLIC_Towed</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/RocketHighTech</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.2</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>200</damageAmountBase>
+      <speed>40</speed>
+      <explosionRadius>3.9</explosionRadius>
+      <flyOverhead>true</flyOverhead>
+      <arcHeightFactor>2.5</arcHeightFactor>
+      <shadowSize>0.8</shadowSize>
+    </projectile>
+  </ThingDef>
+
+  <AbilityDef>
+    <defName>USAC_MineclearingShovel</defName>
+    <label>mineclearing shovel</label>
+    <description>The mech dashes forward to the target location and releases two powerful fan-shaped explosions along the path to clear mines and obstacles.</description>
+    <iconPath>UI/Abilities/MineclearingShovel</iconPath>
+    <cooldownTicksRange>1200</cooldownTicksRange>
+    <jobDef>CastJump</jobDef>
+    <verbProperties>
+      <verbClass>USAC.Verb_CastAbilityMineclearingShovel</verbClass>
+      <range>15.9</range>
+      <warmupTime>0.5</warmupTime>
+      <soundCast>Pawn_Devourer_Jump</soundCast>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="USAC.CompProperties_MineclearingShovel" />
+    </comps>
+  </AbilityDef>
+
+  <ThingDef ParentName="PawnFlyerBase">
+    <defName>USAC_PawnFlyer_Shovel</defName>
+    <pawnFlyer>
+      <heightFactor>0.4</heightFactor>
+      <flightSpeed>15</flightSpeed>
+    </pawnFlyer>
+  </ThingDef>
+
+</Defs>

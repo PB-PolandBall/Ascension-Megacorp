@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <USAC_TempMechlink.label>临时机控中枢</USAC_TempMechlink.label>
+  <USAC_TempMechlink.description>临时机控中枢 (每次30天，死亡重置)\n\n一种神经增强药剂(Neuro augment Serum)，透过内含的神经元纳米机械于大脑中形成脑基接口，并透过灵能方式与轨道上的USAC卫星网络建立通讯，透过季度订阅制提供对机械体的控制与带宽VPN代理服务，可以在服务期间施打来扩充服务期限，但应注意一旦使用者脑活动停止则机控服务将同步中止并清空剩余的订阅服务时间。</USAC_TempMechlink.description>
+</LanguageData>

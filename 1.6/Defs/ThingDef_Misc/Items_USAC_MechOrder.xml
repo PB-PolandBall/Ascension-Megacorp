@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- 机兵订单基础 -->
+  <ThingDef Name="USAC_BaseMechOrder" ParentName="ResourceBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <drawerType>MapMeshOnly</drawerType>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <stackLimit>10</stackLimit>
+    <tradeability>Buyable</tradeability>
+    <tradeTags>
+      <li>USAC_MechOrder</li>
+    </tradeTags>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>0.1</Mass>
+    </statBases>
+  </ThingDef>
+
+  <!-- M88 Rocky 订单 -->
+  <ThingDef ParentName="USAC_BaseMechOrder">
+    <defName>USAC_MechOrder_Rocky</defName>
+    <label>M88 "Rocky" order</label>
+    <description>A USAC military contract for one M88 "Rocky" synthetic infantry unit. When purchased, an inactive mech will be delivered via drop pod.</description>
+    <graphicData>
+      <texPath>Things/Mech/rocky_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1500</MarketValue>
+    </statBases>
+    <modExtensions>
+      <li Class="USAC.ModExtension_MechOrder">
+        <mechKindDef>USAC_Mech_Rocky</mechKindDef>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- M939 Paraman 订单 -->
+  <ThingDef ParentName="USAC_BaseMechOrder">
+    <defName>USAC_MechOrder_Paraman</defName>
+    <label>M939 "Paraman" order</label>
+    <description>A USAC military contract for one M939 "Paraman" airborne unit. When purchased, an inactive mech will be delivered via drop pod.</description>
+    <graphicData>
+      <texPath>Things/Mech/paraman_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+    </statBases>
+    <modExtensions>
+      <li Class="USAC.ModExtension_MechOrder">
+        <mechKindDef>USAC_Mech_Paraman</mechKindDef>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- X-3 Gonk 订单 -->
+  <ThingDef ParentName="USAC_BaseMechOrder">
+    <defName>USAC_MechOrder_Gonk</defName>
+    <label>X-3 "Gonk" order</label>
+    <description>A USAC military contract for one X-3 "Gonk" heavy artillery mech. When purchased, an inactive mech will be delivered via drop pod.</description>
+    <graphicData>
+      <texPath>Things/Mech/gonk_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>8000</MarketValue>
+    </statBases>
+    <modExtensions>
+      <li Class="USAC.ModExtension_MechOrder">
+        <mechKindDef>USAC_Mech_Gonk</mechKindDef>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- M7 Cobalt 订单 -->
+  <ThingDef ParentName="USAC_BaseMechOrder">
+    <defName>USAC_MechOrder_Cobalt</defName>
+    <label>M7 "Cobalt" order</label>
+    <description>A USAC military contract for one M7 "Cobalt" cargo mech. When purchased, an inactive mech will be delivered via drop pod.</description>
+    <graphicData>
+      <texPath>Things/Mech/cobalt_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+    </statBases>
+    <modExtensions>
+      <li Class="USAC.ModExtension_MechOrder">
+        <mechKindDef>USAC_Mech_Cobalt</mechKindDef>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- M110 Omaha 订单 -->
+  <ThingDef ParentName="USAC_BaseMechOrder">
+    <defName>USAC_MechOrder_Omaha</defName>
+    <label>M110 "Omaha" order</label>
+    <description>A USAC military contract for one M110 "Omaha" amphibious assault mech. When purchased, an inactive mech will be delivered via drop pod.</description>
+    <graphicData>
+      <texPath>Things/Mech/omaha_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>12000</MarketValue>
+    </statBases>
+    <modExtensions>
+      <li Class="USAC.ModExtension_MechOrder">
+        <mechKindDef>USAC_Mech_Omaha</mechKindDef>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+</Defs>

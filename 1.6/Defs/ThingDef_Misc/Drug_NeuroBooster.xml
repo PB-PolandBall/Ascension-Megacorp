@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Neuro-Booster -->
+  <ThingDef ParentName="MakeableDrugBase">
+    <defName>USAC_NeuroBooster</defName>
+    <label>neuro-booster</label>
+    <description>A potent neuro-augment serum that enhances neural activity and rational thinking. Widely used by USAC technical workers and soldiers. It causes high addiction and requires regular administration to maintain stability, but provides significant bandwidth and consciousness boosts.</description>
+    <descriptionHyperlinks>
+      <HediffDef>USAC_NeuroBoosterHigh</HediffDef>
+      <HediffDef>USAC_NeuroBoosterAddiction</HediffDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>Things/Item/Drug/GoJuice</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MarketValue>280</MarketValue>
+      <Mass>0.05</Mass>
+    </statBases>
+    <techLevel>Spacer</techLevel>
+    <costList>
+      <Neutroamine>4</Neutroamine>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <ingestible>
+      <drugCategory>Hard</drugCategory>
+      <foodType>Processed, Fluid</foodType>
+      <baseIngestTicks>80</baseIngestTicks>
+      <ingestSound>Ingest_Inject</ingestSound>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <ingestCommandString>Inject {0}</ingestCommandString>
+      <ingestReportString>Injecting {0}.</ingestReportString>
+      <useEatingSpeedStat>false</useEatingSpeedStat>
+      <chairSearchRadius>0</chairSearchRadius>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>USAC_NeuroBoosterHigh</hediffDef>
+          <severity>1.0</severity>
+          <toleranceChemical>USAC_NeuroBooster</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>USAC_NeuroBoosterAddiction</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <chemical>USAC_NeuroBooster</chemical>
+        <addictiveness>1.0</addictiveness>
+        <existingAddictionSeverityOffset>0.25</existingAddictionSeverityOffset>
+        <needLevelOffset>1.0</needLevelOffset>
+        <listOrder>210</listOrder>
+        <overdoseSeverityOffset>0.15~0.30</overdoseSeverityOffset>
+        <largeOverdoseChance>0.01</largeOverdoseChance>
+      </li>
+    </comps>
+    <tradeTags>
+      <li>USAC_NeuroBooster</li>
+    </tradeTags>
+  </ThingDef>
+
+  <!-- High Effect Hediff -->
+  <HediffDef>
+    <defName>USAC_NeuroBoosterHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>neural enhancement</label>
+    <description>Enhanced neural pathways via nanomachines. Increases bandwidth and consciousness at the cost of pain.</description>
+    <defaultLabelColor>(0.4,0.8,1.0)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>20.0</maxSeverity>
+    <isBad>false</isBad>
+    <keepOnBodyPartRestoration>true</keepOnBodyPartRestoration>
+    <tendable>false</tendable>
+    <stages>
+      <!-- Each layer +2 bandwidth, +5% pain, +2% consciousness -->
+      <li>
+        <minSeverity>1</minSeverity>
+        <label>layer 1</label>
+        <statOffsets><MechBandwidth MayRequire="Ludeon.Rimworld.Biotech">2</MechBandwidth></statOffsets>
+        <capMods><li><capacity>Consciousness</capacity><offset>0.02</offset></li></capMods>
+        <painOffset>0.05</painOffset>
+      </li>
+      <li>
+        <minSeverity>2</minSeverity>
+        <label>layer 2</label>
+        <statOffsets><MechBandwidth MayRequire="Ludeon.Rimworld.Biotech">4</MechBandwidth></statOffsets>
+        <capMods><li><capacity>Consciousness</capacity><offset>0.04</offset></li></capMods>
+        <painOffset>0.10</painOffset>
+      </li>
+      <li>
+        <minSeverity>3</minSeverity>
+        <label>layer 3</label>
+        <statOffsets><MechBandwidth MayRequire="Ludeon.Rimworld.Biotech">6</MechBandwidth></statOffsets>
+        <capMods><li><capacity>Consciousness</capacity><offset>0.06</offset></li></capMods>
+        <painOffset>0.15</painOffset>
+      </li>
+      <li>
+        <minSeverity>4</minSeverity>
+        <label>layer 4</label>
+        <statOffsets><MechBandwidth MayRequire="Ludeon.Rimworld.Biotech">8</MechBandwidth></statOffsets>
+        <capMods><li><capacity>Consciousness</capacity><offset>0.08</offset></li></capMods>
+        <painOffset>0.20</painOffset>
+      </li>
+      <li>
+        <minSeverity>5</minSeverity>
+        <label>layer 5</label>
+        <statOffsets><MechBandwidth MayRequire="Ludeon.Rimworld.Biotech">10</MechBandwidth></statOffsets>
+        <capMods><li><capacity>Consciousness</capacity><offset>0.10</offset></li></capMods>
+        <painOffset>0.25</painOffset>
+      </li>
+      <li>
+        <minSeverity>6</minSeverity>
+        <label>layer 6</label>
+        <statOffsets><MechBandwidth MayRequire="Ludeon.Rimworld.Biotech">12</MechBandwidth></statOffsets>
+        <capMods><li><capacity>Consciousness</capacity><offset>0.12</offset></li></capMods>
+        <painOffset>0.30</painOffset>
+      </li>
+      <li>
+        <minSeverity>7</minSeverity>
+        <label>layer 7</label>
+        <statOffsets><MechBandwidth MayRequire="Ludeon.Rimworld.Biotech">14</MechBandwidth></statOffsets>
+        <capMods><li><capacity>Consciousness</capacity><offset>0.14</offset></li></capMods>
+        <painOffset>0.35</painOffset>
+      </li>
+      <li>
+        <minSeverity>8</minSeverity>
+        <label>layer 8</label>
+        <statOffsets><MechBandwidth MayRequire="Ludeon.Rimworld.Biotech">16</MechBandwidth></statOffsets>
+        <capMods><li><capacity>Consciousness</capacity><offset>0.16</offset></li></capMods>
+        <painOffset>0.40</painOffset>
+      </li>
+      <li>
+        <minSeverity>9</minSeverity>
+        <label>layer 9</label>
+        <statOffsets><MechBandwidth MayRequire="Ludeon.Rimworld.Biotech">18</MechBandwidth></statOffsets>
+        <capMods><li><capacity>Consciousness</capacity><offset>0.18</offset></li></capMods>
+        <painOffset>0.45</painOffset>
+      </li>
+      <li>
+        <minSeverity>10</minSeverity>
+        <label>layer 10</label>
+        <statOffsets><MechBandwidth MayRequire="Ludeon.Rimworld.Biotech">20</MechBandwidth></statOffsets>
+        <capMods><li><capacity>Consciousness</capacity><offset>0.20</offset></li></capMods>
+        <painOffset>0.50</painOffset>
+      </li>
+      <li>
+        <minSeverity>11</minSeverity>
+        <label>layer 11</label>
+        <statOffsets><MechBandwidth MayRequire="Ludeon.Rimworld.Biotech">22</MechBandwidth></statOffsets>
+        <capMods><li><capacity>Consciousness</capacity><offset>0.22</offset></li></capMods>
+        <painOffset>0.55</painOffset>
+      </li>
+      <li>
+        <minSeverity>12</minSeverity>
+        <label>layer 12</label>
+        <statOffsets><MechBandwidth MayRequire="Ludeon.Rimworld.Biotech">24</MechBandwidth></statOffsets>
+        <capMods><li><capacity>Consciousness</capacity><offset>0.24</offset></li></capMods>
+        <painOffset>0.60</painOffset>
+      </li>
+      <li>
+        <minSeverity>13</minSeverity>
+        <label>layer 13</label>
+        <statOffsets><MechBandwidth MayRequire="Ludeon.Rimworld.Biotech">26</MechBandwidth></statOffsets>
+        <capMods><li><capacity>Consciousness</capacity><offset>0.26</offset></li></capMods>
+        <painOffset>0.65</painOffset>
+      </li>
+      <li>
+        <minSeverity>14</minSeverity>
+        <label>layer 14</label>
+        <statOffsets><MechBandwidth MayRequire="Ludeon.Rimworld.Biotech">28</MechBandwidth></statOffsets>
+        <capMods><li><capacity>Consciousness</capacity><offset>0.28</offset></li></capMods>
+        <painOffset>0.70</painOffset>
+      </li>
+      <li>
+        <minSeverity>15</minSeverity>
+        <label>layer 15</label>
+        <statOffsets><MechBandwidth MayRequire="Ludeon.Rimworld.Biotech">30</MechBandwidth></statOffsets>
+        <capMods><li><capacity>Consciousness</capacity><offset>0.30</offset></li></capMods>
+        <painOffset>0.75</painOffset>
+      </li>
+      <li>
+        <minSeverity>16</minSeverity>
+        <label>layer 16</label>
+        <statOffsets><MechBandwidth MayRequire="Ludeon.Rimworld.Biotech">32</MechBandwidth></statOffsets>
+        <capMods><li><capacity>Consciousness</capacity><offset>0.32</offset></li></capMods>
+        <painOffset>0.80</painOffset>
+      </li>
+      <li>
+        <minSeverity>17</minSeverity>
+        <label>layer 17</label>
+        <statOffsets><MechBandwidth MayRequire="Ludeon.Rimworld.Biotech">34</MechBandwidth></statOffsets>
+        <capMods><li><capacity>Consciousness</capacity><offset>0.34</offset></li></capMods>
+        <painOffset>0.85</painOffset>
+      </li>
+      <li>
+        <minSeverity>18</minSeverity>
+        <label>layer 18</label>
+        <statOffsets><MechBandwidth MayRequire="Ludeon.Rimworld.Biotech">36</MechBandwidth></statOffsets>
+        <capMods><li><capacity>Consciousness</capacity><offset>0.36</offset></li></capMods>
+        <painOffset>0.90</painOffset>
+      </li>
+      <li>
+        <minSeverity>19</minSeverity>
+        <label>layer 19</label>
+        <statOffsets><MechBandwidth MayRequire="Ludeon.Rimworld.Biotech">38</MechBandwidth></statOffsets>
+        <capMods><li><capacity>Consciousness</capacity><offset>0.38</offset></li></capMods>
+        <painOffset>0.95</painOffset>
+      </li>
+      <li>
+        <minSeverity>20</minSeverity>
+        <label>layer 20</label>
+        <statOffsets><MechBandwidth MayRequire="Ludeon.Rimworld.Biotech">40</MechBandwidth></statOffsets>
+        <capMods><li><capacity>Consciousness</capacity><offset>0.40</offset></li></capMods>
+        <painOffset>1.00</painOffset>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <ChemicalDef>
+    <defName>USAC_NeuroBooster</defName>
+    <label>neuro-booster</label>
+    <addictionHediff>USAC_NeuroBoosterAddiction</addictionHediff>
+    <canBinge>false</canBinge>
+    <generateAddictionGenes>false</generateAddictionGenes>
+  </ChemicalDef>
+
+  <NeedDef ParentName="DrugAddictionNeedBase">
+    <defName>Chemical_USAC_NeuroBooster</defName>
+    <needClass>Need_Chemical</needClass>
+    <label>neuro-booster</label>
+    <description>This person's neural stability depends on regular USAC neuro-booster injections.</description>
+    <listPriority>46</listPriority>
+    <fallPerDay>0.0667</fallPerDay>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+  </NeedDef>
+
+  <HediffDef ParentName="AddictionBase">
+    <defName>USAC_NeuroBoosterAddiction</defName>
+    <label>neuro-booster dependence</label>
+    <description>Permanent alteration of neural pathways. Withdrawal causes severe instability and lethal neural collapse.</description>
+    <hediffClass>Hediff_Addiction</hediffClass>
+    <chemicalNeed>Chemical_USAC_NeuroBooster</chemicalNeed>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li></li>
+      <li>
+        <label>unmet</label>
+        <painOffset>0.5</painOffset>
+        <lifeThreatening>true</lifeThreatening>
+        <deathMtbDays>10</deathMtbDays>
+        <mtbDeathDestroysBrain>true</mtbDeathDestroysBrain>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.8</setMax>
+          </li>
+        </capMods>
+        <mentalStateGivers>
+          <li>
+            <mentalState>Berserk</mentalState>
+            <mtbDays>0.35</mtbDays>
+          </li>
+        </mentalStateGivers>
+      </li>
+    </stages>
+  </HediffDef>
+
+</Defs>

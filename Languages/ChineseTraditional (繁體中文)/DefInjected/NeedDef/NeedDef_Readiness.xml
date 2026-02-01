@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <USAC_Readiness.label>整備</USAC_Readiness.label>
+  <USAC_Readiness.description>機兵的整備度，代表其運作狀態。低整備度會導致戰鬥效能下降。可使用零部件補給。</USAC_Readiness.description>
+</LanguageData>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <USAC_MechOrder_Rocky.label>M88"洛基"订单</USAC_MechOrder_Rocky.label>
+  <USAC_MechOrder_Rocky.description>一份USAC军事合同，可获得一台M88"洛基"合成人步兵单位。使用后将通过轨道空投舱投送一台未激活的机兵，可由机械师控制。</USAC_MechOrder_Rocky.description>
+
+  <USAC_MechOrder_Paraman.label>M939"伞兵"订单</USAC_MechOrder_Paraman.label>
+  <USAC_MechOrder_Paraman.description>一份USAC军事合同，可获得一台M939"伞兵"空降单位。使用后将通过轨道空投舱投送一台未激活的机兵，可由机械师控制。</USAC_MechOrder_Paraman.description>
+
+  <USAC_MechOrder_Gonk.label>X-3"冈克"订单</USAC_MechOrder_Gonk.label>
+  <USAC_MechOrder_Gonk.description>一份USAC军事合同，可获得一台X-3"冈克"重型火炮机兵。使用后将通过轨道空投舱投送一台未激活的机兵，可由机械师控制。</USAC_MechOrder_Gonk.description>
+
+  <USAC_MechOrder_Cobalt.label>M7"钴蓝"订单</USAC_MechOrder_Cobalt.label>
+  <USAC_MechOrder_Cobalt.description>一份USAC军事合同，可获得一台M7"钴蓝"货运机兵。使用后将通过轨道空投舱投送一台未激活的机兵，可由机械师控制。</USAC_MechOrder_Cobalt.description>
+
+  <USAC_MechOrder_Omaha.label>M110"奥马哈"订单</USAC_MechOrder_Omaha.label>
+  <USAC_MechOrder_Omaha.description>一份USAC军事合同，可获得一台M110"奥马哈"两栖突击机兵。使用后将通过轨道空投舱投送一台未激活的机兵，可由机械师控制。</USAC_MechOrder_Omaha.description>
+</LanguageData>

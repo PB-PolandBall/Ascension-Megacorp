@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- USAC 派系 - 飞升巨企军事承包集团 -->
+    <!-- 只有轨道站，没有地面据点 -->
+    <FactionDef ParentName="FactionBase">
+        <defName>USAC_Faction</defName>
+        <label>USAC</label>
+        <description>TODO</description>
+        <pawnSingular>operative</pawnSingular>
+        <pawnsPlural>operatives</pawnsPlural>
+        <categoryTag>USAC</categoryTag>
+        <listOrderPriority>50</listOrderPriority>
+        <settlementGenerationWeight>0</settlementGenerationWeight>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <maxCountAtGameStart>1</maxCountAtGameStart>
+        <canMakeRandomly>true</canMakeRandomly>
+        <canSiege>false</canSiege>
+        <canStageAttacks>true</canStageAttacks>
+        <leaderTitle>executive</leaderTitle>
+        <leaderForceGenerateNewPawn>true</leaderForceGenerateNewPawn>
+        <fixedLeaderKinds>
+            <li>USAC_Executive</li>
+        </fixedLeaderKinds>
+        <factionIconPath>World/WorldObjects/Expanding/USAC_Icon</factionIconPath>
+        <settlementTexturePath>World/WorldObjects/USAC_Settlement</settlementTexturePath>
+        <techLevel>Spacer</techLevel>
+        <factionNameMaker>USAC_NamerFaction</factionNameMaker>
+        <colorSpectrum>
+            <li>(0.2, 0.6, 0.9)</li>
+            <li>(0.1, 0.4, 0.7)</li>
+        </colorSpectrum>
+        <naturalEnemy>false</naturalEnemy>
+        <mustStartOneEnemy>false</mustStartOneEnemy>
+        <hidden>false</hidden>
+        <allowedCultures MayRequire="Ludeon.RimWorld.Ideology">
+            <li>USAC_Culture</li>
+        </allowedCultures>
+        <arrivalLayerWhitelist>
+            <li>Surface</li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">Orbit</li>
+        </arrivalLayerWhitelist>
+        <xenotypeSet>
+            <xenotypeChances>
+                <Hussar MayRequire="Ludeon.Rimworld.Biotech">0.1</Hussar>
+                <Genie MayRequire="Ludeon.Rimworld.Biotech">0.05</Genie>
+            </xenotypeChances>
+        </xenotypeSet>
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>Offworld</li>
+                </categories>
+                <commonality>0.7</commonality>
+            </li>
+            <li>
+                <categories>
+                    <li>Outlander</li>
+                </categories>
+                <commonality>0.3</commonality>
+            </li>
+        </backstoryFilters>
+        <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+        <raidLootMaker>USAC_RaidLootMaker</raidLootMaker>
+        <maxPawnCostPerTotalPointsCurve>
+            <points>
+                <li>(0,50)</li>
+                <li>(70, 100)</li>
+                <li>(700, 200)</li>
+                <li>(1300, 300)</li>
+                <li>(100000, 10000)</li>
+            </points>
+        </maxPawnCostPerTotalPointsCurve>
+        <pawnGroupMakers>
+            <!-- 纯机兵战斗组 -->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>100</commonality>
+                <options>
+                    <USAC_Mech_Rocky>10</USAC_Mech_Rocky>
+                    <USAC_Mech_Paraman>6</USAC_Mech_Paraman>
+                    <USAC_Mech_Cobalt>6</USAC_Mech_Cobalt>
+                    <USAC_Mech_Gonk>2</USAC_Mech_Gonk>
+                    <USAC_Mech_Omaha>2</USAC_Mech_Omaha>
+                </options>
+            </li>
+            <!-- 轻型机兵组 -->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>60</commonality>
+                <options>
+                    <USAC_Mech_Rocky>10</USAC_Mech_Rocky>
+                    <USAC_Mech_Cobalt>8</USAC_Mech_Cobalt>
+                    <USAC_Mech_Paraman>4</USAC_Mech_Paraman>
+                </options>
+            </li>
+            <!-- 重型机兵组 -->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>20</commonality>
+                <options>
+                    <USAC_Mech_Paraman>6</USAC_Mech_Paraman>
+                    <USAC_Mech_Gonk>3</USAC_Mech_Gonk>
+                    <USAC_Mech_Omaha>3</USAC_Mech_Omaha>
+                </options>
+            </li>
+            <!-- USAC 没有地面商队，仅有轨道商船 -->
+        </pawnGroupMakers>
+        <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+        <configurationListOrderPriority>70</configurationListOrderPriority>
+    </FactionDef>
+
+    <!-- USAC 袭击战利品 -->
+    <ThingSetMakerDef>
+        <defName>USAC_RaidLootMaker</defName>
+        <root Class="ThingSetMaker_MarketValue">
+            <fixedParams>
+                <filter>
+                    <thingDefs>
+                        <li>Silver</li>
+                        <li>ComponentIndustrial</li>
+                        <li>ComponentSpacer</li>
+                        <li>MedicineIndustrial</li>
+                        <li>HemogenPack</li>
+                    </thingDefs>
+                </filter>
+            </fixedParams>
+        </root>
+    </ThingSetMakerDef>
+
+</Defs>

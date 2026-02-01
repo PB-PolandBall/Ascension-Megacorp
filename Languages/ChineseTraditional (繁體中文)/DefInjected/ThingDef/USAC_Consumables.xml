@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <USAC_DisposableBattery.label>一次性充電電池</USAC_DisposableBattery.label>
+  <USAC_DisposableBattery.description>一種圓形的一次性電池，能夠快速為機械體充滿電，為避免用戶將充電裝置私自改造重復使用造成安全隱患，該電池被設計為在放電結束後自動短路熔毀。</USAC_DisposableBattery.description>
+  
+  <USAC_DisposableRepairTool.label>一次性維修工具</USAC_DisposableRepairTool.label>
+  <USAC_DisposableRepairTool.description>一種方形的奈米儲存容器，能夠釋放奈米機器並自動分析目標結構來修補受損部位，為避免用戶私自改造造成安全隱患，因此該工具被設計為一次性使用。</USAC_DisposableRepairTool.description>
+</LanguageData>

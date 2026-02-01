@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <USAC_TempMechlink.label>temporary mechlink</USAC_TempMechlink.label>
+  <USAC_TempMechlink.description>A disposable neural interface device that grants temporary mechanitor capabilities. The device injects nanomachines that form a temporary neural network, allowing control of mechanoids for 30 days before the nanomachines degrade and are absorbed by the body.\n\nUnlike permanent mechlinks, this device does not require psychic sensitivity and can be used by anyone. However, the effect is lost immediately upon death.\n\nProvides 6 bandwidth for controlling mechanoids.</USAC_TempMechlink.description>
+</LanguageData>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <USAC_Bond.label>USAC credit bond</USAC_Bond.label>
+    <USAC_Bond.description>A special paper certificate made from high-tenacity fibers, issued by USAC corporate distributors when trading with surface factions. The surface is printed with special ink, featuring elegant anti-counterfeiting marks and registered owner information.\n\nAfter goods are purchased and equipment is sold, the remaining value can be used to purchase these fixed-value certificates for use in the next transaction. Since the certificate is registered, it cannot be used by anyone other than the registered owner, making it practically worthless to other factions on the rimworld.\n\nThis durable paper is essentially useless to anyone but its registered owner.</USAC_Bond.description>
+</LanguageData>

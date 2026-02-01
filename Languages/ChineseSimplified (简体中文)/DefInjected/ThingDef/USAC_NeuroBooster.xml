@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <USAC_NeuroBooster.label>强化剂</USAC_NeuroBooster.label>
+  <USAC_NeuroBooster.description>跟魔鬼素一样成瘾，并且提供(阶段性)带宽扩充升级(对机械师)，并且每层增加疼痛及意识。\n\n一种神经增强药剂(Neuro augment Serum)，透过内含的纳米机械强化服用者的脑神经活跃性与理性思考能力，对于在USAC企业下工作的技术工人及军人而言是一种十分普遍的工作用强化剂，由于纳米机械会随时间缓慢失活并使得施用者感到焦躁与情绪不稳定，并且有少量易感人群案例表明低活跃性可能导致不明原因的诱发性过敏休克，因此在第一次服用之后需要持续不断的定期施用来维持纳米机械活跃性。</USAC_NeuroBooster.description>
+  
+  <USAC_NeuroBoosterHigh.label>强化效果</USAC_NeuroBoosterHigh.label>
+  <USAC_NeuroBoosterHigh.description>纳米机械强化的脑神经，提供更强的运算能力。每层增加机械带宽及意识，但会伴随痛苦。这种效果不会随时间消失，但需要神经强化剂来维持稳定性。</USAC_NeuroBoosterHigh.description>
+  
+  <USAC_NeuroBoosterAddiction.label>神经强化剂依赖</USAC_NeuroBoosterAddiction.label>
+  <USAC_NeuroBoosterAddiction.description>由于纳米机械会随时间缓慢失活并使得施用者感到焦躁与情绪不稳定，并且有少量易感人群案例表明低活跃性可能导致不明原因的诱发性过敏休克，因此在第一次服用之后需要持续不断的定期施用来维持纳米机械活跃性。</USAC_NeuroBoosterAddiction.description>
+</LanguageData>

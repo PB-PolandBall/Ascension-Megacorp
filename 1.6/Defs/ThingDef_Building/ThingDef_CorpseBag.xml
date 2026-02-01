@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- 尸体袋 -->
+    <ThingDef ParentName="BuildingBase">
+        <defName>USAC_CorpseBag</defName>
+        <label>corpse bag</label>
+        <description>TODO</description>
+        <thingClass>USAC.Building_CorpseBag</thingClass>
+        <graphicData>
+            <texPath>Things/Building/CorpseBag/CorpseBagEmpty</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2,1)</drawSize>
+        </graphicData>
+        <modExtensions>
+            <li Class="USAC.ModExtension_CorpseBag">
+                <graphicDataEmpty>
+                    <texPath>Things/Building/CorpseBag/CorpseBagEmpty</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,1)</drawSize>
+                </graphicDataEmpty>
+                <graphicDataFull>
+                    <texPath>Things/Building/CorpseBag/CorpseBagFull</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,1)</drawSize>
+                </graphicDataFull>
+            </li>
+        </modExtensions>
+        <altitudeLayer>Building</altitudeLayer>
+        <tickerType>Rare</tickerType>
+        <passability>PassThroughOnly</passability>
+        <pathCost>30</pathCost>
+        <fillPercent>0.3</fillPercent>
+        <castEdgeShadows>false</castEdgeShadows>
+        <rotatable>true</rotatable>
+        <size>(2,1)</size>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <WorkToBuild>300</WorkToBuild>
+            <Mass>15</Mass>
+            <Flammability>1.0</Flammability>
+            <MarketValue>50</MarketValue>
+        </statBases>
+        <costList>
+            <Cloth>50</Cloth>
+            <Steel>10</Steel>
+        </costList>
+        <building>
+            <isInert>true</isInert>
+            <fixedStorageSettings>
+                <filter>
+                    <categories>
+                        <li>CorpsesHumanlike</li>
+                    </categories>
+                    <specialFiltersToDisallow>
+                        <li>AllowRotten</li>
+                    </specialFiltersToDisallow>
+                </filter>
+            </fixedStorageSettings>
+            <defaultStorageSettings>
+                <filter>
+                    <categories>
+                        <li>CorpsesHumanlike</li>
+                    </categories>
+                    <specialFiltersToDisallow>
+                        <li>AllowRotten</li>
+                    </specialFiltersToDisallow>
+                </filter>
+            </defaultStorageSettings>
+        </building>
+        <inspectorTabs>
+            <li>ITab_Storage</li>
+        </inspectorTabs>
+        <comps>
+            <li Class="CompProperties_Forbiddable"/>
+        </comps>
+        <tradeability>All</tradeability>
+        <tradeTags>
+            <li>USAC_CorpseBag</li>
+        </tradeTags>
+        <thingCategories>
+            <li>BuildingsMisc</li>
+        </thingCategories>
+        <designationCategory>Misc</designationCategory>
+        <minifiedDef>MinifiedThing</minifiedDef>
+    </ThingDef>
+
+</Defs>

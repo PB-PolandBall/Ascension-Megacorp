@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- 污水喷射基础 -->
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>USAC_WastewaterSpray</defName>
+    <graphicData>
+      <texPath>Things/Mote/AirPuff</texPath>
+      <renderInstanced>true</renderInstanced>
+      <!-- 深绿褐色，带有放射性污染感 -->
+      <color>(0.25, 0.35, 0.20, 0.8)</color>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.03</fadeInTime>
+    <solidTime>0.15</solidTime>
+    <fadeOutTime>0.8</fadeOutTime>
+    <growthRate>1.2</growthRate>
+  </FleckDef>
+
+  <!-- 污水水滴 -->
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>USAC_WastewaterDroplet</defName>
+    <graphicData>
+      <texPath>Things/Mote/WaterSplash</texPath>
+      <renderInstanced>true</renderInstanced>
+      <color>(0.20, 0.30, 0.15, 0.9)</color>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.02</fadeInTime>
+    <solidTime>0.1</solidTime>
+    <fadeOutTime>0.5</fadeOutTime>
+    <growthRate>0.5</growthRate>
+  </FleckDef>
+
+</Defs>

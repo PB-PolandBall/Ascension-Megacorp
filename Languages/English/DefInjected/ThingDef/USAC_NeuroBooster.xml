@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <USAC_NeuroBooster.label>neuro-booster</USAC_NeuroBooster.label>
+  <USAC_NeuroBooster.description>A potent neuro-augment serum that enhances neural activity and rational thinking. Widely used by USAC technical workers and soldiers. It causes high addiction and requires regular administration to maintain stability, but provides significant bandwidth and consciousness boosts.</description>
+  <USAC_NeuroBooster.ingestible.ingestCommandString>Inject {0}</USAC_NeuroBooster.ingestible.ingestCommandString>
+  <USAC_NeuroBooster.ingestible.ingestReportString>Injecting {0}.</USAC_NeuroBooster.ingestible.ingestReportString>
+
+  <USAC_NeuroBoosterHigh.label>neural enhancement</USAC_NeuroBoosterHigh.label>
+  <USAC_NeuroBoosterHigh.description>Enhanced neural pathways via nanomachines. Increases bandwidth and consciousness at the cost of pain.</description>
+  <USAC_NeuroBoosterHigh.stages.0.label>layer 1</USAC_NeuroBoosterHigh.stages.0.label>
+  <USAC_NeuroBoosterHigh.stages.1.label>layer 2</USAC_NeuroBoosterHigh.stages.1.label>
+  <USAC_NeuroBoosterHigh.stages.2.label>layer 3</USAC_NeuroBoosterHigh.stages.2.label>
+  <USAC_NeuroBoosterHigh.stages.3.label>layer 4</USAC_NeuroBoosterHigh.stages.3.label>
+  <USAC_NeuroBoosterHigh.stages.4.label>layer 5</USAC_NeuroBoosterHigh.stages.4.label>
+  <USAC_NeuroBoosterHigh.stages.5.label>layer 6</USAC_NeuroBoosterHigh.stages.5.label>
+  <USAC_NeuroBoosterHigh.stages.6.label>layer 7</USAC_NeuroBoosterHigh.stages.6.label>
+  <USAC_NeuroBoosterHigh.stages.7.label>layer 8</USAC_NeuroBoosterHigh.stages.7.label>
+  <USAC_NeuroBoosterHigh.stages.8.label>layer 9</USAC_NeuroBoosterHigh.stages.8.label>
+  <USAC_NeuroBoosterHigh.stages.9.label>layer 10</USAC_NeuroBoosterHigh.stages.9.label>
+  <USAC_NeuroBoosterHigh.stages.10.label>layer 11</USAC_NeuroBoosterHigh.stages.10.label>
+  <USAC_NeuroBoosterHigh.stages.11.label>layer 12</USAC_NeuroBoosterHigh.stages.11.label>
+  <USAC_NeuroBoosterHigh.stages.12.label>layer 13</USAC_NeuroBoosterHigh.stages.12.label>
+  <USAC_NeuroBoosterHigh.stages.13.label>layer 14</USAC_NeuroBoosterHigh.stages.13.label>
+  <USAC_NeuroBoosterHigh.stages.14.label>layer 15</USAC_NeuroBoosterHigh.stages.14.label>
+  <USAC_NeuroBoosterHigh.stages.15.label>layer 16</USAC_NeuroBoosterHigh.stages.15.label>
+  <USAC_NeuroBoosterHigh.stages.16.label>layer 17</USAC_NeuroBoosterHigh.stages.16.label>
+  <USAC_NeuroBoosterHigh.stages.17.label>layer 18</USAC_NeuroBoosterHigh.stages.17.label>
+  <USAC_NeuroBoosterHigh.stages.18.label>layer 19</USAC_NeuroBoosterHigh.stages.18.label>
+  <USAC_NeuroBoosterHigh.stages.19.label>layer 20</USAC_NeuroBoosterHigh.stages.19.label>
+
+  <USAC_NeuroBoosterAddiction.label>neuro-booster dependence</USAC_NeuroBoosterAddiction.label>
+  <USAC_NeuroBoosterAddiction.description>Permanent alteration of neural pathways. Withdrawal causes severe instability and lethal neural collapse.</description>
+  <USAC_NeuroBoosterAddiction.stages.1.label>unmet</USAC_NeuroBoosterAddiction.stages.1.label>
+
+  <Chemical_USAC_NeuroBooster.label>neuro-booster</Chemical_USAC_NeuroBooster.label>
+  <Chemical_USAC_NeuroBooster.description>This person's neural stability depends on regular USAC neuro-booster injections.</Chemical_USAC_NeuroBooster.description>
+</LanguageData>

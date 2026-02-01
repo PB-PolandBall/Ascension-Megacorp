@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- USAC 企业领导者称号生成器 -->
+    <RulePackDef>
+        <defName>LeaderTitleMaker_USAC</defName>
+        <rulePack>
+            <rulesStrings>
+                <!-- 忽略 meme 称号，始终使用企业称号 -->
+                <li>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</li>
+                
+                <li>r_leaderTitle(p=6)->[cultureLeaderAdjective] [cultureLeaderNoun]</li>
+                <li>r_leaderTitle(p=3)->[cultureLeaderTitle]</li>
+                
+                <!-- 企业风格形容词 -->
+                <li>cultureLeaderAdjective->chief</li>
+                <li>cultureLeaderAdjective->senior</li>
+                <li>cultureLeaderAdjective->executive</li>
+                <li>cultureLeaderAdjective->managing</li>
+                <li>cultureLeaderAdjective->general</li>
+                
+                <!-- 企业风格名词 -->
+                <li>cultureLeaderNoun->officer</li>
+                <li>cultureLeaderNoun->director</li>
+                <li>cultureLeaderNoun->president</li>
+                <li>cultureLeaderNoun->chairman</li>
+                <li>cultureLeaderNoun->manager</li>
+                
+                <!-- 完整称号 -->
+                <li>cultureLeaderTitle->CEO</li>
+                <li>cultureLeaderTitle->CFO</li>
+                <li>cultureLeaderTitle->COO</li>
+                <li>cultureLeaderTitle->CTO</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <!-- USAC 意识形态名称生成器 -->
+    <RulePackDef>
+        <defName>NamerIdeo_USAC</defName>
+        <include>
+            <li>NamerIdeoGlobal</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <!-- 企业风格意识形态名称 -->
+                <li>r_ideoName(p=5)->[corpPrefix] [corpSuffix]</li>
+                <li>r_ideoName(p=3)->[corpPrefix][corpSuffix]ism</li>
+                <li>r_ideoName(p=2)->The [corpConcept]</li>
+                
+                <!-- 企业前缀 -->
+                <li>corpPrefix->United</li>
+                <li>corpPrefix->Global</li>
+                <li>corpPrefix->Stellar</li>
+                <li>corpPrefix->Orbital</li>
+                <li>corpPrefix->Corporate</li>
+                <li>corpPrefix->Industrial</li>
+                <li>corpPrefix->Strategic</li>
+                
+                <!-- 企业后缀 -->
+                <li>corpSuffix->Initiative</li>
+                <li>corpSuffix->Directive</li>
+                <li>corpSuffix->Protocol</li>
+                <li>corpSuffix->Mandate</li>
+                <li>corpSuffix->Doctrine</li>
+                <li>corpSuffix->Standard</li>
+                
+                <!-- 企业概念 -->
+                <li>corpConcept->Syndicate</li>
+                <li>corpConcept->Consortium</li>
+                <li>corpConcept->Conglomerate</li>
+                <li>corpConcept->Corporation</li>
+                <li>corpConcept->Enterprise</li>
+                
+                <!-- 太空词汇 -->
+                <li>globalHyphenPrefix->astro</li>
+                <li>globalHyphenPrefix->stello</li>
+                <li>globalHyphenPrefix->corpo</li>
+                <li>globalHyphenPrefix->mega</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <!-- USAC 神明名称生成器 -->
+    <RulePackDef>
+        <defName>NamerDeity_USAC</defName>
+        <include>
+            <li>NamerDeityGlobal</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <!-- 企业风格神明名称 -->
+                <li>name->[corpDeityPrefix][corpDeityEnd]</li>
+                <li>name->[corpDeityPrefix]-[corpDeityMid][corpDeityEnd]</li>
+                
+                <!-- 企业神明前缀 -->
+                <li>corpDeityPrefix->Profit</li>
+                <li>corpDeityPrefix->Market</li>
+                <li>corpDeityPrefix->Capital</li>
+                <li>corpDeityPrefix->Asset</li>
+                <li>corpDeityPrefix->Equity</li>
+                <li>corpDeityPrefix->Index</li>
+                <li>corpDeityPrefix->Venture</li>
+                <li>corpDeityPrefix->Merger</li>
+                <li>corpDeityPrefix->Dividend</li>
+                <li>corpDeityPrefix->Stock</li>
+                
+                <!-- 企业神明中缀 -->
+                <li>corpDeityMid->a</li>
+                <li>corpDeityMid->o</li>
+                <li>corpDeityMid->i</li>
+                <li>corpDeityMid->u</li>
+                
+                <!-- 企业神明后缀 -->
+                <li>corpDeityEnd->us</li>
+                <li>corpDeityEnd->on</li>
+                <li>corpDeityEnd->ex</li>
+                <li>corpDeityEnd->or</li>
+                <li>corpDeityEnd->ax</li>
+                <li>corpDeityEnd->ix</li>
+                <li>corpDeityEnd(p=3)-></li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <!-- USAC 神明类型生成器 -->
+    <RulePackDef>
+        <defName>DeityTypeMaker_USAC</defName>
+        <include>
+            <li>DeityTypeMakerGlobal</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <!-- 企业风格神明类型 -->
+                <li>r_deityType(p=5)->[corpGod] of [corpDomain]</li>
+                <li>r_deityType(p=3)->[corpGod] of [memeConcept]</li>
+                
+                <!-- 企业神明称谓 -->
+                <li>corpGod->Patron</li>
+                <li>corpGod->Guardian</li>
+                <li>corpGod->Overseer</li>
+                <li>corpGod->Arbiter</li>
+                <li>corpGod->Executor</li>
+                <li>corpGod->Administrator</li>
+                
+                <!-- 企业领域 -->
+                <li>corpDomain->Profit</li>
+                <li>corpDomain->Commerce</li>
+                <li>corpDomain->Industry</li>
+                <li>corpDomain->Contracts</li>
+                <li>corpDomain->Acquisitions</li>
+                <li>corpDomain->Logistics</li>
+                <li>corpDomain->Operations</li>
+                <li>corpDomain->Resources</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <!-- USAC 节日名称生成器 -->
+    <RulePackDef>
+        <defName>NamerFestival_USAC</defName>
+        <include>
+            <li>NamerFestivalGlobal</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <!-- 企业风格节日名称 -->
+                <li>festivalName(p=5)->[corpEvent] [corpEventType]</li>
+                <li>festivalName(p=3)->[corpEventType] of [corpEventTheme]</li>
+                
+                <!-- 企业活动前缀 -->
+                <li>corpEvent->Annual</li>
+                <li>corpEvent->Quarterly</li>
+                <li>corpEvent->Corporate</li>
+                <li>corpEvent->Executive</li>
+                <li>corpEvent->Strategic</li>
+                
+                <!-- 企业活动类型 -->
+                <li>corpEventType->Summit</li>
+                <li>corpEventType->Gala</li>
+                <li>corpEventType->Convention</li>
+                <li>corpEventType->Conference</li>
+                <li>corpEventType->Assembly</li>
+                <li>corpEventType->Ceremony</li>
+                
+                <!-- 企业活动主题 -->
+                <li>corpEventTheme->Excellence</li>
+                <li>corpEventTheme->Achievement</li>
+                <li>corpEventTheme->Innovation</li>
+                <li>corpEventTheme->Progress</li>
+                <li>corpEventTheme->Unity</li>
+                <li>corpEventTheme->Prosperity</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+</Defs>

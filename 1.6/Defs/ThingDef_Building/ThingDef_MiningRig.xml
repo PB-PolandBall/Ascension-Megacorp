@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- USAC 重型采矿机 -->
+    <ThingDef ParentName="BuildingBase">
+        <defName>USAC_HeavyMiningRig</defName>
+        <label>USAC heavy mining rig</label>
+        <description>TODO</description>
+        <thingClass>USAC.Building_HeavyMiningRig</thingClass>
+        <graphicData>
+            <texPath>Things/Building/AssaultDriller/AssaultDriller_Base</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(9,9)</drawSize>
+            <drawOffset>(0, 0, 1)</drawOffset>
+            <damageData>
+                <cornerTL>Damage/Corner</cornerTL>
+                <cornerTR>Damage/Corner</cornerTR>
+                <cornerBL>Damage/Corner</cornerBL>
+                <cornerBR>Damage/Corner</cornerBR>
+            </damageData>
+        </graphicData>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>Impassable</passability>
+        <blockWind>true</blockWind>
+        <castEdgeShadows>true</castEdgeShadows>
+        <fillPercent>1</fillPercent>
+        <blockLight>true</blockLight>
+        <canOverlapZones>false</canOverlapZones>
+        <size>(5,5)</size>
+        <rotatable>false</rotatable>
+        <statBases>
+            <MaxHitPoints>800</MaxHitPoints>
+            <WorkToBuild>0</WorkToBuild>
+            <Flammability>0.3</Flammability>
+            <Beauty>-20</Beauty>
+        </statBases>
+        <tickerType>Normal</tickerType>
+        <building>
+            <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+            <ai_chillDestination>false</ai_chillDestination>
+        </building>
+        <killedLeavings>
+            <Steel>100</Steel>
+            <ComponentIndustrial>5</ComponentIndustrial>
+            <ComponentSpacer>2</ComponentSpacer>
+        </killedLeavings>
+        <comps>
+            <li Class="CompProperties_Forbiddable"/>
+            <li Class="USAC.CompProperties_VisualPawnContainer">
+                <frontRowOffsets>
+                    <!-- 前排5个，仅限最小型机兵 -->
+                    <li>(-2, -2)</li>
+                    <li>(-1, -2)</li>
+                    <li>(0, -2)</li>
+                    <li>(1, -2)</li>
+                    <li>(2, -2)</li>
+                </frontRowOffsets>
+                <frontRowMaxSize>0.5</frontRowMaxSize>
+                <higherOffsets>
+                    <!-- 左侧3个 -->
+                    <li>(-2, -1)</li>
+                    <li>(-2, 0)</li>
+                    <li>(-2, 1)</li>
+                    <!-- 右侧3个 -->
+                    <li>(2, -1)</li>
+                    <li>(2, 0)</li>
+                    <li>(2, 1)</li>
+                </higherOffsets>
+                <lowerOffsets>
+                    <!-- 上方中间3个 -->
+                    <li>(-1, 2)</li>
+                    <li>(0, 2)</li>
+                    <li>(1, 2)</li>
+                </lowerOffsets>
+                <stackZOffset>4</stackZOffset>
+                <overlayTexPath>Things/Building/AssaultDriller/AssaultDriller_Fence</overlayTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- 采矿机降落 Skyfaller -->
+    <ThingDef ParentName="EtherealThingBase">
+        <defName>USAC_MiningRigIncoming</defName>
+        <label>mining rig (incoming)</label>
+        <thingClass>USAC.Skyfaller_MiningRigIncoming</thingClass>
+        <useHitPoints>false</useHitPoints>
+        <drawOffscreen>true</drawOffscreen>
+        <tickerType>Normal</tickerType>
+        <altitudeLayer>Skyfaller</altitudeLayer>
+        <drawerType>RealtimeOnly</drawerType>
+        <size>(5,5)</size>
+        <graphicData>
+            <texPath>Things/Building/AssaultDriller/AssaultDriller_Base</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutFlying</shaderType>
+            <drawSize>(9,9)</drawSize>
+            <drawOffset>(0, 0, 1)</drawOffset>
+        </graphicData>
+        <skyfaller>
+            <movementType>Decelerate</movementType>
+            <shadow>Things/Skyfaller/SkyfallerShadowRectangle</shadow>
+            <shadowSize>(9.5,9.5)</shadowSize>
+            <anticipationSound>DropPod_Fall</anticipationSound>
+            <anticipationSoundTicks>150</anticipationSoundTicks>
+            <impactSound>DropPod_Impact</impactSound>
+            <motesPerCell>3</motesPerCell>
+            <ticksToImpactRange>180~240</ticksToImpactRange>
+            <cameraShake>1.0</cameraShake>
+            <!-- 垂直下降角度：0度表示从屏幕顶部下来 -->
+            <angleCurve>
+                <points>
+                    <li>(0,0)</li>
+                    <li>(1,0)</li>
+                </points>
+            </angleCurve>
+            <!-- 减速曲线：最后20%开始反推减速 -->
+            <speedCurve>
+                <points>
+                    <li>(0,1.5)</li>
+                    <li>(0.8,1.5)</li>
+                    <li>(0.9,0.5)</li>
+                    <li>(0.98,0.1)</li>
+                </points>
+            </speedCurve>
+        </skyfaller>
+        <comps>
+            <li Class="USAC.CompProperties_VisualPawnContainer">
+                <frontRowOffsets>
+                    <!-- 前排5个，仅限最小型机兵 -->
+                    <li>(-2, -2)</li>
+                    <li>(-1, -2)</li>
+                    <li>(0, -2)</li>
+                    <li>(1, -2)</li>
+                    <li>(2, -2)</li>
+                </frontRowOffsets>
+                <frontRowMaxSize>0.5</frontRowMaxSize>
+                <higherOffsets>
+                    <!-- 左侧3个 -->
+                    <li>(-2, -1)</li>
+                    <li>(-2, 0)</li>
+                    <li>(-2, 1)</li>
+                    <!-- 右侧3个 -->
+                    <li>(2, -1)</li>
+                    <li>(2, 0)</li>
+                    <li>(2, 1)</li>
+                </higherOffsets>
+                <lowerOffsets>
+                    <!-- 上方中间3个 -->
+                    <li>(-1, 2)</li>
+                    <li>(0, 2)</li>
+                    <li>(1, 2)</li>
+                </lowerOffsets>
+                <stackZOffset>4</stackZOffset>
+                <overlayTexPath>Things/Building/AssaultDriller/AssaultDriller_Fence</overlayTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- 采矿机撤离 Skyfaller -->
+    <ThingDef ParentName="EtherealThingBase">
+        <defName>USAC_MiningRigLeaving</defName>
+        <label>mining rig (leaving)</label>
+        <thingClass>USAC.Skyfaller_MiningRigLeaving</thingClass>
+        <useHitPoints>false</useHitPoints>
+        <drawOffscreen>true</drawOffscreen>
+        <tickerType>Normal</tickerType>
+        <altitudeLayer>Skyfaller</altitudeLayer>
+        <drawerType>RealtimeOnly</drawerType>
+        <size>(5,5)</size>
+        <graphicData>
+            <texPath>Things/Building/AssaultDriller/AssaultDriller_Base</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutFlying</shaderType>
+            <drawSize>(9,9)</drawSize>
+            <drawOffset>(0, 0, 1)</drawOffset>
+        </graphicData>
+        <skyfaller>
+            <movementType>Accelerate</movementType>
+            <reversed>true</reversed>
+            <shadow>Things/Skyfaller/SkyfallerShadowRectangle</shadow>
+            <shadowSize>(9.5,9.5)</shadowSize>
+            <anticipationSound>DropPod_Leaving</anticipationSound>
+            <anticipationSoundTicks>10</anticipationSoundTicks>
+            <ticksToImpactRange>0~0</ticksToImpactRange>
+            <ticksToDiscardInReverse>300~300</ticksToDiscardInReverse>
+            <motesPerCell>3</motesPerCell>
+            <!-- 垂直起飞 -->
+            <angleCurve>
+                <points>
+                    <li>(0, 0)</li>
+                    <li>(1, 0)</li>
+                </points>
+            </angleCurve>
+            <!-- 平滑加速曲线，初始速度稍高避免卡顿 -->
+            <speedCurve>
+                <points>
+                    <li>(0, 0.15)</li>
+                    <li>(0.15, 0.2)</li>
+                    <li>(0.3, 0.35)</li>
+                    <li>(0.5, 0.6)</li>
+                    <li>(0.7, 0.9)</li>
+                    <li>(0.85, 1.2)</li>
+                    <li>(1, 1.6)</li>
+                </points>
+            </speedCurve>
+        </skyfaller>
+        <comps>
+            <li Class="USAC.CompProperties_VisualPawnContainer">
+                <frontRowOffsets>
+                    <!-- 前排5个，仅限最小型机兵 -->
+                    <li>(-2, -2)</li>
+                    <li>(-1, -2)</li>
+                    <li>(0, -2)</li>
+                    <li>(1, -2)</li>
+                    <li>(2, -2)</li>
+                </frontRowOffsets>
+                <frontRowMaxSize>0.5</frontRowMaxSize>
+                <higherOffsets>
+                    <!-- 左侧3个 -->
+                    <li>(-2, -1)</li>
+                    <li>(-2, 0)</li>
+                    <li>(-2, 1)</li>
+                    <!-- 右侧3个 -->
+                    <li>(2, -1)</li>
+                    <li>(2, 0)</li>
+                    <li>(2, 1)</li>
+                </higherOffsets>
+                <lowerOffsets>
+                    <!-- 上方中间3个 -->
+                    <li>(-1, 2)</li>
+                    <li>(0, 2)</li>
+                    <li>(1, 2)</li>
+                </lowerOffsets>
+                <stackZOffset>4</stackZOffset>
+                <overlayTexPath>Things/Building/AssaultDriller/AssaultDriller_Fence</overlayTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>
