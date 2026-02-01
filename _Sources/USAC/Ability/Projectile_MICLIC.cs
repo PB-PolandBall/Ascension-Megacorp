@@ -7,6 +7,7 @@ using System.Linq;
 namespace USAC
 {
     // 定义火箭排雷索弹体逻辑
+    [StaticConstructorOnStartup]
     public class Projectile_MICLIC : Projectile_Explosive
     {
         private List<MineClearingLineSegment> segments = new List<MineClearingLineSegment>();

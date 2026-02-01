@@ -7,6 +7,7 @@ using System.Linq;
 namespace USAC
 {
     // 定义全程牵引物逻辑
+    [StaticConstructorOnStartup]
     public class Projectile_MICLIC_Towed : Projectile_Explosive
     {
         private class TowedNode

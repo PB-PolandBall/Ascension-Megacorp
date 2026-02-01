@@ -6,6 +6,7 @@ using System.Collections.Generic;
 namespace USAC
 {
     // 定义排雷索分段逻辑
+    [StaticConstructorOnStartup]
     public class MineClearingLineSegment : Thing
     {
         private int explosionTicks = -1;
