@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: full power rifle bullet -->
+  <USAC_Bullet_FullPowerRifle.label>full power rifle bullet</USAC_Bullet_FullPowerRifle.label>
+  
+  <!-- EN: advanced auto rifle -->
+  <USAC_Gun_AssaultRifle.label>advanced auto rifle</USAC_Gun_AssaultRifle.label>
+  <!-- EN: An advanced precision rifle that strikes a good balance between accuracy, power and weight. Its full-power ammunition can effectively penetrate conventional bulletproof plates and cause effective damage, but its firing interval is relatively slow. -->
+  <USAC_Gun_AssaultRifle.description>An advanced precision rifle that strikes a good balance between accuracy, power and weight. Its full-power ammunition can effectively penetrate conventional bulletproof plates and cause effective damage, but its firing interval is relatively slow.</USAC_Gun_AssaultRifle.description>
+  <!-- EN: stock -->
+  <USAC_Gun_AssaultRifle.tools.stock.label>stock</USAC_Gun_AssaultRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <USAC_Gun_AssaultRifle.tools.barrel.label>barrel</USAC_Gun_AssaultRifle.tools.barrel.label>
+  <!-- EN: advanced auto rifle -->
+  <USAC_Gun_AssaultRifle.verbs.Verb_Shoot.label>advanced auto rifle</USAC_Gun_AssaultRifle.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Advanced LMG -->
+  <USAC_Gun_LightMachinegun.label>Advanced LMG</USAC_Gun_LightMachinegun.label>
+  <!-- EN: A precision rifle that has been modified to provide sustained firepower through an air-cooled barrel and belt-fed ammunition. Its full-power rounds can effectively penetrate conventional ballistic protection, but it is bulky and requires squad cover. -->
+  <USAC_Gun_LightMachinegun.description>A precision rifle that has been modified to provide sustained firepower through an air-cooled barrel and belt-fed ammunition. Its full-power rounds can effectively penetrate conventional ballistic protection, but it is bulky and requires squad cover.</USAC_Gun_LightMachinegun.description>
+  <!-- EN: stock -->
+  <USAC_Gun_LightMachinegun.tools.stock.label>stock</USAC_Gun_LightMachinegun.tools.stock.label>
+  <!-- EN: barrel -->
+  <USAC_Gun_LightMachinegun.tools.barrel.label>barrel</USAC_Gun_LightMachinegun.tools.barrel.label>
+  <!-- EN: Advanced LMG -->
+  <USAC_Gun_LightMachinegun.verbs.Verb_Shoot.label>Advanced LMG</USAC_Gun_LightMachinegun.verbs.Verb_Shoot.label>
+  
+  <!-- EN: advanced marksman rifle -->
+  <USAC_Gun_MarksmanRifle.label>advanced marksman rifle</USAC_Gun_MarksmanRifle.label>
+  <!-- EN: A modified precision rifle designed for long-range burst fire, using full-power ammunition that can effectively penetrate conventional ballistic protection at long range, making it an ideal marksman rifle. -->
+  <USAC_Gun_MarksmanRifle.description>A modified precision rifle designed for long-range burst fire, using full-power ammunition that can effectively penetrate conventional ballistic protection at long range, making it an ideal marksman rifle.</USAC_Gun_MarksmanRifle.description>
+  <!-- EN: stock -->
+  <USAC_Gun_MarksmanRifle.tools.stock.label>stock</USAC_Gun_MarksmanRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <USAC_Gun_MarksmanRifle.tools.barrel.label>barrel</USAC_Gun_MarksmanRifle.tools.barrel.label>
+  <!-- EN: advanced marksman rifle -->
+  <USAC_Gun_MarksmanRifle.verbs.Verb_Shoot.label>advanced marksman rifle</USAC_Gun_MarksmanRifle.verbs.Verb_Shoot.label>
+  
+</LanguageData>

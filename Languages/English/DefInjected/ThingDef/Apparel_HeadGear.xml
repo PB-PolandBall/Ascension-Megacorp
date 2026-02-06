@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Assault helmet -->
+  <USAC_Apparel_AssaultHelmet.label>Assault helmet</USAC_Apparel_AssaultHelmet.label>
+  <!-- EN: todo -->
+  <USAC_Apparel_AssaultHelmet.description>todo</USAC_Apparel_AssaultHelmet.description>
+  
+  <!-- EN: Heavy helmet -->
+  <USAC_Apparel_HeavyHelmet.label>Heavy helmet</USAC_Apparel_HeavyHelmet.label>
+  <!-- EN: todo -->
+  <USAC_Apparel_HeavyHelmet.description>todo</USAC_Apparel_HeavyHelmet.description>
+  
+  <!-- EN: Gladiator helmet -->
+  <USAC_Apparel_MeleeHelmet.label>Gladiator helmet</USAC_Apparel_MeleeHelmet.label>
+  <!-- EN: todo -->
+  <USAC_Apparel_MeleeHelmet.description>todo</USAC_Apparel_MeleeHelmet.description>
+  
+  <!-- EN: Night vision helmet -->
+  <USAC_Apparel_NightVisionHelmet.label>Night vision helmet</USAC_Apparel_NightVisionHelmet.label>
+  <!-- EN: todo -->
+  <USAC_Apparel_NightVisionHelmet.description>todo</USAC_Apparel_NightVisionHelmet.description>
+  
+</LanguageData>

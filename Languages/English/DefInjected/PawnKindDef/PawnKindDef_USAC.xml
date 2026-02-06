@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: elite -->
+  <USAC_Elite.label>elite</USAC_Elite.label>
+  <!-- EN: elites -->
+  <USAC_Elite.labelPlural>elites</USAC_Elite.labelPlural>
+  
+  <!-- EN: executive -->
+  <USAC_Executive.label>executive</USAC_Executive.label>
+  <!-- EN: executives -->
+  <USAC_Executive.labelPlural>executives</USAC_Executive.labelPlural>
+  
+  <!-- EN: heavy -->
+  <USAC_Heavy.label>heavy</USAC_Heavy.label>
+  <!-- EN: heavies -->
+  <USAC_Heavy.labelPlural>heavies</USAC_Heavy.labelPlural>
+  
+  <!-- EN: rifleman -->
+  <USAC_Rifleman.label>rifleman</USAC_Rifleman.label>
+  <!-- EN: riflemen -->
+  <USAC_Rifleman.labelPlural>riflemen</USAC_Rifleman.labelPlural>
+  
+  <!-- EN: sniper -->
+  <USAC_Sniper.label>sniper</USAC_Sniper.label>
+  <!-- EN: snipers -->
+  <USAC_Sniper.labelPlural>snipers</USAC_Sniper.labelPlural>
+  
+</LanguageData>

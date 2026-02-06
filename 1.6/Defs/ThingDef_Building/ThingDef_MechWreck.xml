@@ -90,10 +90,10 @@
     </costList>
   </ThingDef>
 
-  <!-- X-3 Gonk 残骸 -->
+  <!-- XM3 Gonk 残骸 -->
   <ThingDef ParentName="USAC_BaseMechWreck">
     <defName>USAC_Wreck_Gonk</defName>
-    <label>X-3 Gonk wreck</label>
+    <label>XM3 Gonk wreck</label>
     <graphicData>
       <texPath>Things/Mech/gonk</texPath>
       <graphicClass>Graphic_Multi</graphicClass>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: mechlink kill switch -->
+  <USAC_TempMechlinkKillSwitch.label>mechlink kill switch</USAC_TempMechlinkKillSwitch.label>
+  <!-- EN: Destroys the mechlink upon user death by overloading the interface. -->
+  <USAC_TempMechlinkKillSwitch.description>Destroys the mechlink upon user death by overloading the interface.</USAC_TempMechlinkKillSwitch.description>
+  
+  <!-- EN: temporary mechlink -->
+  <USAC_TempMechlinkTrigger.label>temporary mechlink</USAC_TempMechlinkTrigger.label>
+  <!-- EN: Subscription-based bandwidth control service via USAC satellite network. Provides 6 bandwidth. Lost upon brain death or service expiration. -->
+  <USAC_TempMechlinkTrigger.description>Subscription-based bandwidth control service via USAC satellite network. Provides 6 bandwidth. Lost upon brain death or service expiration.</USAC_TempMechlinkTrigger.description>
+  
+</LanguageData>

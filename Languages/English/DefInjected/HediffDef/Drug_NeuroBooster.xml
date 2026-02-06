@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: neuro-booster dependence -->
+  <USAC_NeuroBoosterAddiction.label>neuro-booster dependence</USAC_NeuroBoosterAddiction.label>
+  <!-- EN: Permanent alteration of neural pathways. Withdrawal causes severe instability and lethal neural collapse. -->
+  <USAC_NeuroBoosterAddiction.description>Permanent alteration of neural pathways. Withdrawal causes severe instability and lethal neural collapse.</USAC_NeuroBoosterAddiction.description>
+  <!-- EN: unmet -->
+  <USAC_NeuroBoosterAddiction.stages.unmet.label>unmet</USAC_NeuroBoosterAddiction.stages.unmet.label>
+  
+  <!-- EN: neural enhancement -->
+  <USAC_NeuroBoosterHigh.label>neural enhancement</USAC_NeuroBoosterHigh.label>
+  <!-- EN: Enhanced neural pathways via nanomachines. Increases bandwidth and consciousness at the cost of pain. -->
+  <USAC_NeuroBoosterHigh.description>Enhanced neural pathways via nanomachines. Increases bandwidth and consciousness at the cost of pain.</USAC_NeuroBoosterHigh.description>
+  <!-- EN: layer 1 -->
+  <USAC_NeuroBoosterHigh.stages.layer_1.label>layer 1</USAC_NeuroBoosterHigh.stages.layer_1.label>
+  <!-- EN: layer 2 -->
+  <USAC_NeuroBoosterHigh.stages.layer_2.label>layer 2</USAC_NeuroBoosterHigh.stages.layer_2.label>
+  <!-- EN: layer 3 -->
+  <USAC_NeuroBoosterHigh.stages.layer_3.label>layer 3</USAC_NeuroBoosterHigh.stages.layer_3.label>
+  <!-- EN: layer 4 -->
+  <USAC_NeuroBoosterHigh.stages.layer_4.label>layer 4</USAC_NeuroBoosterHigh.stages.layer_4.label>
+  <!-- EN: layer 5 -->
+  <USAC_NeuroBoosterHigh.stages.layer_5.label>layer 5</USAC_NeuroBoosterHigh.stages.layer_5.label>
+  <!-- EN: layer 6 -->
+  <USAC_NeuroBoosterHigh.stages.layer_6.label>layer 6</USAC_NeuroBoosterHigh.stages.layer_6.label>
+  <!-- EN: layer 7 -->
+  <USAC_NeuroBoosterHigh.stages.layer_7.label>layer 7</USAC_NeuroBoosterHigh.stages.layer_7.label>
+  <!-- EN: layer 8 -->
+  <USAC_NeuroBoosterHigh.stages.layer_8.label>layer 8</USAC_NeuroBoosterHigh.stages.layer_8.label>
+  <!-- EN: layer 9 -->
+  <USAC_NeuroBoosterHigh.stages.layer_9.label>layer 9</USAC_NeuroBoosterHigh.stages.layer_9.label>
+  <!-- EN: layer 10 -->
+  <USAC_NeuroBoosterHigh.stages.layer_10.label>layer 10</USAC_NeuroBoosterHigh.stages.layer_10.label>
+  <!-- EN: layer 11 -->
+  <USAC_NeuroBoosterHigh.stages.layer_11.label>layer 11</USAC_NeuroBoosterHigh.stages.layer_11.label>
+  <!-- EN: layer 12 -->
+  <USAC_NeuroBoosterHigh.stages.layer_12.label>layer 12</USAC_NeuroBoosterHigh.stages.layer_12.label>
+  <!-- EN: layer 13 -->
+  <USAC_NeuroBoosterHigh.stages.layer_13.label>layer 13</USAC_NeuroBoosterHigh.stages.layer_13.label>
+  <!-- EN: layer 14 -->
+  <USAC_NeuroBoosterHigh.stages.layer_14.label>layer 14</USAC_NeuroBoosterHigh.stages.layer_14.label>
+  <!-- EN: layer 15 -->
+  <USAC_NeuroBoosterHigh.stages.layer_15.label>layer 15</USAC_NeuroBoosterHigh.stages.layer_15.label>
+  <!-- EN: layer 16 -->
+  <USAC_NeuroBoosterHigh.stages.layer_16.label>layer 16</USAC_NeuroBoosterHigh.stages.layer_16.label>
+  <!-- EN: layer 17 -->
+  <USAC_NeuroBoosterHigh.stages.layer_17.label>layer 17</USAC_NeuroBoosterHigh.stages.layer_17.label>
+  <!-- EN: layer 18 -->
+  <USAC_NeuroBoosterHigh.stages.layer_18.label>layer 18</USAC_NeuroBoosterHigh.stages.layer_18.label>
+  <!-- EN: layer 19 -->
+  <USAC_NeuroBoosterHigh.stages.layer_19.label>layer 19</USAC_NeuroBoosterHigh.stages.layer_19.label>
+  <!-- EN: layer 20 -->
+  <USAC_NeuroBoosterHigh.stages.layer_20.label>layer 20</USAC_NeuroBoosterHigh.stages.layer_20.label>
+  
+</LanguageData>

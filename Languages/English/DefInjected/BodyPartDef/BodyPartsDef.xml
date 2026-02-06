@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: armour plate -->
+  <USAC_ArmourPlate.label>armour plate</USAC_ArmourPlate.label>
+  
+  <!-- EN: Battery -->
+  <USAC_Battery.label>Battery</USAC_Battery.label>
+  
+  <!-- EN: chassis -->
+  <USAC_Chassis.label>chassis</USAC_Chassis.label>
+  
+  <!-- EN: integrated sensor -->
+  <USAC_CompactSenser.label>integrated sensor</USAC_CompactSenser.label>
+  
+  <!-- EN: phased scanning sensor -->
+  <USAC_HeadRadar.label>phased scanning sensor</USAC_HeadRadar.label>
+  
+  <!-- EN: chassis -->
+  <USAC_HeavyChassis.label>chassis</USAC_HeavyChassis.label>
+  
+</LanguageData>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 占位符 -->
+  <USAC_MICLIC.label>占位符</USAC_MICLIC.label>
+  <!-- EN: 占位符 -->
+  <USAC_MICLIC.description>占位符</USAC_MICLIC.description>
+  
+  <!-- EN: towed mineclearing line -->
+  <USAC_MICLIC_Towed.label>towed mineclearing line</USAC_MICLIC_Towed.label>
+  <!-- EN: Launch a rocket that tows a continuous demolition cable behind it. Upon impact, the cable detonates along its entire path to clear mines. -->
+  <USAC_MICLIC_Towed.description>Launch a rocket that tows a continuous demolition cable behind it. Upon impact, the cable detonates along its entire path to clear mines.</USAC_MICLIC_Towed.description>
+  
+  <!-- EN: mineclearing shovel -->
+  <USAC_MineclearingShovel.label>mineclearing shovel</USAC_MineclearingShovel.label>
+  <!-- EN: The mech dashes forward to the target location and releases two powerful fan-shaped explosions along the path to clear mines and obstacles. -->
+  <USAC_MineclearingShovel.description>The mech dashes forward to the target location and releases two powerful fan-shaped explosions along the path to clear mines and obstacles.</USAC_MineclearingShovel.description>
+  
+</LanguageData>

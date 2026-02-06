@@ -226,7 +226,7 @@
     <weaponMoney>700~1800</weaponMoney>
   </PawnKindDef>
 
-  <!-- ==================== X-3 "Gonk" ==================== -->
+  <!-- ==================== XM3 "Gonk" ==================== -->
   <ThingDef ParentName="USAC_BaseQuadMech">
     <defName>USAC_Mech_Gonk</defName>
     <label>XM3 "Gonk"</label>

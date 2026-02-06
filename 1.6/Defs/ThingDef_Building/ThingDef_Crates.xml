@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <!-- 空物资箱基类 (打开后留下的装饰/掩体) -->
+    <!-- 空物資箱基類 (打開後留下的裝飾/掩體) -->
     <ThingDef Name="USAC_EmptyCrateBase" ParentName="BuildingBase" Abstract="True">
         <thingClass>Building</thingClass>
         <category>Building</category>
@@ -29,13 +29,13 @@
         </building>
     </ThingDef>
 
-    <!-- 空物资箱 (S) -->
+    <!-- 空物資箱 (S) -->
     <ThingDef ParentName="USAC_EmptyCrateBase">
         <defName>USAC_Crate_Small_Empty</defName>
         <label>empty USAC supply crate (S)</label>
         <description>An empty USAC supply crate. Provides some cover.</description>
         <graphicData>
-            <texPath>Things/Building/Crate/USAC_Crate_Small</texPath>
+            <texPath>Things/Building/Crate/USAC_CrateEmpty_Small</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>(1,1)</drawSize>
             <color>(1,1,1,0.7)</color> <!-- 稍淡一些表示已空 -->
@@ -43,14 +43,13 @@
         <size>(1,1)</size>
         <fillPercent>0.3</fillPercent>
     </ThingDef>
-
-    <!-- 空物资箱 (M) -->
+    <!-- 空物資箱 (M) -->
     <ThingDef ParentName="USAC_EmptyCrateBase">
         <defName>USAC_Crate_Medium_Empty</defName>
         <label>empty USAC supply crate (M)</label>
         <description>An empty USAC supply crate. Provides some cover.</description>
         <graphicData>
-            <texPath>Things/Building/Crate/USAC_Crate_Medium</texPath>
+            <texPath>Things/Building/Crate/USAC_CrateEmpty_Medium</texPath>
             <graphicClass>Graphic_Multi</graphicClass>
             <drawSize>(2,1)</drawSize>
             <color>(1,1,1,0.7)</color>
@@ -59,14 +58,13 @@
         <fillPercent>0.35</fillPercent>
         <rotatable>true</rotatable>
     </ThingDef>
-
-    <!-- 空物资箱 (L) -->
+    <!-- 空物資箱 (L) -->
     <ThingDef ParentName="USAC_EmptyCrateBase">
         <defName>USAC_Crate_Large_Empty</defName>
         <label>empty USAC supply crate (L)</label>
         <description>An empty USAC supply crate. Provides some cover.</description>
         <graphicData>
-            <texPath>Things/Building/Crate/USAC_Crate_Large</texPath>
+            <texPath>Things/Building/Crate/USAC_CrateEmpty_Large</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>(2,2)</drawSize>
             <color>(1,1,1,0.7)</color>
@@ -75,7 +73,7 @@
         <fillPercent>0.4</fillPercent>
     </ThingDef>
 
-    <!-- 空降物资箱基类 (满) -->
+    <!-- 空降物資箱基類 (滿) -->
     <ThingDef Name="USAC_CrateBase" ParentName="BuildingBase" Abstract="True">
         <thingClass>USAC.Building_Crate</thingClass>
         <category>Building</category>
@@ -99,7 +97,7 @@
         </statBases>
         <building>
             <claimable>true</claimable>
-            <deconstructible>false</deconstructible> <!-- 满的不能直接拆解，只能打开 -->
+            <deconstructible>false</deconstructible> <!-- 滿的不能直接拆解，只能打開 -->
             <repairable>false</repairable>
         </building>
         <comps>
@@ -107,7 +105,7 @@
         </comps>
     </ThingDef>
 
-    <!-- 空降物资箱 (S) - 1x1 -->
+    <!-- 空降物資箱 (S) - 1x1 -->
     <ThingDef ParentName="USAC_CrateBase">
         <defName>USAC_Crate_Small</defName>
         <label>USAC supply crate (S)</label>
@@ -133,7 +131,7 @@
                             </li>
                         </items>
                     </li>
-                    <!-- 25% 1 强化剂 -->
+                    <!-- 25% 1 強化劑 -->
                     <li>
                         <chance>0.25</chance>
                         <items>
@@ -144,7 +142,7 @@
                             </li>
                         </items>
                     </li>
-                    <!-- 24% 1 一次性电池 or 一次性维修包 -->
+                    <!-- 24% 1 一次性電池 or 一次性維修包 -->
                     <li>
                         <chance>0.24</chance>
                         <items>
@@ -162,7 +160,7 @@
                             </li>
                         </items>
                     </li>
-                    <!-- 1% 1~2 信用债券 -->
+                    <!-- 1% 1~2 信用債券 -->
                     <li>
                         <chance>0.01</chance>
                         <items>
@@ -178,7 +176,7 @@
         </modExtensions>
     </ThingDef>
 
-    <!-- 空降物资箱 (M) - 2x1 -->
+    <!-- 空降物資箱 (M) - 2x1 -->
     <ThingDef ParentName="USAC_CrateBase">
         <defName>USAC_Crate_Medium</defName>
         <label>USAC supply crate (M)</label>
@@ -212,7 +210,7 @@
                             </li>
                         </items>
                     </li>
-                    <!-- 20% 8~12 医疗包 or 生存食品包 -->
+                    <!-- 20% 8~12 醫療包 or 生存食品包 -->
                     <li>
                         <chance>0.2</chance>
                         <items>
@@ -230,7 +228,7 @@
                             </li>
                         </items>
                     </li>
-                    <!-- 10% 2~4 一次性电池 or 一次性维修包 -->
+                    <!-- 10% 2~4 一次性電池 or 一次性維修包 -->
                     <li>
                         <chance>0.1</chance>
                         <items>
@@ -248,7 +246,7 @@
                             </li>
                         </items>
                     </li>
-                    <!-- 5% 2~4 强化剂 -->
+                    <!-- 5% 2~4 強化劑 -->
                     <li>
                         <chance>0.05</chance>
                         <items>
@@ -259,7 +257,7 @@
                             </li>
                         </items>
                     </li>
-                    <!-- 5% 1 临时机控 (USAC物品) -->
+                    <!-- 5% 1 臨時機控 (USAC物品) -->
                     <li>
                         <chance>0.05</chance>
                         <items>
@@ -275,7 +273,7 @@
         </modExtensions>
     </ThingDef>
 
-    <!-- 空降物资箱 (L) - 2x2 -->
+    <!-- 空降物資箱 (L) - 2x2 -->
     <ThingDef ParentName="USAC_CrateBase">
         <defName>USAC_Crate_Large</defName>
         <label>USAC supply crate (L)</label>
@@ -290,7 +288,7 @@
             <li Class="USAC.CrateExtension">
                 <emptyDef>USAC_Crate_Large_Empty</emptyDef>
                 <lootGroups>
-                    <!-- 20% 30~60 (任意)成瘾品 (Yayo, Flake, GoJuice, Beer) -->
+                    <!-- 20% 30~60 (任意)成癮品 (Yayo, Flake, GoJuice, Beer) -->
                     <li>
                         <chance>0.2</chance>
                         <items>
@@ -355,7 +353,7 @@
                             </li>
                         </items>
                     </li>
-                    <!-- 10% 1~2 短号 导弹 (古机联动: DMSAC_StugnaATGM) -->
+                    <!-- 10% 1~2 短號 導彈 (古機聯動: DMSAC_StugnaATGM) -->
                     <li MayRequire="DMS.DeadManSwitch.AncientCorps">
                         <chance>0.1</chance>
                         <items>
@@ -366,7 +364,7 @@
                             </li>
                         </items>
                     </li>
-                    <!-- 2% 1~2 临时机控 (USAC物品) -->
+                    <!-- 2% 1~2 臨時機控 (USAC物品) -->
                     <li>
                         <chance>0.02</chance>
                         <items>

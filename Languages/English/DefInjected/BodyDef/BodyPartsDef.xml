@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: bipedal -->
+  <USAC_Bipedal.label>bipedal</USAC_Bipedal.label>
+  <!-- EN: top searching sensor -->
+  <USAC_Bipedal.corePart.parts.top_searching_sensor.customLabel>top searching sensor</USAC_Bipedal.corePart.parts.top_searching_sensor.customLabel>
+  <!-- EN: central sight sensor -->
+  <USAC_Bipedal.corePart.parts.top_searching_sensor.parts.central_sight_sensor.customLabel>central sight sensor</USAC_Bipedal.corePart.parts.top_searching_sensor.parts.central_sight_sensor.customLabel>
+  <!-- EN: central hearing sensor -->
+  <USAC_Bipedal.corePart.parts.top_searching_sensor.parts.central_hearing_sensor.customLabel>central hearing sensor</USAC_Bipedal.corePart.parts.top_searching_sensor.parts.central_hearing_sensor.customLabel>
+  <!-- EN: main searching sensor -->
+  <USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.main_searching_sensor.customLabel>main searching sensor</USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.main_searching_sensor.customLabel>
+  <!-- EN: central sight sensor -->
+  <USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.main_searching_sensor.parts.central_sight_sensor.customLabel>central sight sensor</USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.main_searching_sensor.parts.central_sight_sensor.customLabel>
+  <!-- EN: phased array radar -->
+  <USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.main_searching_sensor.parts.phased_array_radar.customLabel>phased array radar</USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.main_searching_sensor.parts.phased_array_radar.customLabel>
+  <!-- EN: left hearing sensor -->
+  <USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.main_searching_sensor.parts.left_hearing_sensor.customLabel>left hearing sensor</USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.main_searching_sensor.parts.left_hearing_sensor.customLabel>
+  <!-- EN: right hearing sensor -->
+  <USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.main_searching_sensor.parts.right_hearing_sensor.customLabel>right hearing sensor</USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.main_searching_sensor.parts.right_hearing_sensor.customLabel>
+  <!-- EN: left weapon mount -->
+  <USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.left_weapon_mount.customLabel>left weapon mount</USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.left_weapon_mount.customLabel>
+  <!-- EN: horizontal rotor -->
+  <USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.left_weapon_mount.parts.horizontal_rotor.customLabel>horizontal rotor</USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.left_weapon_mount.parts.horizontal_rotor.customLabel>
+  <!-- EN: vertical rotor -->
+  <USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.left_weapon_mount.parts.horizontal_rotor.parts.vertical_rotor.customLabel>vertical rotor</USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.left_weapon_mount.parts.horizontal_rotor.parts.vertical_rotor.customLabel>
+  <!-- EN: ammo feeder -->
+  <USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.left_weapon_mount.parts.horizontal_rotor.parts.vertical_rotor.parts.ammo_feeder.customLabel>ammo feeder</USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.left_weapon_mount.parts.horizontal_rotor.parts.vertical_rotor.parts.ammo_feeder.customLabel>
+  <!-- EN: range finder -->
+  <USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.left_weapon_mount.parts.horizontal_rotor.parts.vertical_rotor.parts.range_finder.customLabel>range finder</USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.left_weapon_mount.parts.horizontal_rotor.parts.vertical_rotor.parts.range_finder.customLabel>
+  <!-- EN: trigger safety -->
+  <USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.left_weapon_mount.parts.horizontal_rotor.parts.vertical_rotor.parts.trigger_safety.customLabel>trigger safety</USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.left_weapon_mount.parts.horizontal_rotor.parts.vertical_rotor.parts.trigger_safety.customLabel>
+  <!-- EN: mount lock -->
+  <USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.left_weapon_mount.parts.horizontal_rotor.parts.vertical_rotor.parts.mount_lock.customLabel>mount lock</USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.left_weapon_mount.parts.horizontal_rotor.parts.vertical_rotor.parts.mount_lock.customLabel>
+  <!-- EN: right weapon mount -->
+  <USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.right_weapon_mount.customLabel>right weapon mount</USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.right_weapon_mount.customLabel>
+  <!-- EN: horizontal rotor -->
+  <USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.right_weapon_mount.parts.horizontal_rotor.customLabel>horizontal rotor</USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.right_weapon_mount.parts.horizontal_rotor.customLabel>
+  <!-- EN: vertical rotor -->
+  <USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.right_weapon_mount.parts.horizontal_rotor.parts.vertical_rotor.customLabel>vertical rotor</USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.right_weapon_mount.parts.horizontal_rotor.parts.vertical_rotor.customLabel>
+  <!-- EN: ammo feeder -->
+  <USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.right_weapon_mount.parts.horizontal_rotor.parts.vertical_rotor.parts.ammo_feeder.customLabel>ammo feeder</USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.right_weapon_mount.parts.horizontal_rotor.parts.vertical_rotor.parts.ammo_feeder.customLabel>
+  <!-- EN: range finder -->
+  <USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.right_weapon_mount.parts.horizontal_rotor.parts.vertical_rotor.parts.range_finder.customLabel>range finder</USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.right_weapon_mount.parts.horizontal_rotor.parts.vertical_rotor.parts.range_finder.customLabel>
+  <!-- EN: weapon safety -->
+  <USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.right_weapon_mount.parts.horizontal_rotor.parts.vertical_rotor.parts.weapon_safety.customLabel>weapon safety</USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.right_weapon_mount.parts.horizontal_rotor.parts.vertical_rotor.parts.weapon_safety.customLabel>
+  <!-- EN: mount lock -->
+  <USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.right_weapon_mount.parts.horizontal_rotor.parts.vertical_rotor.parts.mount_lock.customLabel>mount lock</USAC_Bipedal.corePart.parts.USAC_HeadRadar.parts.right_weapon_mount.parts.horizontal_rotor.parts.vertical_rotor.parts.mount_lock.customLabel>
+  <!-- EN: left leg -->
+  <USAC_Bipedal.corePart.parts.left_leg.customLabel>left leg</USAC_Bipedal.corePart.parts.left_leg.customLabel>
+  <!-- EN: leg armour plate -->
+  <USAC_Bipedal.corePart.parts.left_leg.parts.leg_armour_plate.customLabel>leg armour plate</USAC_Bipedal.corePart.parts.left_leg.parts.leg_armour_plate.customLabel>
+  <!-- EN: left foot -->
+  <USAC_Bipedal.corePart.parts.left_leg.parts.left_foot.customLabel>left foot</USAC_Bipedal.corePart.parts.left_leg.parts.left_foot.customLabel>
+  <!-- EN: right leg -->
+  <USAC_Bipedal.corePart.parts.right_leg.customLabel>right leg</USAC_Bipedal.corePart.parts.right_leg.customLabel>
+  <!-- EN: leg armour plate -->
+  <USAC_Bipedal.corePart.parts.right_leg.parts.leg_armour_plate.customLabel>leg armour plate</USAC_Bipedal.corePart.parts.right_leg.parts.leg_armour_plate.customLabel>
+  <!-- EN: right foot -->
+  <USAC_Bipedal.corePart.parts.right_leg.parts.right_foot.customLabel>right foot</USAC_Bipedal.corePart.parts.right_leg.parts.right_foot.customLabel>
+  <!-- EN: waist armour plate -->
+  <USAC_Bipedal.corePart.parts.waist_armour_plate.customLabel>waist armour plate</USAC_Bipedal.corePart.parts.waist_armour_plate.customLabel>
+  <!-- EN: chest armour plate -->
+  <USAC_Bipedal.corePart.parts.chest_armour_plate.customLabel>chest armour plate</USAC_Bipedal.corePart.parts.chest_armour_plate.customLabel>
+  <!-- EN: main battery array -->
+  <USAC_Bipedal.corePart.parts.main_battery_array.customLabel>main battery array</USAC_Bipedal.corePart.parts.main_battery_array.customLabel>
+  <!-- EN: secondary battery array -->
+  <USAC_Bipedal.corePart.parts.secondary_battery_array.customLabel>secondary battery array</USAC_Bipedal.corePart.parts.secondary_battery_array.customLabel>
+  
+  <!-- EN: quadruped -->
+  <USAC_Hound.label>quadruped</USAC_Hound.label>
+  <!-- EN: central sight sensor -->
+  <USAC_Hound.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.central_sight_sensor.customLabel>central sight sensor</USAC_Hound.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.central_sight_sensor.customLabel>
+  <!-- EN: infrared sensor -->
+  <USAC_Hound.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.infrared_sensor.customLabel>infrared sensor</USAC_Hound.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.infrared_sensor.customLabel>
+  <!-- EN: left hearing sensor -->
+  <USAC_Hound.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>left hearing sensor</USAC_Hound.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>
+  <!-- EN: right hearing sensor -->
+  <USAC_Hound.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>right hearing sensor</USAC_Hound.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>
+  <!-- EN: robotic arm -->
+  <USAC_Hound.corePart.parts.robotic_arm.customLabel>robotic arm</USAC_Hound.corePart.parts.robotic_arm.customLabel>
+  <!-- EN: robotic hand -->
+  <USAC_Hound.corePart.parts.robotic_arm.parts.robotic_hand.customLabel>robotic hand</USAC_Hound.corePart.parts.robotic_arm.parts.robotic_hand.customLabel>
+  <!-- EN: pinky -->
+  <USAC_Hound.corePart.parts.robotic_arm.parts.robotic_hand.parts.pinky.customLabel>pinky</USAC_Hound.corePart.parts.robotic_arm.parts.robotic_hand.parts.pinky.customLabel>
+  <!-- EN: middle finger -->
+  <USAC_Hound.corePart.parts.robotic_arm.parts.robotic_hand.parts.middle_finger.customLabel>middle finger</USAC_Hound.corePart.parts.robotic_arm.parts.robotic_hand.parts.middle_finger.customLabel>
+  <!-- EN: index finger -->
+  <USAC_Hound.corePart.parts.robotic_arm.parts.robotic_hand.parts.index_finger.customLabel>index finger</USAC_Hound.corePart.parts.robotic_arm.parts.robotic_hand.parts.index_finger.customLabel>
+  <!-- EN: thumb -->
+  <USAC_Hound.corePart.parts.robotic_arm.parts.robotic_hand.parts.thumb.customLabel>thumb</USAC_Hound.corePart.parts.robotic_arm.parts.robotic_hand.parts.thumb.customLabel>
+  <!-- EN: main battery -->
+  <USAC_Hound.corePart.parts.main_battery.customLabel>main battery</USAC_Hound.corePart.parts.main_battery.customLabel>
+  <!-- EN: left front leg -->
+  <USAC_Hound.corePart.parts.left_front_leg.customLabel>left front leg</USAC_Hound.corePart.parts.left_front_leg.customLabel>
+  <!-- EN: left front foot -->
+  <USAC_Hound.corePart.parts.left_front_leg.parts.left_front_foot.customLabel>left front foot</USAC_Hound.corePart.parts.left_front_leg.parts.left_front_foot.customLabel>
+  <!-- EN: left back leg -->
+  <USAC_Hound.corePart.parts.left_back_leg.customLabel>left back leg</USAC_Hound.corePart.parts.left_back_leg.customLabel>
+  <!-- EN: left back foot -->
+  <USAC_Hound.corePart.parts.left_back_leg.parts.left_back_foot.customLabel>left back foot</USAC_Hound.corePart.parts.left_back_leg.parts.left_back_foot.customLabel>
+  <!-- EN: right front leg -->
+  <USAC_Hound.corePart.parts.right_front_leg.customLabel>right front leg</USAC_Hound.corePart.parts.right_front_leg.customLabel>
+  <!-- EN: right front foot -->
+  <USAC_Hound.corePart.parts.right_front_leg.parts.right_front_foot.customLabel>right front foot</USAC_Hound.corePart.parts.right_front_leg.parts.right_front_foot.customLabel>
+  <!-- EN: right back leg -->
+  <USAC_Hound.corePart.parts.right_back_leg.customLabel>right back leg</USAC_Hound.corePart.parts.right_back_leg.customLabel>
+  <!-- EN: right back foot -->
+  <USAC_Hound.corePart.parts.right_back_leg.parts.right_back_foot.customLabel>right back foot</USAC_Hound.corePart.parts.right_back_leg.parts.right_back_foot.customLabel>
+  
+  <!-- EN: erectus soldat -->
+  <USAC_Humanoid_Soldat.label>erectus soldat</USAC_Humanoid_Soldat.label>
+  <!-- EN: central sight sensor -->
+  <USAC_Humanoid_Soldat.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.central_sight_sensor.customLabel>central sight sensor</USAC_Humanoid_Soldat.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.central_sight_sensor.customLabel>
+  <!-- EN: left sight sensor -->
+  <USAC_Humanoid_Soldat.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>left sight sensor</USAC_Humanoid_Soldat.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>
+  <!-- EN: right sight sensor -->
+  <USAC_Humanoid_Soldat.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_sight_sensor.customLabel>right sight sensor</USAC_Humanoid_Soldat.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_sight_sensor.customLabel>
+  <!-- EN: left hearing sensor -->
+  <USAC_Humanoid_Soldat.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>left hearing sensor</USAC_Humanoid_Soldat.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>
+  <!-- EN: right hearing sensor -->
+  <USAC_Humanoid_Soldat.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>right hearing sensor</USAC_Humanoid_Soldat.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>
+  <!-- EN: left shoulder -->
+  <USAC_Humanoid_Soldat.corePart.parts.left_shoulder.customLabel>left shoulder</USAC_Humanoid_Soldat.corePart.parts.left_shoulder.customLabel>
+  <!-- EN: left arm -->
+  <USAC_Humanoid_Soldat.corePart.parts.left_shoulder.parts.left_arm.customLabel>left arm</USAC_Humanoid_Soldat.corePart.parts.left_shoulder.parts.left_arm.customLabel>
+  <!-- EN: left hand -->
+  <USAC_Humanoid_Soldat.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>left hand</USAC_Humanoid_Soldat.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>
+  <!-- EN: left pinky -->
+  <USAC_Humanoid_Soldat.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>left pinky</USAC_Humanoid_Soldat.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>
+  <!-- EN: left middle finger -->
+  <USAC_Humanoid_Soldat.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>left middle finger</USAC_Humanoid_Soldat.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>
+  <!-- EN: left index finger -->
+  <USAC_Humanoid_Soldat.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>left index finger</USAC_Humanoid_Soldat.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>
+  <!-- EN: left thumb -->
+  <USAC_Humanoid_Soldat.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>left thumb</USAC_Humanoid_Soldat.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>
+  <!-- EN: right mechanical shoulder -->
+  <USAC_Humanoid_Soldat.corePart.parts.right_mechanical_shoulder.customLabel>right mechanical shoulder</USAC_Humanoid_Soldat.corePart.parts.right_mechanical_shoulder.customLabel>
+  <!-- EN: right arm -->
+  <USAC_Humanoid_Soldat.corePart.parts.right_mechanical_shoulder.parts.right_arm.customLabel>right arm</USAC_Humanoid_Soldat.corePart.parts.right_mechanical_shoulder.parts.right_arm.customLabel>
+  <!-- EN: right hand -->
+  <USAC_Humanoid_Soldat.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.customLabel>right hand</USAC_Humanoid_Soldat.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.customLabel>
+  <!-- EN: right pinky -->
+  <USAC_Humanoid_Soldat.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>right pinky</USAC_Humanoid_Soldat.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>
+  <!-- EN: right middle finger -->
+  <USAC_Humanoid_Soldat.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>right middle finger</USAC_Humanoid_Soldat.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>
+  <!-- EN: right index finger -->
+  <USAC_Humanoid_Soldat.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>right index finger</USAC_Humanoid_Soldat.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>
+  <!-- EN: right thumb -->
+  <USAC_Humanoid_Soldat.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>right thumb</USAC_Humanoid_Soldat.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>
+  <!-- EN: left leg -->
+  <USAC_Humanoid_Soldat.corePart.parts.left_leg.customLabel>left leg</USAC_Humanoid_Soldat.corePart.parts.left_leg.customLabel>
+  <!-- EN: left foot -->
+  <USAC_Humanoid_Soldat.corePart.parts.left_leg.parts.left_foot.customLabel>left foot</USAC_Humanoid_Soldat.corePart.parts.left_leg.parts.left_foot.customLabel>
+  <!-- EN: right leg -->
+  <USAC_Humanoid_Soldat.corePart.parts.right_leg.customLabel>right leg</USAC_Humanoid_Soldat.corePart.parts.right_leg.customLabel>
+  <!-- EN: right foot -->
+  <USAC_Humanoid_Soldat.corePart.parts.right_leg.parts.right_foot.customLabel>right foot</USAC_Humanoid_Soldat.corePart.parts.right_leg.parts.right_foot.customLabel>
+  <!-- EN: waist armour plate -->
+  <USAC_Humanoid_Soldat.corePart.parts.waist_armour_plate.customLabel>waist armour plate</USAC_Humanoid_Soldat.corePart.parts.waist_armour_plate.customLabel>
+  <!-- EN: chest armour plate -->
+  <USAC_Humanoid_Soldat.corePart.parts.chest_armour_plate.customLabel>chest armour plate</USAC_Humanoid_Soldat.corePart.parts.chest_armour_plate.customLabel>
+  <!-- EN: main battery -->
+  <USAC_Humanoid_Soldat.corePart.parts.main_battery.customLabel>main battery</USAC_Humanoid_Soldat.corePart.parts.main_battery.customLabel>
+  <!-- EN: secondary battery -->
+  <USAC_Humanoid_Soldat.corePart.parts.secondary_battery.customLabel>secondary battery</USAC_Humanoid_Soldat.corePart.parts.secondary_battery.customLabel>
+  
+  <!-- EN: synth -->
+  <USAC_Synthroid.label>synth</USAC_Synthroid.label>
+  <!-- EN: left lung -->
+  <USAC_Synthroid.corePart.parts.left_lung.customLabel>left lung</USAC_Synthroid.corePart.parts.left_lung.customLabel>
+  <!-- EN: right lung -->
+  <USAC_Synthroid.corePart.parts.right_lung.customLabel>right lung</USAC_Synthroid.corePart.parts.right_lung.customLabel>
+  <!-- EN: left fluid reprocessor -->
+  <USAC_Synthroid.corePart.parts.left_fluid_reprocessor.customLabel>left fluid reprocessor</USAC_Synthroid.corePart.parts.left_fluid_reprocessor.customLabel>
+  <!-- EN: right fluid reprocessor -->
+  <USAC_Synthroid.corePart.parts.right_fluid_reprocessor.customLabel>right fluid reprocessor</USAC_Synthroid.corePart.parts.right_fluid_reprocessor.customLabel>
+  <!-- EN: left sight sensor -->
+  <USAC_Synthroid.corePart.parts.Neck.parts.Head.parts.left_sight_sensor.customLabel>left sight sensor</USAC_Synthroid.corePart.parts.Neck.parts.Head.parts.left_sight_sensor.customLabel>
+  <!-- EN: right sight sensor -->
+  <USAC_Synthroid.corePart.parts.Neck.parts.Head.parts.right_sight_sensor.customLabel>right sight sensor</USAC_Synthroid.corePart.parts.Neck.parts.Head.parts.right_sight_sensor.customLabel>
+  <!-- EN: left hearing sensor -->
+  <USAC_Synthroid.corePart.parts.Neck.parts.Head.parts.left_hearing_sensor.customLabel>left hearing sensor</USAC_Synthroid.corePart.parts.Neck.parts.Head.parts.left_hearing_sensor.customLabel>
+  <!-- EN: right hearing sensor -->
+  <USAC_Synthroid.corePart.parts.Neck.parts.Head.parts.right_hearing_sensor.customLabel>right hearing sensor</USAC_Synthroid.corePart.parts.Neck.parts.Head.parts.right_hearing_sensor.customLabel>
+  <!-- EN: left mechanical shoulder -->
+  <USAC_Synthroid.corePart.parts.left_mechanical_shoulder.customLabel>left mechanical shoulder</USAC_Synthroid.corePart.parts.left_mechanical_shoulder.customLabel>
+  <!-- EN: left clavicle -->
+  <USAC_Synthroid.corePart.parts.left_mechanical_shoulder.parts.left_clavicle.customLabel>left clavicle</USAC_Synthroid.corePart.parts.left_mechanical_shoulder.parts.left_clavicle.customLabel>
+  <!-- EN: left arm -->
+  <USAC_Synthroid.corePart.parts.left_mechanical_shoulder.parts.left_arm.customLabel>left arm</USAC_Synthroid.corePart.parts.left_mechanical_shoulder.parts.left_arm.customLabel>
+  <!-- EN: left humerus -->
+  <USAC_Synthroid.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_humerus.customLabel>left humerus</USAC_Synthroid.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_humerus.customLabel>
+  <!-- EN: left radius -->
+  <USAC_Synthroid.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_radius.customLabel>left radius</USAC_Synthroid.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_radius.customLabel>
+  <!-- EN: left hand -->
+  <USAC_Synthroid.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.customLabel>left hand</USAC_Synthroid.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.customLabel>
+  <!-- EN: left pinky -->
+  <USAC_Synthroid.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>left pinky</USAC_Synthroid.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>
+  <!-- EN: left ring finger -->
+  <USAC_Synthroid.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.parts.left_ring_finger.customLabel>left ring finger</USAC_Synthroid.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.parts.left_ring_finger.customLabel>
+  <!-- EN: left middle finger -->
+  <USAC_Synthroid.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>left middle finger</USAC_Synthroid.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>
+  <!-- EN: left index finger -->
+  <USAC_Synthroid.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>left index finger</USAC_Synthroid.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>
+  <!-- EN: left thumb -->
+  <USAC_Synthroid.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>left thumb</USAC_Synthroid.corePart.parts.left_mechanical_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>
+  <!-- EN: right mechanical shoulder -->
+  <USAC_Synthroid.corePart.parts.right_mechanical_shoulder.customLabel>right mechanical shoulder</USAC_Synthroid.corePart.parts.right_mechanical_shoulder.customLabel>
+  <!-- EN: right clavicle -->
+  <USAC_Synthroid.corePart.parts.right_mechanical_shoulder.parts.right_clavicle.customLabel>right clavicle</USAC_Synthroid.corePart.parts.right_mechanical_shoulder.parts.right_clavicle.customLabel>
+  <!-- EN: right arm -->
+  <USAC_Synthroid.corePart.parts.right_mechanical_shoulder.parts.right_arm.customLabel>right arm</USAC_Synthroid.corePart.parts.right_mechanical_shoulder.parts.right_arm.customLabel>
+  <!-- EN: right humerus -->
+  <USAC_Synthroid.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_humerus.customLabel>right humerus</USAC_Synthroid.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_humerus.customLabel>
+  <!-- EN: right radius -->
+  <USAC_Synthroid.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_radius.customLabel>right radius</USAC_Synthroid.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_radius.customLabel>
+  <!-- EN: right hand -->
+  <USAC_Synthroid.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.customLabel>right hand</USAC_Synthroid.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.customLabel>
+  <!-- EN: right pinky -->
+  <USAC_Synthroid.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>right pinky</USAC_Synthroid.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>
+  <!-- EN: right ring finger -->
+  <USAC_Synthroid.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_ring_finger.customLabel>right ring finger</USAC_Synthroid.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_ring_finger.customLabel>
+  <!-- EN: right middle finger -->
+  <USAC_Synthroid.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>right middle finger</USAC_Synthroid.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>
+  <!-- EN: right index finger -->
+  <USAC_Synthroid.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>right index finger</USAC_Synthroid.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>
+  <!-- EN: right thumb -->
+  <USAC_Synthroid.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>right thumb</USAC_Synthroid.corePart.parts.right_mechanical_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>
+  <!-- EN: left leg -->
+  <USAC_Synthroid.corePart.parts.left_leg.customLabel>left leg</USAC_Synthroid.corePart.parts.left_leg.customLabel>
+  <!-- EN: left femur -->
+  <USAC_Synthroid.corePart.parts.left_leg.parts.left_femur.customLabel>left femur</USAC_Synthroid.corePart.parts.left_leg.parts.left_femur.customLabel>
+  <!-- EN: left tibia -->
+  <USAC_Synthroid.corePart.parts.left_leg.parts.left_tibia.customLabel>left tibia</USAC_Synthroid.corePart.parts.left_leg.parts.left_tibia.customLabel>
+  <!-- EN: left foot -->
+  <USAC_Synthroid.corePart.parts.left_leg.parts.left_foot.customLabel>left foot</USAC_Synthroid.corePart.parts.left_leg.parts.left_foot.customLabel>
+  <!-- EN: right leg -->
+  <USAC_Synthroid.corePart.parts.right_leg.customLabel>right leg</USAC_Synthroid.corePart.parts.right_leg.customLabel>
+  <!-- EN: right femur -->
+  <USAC_Synthroid.corePart.parts.right_leg.parts.right_femur.customLabel>right femur</USAC_Synthroid.corePart.parts.right_leg.parts.right_femur.customLabel>
+  <!-- EN: right tibia -->
+  <USAC_Synthroid.corePart.parts.right_leg.parts.right_tibia.customLabel>right tibia</USAC_Synthroid.corePart.parts.right_leg.parts.right_tibia.customLabel>
+  <!-- EN: right foot -->
+  <USAC_Synthroid.corePart.parts.right_leg.parts.right_foot.customLabel>right foot</USAC_Synthroid.corePart.parts.right_leg.parts.right_foot.customLabel>
+  
+</LanguageData>

@@ -62,11 +62,11 @@
     </modExtensions>
   </ThingDef>
 
-  <!-- X-3 Gonk 订单 -->
+  <!-- XM3 Gonk 订单 -->
   <ThingDef ParentName="USAC_BaseMechOrder">
     <defName>USAC_MechOrder_Gonk</defName>
-    <label>X-3 "Gonk" order</label>
-    <description>A USAC military contract for one X-3 "Gonk" heavy artillery mech. When purchased, an inactive mech will be delivered via drop pod.</description>
+    <label>XM3 "Gonk" order</label>
+    <description>A USAC military contract for one XM3 "Gonk" heavy artillery mech. When purchased, an inactive mech will be delivered via drop pod.</description>
     <graphicData>
       <texPath>Things/Mech/gonk_south</texPath>
       <graphicClass>Graphic_Single</graphicClass>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: USAC supply crate (L) -->
+  <USAC_Crate_Large.label>USAC supply crate (L)</USAC_Crate_Large.label>
+  <!-- EN: A sealed supply crate used by USAC for air-dropping equipment and materials. Left behind after mining operations. Can be opened to claim the contents. -->
+  <USAC_Crate_Large.description>A sealed supply crate used by USAC for air-dropping equipment and materials. Left behind after mining operations. Can be opened to claim the contents.</USAC_Crate_Large.description>
+  
+  <!-- EN: empty USAC supply crate (L) -->
+  <USAC_Crate_Large_Empty.label>empty USAC supply crate (L)</USAC_Crate_Large_Empty.label>
+  <!-- EN: An empty USAC supply crate. Provides some cover. -->
+  <USAC_Crate_Large_Empty.description>An empty USAC supply crate. Provides some cover.</USAC_Crate_Large_Empty.description>
+  
+  <!-- EN: USAC supply crate (M) -->
+  <USAC_Crate_Medium.label>USAC supply crate (M)</USAC_Crate_Medium.label>
+  <!-- EN: A sealed supply crate used by USAC for air-dropping equipment and materials. Left behind after mining operations. Can be opened to claim the contents. -->
+  <USAC_Crate_Medium.description>A sealed supply crate used by USAC for air-dropping equipment and materials. Left behind after mining operations. Can be opened to claim the contents.</USAC_Crate_Medium.description>
+  
+  <!-- EN: empty USAC supply crate (M) -->
+  <USAC_Crate_Medium_Empty.label>empty USAC supply crate (M)</USAC_Crate_Medium_Empty.label>
+  <!-- EN: An empty USAC supply crate. Provides some cover. -->
+  <USAC_Crate_Medium_Empty.description>An empty USAC supply crate. Provides some cover.</USAC_Crate_Medium_Empty.description>
+  
+  <!-- EN: USAC supply crate (S) -->
+  <USAC_Crate_Small.label>USAC supply crate (S)</USAC_Crate_Small.label>
+  <!-- EN: A sealed supply crate used by USAC for air-dropping equipment and materials. Left behind after mining operations. Can be opened to claim the contents. -->
+  <USAC_Crate_Small.description>A sealed supply crate used by USAC for air-dropping equipment and materials. Left behind after mining operations. Can be opened to claim the contents.</USAC_Crate_Small.description>
+  
+  <!-- EN: empty USAC supply crate (S) -->
+  <USAC_Crate_Small_Empty.label>empty USAC supply crate (S)</USAC_Crate_Small_Empty.label>
+  <!-- EN: An empty USAC supply crate. Provides some cover. -->
+  <USAC_Crate_Small_Empty.description>An empty USAC supply crate. Provides some cover.</USAC_Crate_Small_Empty.description>
+  
+</LanguageData>

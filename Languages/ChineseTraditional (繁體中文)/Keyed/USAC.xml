@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
     <!-- USAC 派系 -->
     <USAC_FactionName>飛升巨企</USAC_FactionName>
     <USAC_FactionDesc>來自啟迪世界崛起的巨企，在殖民艦隊離開之後透過訊息與技術優勢來壟斷當地的能源產業，並且透過文化霸權來快速的擴張。</USAC_FactionDesc>
-    
+
     <!-- 屍體袋 -->
     <USAC_CorpseBag_Contains>裝有: {0}</USAC_CorpseBag_Contains>
     <USAC_CorpseBag_Value>價值: {0}</USAC_CorpseBag_Value>
@@ -12,12 +12,12 @@
     <USAC_CorpseBag_EjectDesc>將屍體從袋子中彈出。</USAC_CorpseBag_EjectDesc>
     <USAC_CorpseBag_PackCorpse>打包 {0} 到屍體袋</USAC_CorpseBag_PackCorpse>
     <USAC_CorpseBag_Currency>屍體袋價值</USAC_CorpseBag_Currency>
-    <USAC_CorpseBag_CurrencyDesc>屍體袋的總市場價值。USAC 貿易商只接受屍體袋作為貨幣。</USAC_CorpseBag_CurrencyDesc>
-    
+    <USAC_CorpseBag_CurrencyDesc>屍體袋的總市場價值。USAC貿易商接受屍體袋作為貨幣。</USAC_CorpseBag_CurrencyDesc>
+
     <!-- 訊息 -->
-    <USAC_HostilityReset>USAC 敵對狀態已重置為中立。</USAC_HostilityReset>
-    <USAC_HostilityResetDesc>USAC 派系已重置其敵對狀態。他們現在對你保持中立。</USAC_HostilityResetDesc>
-    
+    <USAC_HostilityReset>USAC敵對狀態已重置為中立。</USAC_HostilityReset>
+    <USAC_HostilityResetDesc>USAC派系已重置其敵對狀態。他們現在對你保持中立。</USAC_HostilityResetDesc>
+
     <!-- 盜採空降 -->
     <USAC_ResourcesInRange>範圍內深層資源:</USAC_ResourcesInRange>
     <USAC_MiningTarget>挖掘目標: {0}</USAC_MiningTarget>
@@ -27,16 +27,16 @@
     <USAC_ExtractionCountdown>撤離倒計時: {0}</USAC_ExtractionCountdown>
     <USAC_MiningRigExtracting>USAC採礦機正在準備撤離。</USAC_MiningRigExtracting>
     <USAC_MiningRaidFailed>USAC盜採空降觸發失敗。未找到有效的深層資源。</USAC_MiningRaidFailed>
-    
+
     <!-- 整備系統 -->
     <USAC_Readiness>整備</USAC_Readiness>
     <USAC_ReadinessConsumption>每日消耗百分比: {0}%</USAC_ReadinessConsumption>
-    
+
     <!-- 機兵交易 -->
     <USAC_MechDelivered>{0} 已通過空投艙送達。</USAC_MechDelivered>
     <USAC_UseMechOrder>呼叫機兵空投</USAC_UseMechOrder>
     <USAC_RequiresBiotech>需要生物科技DLC。</USAC_RequiresBiotech>
-    
+
     <!-- 未激活機兵控制 -->
     <USAC_ControlMech>控制 {0}</USAC_ControlMech>
     <USAC_ControlMech_NoPath>無法到達機兵。</USAC_ControlMech_NoPath>
@@ -47,11 +47,11 @@
     <USAC_DeactivateMech>休眠</USAC_DeactivateMech>
     <USAC_DeactivateMechDesc>讓機兵進入休眠模式。可以搬運移動並在之後重新激活。</USAC_DeactivateMechDesc>
     <USAC_MechDeactivated>{0} 已進入休眠模式。</USAC_MechDeactivated>
-    
+
     <!-- 信用債券 -->
     <USAC_Bond_Label>USAC信用債券</USAC_Bond_Label>
     <USAC_Bond_Desc>一種由高韌度纖維製成的特殊紙張，是USAC企業經銷商與地面陣營交易時所印發的實體記名憑證，其表面採用特殊油墨印刷，具有精美的防偽標識與記名所有者訊息。\n\n在商品收購與裝備銷售後，結餘的剩餘價值能被用來買入這種具備固定購買力的憑證用於下次交易。由於憑證具有記名性因此無法由記名所有人以外的人使用，因此對邊緣世界中的其他陣營來說，這張十分耐磨損的紙基本沒有任何實際用途。</USAC_Bond_Desc>
-    
+
     <!-- USAC貨幣系統 -->
     <USAC_Currency_Label>USAC貨幣</USAC_Currency_Label>
     <USAC_Currency_LabelFull>距下袋: {0} (含債券x{1})</USAC_Currency_LabelFull>
@@ -74,6 +74,6 @@
 
     <!-- 商船到訪 -->
     <TraderArrival>{0} ({1}) 已進入通訊軌道。{2}</TraderArrival>
-    <TraderArrivalFromFaction>他們來自 {FACTION}。</TraderArrivalFromFaction>
+    <TraderArrivalFromFaction>他們來自{FACTION}。</TraderArrivalFromFaction>
     <TraderArrivalNoFaction>他們不屬於任何已知派系。</TraderArrivalNoFaction>
 </LanguageData>

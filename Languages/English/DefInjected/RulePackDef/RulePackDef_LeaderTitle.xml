@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>r_deityType(p=5)->[corpGod] of [corpDomain]</li>
+    <li>r_deityType(p=3)->[corpGod] of [memeConcept]</li>
+    <li>corpGod->Patron</li>
+    <li>corpGod->Guardian</li>
+    <li>corpGod->Overseer</li>
+    <li>corpGod->Arbiter</li>
+    <li>corpGod->Executor</li>
+    <li>corpGod->Administrator</li>
+    <li>corpDomain->Profit</li>
+    <li>corpDomain->Commerce</li>
+    <li>corpDomain->Industry</li>
+    <li>corpDomain->Contracts</li>
+    <li>corpDomain->Acquisitions</li>
+    <li>corpDomain->Logistics</li>
+    <li>corpDomain->Operations</li>
+    <li>corpDomain->Resources</li>
+  -->
+  <DeityTypeMaker_USAC.rulePack.rulesStrings>
+    <li>r_deityType(p=5)->[corpGod] of [corpDomain]</li>
+    <li>r_deityType(p=3)->[corpGod] of [memeConcept]</li>
+    <li>corpGod->Patron</li>
+    <li>corpGod->Guardian</li>
+    <li>corpGod->Overseer</li>
+    <li>corpGod->Arbiter</li>
+    <li>corpGod->Executor</li>
+    <li>corpGod->Administrator</li>
+    <li>corpDomain->Profit</li>
+    <li>corpDomain->Commerce</li>
+    <li>corpDomain->Industry</li>
+    <li>corpDomain->Contracts</li>
+    <li>corpDomain->Acquisitions</li>
+    <li>corpDomain->Logistics</li>
+    <li>corpDomain->Operations</li>
+    <li>corpDomain->Resources</li>
+  </DeityTypeMaker_USAC.rulePack.rulesStrings>
+  
+  <!-- EN: memeLeaderNoun(priority=1)->[cultureLeaderNoun] -->
+  <LeaderTitleMaker_USAC.rulePack.rulesStrings.0>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</LeaderTitleMaker_USAC.rulePack.rulesStrings.0>
+  <!-- EN: r_leaderTitle(p=6)->[cultureLeaderAdjective] [cultureLeaderNoun] -->
+  <LeaderTitleMaker_USAC.rulePack.rulesStrings.1>r_leaderTitle(p=6)->[cultureLeaderAdjective] [cultureLeaderNoun]</LeaderTitleMaker_USAC.rulePack.rulesStrings.1>
+  <!-- EN: r_leaderTitle(p=3)->[cultureLeaderTitle] -->
+  <LeaderTitleMaker_USAC.rulePack.rulesStrings.2>r_leaderTitle(p=3)->[cultureLeaderTitle]</LeaderTitleMaker_USAC.rulePack.rulesStrings.2>
+  <!-- EN: cultureLeaderAdjective->chief -->
+  <LeaderTitleMaker_USAC.rulePack.rulesStrings.3>cultureLeaderAdjective->chief</LeaderTitleMaker_USAC.rulePack.rulesStrings.3>
+  <!-- EN: cultureLeaderAdjective->senior -->
+  <LeaderTitleMaker_USAC.rulePack.rulesStrings.4>cultureLeaderAdjective->senior</LeaderTitleMaker_USAC.rulePack.rulesStrings.4>
+  <!-- EN: cultureLeaderAdjective->executive -->
+  <LeaderTitleMaker_USAC.rulePack.rulesStrings.5>cultureLeaderAdjective->executive</LeaderTitleMaker_USAC.rulePack.rulesStrings.5>
+  <!-- EN: cultureLeaderAdjective->managing -->
+  <LeaderTitleMaker_USAC.rulePack.rulesStrings.6>cultureLeaderAdjective->managing</LeaderTitleMaker_USAC.rulePack.rulesStrings.6>
+  <!-- EN: cultureLeaderAdjective->general -->
+  <LeaderTitleMaker_USAC.rulePack.rulesStrings.7>cultureLeaderAdjective->general</LeaderTitleMaker_USAC.rulePack.rulesStrings.7>
+  <!-- EN: cultureLeaderNoun->officer -->
+  <LeaderTitleMaker_USAC.rulePack.rulesStrings.8>cultureLeaderNoun->officer</LeaderTitleMaker_USAC.rulePack.rulesStrings.8>
+  <!-- EN: cultureLeaderNoun->director -->
+  <LeaderTitleMaker_USAC.rulePack.rulesStrings.9>cultureLeaderNoun->director</LeaderTitleMaker_USAC.rulePack.rulesStrings.9>
+  <!-- EN: cultureLeaderNoun->president -->
+  <LeaderTitleMaker_USAC.rulePack.rulesStrings.10>cultureLeaderNoun->president</LeaderTitleMaker_USAC.rulePack.rulesStrings.10>
+  <!-- EN: cultureLeaderNoun->chairman -->
+  <LeaderTitleMaker_USAC.rulePack.rulesStrings.11>cultureLeaderNoun->chairman</LeaderTitleMaker_USAC.rulePack.rulesStrings.11>
+  <!-- EN: cultureLeaderNoun->manager -->
+  <LeaderTitleMaker_USAC.rulePack.rulesStrings.12>cultureLeaderNoun->manager</LeaderTitleMaker_USAC.rulePack.rulesStrings.12>
+  <!-- EN: cultureLeaderTitle->CEO -->
+  <LeaderTitleMaker_USAC.rulePack.rulesStrings.13>cultureLeaderTitle->CEO</LeaderTitleMaker_USAC.rulePack.rulesStrings.13>
+  <!-- EN: cultureLeaderTitle->CFO -->
+  <LeaderTitleMaker_USAC.rulePack.rulesStrings.14>cultureLeaderTitle->CFO</LeaderTitleMaker_USAC.rulePack.rulesStrings.14>
+  <!-- EN: cultureLeaderTitle->COO -->
+  <LeaderTitleMaker_USAC.rulePack.rulesStrings.15>cultureLeaderTitle->COO</LeaderTitleMaker_USAC.rulePack.rulesStrings.15>
+  <!-- EN: cultureLeaderTitle->CTO -->
+  <LeaderTitleMaker_USAC.rulePack.rulesStrings.16>cultureLeaderTitle->CTO</LeaderTitleMaker_USAC.rulePack.rulesStrings.16>
+  
+  <!-- EN:
+    <li>name->[corpDeityPrefix][corpDeityEnd]</li>
+    <li>name->[corpDeityPrefix]-[corpDeityMid][corpDeityEnd]</li>
+    <li>corpDeityPrefix->Profit</li>
+    <li>corpDeityPrefix->Market</li>
+    <li>corpDeityPrefix->Capital</li>
+    <li>corpDeityPrefix->Asset</li>
+    <li>corpDeityPrefix->Equity</li>
+    <li>corpDeityPrefix->Index</li>
+    <li>corpDeityPrefix->Venture</li>
+    <li>corpDeityPrefix->Merger</li>
+    <li>corpDeityPrefix->Dividend</li>
+    <li>corpDeityPrefix->Stock</li>
+    <li>corpDeityMid->a</li>
+    <li>corpDeityMid->o</li>
+    <li>corpDeityMid->i</li>
+    <li>corpDeityMid->u</li>
+    <li>corpDeityEnd->us</li>
+    <li>corpDeityEnd->on</li>
+    <li>corpDeityEnd->ex</li>
+    <li>corpDeityEnd->or</li>
+    <li>corpDeityEnd->ax</li>
+    <li>corpDeityEnd->ix</li>
+    <li>corpDeityEnd(p=3)-></li>
+  -->
+  <NamerDeity_USAC.rulePack.rulesStrings>
+    <li>name->[corpDeityPrefix][corpDeityEnd]</li>
+    <li>name->[corpDeityPrefix]-[corpDeityMid][corpDeityEnd]</li>
+    <li>corpDeityPrefix->Profit</li>
+    <li>corpDeityPrefix->Market</li>
+    <li>corpDeityPrefix->Capital</li>
+    <li>corpDeityPrefix->Asset</li>
+    <li>corpDeityPrefix->Equity</li>
+    <li>corpDeityPrefix->Index</li>
+    <li>corpDeityPrefix->Venture</li>
+    <li>corpDeityPrefix->Merger</li>
+    <li>corpDeityPrefix->Dividend</li>
+    <li>corpDeityPrefix->Stock</li>
+    <li>corpDeityMid->a</li>
+    <li>corpDeityMid->o</li>
+    <li>corpDeityMid->i</li>
+    <li>corpDeityMid->u</li>
+    <li>corpDeityEnd->us</li>
+    <li>corpDeityEnd->on</li>
+    <li>corpDeityEnd->ex</li>
+    <li>corpDeityEnd->or</li>
+    <li>corpDeityEnd->ax</li>
+    <li>corpDeityEnd->ix</li>
+    <li>corpDeityEnd(p=3)-></li>
+  </NamerDeity_USAC.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>festivalName(p=5)->[corpEvent] [corpEventType]</li>
+    <li>festivalName(p=3)->[corpEventType] of [corpEventTheme]</li>
+    <li>corpEvent->Annual</li>
+    <li>corpEvent->Quarterly</li>
+    <li>corpEvent->Corporate</li>
+    <li>corpEvent->Executive</li>
+    <li>corpEvent->Strategic</li>
+    <li>corpEventType->Summit</li>
+    <li>corpEventType->Gala</li>
+    <li>corpEventType->Convention</li>
+    <li>corpEventType->Conference</li>
+    <li>corpEventType->Assembly</li>
+    <li>corpEventType->Ceremony</li>
+    <li>corpEventTheme->Excellence</li>
+    <li>corpEventTheme->Achievement</li>
+    <li>corpEventTheme->Innovation</li>
+    <li>corpEventTheme->Progress</li>
+    <li>corpEventTheme->Unity</li>
+    <li>corpEventTheme->Prosperity</li>
+  -->
+  <NamerFestival_USAC.rulePack.rulesStrings>
+    <li>festivalName(p=5)->[corpEvent] [corpEventType]</li>
+    <li>festivalName(p=3)->[corpEventType] of [corpEventTheme]</li>
+    <li>corpEvent->Annual</li>
+    <li>corpEvent->Quarterly</li>
+    <li>corpEvent->Corporate</li>
+    <li>corpEvent->Executive</li>
+    <li>corpEvent->Strategic</li>
+    <li>corpEventType->Summit</li>
+    <li>corpEventType->Gala</li>
+    <li>corpEventType->Convention</li>
+    <li>corpEventType->Conference</li>
+    <li>corpEventType->Assembly</li>
+    <li>corpEventType->Ceremony</li>
+    <li>corpEventTheme->Excellence</li>
+    <li>corpEventTheme->Achievement</li>
+    <li>corpEventTheme->Innovation</li>
+    <li>corpEventTheme->Progress</li>
+    <li>corpEventTheme->Unity</li>
+    <li>corpEventTheme->Prosperity</li>
+  </NamerFestival_USAC.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_ideoName(p=5)->[corpPrefix] [corpSuffix]</li>
+    <li>r_ideoName(p=3)->[corpPrefix][corpSuffix]ism</li>
+    <li>r_ideoName(p=2)->The [corpConcept]</li>
+    <li>corpPrefix->United</li>
+    <li>corpPrefix->Global</li>
+    <li>corpPrefix->Stellar</li>
+    <li>corpPrefix->Orbital</li>
+    <li>corpPrefix->Corporate</li>
+    <li>corpPrefix->Industrial</li>
+    <li>corpPrefix->Strategic</li>
+    <li>corpSuffix->Initiative</li>
+    <li>corpSuffix->Directive</li>
+    <li>corpSuffix->Protocol</li>
+    <li>corpSuffix->Mandate</li>
+    <li>corpSuffix->Doctrine</li>
+    <li>corpSuffix->Standard</li>
+    <li>corpConcept->Syndicate</li>
+    <li>corpConcept->Consortium</li>
+    <li>corpConcept->Conglomerate</li>
+    <li>corpConcept->Corporation</li>
+    <li>corpConcept->Enterprise</li>
+    <li>globalHyphenPrefix->astro</li>
+    <li>globalHyphenPrefix->stello</li>
+    <li>globalHyphenPrefix->corpo</li>
+    <li>globalHyphenPrefix->mega</li>
+  -->
+  <NamerIdeo_USAC.rulePack.rulesStrings>
+    <li>r_ideoName(p=5)->[corpPrefix] [corpSuffix]</li>
+    <li>r_ideoName(p=3)->[corpPrefix][corpSuffix]ism</li>
+    <li>r_ideoName(p=2)->The [corpConcept]</li>
+    <li>corpPrefix->United</li>
+    <li>corpPrefix->Global</li>
+    <li>corpPrefix->Stellar</li>
+    <li>corpPrefix->Orbital</li>
+    <li>corpPrefix->Corporate</li>
+    <li>corpPrefix->Industrial</li>
+    <li>corpPrefix->Strategic</li>
+    <li>corpSuffix->Initiative</li>
+    <li>corpSuffix->Directive</li>
+    <li>corpSuffix->Protocol</li>
+    <li>corpSuffix->Mandate</li>
+    <li>corpSuffix->Doctrine</li>
+    <li>corpSuffix->Standard</li>
+    <li>corpConcept->Syndicate</li>
+    <li>corpConcept->Consortium</li>
+    <li>corpConcept->Conglomerate</li>
+    <li>corpConcept->Corporation</li>
+    <li>corpConcept->Enterprise</li>
+    <li>globalHyphenPrefix->astro</li>
+    <li>globalHyphenPrefix->stello</li>
+    <li>globalHyphenPrefix->corpo</li>
+    <li>globalHyphenPrefix->mega</li>
+  </NamerIdeo_USAC.rulePack.rulesStrings>
+  
+</LanguageData>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: programmable shaped charge -->
+  <USAC_Bullet_GrenadeRound.label>programmable shaped charge</USAC_Bullet_GrenadeRound.label>
+  
+  <!-- EN: Advanced battle rifle -->
+  <USAC_Gun_BattleRifle.label>Advanced battle rifle</USAC_Gun_BattleRifle.label>
+  <!-- EN: M29 "SABR", an infantry weapon platform integrated automatic rifle and grenade launcher, capable of both direct fire suppression and indirect fire support. Although heavy, it boasts excellent aiming accuracy, making it ideal for use as a gunner's weapon in small units. -->
+  <USAC_Gun_BattleRifle.description>M29 "SABR", an infantry weapon platform integrated automatic rifle and grenade launcher, capable of both direct fire suppression and indirect fire support. Although heavy, it boasts excellent aiming accuracy, making it ideal for use as a gunner's weapon in small units.</USAC_Gun_BattleRifle.description>
+  <!-- EN: Advanced battle rifle -->
+  <USAC_Gun_BattleRifle.verbs.Verb_Shoot.label>Advanced battle rifle</USAC_Gun_BattleRifle.verbs.Verb_Shoot.label>
+  
+</LanguageData>

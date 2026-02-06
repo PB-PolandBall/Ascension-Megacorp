@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Body tattoo -->
+  <USAC_HumanlikeMech.root.children.0.children.0.debugLabel>Body tattoo</USAC_HumanlikeMech.root.children.0.children.0.debugLabel>
+  <!-- EN: Wounds - pre apparel -->
+  <USAC_HumanlikeMech.root.children.0.children.1.debugLabel>Wounds - pre apparel</USAC_HumanlikeMech.root.children.0.children.1.debugLabel>
+  <!-- EN: Baby swaddle -->
+  <USAC_HumanlikeMech.root.children.0.children.2.debugLabel>Baby swaddle</USAC_HumanlikeMech.root.children.0.children.2.debugLabel>
+  <!-- EN: Apparel root -->
+  <USAC_HumanlikeMech.root.children.0.children.3.debugLabel>Apparel root</USAC_HumanlikeMech.root.children.0.children.3.debugLabel>
+  <!-- EN: Wounds - post apparel -->
+  <USAC_HumanlikeMech.root.children.0.children.4.debugLabel>Wounds - post apparel</USAC_HumanlikeMech.root.children.0.children.4.debugLabel>
+  <!-- EN: Head stump -->
+  <USAC_HumanlikeMech.root.children.1.debugLabel>Head stump</USAC_HumanlikeMech.root.children.1.debugLabel>
+  <!-- EN: Head tattoo -->
+  <USAC_HumanlikeMech.root.children.2.children.0.debugLabel>Head tattoo</USAC_HumanlikeMech.root.children.2.children.0.debugLabel>
+  <!-- EN: Head wounds -->
+  <USAC_HumanlikeMech.root.children.2.children.3.debugLabel>Head wounds</USAC_HumanlikeMech.root.children.2.children.3.debugLabel>
+  <!-- EN: Apparel root -->
+  <USAC_HumanlikeMech.root.children.2.children.4.debugLabel>Apparel root</USAC_HumanlikeMech.root.children.2.children.4.debugLabel>
+  <!-- EN: Status overlay -->
+  <USAC_HumanlikeMech.root.children.2.children.6.debugLabel>Status overlay</USAC_HumanlikeMech.root.children.2.children.6.debugLabel>
+  <!-- EN: Weapon/carried thing -->
+  <USAC_HumanlikeMech.root.children.3.debugLabel>Weapon/carried thing</USAC_HumanlikeMech.root.children.3.debugLabel>
+  
+</LanguageData>

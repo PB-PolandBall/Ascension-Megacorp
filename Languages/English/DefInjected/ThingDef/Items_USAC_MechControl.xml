@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: mechlink serum -->
+  <USAC_TempMechlink.label>mechlink serum</USAC_TempMechlink.label>
+  <!-- EN: A neuro-augment serum that forms a temporary neural interface. Connects the user to the USAC satellite network for mechanoid control via a subscription model. Only active while brain activity is sustained. -->
+  <USAC_TempMechlink.description>A neuro-augment serum that forms a temporary neural interface. Connects the user to the USAC satellite network for mechanoid control via a subscription model. Only active while brain activity is sustained.</USAC_TempMechlink.description>
+  <!-- EN: Inject {0_label} to become mechanitor -->
+  <USAC_TempMechlink.comps.CompUsableImplant.useLabel>Inject {0_label} to become mechanitor</USAC_TempMechlink.comps.CompUsableImplant.useLabel>
+  
+</LanguageData>
