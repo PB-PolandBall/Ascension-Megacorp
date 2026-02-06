@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
     <!-- USAC 重型采矿机 -->
     <ThingDef ParentName="BuildingBase">
         <defName>USAC_HeavyMiningRig</defName>
-        <label>USAC heavy mining rig</label>
-        <description>TODO</description>
+        <label>assault mining rig</label>
+        <description>A heavy-duty vertical excavation platform, deployed via orbital drop, is powered by an internal radioactive nuclear battery and possesses vertical take-off and landing capabilities for flexible redeployment and return to orbit. It achieves highly automated excavation efficiency and effectively prevents pest infestations by pressurizing and pumping shallow groundwater into deep ore veins to fracture them and extracting the ore-mixed mud. However, contaminated wastewater containing heavy metals and radioactivity is discharged in large quantities during the ore screening process, causing severe environmental pollution.</description>
         <thingClass>USAC.Building_HeavyMiningRig</thingClass>
         <graphicData>
             <texPath>Things/Building/AssaultDriller/AssaultDriller_Base</texPath>
@@ -29,9 +29,9 @@
         <size>(5,5)</size>
         <rotatable>false</rotatable>
         <statBases>
-            <MaxHitPoints>800</MaxHitPoints>
+            <MaxHitPoints>1200</MaxHitPoints>
             <WorkToBuild>0</WorkToBuild>
-            <Flammability>0.3</Flammability>
+            <Flammability>0</Flammability>
             <Beauty>-20</Beauty>
         </statBases>
         <tickerType>Normal</tickerType>
@@ -45,7 +45,7 @@
             <ComponentSpacer>2</ComponentSpacer>
         </killedLeavings>
         <comps>
-            <li Class="CompProperties_Forbiddable"/>
+            <li Class="CompProperties_Forbiddable" />
             <li Class="USAC.CompProperties_VisualPawnContainer">
                 <frontRowOffsets>
                     <!-- 前排5个，仅限最小型机兵 -->

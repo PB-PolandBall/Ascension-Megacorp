@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
     <!-- 尸体袋 -->
@@ -72,7 +72,7 @@
             <li>ITab_Storage</li>
         </inspectorTabs>
         <comps>
-            <li Class="CompProperties_Forbiddable"/>
+            <li Class="CompProperties_Forbiddable" />
         </comps>
         <tradeability>All</tradeability>
         <tradeTags>

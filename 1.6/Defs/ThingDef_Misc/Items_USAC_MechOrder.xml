@@ -34,7 +34,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
-      <MarketValue>1500</MarketValue>
+      <MarketValue>2000</MarketValue>
     </statBases>
     <modExtensions>
       <li Class="USAC.ModExtension_MechOrder">
@@ -91,7 +91,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
-      <MarketValue>2000</MarketValue>
+      <MarketValue>4000</MarketValue>
     </statBases>
     <modExtensions>
       <li Class="USAC.ModExtension_MechOrder">

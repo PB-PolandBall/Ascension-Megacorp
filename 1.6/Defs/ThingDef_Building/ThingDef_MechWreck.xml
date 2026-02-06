@@ -14,7 +14,7 @@
     <selectable>true</selectable>
     <useHitPoints>true</useHitPoints>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-    <designationCategory/>
+    <designationCategory />
     <passability>PassThroughOnly</passability>
     <pathCost>50</pathCost>
     <blockWind>false</blockWind>

@@ -5,13 +5,13 @@
   <ThingDef ParentName="MakeableDrugBase">
     <defName>USAC_NeuroBooster</defName>
     <label>neuro-booster</label>
-    <description>A potent neuro-augment serum that enhances neural activity and rational thinking. Widely used by USAC technical workers and soldiers. It causes high addiction and requires regular administration to maintain stability, but provides significant bandwidth and consciousness boosts.</description>
+    <description>A potent neuro-augment serum that enhances neural activity and rational thinking. Widely used by USAC technical workers and soldiers. It causes high addiction and requires regular administration to maintain stability, but provides significant bandwidth and consciousness boosts./n/nStudies have shown a small number of unexplained anaphylactic shock deaths in susceptible individuals when in a state of low activity, but USAC has substantial evidence to suggest its harmlessness.</description>
     <descriptionHyperlinks>
       <HediffDef>USAC_NeuroBoosterHigh</HediffDef>
       <HediffDef>USAC_NeuroBoosterAddiction</HediffDef>
     </descriptionHyperlinks>
     <graphicData>
-      <texPath>Things/Item/Drug/GoJuice</texPath>
+      <texPath>Things/Resource/PowerDose</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <rotatable>false</rotatable>
@@ -24,6 +24,7 @@
       <Neutroamine>4</Neutroamine>
       <ComponentSpacer>1</ComponentSpacer>
     </costList>
+    <recipeMaker Inherit="false"/>
     <ingestible>
       <drugCategory>Hard</drugCategory>
       <foodType>Processed, Fluid</foodType>

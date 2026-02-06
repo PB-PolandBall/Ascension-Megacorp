@@ -43,7 +43,7 @@
         <lowThreshold>0</lowThreshold>
         <lowReadinessHediff>USAC_LowReadiness</lowReadinessHediff>
       </li>
-      <li Class="Fortified.CompProperties_MechDeactivate"/>
+      <li Class="Fortified.CompProperties_MechDeactivate" />
     </comps>
     <modExtensions>
       <li Class="Fortified.ModExtension_MechCapsule" />

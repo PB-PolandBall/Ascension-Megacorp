@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <AbilityDef>
+    <defName>USAC_GrenadeLauncher</defName>
+    <label>programmable shaped charge</label>
+    <description>An airburst smart grenade that uses an electronic fire control system to set a timed fuse at launch can effectively strike enemies behind cover.</description>
+    <iconPath>UI/Abilities/Launch_Grenade</iconPath>
+    <cooldownTicksRange>600~800</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <ai_SearchAOEForTargets>true</ai_SearchAOEForTargets>
+    <cooldownPerCharge>true</cooldownPerCharge>
+    <charges>5</charges>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>42</range>
+      <warmupTime>2.0</warmupTime>
+      <requireLineOfSight>false</requireLineOfSight>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetBuildings>true</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityLaunchProjectile">
+        <sound>RocketswarmLauncher_Fire</sound>
+        <projectileDef>USAC_Bullet_GrenadeRound</projectileDef>
+      </li>
+    </comps>
+  </AbilityDef>
+</Defs>

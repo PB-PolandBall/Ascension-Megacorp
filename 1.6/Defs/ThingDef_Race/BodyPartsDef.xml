@@ -92,7 +92,7 @@
     <defName>USAC_LeftMechanicalLeg</defName>
     <label>left mechanical leg</label>
   </BodyPartGroupDef>
-  
+
   <BodyPartGroupDef>
     <defName>USAC_RightMechanicalLeg</defName>
     <label>right mechanical leg</label>

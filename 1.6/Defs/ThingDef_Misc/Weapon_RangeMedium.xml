@@ -8,18 +8,24 @@
     <projectile>
       <speed>40</speed>
       <damageDef>Bomb</damageDef>
-      <damageAmountBase>30</damageAmountBase>
+      <damageAmountBase>20</damageAmountBase>
       <stoppingPower>1.5</stoppingPower>
       <explosionRadius>1.6</explosionRadius>
       <ai_IsIncendiary>false</ai_IsIncendiary>
       <arcHeightFactor>0.5</arcHeightFactor>
       <shadowSize>0.6</shadowSize>
+      <flyOverhead>true</flyOverhead>
+      <soundExplode>MortarIncendiary_Explode</soundExplode>
+      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+      <ai_IsIncendiary>true</ai_IsIncendiary>
     </projectile>
     <graphicData>
       <texPath>Things/Projectile/LauncherShot</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
       <color>(255,255,255)</color>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <modExtensions>
       <li Class="Fortified.ExplosiveExtension">
@@ -88,15 +94,10 @@
       </li>
     </verbs>
     <comps Inherit="false">
-      <li Class="CompProperties_EquippableAbilityReloadable">
-        <abilityDef>DMSAC_GrenadeLauncher</abilityDef>
-        <maxCharges>5</maxCharges>
-        <soundReload>Standard_Reload</soundReload>
-        <chargeNoun>grenade charge</chargeNoun>
-        <ammoDef>ComponentIndustrial</ammoDef>
-        <ammoCountPerCharge>2</ammoCountPerCharge>
-        <baseReloadTicks>60</baseReloadTicks>
+      <li Class="CompProperties_EquippableAbility">
+        <abilityDef>USAC_GrenadeLauncher</abilityDef>
       </li>
+      <li><compClass>CompQuality</compClass></li>
       <li Class="CompProperties_Forbiddable" />
       <li Class="CompProperties_Styleable" />
       <li Class="CompProperties_Biocodable" />
