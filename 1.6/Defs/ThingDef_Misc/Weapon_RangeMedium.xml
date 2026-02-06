@@ -15,7 +15,6 @@
       <arcHeightFactor>0.5</arcHeightFactor>
       <shadowSize>0.6</shadowSize>
       <flyOverhead>true</flyOverhead>
-      <soundExplode>MortarIncendiary_Explode</soundExplode>
       <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
       <soundAmbient>MortarRound_Ambient</soundAmbient>
       <ai_IsIncendiary>true</ai_IsIncendiary>
@@ -31,8 +30,8 @@
       <li Class="Fortified.ExplosiveExtension">
         <damage>Bullet</damage>
         <damageAmount>10</damageAmount>
-        <armorPen>0</armorPen>
-        <preExplosionOffset>2</preExplosionOffset>
+        <armorPen>0.1</armorPen>
+        <preExplosionOffset>1</preExplosionOffset>
         <range>4</range>
         <swayAngle>60</swayAngle>
         <doVisualEffects>false</doVisualEffects>
