@@ -100,10 +100,8 @@
         </spawnCategories>
         <skillGains>
             <Crafting>5</Crafting>
+			<Social>-5</Social>
         </skillGains>
-        <forcedTraits>
-            <Social>-5</Social>
-        </forcedTraits>
     </BackstoryDef>
 
     <BackstoryDef>
@@ -183,16 +181,13 @@
             <Shooting>10</Shooting>
             <Melee>10</Melee>
         </skillGains>
-        <disabledWorkTags>
-            <li>Construction</li>
+        <workDisables>
             <li>Mining</li>
-            <li>Cooking</li>
-            <li>Plants</li>
-            <li>Animals</li>
+            <li>PlantWork</li>
             <li>Crafting</li>
             <li>Artistic</li>
             <li>Intellectual</li>
-        </disabledWorkTags>
+        </workDisables>
     </BackstoryDef>
 
     <BackstoryDef>

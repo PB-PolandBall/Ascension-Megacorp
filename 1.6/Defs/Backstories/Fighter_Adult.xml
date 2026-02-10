@@ -79,10 +79,9 @@
             <Shooting>10</Shooting>
             <Melee>10</Melee>
         </skillGains>
-        <disabledWorkTags>
-            <li>Animals</li>
+        <workDisables>
             <li>Mining</li>
-        </disabledWorkTags>
+        </workDisables>
         <requiredWorkTags>
             <li>Violent</li>
         </requiredWorkTags>
@@ -104,13 +103,12 @@
             <Shooting>15</Shooting>
             <Melee>15</Melee>
         </skillGains>
-        <disabledWorkTags>
+        <workDisables>
             <li>Mining</li>
-            <li>Plants</li>
-            <li>Animals</li>
+            <li>PlantWork</li>
             <li>Artistic</li>
             <li>Intellectual</li>
-        </disabledWorkTags>
+        </workDisables>
         <requiredWorkTags>
             <li>Violent</li>
         </requiredWorkTags>
@@ -133,9 +131,6 @@
             <Construction>6</Construction>
             <Crafting>4</Crafting>
         </skillGains>
-        <forcedTraits>
-            <Intellectual>-8</Intellectual>
-        </forcedTraits>
         <requiredWorkTags>
             <li>ManualDumb</li>
         </requiredWorkTags>
@@ -158,15 +153,10 @@
             <Intellectual>4</Intellectual>
             <Crafting>8</Crafting>
         </skillGains>
-        <disabledWorkTags>
-            <li>Construction</li>
+        <workDisables>
             <li>Mining</li>
-            <li>Animals</li>
             <li>Artistic</li>
-        </disabledWorkTags>
-        <forcedTraits>
-            <Social>-15</Social>
-        </forcedTraits>
+        </workDisables>
         <requiredWorkTags>
             <li>Violent</li>
         </requiredWorkTags>
@@ -221,7 +211,7 @@
         <defName>USAC_Military10</defName>
         <title>Retired General</title>
         <titleShort>General</titleShort>
-        <description>[PAWN_nameDef] was once a high-ranking official in the military, but became a political scapegoat in the factional struggles within the military and military-industrial complex. Although [PAWN_nameDef] kept [PAWN_pronoun]'s life through military connections, [PAWN_pronoun] had to follow a frontier project to the rimworld.</description>
+        <description>[PAWN_nameDef] was once a high-ranking officer in the military, but became a political scapegoat in the factional struggles within the military and military-industrial complex. Although [PAWN_nameDef] kept [PAWN_pronoun]'s life through military connections, [PAWN_pronoun] had to follow a frontier project to the rimworld.</description>
         <slot>Adulthood</slot>
         <spawnCategories>
             <li>USAC_Fighter</li>
@@ -233,12 +223,11 @@
             <Social>10</Social>
             <Intellectual>5</Intellectual>
         </skillGains>
-        <disabledWorkTags>
+        <workDisables>
             <li>Mining</li>
-            <li>Plants</li>
+            <li>PlantWork</li>
             <li>Artistic</li>
-            <li>Animals</li>
-        </disabledWorkTags>
+        </workDisables>
         <requiredWorkTags>
             <li>Violent</li>
         </requiredWorkTags>

@@ -68,12 +68,6 @@
       <MoveSpeed>-0.15</MoveSpeed>
       <ShootingAccuracyPawn>0.8</ShootingAccuracyPawn>
     </equippedStatOffsets>
-    <recipeMaker>
-      <researchPrerequisites>
-        <li>PrecisionRifling</li>
-        <li>DMS_EquipmentAdvanced</li>
-      </researchPrerequisites>
-    </recipeMaker>
     <costList>
       <Plasteel>75</Plasteel>
       <ComponentIndustrial>7</ComponentIndustrial>

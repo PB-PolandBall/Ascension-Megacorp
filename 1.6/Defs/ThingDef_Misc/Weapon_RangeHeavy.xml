@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Heavy Cannon Ammunition -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>USAC_Bullet_HeavyAutoCannon</defName>
+    <label>heavy autocannon round</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>35</damageAmountBase>
+      <stoppingPower>2.5</stoppingPower>
+      <armorPenetrationBase>0.35</armorPenetrationBase>
+      <speed>90</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>USAC_Bullet_35mmAPDS</defName>
+    <label>35mm APDS round</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>42</damageAmountBase>
+      <stoppingPower>3.0</stoppingPower>
+      <armorPenetrationBase>0.45</armorPenetrationBase>
+      <speed>95</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>USAC_Bullet_BushmasterRound</defName>
+    <label>35mm chain round</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>38</damageAmountBase>
+      <stoppingPower>2.8</stoppingPower>
+      <armorPenetrationBase>0.5</armorPenetrationBase>
+      <speed>92</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>USAC_Bullet_TorchwoodRound</defName>
+    <label>105mm recoilless round</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>55</damageAmountBase>
+      <stoppingPower>3.5</stoppingPower>
+      <armorPenetrationBase>0.65</armorPenetrationBase>
+      <speed>85</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <!-- ================================= Cobra Assault Cannon ==================================== -->
+  <ThingDef ParentName="USAC_BaseGun">
+    <defName>USAC_Gun_CobraAC</defName>
+    <label>Cobra assault cannon</label>
+    <description>A large-scale assault rifle designed to provide suppressive fire. Commonly used as the standard weapon for medium Automatroids, it can also be wielded by large augmented humans or soldiers wearing heavy exoskeletons. The weapon's high rate of fire makes it effective for sustained suppression against infantry targets.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/USAC_Gun_CobraAC</texPath>
+      <drawSize>1.6</drawSize>
+    </graphicData>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <statBases>
+      <Mass>18.5</Mass>
+      <AccuracyTouch>0.55</AccuracyTouch>
+      <AccuracyShort>0.72</AccuracyShort>
+      <AccuracyMedium>0.82</AccuracyMedium>
+      <AccuracyLong>0.65</AccuracyLong>
+      <RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>1.0</ShootingAccuracyPawn>
+    </equippedStatOffsets>
+    <costList>
+      <Plasteel>150</Plasteel>
+      <ComponentIndustrial>12</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>USAC_Bullet_HeavyAutoCannon</defaultProjectile>
+        <warmupTime>1.5</warmupTime>
+        <range>38.9</range>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <burstShotCount>6</burstShotCount>
+        <soundCast>USAC_Gun_Shot</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>USAC_AC</li>
+      <li>Mech_Weapon</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+        <def>MF_StandardMuzzleFalsh</def>
+        <drawSize>(0.35,0.35)</drawSize>
+        <offsets>
+          <li>(0.75,0)</li>
+        </offsets>
+      </li>
+      <li Class="Fortified.HeavyEquippableExtension">
+        <EquippableDef>BulkyAutomatroid</EquippableDef>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- ================================= Viper DMR ==================================== -->
+  <ThingDef ParentName="USAC_BaseGun">
+    <defName>USAC_Gun_ViperDMR</defName>
+    <label>Viper designated marksman rifle</label>
+    <description>An M905 "Viper" large-caliber precision anti-materiel weapon system using autocannon ammunition. Designed to be mounted on medium Automatroids as an anti-materiel weapon, it can also be wielded by large augmented humans or soldiers wearing heavy exoskeletons. Excels at long-range precision strikes against armored targets.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/USAC_Gun_ViperDMR</texPath>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <weaponClasses>
+      <li>LongShots</li>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <statBases>
+      <Mass>16.2</Mass>
+      <AccuracyTouch>0.70</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.95</AccuracyMedium>
+      <AccuracyLong>0.93</AccuracyLong>
+      <RangedWeapon_Cooldown>2.1</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedStatOffsets>
+      <HuntingStealth>0.2</HuntingStealth>
+      <ShootingAccuracyPawn>1.2</ShootingAccuracyPawn>
+    </equippedStatOffsets>
+    <costList>
+      <Plasteel>180</Plasteel>
+      <ComponentIndustrial>14</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>USAC_Bullet_35mmAPDS</defaultProjectile>
+        <warmupTime>2.4</warmupTime>
+        <range>48.9</range>
+        <ticksBetweenBurstShots>18</ticksBetweenBurstShots>
+        <burstShotCount>3</burstShotCount>
+        <soundCast>USAC_Gun_Shot</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>USAC_DMR</li>
+      <li>Mech_Weapon</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+        <def>MF_StandardMuzzleFalsh</def>
+        <drawSize>(0.35,0.35)</drawSize>
+        <offsets>
+          <li>(0.75,0)</li>
+        </offsets>
+      </li>
+      <li Class="Fortified.HeavyEquippableExtension">
+        <EquippableDef>BulkyAutomatroid</EquippableDef>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- ================================= Bushmaster AC ==================================== -->
+  <ThingDef ParentName="USAC_BaseGun">
+    <defName>USAC_Gun_BushmasterAC</defName>
+    <label>Bushmaster autocannon</label>
+    <description>An M901 "Bushmaster III" large-caliber chain cannon designed for mounting on armored vehicles and aircraft. Capable of firing large-caliber depleted uranium autocannon rounds that can inflict devastating damage against infantry and lightly armored units. Provides devastating anti-personnel and anti-armor capabilities.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/USAC_Gun_BushmasterAC</texPath>
+      <drawSize>1.8</drawSize>
+    </graphicData>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <statBases>
+      <Mass>24.5</Mass>
+      <AccuracyTouch>0.45</AccuracyTouch>
+      <AccuracyShort>0.65</AccuracyShort>
+      <AccuracyMedium>0.78</AccuracyMedium>
+      <AccuracyLong>0.60</AccuracyLong>
+      <RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>1.3</ShootingAccuracyPawn>
+    </equippedStatOffsets>
+    <costList>
+      <Plasteel>210</Plasteel>
+      <ComponentIndustrial>16</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>USAC_Bullet_BushmasterRound</defaultProjectile>
+        <warmupTime>1.8</warmupTime>
+        <range>42.9</range>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <burstShotCount>8</burstShotCount>
+        <soundCast>USAC_Gun_Shot</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>USAC_HeavyAC</li>
+      <li>Mech_Weapon</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+        <def>MF_StandardMuzzleFalsh</def>
+        <drawSize>(0.4,0.4)</drawSize>
+        <offsets>
+          <li>(0.8,0)</li>
+        </offsets>
+      </li>
+      <li Class="Fortified.HeavyEquippableExtension">
+        <EquippableDef>TransHeavyAutomatroid</EquippableDef>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- ================================= Torchwood Recoilless Rifle ==================================== -->
+  <ThingDef ParentName="USAC_BaseGun">
+    <defName>USAC_Gun_TorchwoodRR</defName>
+    <label>Torchwood recoilless rifle</label>
+    <description>An M40A3 "Torchwood" recoilless weapon system with automatic loading mechanism. Due to its lightweight characteristics derived from recoilless operation, it serves as an effective anti-tank and anti-fortification weapon. Capable of devastating armor penetration and structural destruction.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/USAC_Gun_TorchwoodRR</texPath>
+      <drawSize>1.7</drawSize>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <statBases>
+      <Mass>20.8</Mass>
+      <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.68</AccuracyShort>
+      <AccuracyMedium>0.85</AccuracyMedium>
+      <AccuracyLong>0.80</AccuracyLong>
+      <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>1.4</ShootingAccuracyPawn>
+    </equippedStatOffsets>
+    <costList>
+      <Plasteel>220</Plasteel>
+      <ComponentIndustrial>18</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>USAC_Bullet_TorchwoodRound</defaultProjectile>
+        <warmupTime>2.6</warmupTime>
+        <range>46.9</range>
+        <ticksBetweenBurstShots>35</ticksBetweenBurstShots>
+        <burstShotCount>2</burstShotCount>
+        <soundCast>USAC_Gun_Shot</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>USAC_RR</li>
+      <li>Mech_Weapon</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+        <def>MF_StandardMuzzleFalsh</def>
+        <drawSize>(0.4,0.4)</drawSize>
+        <offsets>
+          <li>(0.8,0)</li>
+        </offsets>
+      </li>
+      <li Class="Fortified.HeavyEquippableExtension">
+        <EquippableDef>HeavyAutomatroid</EquippableDef>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+</Defs>
