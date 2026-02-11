@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: mechlink serum -->
+  <USAC_TempMechlink.label>機控神經藥劑</USAC_TempMechlink.label>
+  <!-- EN: A neuro-augment serum that forms a temporary neural interface. Connects the user to the USAC satellite network for mechanoid control via a subscription model. Only active while brain activity is sustained. -->
+  <USAC_TempMechlink.description>一種神經增強藥劑，透過內含的神經元奈米機械於大腦中形成腦基接口，並透過靈能方式與軌道上的USAC衛星網路建立通訊，透過季度訂閱制提供對機械體的控制與帶寬VPN代理服務，可以在服務期間施打來擴充服務期限，但應注意一旦使用者腦活動停止則機控服務將同步中止並清空剩餘的訂閱服務時間。</USAC_TempMechlink.description>
+  <!-- EN: Inject {0_label} to become mechanitor -->
+  <USAC_TempMechlink.comps.CompUsableImplant.useLabel>注射 {0_label} 成為御械士</USAC_TempMechlink.comps.CompUsableImplant.useLabel>
+  
+</LanguageData>

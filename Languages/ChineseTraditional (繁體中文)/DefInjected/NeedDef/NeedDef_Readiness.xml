@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- EN: readiness -->
   <USAC_Readiness.label>整備</USAC_Readiness.label>
+  <!-- EN: A measure of the mechanoid's operational readiness. Low readiness causes decreased combat effectiveness. Resupply with industrial components. -->
   <USAC_Readiness.description>機兵的整備度，代表其運作狀態。低整備度會導致戰鬥效能下降。可使用零部件補給。</USAC_Readiness.description>
+  
 </LanguageData>

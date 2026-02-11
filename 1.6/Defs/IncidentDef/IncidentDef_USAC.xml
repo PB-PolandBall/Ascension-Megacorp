@@ -35,7 +35,7 @@ Use the comms console to contact them.</letterText>
         <letterLabel>USAC mining raid</letterLabel>
         <letterText>USAC has detected valuable deep resources on your map. They are deploying a mining rig with mech escorts to extract them.
 
-Destroy the mining rig or eliminate the escorts to stop the operation.</letterText>
+Destroy the assault rig and eliminate the escorts to stop the operation.</letterText>
         <letterDef>ThreatBig</letterDef>
     </IncidentDef>
 

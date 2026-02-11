@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: [PAWN_nameDef] spent years extracting valuable resources from harsh rimworld environments. [PAWN_pronoun] developed keen instincts for locating mineral deposits and managing heavy excavation equipment. [PAWN_pronoun] is accustomed to backbreaking labor and harsh working conditions that would exhaust ordinary colonists. -->
+  <USAC_Civilian01.description>[PAWN_nameDef]在邊緣世界的惡劣環境中花費數年時間提取寶貴資源。[PAWN_pronoun]對定位礦床和管理重型挖掘設備養成了敏銳的本能。[PAWN_pronoun]習慣於艱辛的勞動與惡劣的工作條件。</USAC_Civilian01.description>
+  <!-- EN: Resource Gatherer -->
+  <USAC_Civilian01.title>資源採集者</USAC_Civilian01.title>
+  <!-- EN: Gatherer -->
+  <USAC_Civilian01.titleShort>採集者</USAC_Civilian01.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] participated in the grand colonization and came to a rimworld. [PAWN_pronoun] is one of the most experienced colonists in the Colonization Force, having participated in numerous successful and failed colonization attempts in their lifetime. -->
+  <USAC_Civilian02.description>[PAWN_nameDef]在參與邊疆計畫前便已經是一位訓練有素的生存專家。在武裝集團的地面任務組當中像[PAWN_pronoun]一樣的成員大多會負責第一線的探勘接觸。</USAC_Civilian02.description>
+  <!-- EN: Survival Expert -->
+  <USAC_Civilian02.title>生存專家</USAC_Civilian02.title>
+  <!-- EN: Survivalist -->
+  <USAC_Civilian02.titleShort>生存者</USAC_Civilian02.titleShort>
+  
+</LanguageData>

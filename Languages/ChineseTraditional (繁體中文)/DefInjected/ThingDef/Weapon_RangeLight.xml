@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: full power rifle bullet -->
+  <USAC_Bullet_FullPowerRifle.label>全威力步槍彈</USAC_Bullet_FullPowerRifle.label>
+  
+  <!-- EN: advanced auto rifle -->
+  <USAC_Gun_AssaultRifle.label>先進自動步槍</USAC_Gun_AssaultRifle.label>
+  <!-- EN: An advanced precision rifle that strikes a good balance between accuracy, power and weight. Its full-power ammunition can effectively penetrate conventional bulletproof plates and cause effective damage, but its firing interval is relatively slow. -->
+  <USAC_Gun_AssaultRifle.description>一種先進精密步槍，在精準度、威力和重量之間取得良好平衡。其全威力彈藥可以有效穿透常規防彈板並造成有效傷害，但其射擊間隔相對較慢。</USAC_Gun_AssaultRifle.description>
+  <!-- EN: stock -->
+  <USAC_Gun_AssaultRifle.tools.stock.label>槍托</USAC_Gun_AssaultRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <USAC_Gun_AssaultRifle.tools.barrel.label>槍管</USAC_Gun_AssaultRifle.tools.barrel.label>
+  <!-- EN: advanced auto rifle -->
+  <USAC_Gun_AssaultRifle.verbs.Verb_Shoot.label>先進自動步槍</USAC_Gun_AssaultRifle.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Advanced LMG -->
+  <USAC_Gun_LightMachinegun.label>先進輕機槍</USAC_Gun_LightMachinegun.label>
+  <!-- EN: A precision rifle that has been modified to provide sustained firepower through an air-cooled barrel and belt-fed ammunition. Its full-power rounds can effectively penetrate conventional ballistic protection, but it is bulky and requires squad cover. -->
+  <USAC_Gun_LightMachinegun.description>一種精密步槍，通過空冷槍管和帶狀饋彈進行了改進以提供持續火力。其全威力彈藥可以有效穿透常規防彈保護，但體積龐大，需要班級掩護。</USAC_Gun_LightMachinegun.description>
+  <!-- EN: stock -->
+  <USAC_Gun_LightMachinegun.tools.stock.label>槍托</USAC_Gun_LightMachinegun.tools.stock.label>
+  <!-- EN: barrel -->
+  <USAC_Gun_LightMachinegun.tools.barrel.label>槍管</USAC_Gun_LightMachinegun.tools.barrel.label>
+  <!-- EN: Advanced LMG -->
+  <USAC_Gun_LightMachinegun.verbs.Verb_Shoot.label>先進輕機槍</USAC_Gun_LightMachinegun.verbs.Verb_Shoot.label>
+  
+  <!-- EN: advanced marksman rifle -->
+  <USAC_Gun_MarksmanRifle.label>先進射手步槍</USAC_Gun_MarksmanRifle.label>
+  <!-- EN: A modified precision rifle designed for long-range burst fire, using full-power ammunition that can effectively penetrate conventional ballistic protection at long range, making it an ideal marksman rifle. -->
+  <USAC_Gun_MarksmanRifle.description>一種經過改進的精密步槍，設計用於遠距離連發射擊，使用全威力彈藥，能夠在遠距離有效穿透常規防彈保護，對於治安戰部隊而言是十分理想的射手步槍。</USAC_Gun_MarksmanRifle.description>
+  <!-- EN: stock -->
+  <USAC_Gun_MarksmanRifle.tools.stock.label>槍托</USAC_Gun_MarksmanRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <USAC_Gun_MarksmanRifle.tools.barrel.label>槍管</USAC_Gun_MarksmanRifle.tools.barrel.label>
+  <!-- EN: advanced marksman rifle -->
+  <USAC_Gun_MarksmanRifle.verbs.Verb_Shoot.label>先進射手步槍</USAC_Gun_MarksmanRifle.verbs.Verb_Shoot.label>
+  
+</LanguageData>

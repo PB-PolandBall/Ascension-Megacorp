@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: programmable shaped charge -->
+  <USAC_GrenadeLauncher.label>可編程成形裝藥</USAC_GrenadeLauncher.label>
+  <!-- EN: An airburst smart grenade that uses an electronic fire control system to set a timed fuse at launch can effectively strike enemies behind cover. -->
+  <USAC_GrenadeLauncher.description>一種採用電子火力控制系統在發射時設置定時引信的引爆智能榴彈，能有效打擊掩護後的敵人。</USAC_GrenadeLauncher.description>
+  
+</LanguageData>

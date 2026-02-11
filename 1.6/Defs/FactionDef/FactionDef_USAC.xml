@@ -50,12 +50,15 @@
             <li>
                 <categories>
                     <li>Offworld</li>
+					<li>USAC_Common</li>
                 </categories>
                 <commonality>0.7</commonality>
             </li>
             <li>
                 <categories>
-                    <li>Outlander</li>
+					<li>USAC_Common</li>
+					<li>USAC_Officer</li>
+					<li>Outlander</li>
                 </categories>
                 <commonality>0.3</commonality>
             </li>

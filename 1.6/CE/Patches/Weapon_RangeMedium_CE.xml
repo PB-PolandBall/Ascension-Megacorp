@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <defName>USAC_Gun_OSW</defName>
+                <statBases>
+                    <Mass>8.3</Mass>
+                    <Bulk>8.3</Bulk>
+                    <SwayFactor>1.60</SwayFactor>
+                    <ShotSpread>0.09</ShotSpread>
+                    <SightsEfficiency>4</SightsEfficiency>
+                    <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+                </statBases>
+                <equippedStatOffsets>
+                   <HuntingStealth>0.2</HuntingStealth>
+                   <ShootingAccuracyPawn>0.8</ShootingAccuracyPawn>
+                </equippedStatOffsets>
+                <Properties>
+                    <recoilAmount>0.9</recoilAmount>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <defaultProjectile>Bullet_25x59mmGrenade_HE</defaultProjectile>
+                    <burstShotCount>2</burstShotCount>
+                    <ticksBetweenBurstShots>16</ticksBetweenBurstShots>
+                    <warmupTime>2.2</warmupTime>
+                    <range>44.9</range>
+                    <soundCast>RocketswarmLauncher_Fire</soundCast>
+                    <soundCastTail>GunTail_Heavy</soundCastTail>
+                    <muzzleFlashScale>8</muzzleFlashScale>
+                </Properties>
+                <AmmoUser>
+                    <magazineSize>30</magazineSize>
+                    <reloadTime>2.2</reloadTime>
+                    <ammoSet>AmmoSet_25x59mmGrenade</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aiUseBurstMode>true</aiUseBurstMode>
+                    <aiAimMode>Snapshot</aiAimMode>
+                    <aimedBurstShotCount>1</aimedBurstShotCount>
+                </FireModes>
+                <weaponTags>
+                  <li>USAC_SGL</li>
+                </weaponTags>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="USAC_Gun_OSW"]</xpath>
+                <value>
+                    <tools Inherit="False">
+                        <li Class="CombatExtended.ToolCE">
+                            <label>stock</label>
+                            <capacities>
+                                <li>Blunt</li>
+                            </capacities>
+                            <power>9</power>
+                            <cooldownTime>2</cooldownTime>
+                            <chanceFactor>1.5</chanceFactor>
+                            <armorPenetrationBlunt>0.755</armorPenetrationBlunt>
+                            <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+                        </li>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>barrel</label>
+                            <capacities>
+                                <li>Blunt</li>
+                                <li>Poke</li>
+                            </capacities>
+                            <power>9</power>
+                            <cooldownTime>2</cooldownTime>
+                            <armorPenetrationBlunt>0.755</armorPenetrationBlunt>
+                            <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+                        </li>
+                    </tools>
+                </value>
+            </li>
+
+            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <defName>USAC_Gun_ACSW</defName>
+                <statBases>
+                    <Mass>10.05</Mass>
+                    <Bulk>10.05</Bulk>
+                    <SwayFactor>1.60</SwayFactor>
+                    <ShotSpread>0.09</ShotSpread>
+                    <SightsEfficiency>3</SightsEfficiency>
+                    <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+                </statBases>
+                <equippedStatOffsets>
+                  <ShootingAccuracyPawn>0.8</ShootingAccuracyPawn>
+                </equippedStatOffsets>
+                <Properties>
+                    <recoilAmount>0.9</recoilAmount>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <defaultProjectile>Bullet_25x59mmGrenade_HE</defaultProjectile>
+                    <burstShotCount>3</burstShotCount>
+                    <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+                    <warmupTime>1.1</warmupTime>
+                    <range>37.9</range>
+                    <soundCast>RocketswarmLauncher_Fire</soundCast>
+                    <soundCastTail>GunTail_Heavy</soundCastTail>
+                    <muzzleFlashScale>8</muzzleFlashScale>
+                </Properties>
+                <AmmoUser>
+                    <magazineSize>30</magazineSize>
+                    <reloadTime>2.2</reloadTime>
+                    <ammoSet>AmmoSet_25x59mmGrenade</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aiUseBurstMode>true</aiUseBurstMode>
+                    <aiAimMode>Snapshot</aiAimMode>
+                    <aimedBurstShotCount>2</aimedBurstShotCount>
+                </FireModes>
+                <weaponTags>
+                  <li>USAC_SGL</li>
+                </weaponTags>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="USAC_Gun_ACSW"]</xpath>
+                <value>
+                    <tools Inherit="False">
+                        <li Class="CombatExtended.ToolCE">
+                            <label>stock</label>
+                            <capacities>
+                                <li>Blunt</li>
+                            </capacities>
+                            <power>9</power>
+                            <cooldownTime>2</cooldownTime>
+                            <chanceFactor>1.5</chanceFactor>
+                            <armorPenetrationBlunt>0.755</armorPenetrationBlunt>
+                            <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+                        </li>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>barrel</label>
+                            <capacities>
+                                <li>Blunt</li>
+                                <li>Poke</li>
+                            </capacities>
+                            <power>9</power>
+                            <cooldownTime>2</cooldownTime>
+                            <armorPenetrationBlunt>0.755</armorPenetrationBlunt>
+                            <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+                        </li>
+                    </tools>
+                </value>
+            </li>
+
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="USAC_Gun_BattleRifle"]/comps/li[@Class="CompProperties_EquippableAbility"]</xpath>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="USAC_Gun_BattleRifle"]/comps</xpath>
+                <value>
+                    <li>
+                        <compClass>CompEquippable</compClass>
+                    </li>
+                </value>
+            </li>
+            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <defName>USAC_Gun_BattleRifle</defName>
+                <statBases>
+                    <Mass>5.9</Mass>
+                    <RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
+                    <SightsEfficiency>3.4</SightsEfficiency>
+                    <ShotSpread>0.07</ShotSpread>
+                    <SwayFactor>1.34</SwayFactor>
+                    <Bulk>5.9</Bulk>
+                </statBases>
+                <equippedStatOffsets>
+                  <HuntingStealth>0.2</HuntingStealth>
+                  <MoveSpeed>-0.15</MoveSpeed>
+                  <ShootingAccuracyPawn>0.8</ShootingAccuracyPawn>
+                </equippedStatOffsets>
+                <Properties>
+                    <recoilAmount>2.25</recoilAmount>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <defaultProjectile>Bullet_277Fury_AP</defaultProjectile>
+                    <warmupTime>0.8</warmupTime>
+                    <range>34.9</range>
+                    <burstShotCount>2</burstShotCount>
+                    <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+                    <soundCast>USAC_Gun_Shot</soundCast>
+                    <soundCastTail>GunTail_Heavy</soundCastTail>
+                    <muzzleFlashScale>8</muzzleFlashScale>
+                </Properties>
+                <AmmoUser>
+                    <magazineSize>30</magazineSize>
+                    <reloadTime>1.7</reloadTime>
+                    <ammoSet>AmmoSet_277Fury</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aiUseBurstMode>true</aiUseBurstMode>
+                    <aiAimMode>Snapshot</aiAimMode>
+                    <aimedBurstShotCount>1</aimedBurstShotCount>
+                </FireModes>
+                <weaponClasses>
+                  <li>LongShots</li>
+                  <li>Ranged</li>
+                </weaponClasses>
+                <weaponTags>
+                  <li>USAC_OICW</li>
+                </weaponTags>
+            </li>
+            <li Class="PatchOperationAddModExtension">
+                <xpath>Defs/ThingDef[defName="USAC_Gun_BattleRifle"]</xpath>
+                <value>
+                    <li Class="CombatExtended.GunDrawExtension">
+                        <DrawOffset>0.08,0.0</DrawOffset>
+                        <CasingOffset>-0.05,0</CasingOffset>
+                    </li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="USAC_Gun_BattleRifle"]/comps</xpath>
+                <value>
+                    <li Class="CombatExtended.CompProperties_UnderBarrel">
+                        <propsUnderBarrel>
+                            <magazineSize>1</magazineSize>
+                            <reloadTime>2.5</reloadTime>
+                            <ammoSet>AmmoSet_25x59mmGrenade</ammoSet>
+                        </propsUnderBarrel>
+                        <verbPropsUnderBarrel>
+                            <recoilAmount>2.2</recoilAmount>
+                            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                            <hasStandardCommand>true</hasStandardCommand>
+                            <defaultProjectile>Bullet_25x59mmGrenade_HE</defaultProjectile>
+                            <warmupTime>1.1</warmupTime>
+                            <range>41</range>
+                            <soundCast>AGS</soundCast>
+                            <soundCastTail>GunTail_Medium</soundCastTail>
+                            <muzzleFlashScale>9</muzzleFlashScale>
+                            <targetParams>
+                                <canTargetLocations>true</canTargetLocations>
+                            </targetParams>
+                        </verbPropsUnderBarrel>
+                        <propsFireModesUnderBarrel>
+                            <aiUseBurstMode>FALSE</aiUseBurstMode>
+                            <aiAimMode>AimedShot</aiAimMode>
+                            <aimedBurstShotCount>1</aimedBurstShotCount>
+                        </propsFireModesUnderBarrel>
+                    </li>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

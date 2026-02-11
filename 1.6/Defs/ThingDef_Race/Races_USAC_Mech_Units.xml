@@ -105,6 +105,7 @@
     <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
+		<li>USAC_AR</li>
     </weaponTags>
     <weaponMoney>1000~2500</weaponMoney>
   </PawnKindDef>
