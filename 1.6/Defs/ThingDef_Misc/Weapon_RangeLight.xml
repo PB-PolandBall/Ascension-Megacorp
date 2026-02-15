@@ -189,7 +189,6 @@
       <texPath>Things/Item/Equipment/WeaponRanged/USAC_Gun_MarksmanRifle</texPath>
       <drawSize>1.2</drawSize>
     </graphicData>
-    <equippedAngleOffset>45</equippedAngleOffset>
     <weaponClasses>
       <li>LongShots</li>
       <li>RangedHeavy</li>

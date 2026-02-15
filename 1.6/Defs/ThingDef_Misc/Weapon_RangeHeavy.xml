@@ -73,7 +73,7 @@
     <description>A large-scale assault rifle designed to provide suppressive fire. Commonly used as the standard weapon for medium Automatroids, it can also be wielded by large augmented humans or soldiers wearing heavy exoskeletons. The weapon's high rate of fire makes it effective for sustained suppression against infantry targets.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/USAC_Gun_CobraAC</texPath>
-      <drawSize>1.6</drawSize>
+      <drawSize>1.5</drawSize>
     </graphicData>
     <weaponClasses>
       <li>RangedHeavy</li>
@@ -147,13 +147,12 @@
   <!-- ================================= Viper DMR ==================================== -->
   <ThingDef ParentName="USAC_BaseGun">
     <defName>USAC_Gun_ViperDMR</defName>
-    <label>Viper designated marksman rifle</label>
+    <label>Viper DMR</label>
     <description>An M905 "Viper" large-caliber precision anti-materiel weapon system using autocannon ammunition. Designed to be mounted on medium Automatroids as an anti-materiel weapon, it can also be wielded by large augmented humans or soldiers wearing heavy exoskeletons. Excels at long-range precision strikes against armored targets.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/USAC_Gun_ViperDMR</texPath>
-      <drawSize>1.5</drawSize>
+      <drawSize>2.5</drawSize>
     </graphicData>
-    <equippedAngleOffset>45</equippedAngleOffset>
     <weaponClasses>
       <li>LongShots</li>
       <li>RangedHeavy</li>
@@ -162,7 +161,7 @@
       <Mass>16.2</Mass>
       <AccuracyTouch>0.70</AccuracyTouch>
       <AccuracyShort>0.85</AccuracyShort>
-      <AccuracyMedium>0.95</AccuracyMedium>
+      <AccuracyMedium>0.90</AccuracyMedium>
       <AccuracyLong>0.93</AccuracyLong>
       <RangedWeapon_Cooldown>2.1</RangedWeapon_Cooldown>
     </statBases>
@@ -232,7 +231,7 @@
     <description>An M901 "Bushmaster III" large-caliber chain cannon designed for mounting on armored vehicles and aircraft. Capable of firing large-caliber depleted uranium autocannon rounds that can inflict devastating damage against infantry and lightly armored units. Provides devastating anti-personnel and anti-armor capabilities.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/USAC_Gun_BushmasterAC</texPath>
-      <drawSize>1.8</drawSize>
+      <drawSize>2.5</drawSize>
     </graphicData>
     <weaponClasses>
       <li>RangedHeavy</li>
@@ -310,9 +309,8 @@
     <description>An M40A3 "Torchwood" recoilless weapon system with automatic loading mechanism. Due to its lightweight characteristics derived from recoilless operation, it serves as an effective anti-tank and anti-fortification weapon. Capable of devastating armor penetration and structural destruction.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/USAC_Gun_TorchwoodRR</texPath>
-      <drawSize>1.7</drawSize>
+      <drawSize>3</drawSize>
     </graphicData>
-    <equippedAngleOffset>45</equippedAngleOffset>
     <weaponClasses>
       <li>RangedHeavy</li>
     </weaponClasses>
@@ -322,10 +320,10 @@
       <AccuracyShort>0.68</AccuracyShort>
       <AccuracyMedium>0.85</AccuracyMedium>
       <AccuracyLong>0.80</AccuracyLong>
-      <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>4.8</RangedWeapon_Cooldown>
     </statBases>
     <equippedStatOffsets>
-      <ShootingAccuracyPawn>1.4</ShootingAccuracyPawn>
+      <ShootingAccuracyPawn>1.2</ShootingAccuracyPawn>
     </equippedStatOffsets>
     <costList>
       <Plasteel>220</Plasteel>
@@ -336,10 +334,8 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>USAC_Bullet_TorchwoodRound</defaultProjectile>
-        <warmupTime>2.6</warmupTime>
+        <warmupTime>2</warmupTime>
         <range>46.9</range>
-        <ticksBetweenBurstShots>35</ticksBetweenBurstShots>
-        <burstShotCount>2</burstShotCount>
         <soundCast>USAC_Gun_Shot</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>

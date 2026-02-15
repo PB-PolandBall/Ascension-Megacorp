@@ -2,23 +2,23 @@
 <LanguageData>
   
   <!-- EN: Assault helmet -->
-  <USAC_Apparel_AssaultHelmet.label>突擊頭盔</USAC_Apparel_AssaultHelmet.label>
+  <USAC_Apparel_AssaultHelmet.label>先進突擊頭盔</USAC_Apparel_AssaultHelmet.label>
   <!-- EN: todo -->
-  <USAC_Apparel_AssaultHelmet.description>輕型突擊頭盔，提供基本保護。</USAC_Apparel_AssaultHelmet.description>
+  <USAC_Apparel_AssaultHelmet.description>使用複合塑鋼外殼製成的輕量化戰術頭盔，除了耳罩外還能夠根據需求加裝不同的附加組件。</USAC_Apparel_AssaultHelmet.description>
   
   <!-- EN: Heavy helmet -->
-  <USAC_Apparel_HeavyHelmet.label>重型頭盔</USAC_Apparel_HeavyHelmet.label>
+  <USAC_Apparel_HeavyHelmet.label>先進防彈頭盔</USAC_Apparel_HeavyHelmet.label>
   <!-- EN: todo -->
-  <USAC_Apparel_HeavyHelmet.description>重型頭盔，提供強大的頭部保護。</USAC_Apparel_HeavyHelmet.description>
+  <USAC_Apparel_HeavyHelmet.description>強化正面破片防護能力的複合塑鋼防護頭盔，被廣泛用於機槍手以及重裝步兵等在戰場接觸線上高調戰鬥的支援步兵單位。</USAC_Apparel_HeavyHelmet.description>
   
   <!-- EN: Gladiator helmet -->
-  <USAC_Apparel_MeleeHelmet.label>角鬥士頭盔</USAC_Apparel_MeleeHelmet.label>
+  <USAC_Apparel_MeleeHelmet.label>先進格鬥頭盔</USAC_Apparel_MeleeHelmet.label>
   <!-- EN: todo -->
-  <USAC_Apparel_MeleeHelmet.description>專為近距離戰鬥設計的頭盔。</USAC_Apparel_MeleeHelmet.description>
+  <USAC_Apparel_MeleeHelmet.description>一種用於在室內環境中作戰用的戰術頭盔，具有能夠保護眼睛免受破片與灼傷傷害的防彈目鏡，但由於在特定角度反光的原因而在長距離瞄準時會有瞄準阻礙。</USAC_Apparel_MeleeHelmet.description>
   
   <!-- EN: Night vision helmet -->
-  <USAC_Apparel_NightVisionHelmet.label>夜視頭盔</USAC_Apparel_NightVisionHelmet.label>
+  <USAC_Apparel_NightVisionHelmet.label>先進夜視頭盔</USAC_Apparel_NightVisionHelmet.label>
   <!-- EN: todo -->
-  <USAC_Apparel_NightVisionHelmet.description>配備夜視裝置的高級頭盔。</USAC_Apparel_NightVisionHelmet.description>
+  <USAC_Apparel_NightVisionHelmet.description>加掛模塊化夜視裝置的輕型戰術頭盔，能夠提升射擊能力與精確度。然而較為靠前的重心會使得在近距離的格鬥反應能力下降。</USAC_Apparel_NightVisionHelmet.description>
   
 </LanguageData>
