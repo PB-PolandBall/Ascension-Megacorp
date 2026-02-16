@@ -31,7 +31,7 @@
         <colorSpectrum>
             <li>(0.8, 0.8, 0.8)</li>
         </colorSpectrum>
-        <fixedIdeo>true</fixedIdeo>
+        <!-- <fixedIdeo>true</fixedIdeo> -->
         <naturalEnemy>false</naturalEnemy>
         <mustStartOneEnemy>false</mustStartOneEnemy>
         <hidden>false</hidden>
