@@ -21,7 +21,7 @@
                     <burstShotCount>3</burstShotCount>
                     <ticksBetweenBurstShots>14</ticksBetweenBurstShots>
                     <warmupTime>1.1</warmupTime>
-                    <range>33.9</range>
+                    <range>59.9</range>
                     <soundCast>USAC_Gun_Shot</soundCast>
                     <soundCastTail>GunTail_Heavy</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
@@ -88,7 +88,7 @@
                     <burstShotCount>5</burstShotCount>
                     <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
                     <warmupTime>1.7</warmupTime>
-                    <range>34.9</range>
+                    <range>63.9</range>
                     <soundCast>USAC_Gun_Shot</soundCast>
                     <soundCastTail>GunTail_Heavy</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
@@ -155,7 +155,7 @@
                     <burstShotCount>2</burstShotCount>
                     <ticksBetweenBurstShots>15</ticksBetweenBurstShots>
                     <warmupTime>2.2</warmupTime>
-                    <range>40.9</range>
+                    <range>66.9</range>
                     <soundCast>USAC_Gun_Shot</soundCast>
                     <soundCastTail>GunTail_Heavy</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>

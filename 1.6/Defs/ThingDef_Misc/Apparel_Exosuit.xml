@@ -31,10 +31,13 @@
       <Insulation_Cold>10</Insulation_Cold>
       <Insulation_Heat>-10</Insulation_Heat>
       <EquipDelay>40</EquipDelay>
+      <Bulk MayRequire="ceteam.combatextended">40</Bulk>
+      <WornBulk MayRequire="ceteam.combatextended">10</WornBulk>
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>-0.5</MoveSpeed>
-      <FFF_MassCarryCapacity>175</FFF_MassCarryCapacity>
+      <FFF_MassCarryCapacity>125</FFF_MassCarryCapacity>
+      <CarryWeight MayRequire="ceteam.combatextended">125</CarryWeight>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
