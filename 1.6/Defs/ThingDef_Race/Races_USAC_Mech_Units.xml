@@ -94,7 +94,7 @@
       </li>
     </specificApparelRequirements>
   </PawnKindDef>
-
+  
   <PawnKindDef ParentName="USAC_BaseRockyKind">
     <defName>USAC_Mech_Rocky</defName>
     <apparelTags>
@@ -192,7 +192,7 @@
           <useRottenColor>true</useRottenColor>
           <drawData>
             <defaultData>
-              <offset>(0,0,0.4)</offset>
+              <offset>(0,0,0.2)</offset>
             </defaultData>
           </drawData>
           <children>
@@ -289,6 +289,11 @@
           <shaderType>CutoutComplex</shaderType>
           <graphicClass>Graphic_Multi</graphicClass>
           <drawSize>1.9</drawSize>
+          <color>(192, 175, 158)</color>
+          <shadowData>
+            <volume>(0.7,0.7,0.7)</volume>
+            <offset>(0,0,0)</offset>
+          </shadowData>
         </bodyGraphicData>
       </li>
     </lifeStages>
@@ -318,7 +323,8 @@
       <body>USAC_Bipedal</body>
       <baseBodySize>3.0</baseBodySize>
       <baseHealthScale>5.0</baseHealthScale>
-      <mechWeightClass>UltraHeavy</mechWeightClass>
+      <renderTree>USAC_LargeMech</renderTree>
+      <mechWeightClass>Heavy</mechWeightClass>
     </race>
     <tools Inherit="False">
       <li>
@@ -374,7 +380,12 @@
           <texPath>Things/Mech/gonk</texPath>
           <shaderType>CutoutComplex</shaderType>
           <graphicClass>Graphic_Multi</graphicClass>
-          <drawSize>2.5</drawSize>
+          <drawSize>2.75</drawSize>
+          <color>(192, 175, 158)</color>
+          <shadowData>
+            <volume>(1.2,0.7,1.2)</volume>
+            <offset>(0,0,0)</offset>
+          </shadowData>
         </bodyGraphicData>
       </li>
     </lifeStages>
@@ -450,7 +461,12 @@
           <texPath>Things/Mech/cobalt</texPath>
           <shaderType>CutoutComplex</shaderType>
           <graphicClass>Graphic_Multi</graphicClass>
-          <drawSize>2.2</drawSize>
+          <drawSize>2.25</drawSize>
+          <color>(192, 175, 158)</color>
+          <shadowData>
+            <volume>(0.8,0.7,0.8)</volume>
+            <offset>(0,0,0)</offset>
+          </shadowData>
         </bodyGraphicData>
       </li>
     </lifeStages>
@@ -559,6 +575,7 @@
           <shaderType>CutoutComplex</shaderType>
           <graphicClass>Graphic_Multi</graphicClass>
           <drawSize>4</drawSize>
+          <color>(192, 175, 158)</color>
           <shadowData>
             <volume>(1.25,1,1.25)</volume>
             <offset>(0,0,-0.5)</offset>
