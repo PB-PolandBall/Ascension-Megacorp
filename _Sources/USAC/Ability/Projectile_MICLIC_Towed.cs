@@ -16,8 +16,8 @@ namespace USAC
         private const float LAUNCHER_HEIGHT = 0.55f;
 
         // 物理常数
-        private const float GRAVITY = 0.0055f;    // 约 2G 游戏重力
-        private const float BURNOUT_PROG = 0.15f; // 助推前15%路程
+        private const float GRAVITY = 0.0055f;
+        private const float BURNOUT_PROG = 0.15f;
 
         private VerletRope rope;
         private bool isLanded = false;
@@ -39,6 +39,9 @@ namespace USAC
         private static readonly Material CableMat =
             MaterialPool.MatFrom(BaseContent.WhiteTex,
                 ShaderDatabase.Transparent, new Color(0.1f, 0.1f, 0.1f));
+
+        private static readonly Material RocketEmptyMat = MaterialPool.MatFrom("Things/Projectile/lineCharge_RocketEmpty", ShaderDatabase.Cutout);
+        private static readonly Material RocketLandedMat = MaterialPool.MatFrom("Things/Projectile/lineCharge_RocketLanded", ShaderDatabase.Cutout);
 
         private void EnsureRopeInit()
         {
@@ -111,6 +114,10 @@ namespace USAC
             Vector2 startPlane = cachedLauncherPlanePos;
             Vector3 currentRocketPos;
 
+            // 推进阶段检查
+            float totalDist = (destination - origin).MagnitudeHorizontal();
+            float currentDist = 0f;
+
             if (isLanded)
             {
                 currentRocketPos = rocketPhysPos;
@@ -120,6 +127,14 @@ namespace USAC
             {
                 SimulateRocketPhysics();
                 currentRocketPos = rocketPhysPos;
+
+                currentDist = Vector2.Distance(new Vector2(origin.x, origin.z), new Vector2(rocketPhysPos.x, rocketPhysPos.y));
+
+                // 仅在助推阶段喷射尾迹
+                if (totalDist > 0.001f && currentDist / totalDist <= BURNOUT_PROG)
+                {
+                    ThrowExhaust(rocketPhysPos, rocketPhysVel);
+                }
 
                 if (rocketPhysPos.z <= 0f)
                 {
@@ -138,6 +153,48 @@ namespace USAC
         {
             rocketPhysVel.z -= GRAVITY;
             rocketPhysPos += rocketPhysVel;
+        }
+
+        private void ThrowExhaust(Vector3 rPos, Vector3 rVel)
+        {
+            if (this.Map == null) return;
+
+            Vector3 visualPos = new Vector3(rPos.x, 0, rPos.y + rPos.z);
+            float speed = rVel.magnitude;
+            Vector3 retroVel = -rVel.normalized * (speed * 0.2f);
+
+            for (int i = 0; i < 3; i++)
+            {
+                float time = (Find.TickManager.TicksGame + i * 0.33f) * 0.8f;
+                Vector3 cross = Vector3.Cross(rVel, Vector3.up).normalized;
+                if (cross == Vector3.zero) cross = Vector3.right;
+                Vector3 up = Vector3.Cross(cross, rVel).normalized;
+                float radius = 0.3f + Mathf.Sin(time * 0.5f) * 0.1f;
+                Vector3 spiralOffset = (cross * Mathf.Cos(time) + up * Mathf.Sin(time)) * radius;
+                Vector3 smokePos = rPos + spiralOffset * 0.5f;
+                Vector3 finalPos = new Vector3(smokePos.x, 0, smokePos.y + smokePos.z);
+                FleckDef fleckDef = (i % 2 == 0) ? FleckDefOf.Smoke : FleckDefOf.DustPuffThick;
+                FleckCreationData data = FleckMaker.GetDataStatic(finalPos, Map, fleckDef, 2.5f);
+                data.rotation = Rand.Range(0, 360);
+                data.rotationRate = Rand.Range(-30f, 30f);
+                data.velocityAngle = (retroVel + spiralOffset * 0.15f).AngleFlat();
+                data.velocitySpeed = 0.6f + Rand.Range(0f, 0.5f);
+                data.solidTimeOverride = 5.0f + Rand.Range(0f, 1.5f);
+                data.scale = 2.4f + Rand.Range(0f, 1.2f);
+                float gray = Rand.Range(0.3f, 0.5f);
+                data.instanceColor = new Color(gray, gray, gray, 0.95f);
+
+                Map.flecks.CreateFleck(data);
+            }
+
+            if (speed > 0.5f)
+            {
+                FleckCreationData fire = FleckMaker.GetDataStatic(visualPos, Map, FleckDefOf.MicroSparks, 0.6f);
+                fire.instanceColor = new Color(1f, 0.8f, 0.2f, 0.9f);
+                fire.velocitySpeed = 0.1f;
+                fire.solidTimeOverride = 0.2f;
+                Map.flecks.CreateFleck(fire);
+            }
         }
 
         private void OnPhysicsLanded()
@@ -168,7 +225,22 @@ namespace USAC
             else
                 angle = origin.AngleToFlat(destination);
 
-            Graphic.Draw(rVis, this.Rotation, this, angle);
+            Material rocketMat = def.graphic.MatSingle;
+            if (isLanded)
+            {
+                rocketMat = RocketLandedMat;
+            }
+            else
+            {
+                float totalDist = (destination - origin).MagnitudeHorizontal();
+                float currentDist = Vector2.Distance(new Vector2(origin.x, origin.z), new Vector2(rocketPhysPos.x, rocketPhysPos.y));
+                if (totalDist > 0.001f && currentDist / totalDist > BURNOUT_PROG)
+                    rocketMat = RocketEmptyMat;
+            }
+
+            Vector2 drawSize = def.graphicData.drawSize;
+            Matrix4x4 rocketMatrix = Matrix4x4.TRS(rVis, Quaternion.AngleAxis(angle, Vector3.up), new Vector3(drawSize.x, 1f, drawSize.y));
+            Graphics.DrawMesh(MeshPool.plane10, rocketMatrix, rocketMat, 0);
 
             // 反向查找首个出舱节点
             int startDrawIndex = 0;
