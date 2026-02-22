@@ -11,7 +11,7 @@
       <ArmorRating_Blunt>1.3</ArmorRating_Blunt>
       <ArmorRating_Heat>1.2</ArmorRating_Heat>
       <StaggerDurationFactor>0</StaggerDurationFactor>
-      <MechEnergyUsageFactor>0.5</MechEnergyUsageFactor>
+      <MechEnergyUsageFactor MayRequire="Ludeon.Rimworld.Biotech">0.5</MechEnergyUsageFactor>
       <BandwidthCost MayRequire="Ludeon.Rimworld.Biotech">5</BandwidthCost>
       <WastepacksPerRecharge MayRequire="Ludeon.Rimworld.Biotech">4</WastepacksPerRecharge>
     </statBases>
@@ -100,7 +100,7 @@
       <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
       <ArmorRating_Heat>1.0</ArmorRating_Heat>
       <StaggerDurationFactor>0</StaggerDurationFactor>
-      <MechEnergyUsageFactor>0.5</MechEnergyUsageFactor>
+      <MechEnergyUsageFactor MayRequire="Ludeon.Rimworld.Biotech">0.5</MechEnergyUsageFactor>
       <CarryingCapacity>120</CarryingCapacity>
       <BandwidthCost MayRequire="Ludeon.Rimworld.Biotech">2</BandwidthCost>
       <WastepacksPerRecharge MayRequire="Ludeon.Rimworld.Biotech">2</WastepacksPerRecharge>
@@ -166,7 +166,7 @@
     </weaponTags>
     <weaponMoney>1200~2000</weaponMoney>
     <abilities>
-      <li>SmokepopMech</li>
+      <li MayRequire="Ludeon.Rimworld.Biotech">SmokepopMech</li>
     </abilities>
   </PawnKindDef>
 
@@ -294,6 +294,7 @@
     <abilities>
       <li>USAC_MICLIC_Towed</li>
       <li>USAC_MineclearingShovel</li>
+      <li MayRequire="Ludeon.Rimworld.Biotech">SmokepopMech</li>
     </abilities>
   </PawnKindDef>
 

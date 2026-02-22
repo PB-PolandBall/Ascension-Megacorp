@@ -169,7 +169,7 @@
                         <li>ComponentIndustrial</li>
                         <li>ComponentSpacer</li>
                         <li>MedicineIndustrial</li>
-                        <li>HemogenPack</li>
+                        <li MayRequire="Ludeon.Rimworld.Biotech">HemogenPack</li>
                     </thingDefs>
                 </filter>
             </fixedParams>

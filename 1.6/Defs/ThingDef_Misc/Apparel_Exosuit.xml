@@ -39,6 +39,9 @@
       <FFF_MassCarryCapacity>125</FFF_MassCarryCapacity>
     </equippedStatOffsets>
     <apparel>
+      <layers>
+        <li>Shell</li>
+      </layers>
       <bodyPartGroups>
         <li>Hands</li>
         <li>Feet</li>
@@ -90,9 +93,6 @@
         </li>
       </renderNodeProperties>
       <blocksAddedPartWoundGraphics>false</blocksAddedPartWoundGraphics>
-      <layers>
-        <li>Shell</li>
-      </layers>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<!--USAC_Apparel_AssaultHelmet-->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="USAC_Apparel_AssaultHelmet"]/statBases/StuffEffectMultiplierArmor</xpath>
+				<value>
+					<StuffEffectMultiplierArmor>4</StuffEffectMultiplierArmor>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="USAC_Apparel_AssaultHelmet"]/statBases</xpath>
+				<value>
+					<Bulk>5</Bulk>
+					<WornBulk>2</WornBulk>
+				</value>
+			</li>
+
+			<!--USAC_Apparel_HeavyHelmet-->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="USAC_Apparel_HeavyHelmet"]/statBases/StuffEffectMultiplierArmor</xpath>
+				<value>
+					<StuffEffectMultiplierArmor>6</StuffEffectMultiplierArmor>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="USAC_Apparel_HeavyHelmet"]/statBases</xpath>
+				<value>
+					<Bulk>10</Bulk>
+					<WornBulk>4</WornBulk>
+				</value>
+			</li>
+
+			<!--USAC_Apparel_MeleeHelmet-->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="USAC_Apparel_MeleeHelmet"]/statBases/StuffEffectMultiplierArmor</xpath>
+				<value>
+					<StuffEffectMultiplierArmor>3.5</StuffEffectMultiplierArmor>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="USAC_Apparel_MeleeHelmet"]/statBases</xpath>
+				<value>
+					<Bulk>5</Bulk>
+					<WornBulk>2</WornBulk>
+				</value>
+			</li>
+			<!--USAC_Apparel_NightVisionHelmet-->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="USAC_Apparel_NightVisionHelmet"]/statBases/StuffEffectMultiplierArmor</xpath>
+				<value>
+					<StuffEffectMultiplierArmor>3.8</StuffEffectMultiplierArmor>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="USAC_Apparel_NightVisionHelmet"]/statBases</xpath>
+				<value>
+					<Bulk>5</Bulk>
+					<WornBulk>2</WornBulk>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="USAC_Apparel_NightVisionHelmet"]/equippedStatOffsets</xpath>
+				<value>
+					<NightVisionEfficiency>1</NightVisionEfficiency>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

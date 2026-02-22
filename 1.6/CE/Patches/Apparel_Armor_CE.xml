@@ -35,11 +35,12 @@
 					<compClass>FortifiedCE.CompBulletproofPlate</compClass>
 				</value>
 			</li>
-			<!-- <li Class="PatchOperationAttributeSet">
-				<xpath>Defs/ThingDef[defName="USAC_Apparel_ExoSkeleton"]/comps/li[@Class="Fortified.CompProperties_BulletproofPlate"]</xpath>
-				<attribute>Class</attribute>
-				<value>FortifiedCE.CompProperties_BulletproofPlate</value>
-			</li> -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="USAC_Apparel_ExoSkeleton"]/comps/li[@Class="Fortified.CompProperties_BulletproofPlate"]/armorRating</xpath>
+				<value>
+					<armorRating>20</armorRating>
+				</value>
+			</li>
         </operations>
     </Operation>
 </Patch>

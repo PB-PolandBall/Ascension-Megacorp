@@ -42,7 +42,7 @@
             <Flammability>1.0</Flammability>
             <MarketValue>50</MarketValue>
         </statBases>
-        <costStuffCount>75</costStuffCount>
+        <costStuffCount>60</costStuffCount>
         <costList>
             <Steel>10</Steel>
         </costList>
@@ -57,7 +57,7 @@
             <recipeUsers>
                 <li>ElectricTailoringBench</li>
                 <li>HandTailoringBench</li>
-                <li>DMS_TableMachinePrinter</li>
+                <li MayRequire="aoba.deadmanswitch.core">DMS_TableMachinePrinter</li>
             </recipeUsers>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
             <defaultIngredientFilter>
@@ -66,6 +66,7 @@
                 </categories>
                 <disallowedThingDefs>
                     <li>Hyperweave</li>
+                    <li>DevilstrandCloth</li>
                 </disallowedThingDefs>
             </defaultIngredientFilter>
         </recipeMaker>
