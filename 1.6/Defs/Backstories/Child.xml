@@ -12,7 +12,7 @@
             <li>USAC_Common</li>
         </spawnCategories>
         <forcedTraits>
-            <Delicate>0</Delicate>
+            <Delicate MayRequire="Ludeon.Rimworld.Biotech">0</Delicate>
         </forcedTraits>
     </BackstoryDef>
 

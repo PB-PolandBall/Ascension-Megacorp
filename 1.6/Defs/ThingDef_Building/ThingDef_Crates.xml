@@ -132,7 +132,7 @@
                         </items>
                     </li>
                     <!-- 25% 1 強化劑 -->
-                    <li>
+                    <li MayRequire="Ludeon.Rimworld.Biotech">
                         <chance>0.25</chance>
                         <items>
                             <li>
@@ -143,7 +143,7 @@
                         </items>
                     </li>
                     <!-- 24% 1 一次性電池 or 一次性維修包 -->
-                    <li>
+                    <li MayRequire="Ludeon.Rimworld.Biotech">
                         <chance>0.24</chance>
                         <items>
                             <li>
@@ -229,7 +229,7 @@
                         </items>
                     </li>
                     <!-- 10% 2~4 一次性電池 or 一次性維修包 -->
-                    <li>
+                    <li MayRequire="Ludeon.Rimworld.Biotech">
                         <chance>0.1</chance>
                         <items>
                             <li>
@@ -247,7 +247,7 @@
                         </items>
                     </li>
                     <!-- 5% 2~4 強化劑 -->
-                    <li>
+                    <li MayRequire="Ludeon.Rimworld.Biotech">
                         <chance>0.05</chance>
                         <items>
                             <li>
@@ -258,7 +258,7 @@
                         </items>
                     </li>
                     <!-- 5% 1 臨時機控 (USAC物品) -->
-                    <li>
+                    <li MayRequire="Ludeon.Rimworld.Biotech">
                         <chance>0.05</chance>
                         <items>
                             <li>
@@ -365,7 +365,7 @@
                         </items>
                     </li>
                     <!-- 2% 1~2 臨時機控 (USAC物品) -->
-                    <li>
+                    <li MayRequire="Ludeon.Rimworld.Biotech">
                         <chance>0.02</chance>
                         <items>
                             <li>
