@@ -24,6 +24,13 @@
       <baseHealthScale>1.5</baseHealthScale>
       <renderTree>USAC_LargeMech</renderTree>
       <mechWeightClass>Heavy</mechWeightClass>
+      <mechEnabledWorkTypes>
+        <li>Hauling</li>
+        <li MayRequire="frozensnowfox.complexjobs">FSFDeliver</li>
+        <li MayRequire="frozensnowfox.complexjobs">FSFCremating</li>
+        <li MayRequire="frozensnowfox.complexjobs">FSFRearming</li>
+        <li>BasicWorker</li>
+      </mechEnabledWorkTypes>
     </race>
     <modExtensions>
       <li Class="Fortified.MechWeaponExtension">

@@ -29,6 +29,14 @@
       <baseHealthScale>1.0</baseHealthScale>
       <mechWeightClass>Medium</mechWeightClass>
       <renderTree>USAC_HumanlikeMech</renderTree>
+      <mechEnabledWorkTypes>
+        <li>Hauling</li>
+        <li MayRequire="frozensnowfox.complexjobs">FSFDeliver</li>
+        <li MayRequire="frozensnowfox.complexjobs">FSFCremating</li>
+        <li MayRequire="frozensnowfox.complexjobs">FSFRearming</li>
+        <li>Hunting</li>
+        <li>BasicWorker</li>
+      </mechEnabledWorkTypes>
     </race>
     <comps>
       <li Class="Fortified.CompProperties_MechApparel" />

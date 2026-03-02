@@ -120,7 +120,7 @@
     <!-- Credit Bonds -->
 
     <!-- EN: USAC Credit Bonds -->
-  <USAC_Bond_Label>USAC信用債券</USAC_Bond_Label>
+  <USAC_Bond_Label>信用債券</USAC_Bond_Label>
 
     <!-- EN: A special type of paper made of high-strength fibers, a physical registered certificate issued by USAC corporate dealers in transactions with the ground forces. Its surface is printed with special ink, featuring exquisite anti-counterfeiting marks and the registered owner's information. \n\nAfter the acquisition of goods and the sale of equipment, the remaining residual value can be used to purchase this certificate with fixed purchasing power for the next transaction. Because the certificate is registered, it cannot be used by anyone other than the registered owner. Therefore, this highly durable piece of paper is of virtually no practical use to other factions in the Edge World.  -->
   <USAC_Bond_Desc>一種由高韌度纖維製成的特殊紙張，是USAC企業經銷商與地面陣營交易時所印發的實體記名憑證，其表面採用特殊油墨印刷，具有精美的防偽標識與記名所有者訊息。\n\n在商品收購與裝備銷售後，結餘的剩餘價值能被用來買入這種具備固定購買力的憑證用於下次交易。由於憑證具有記名性因此無法由記名所有人以外的人使用，因此對邊緣世界中的其他陣營來說，這張十分耐磨損的紙基本沒有任何實際用途。</USAC_Bond_Desc>
@@ -215,7 +215,7 @@
   <!-- EN: The emergency siren cuts through reentry. USAC has already written this loss off as acceptable risk.
 
 You are four survivors from different contract chains: debt inheritance, automation layoffs, penal security work, and frontier hazard labor. Supplies are limited, support is gone, and every promise now depends on what you can build and defend on this rimworld. -->
-  <USAC_FourPersonStart_GameStartDialog>重返大氣層的警報聲撕裂艙體，USAC早已把這次損失列入可接受風險。\n\n你們四人來自不同的契約鏈：繼承債務者、被自動機兵取代的技工、做過懲戒看守的武裝人員，以及簽下整份免責條款的邊疆勞工。補給有限、支援中斷，從現在起，所有承諾都只取決於你們能在這顆邊緣世界上建立並守住什麼，以及記得履行每個月的債務支付。</USAC_FourPersonStart_GameStartDialog>
+  <USAC_FourPersonStart_GameStartDialog>重返大氣層的警報聲撕裂艙體，USAC早已把這次損失列入可接受風險。\n\n你們四人來自不同的契約鏈：繼承債務者、被自動機兵取代的技工、做過懲戒看守的武裝人員，你們都是簽下整份免責條款的邊疆計畫參與者。補給有限、支援中斷，從現在起，所有承諾都只取決於你們能在這顆邊緣世界上建立並守住什麼。\n\n以及記得履行每個月的債務支付。</USAC_FourPersonStart_GameStartDialog>
 
   <!-- UNUSED -->
   <USAC_SiteLabel_HostileCamp>敵軍據點</USAC_SiteLabel_HostileCamp>

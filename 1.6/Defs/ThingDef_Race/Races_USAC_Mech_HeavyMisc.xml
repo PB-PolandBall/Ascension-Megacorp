@@ -21,6 +21,11 @@
       <baseHealthScale>5.0</baseHealthScale>
       <renderTree>USAC_LargeMech</renderTree>
       <mechWeightClass>Heavy</mechWeightClass>
+      <mechEnabledWorkTypes>
+        <li>Warden</li>
+        <li MayRequire="orion.hospitality">Diplomat</li>
+        <li>BasicWorker</li>
+      </mechEnabledWorkTypes>
     </race>
     <tools Inherit="False">
       <li>

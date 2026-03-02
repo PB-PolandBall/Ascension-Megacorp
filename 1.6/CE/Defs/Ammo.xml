@@ -79,7 +79,7 @@
 		</products>
 		<workAmount>4200</workAmount>
 	</RecipeDef>
-	
+
 	<!-- 7.62x51mm -->
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="762x51mmNATOBase">
 		<defName>USAC_Ammo_762x51mmNATO_DU</defName>
@@ -164,11 +164,7 @@
 		<statBases>
 			<MarketValue>0.65</MarketValue>
 		</statBases>
-		<tradeTags inherit="false">
-			<li>CE_AmmoInjector</li>
-			<li>CE_Ammo</li>
-			<li>CE_AutoEnableTrade</li>
-			<li MayRequire="aoba.fortress.industrial.nucleardawn">CE_AutoEnableCrafting</li>
+		<tradeTags>
 			<li>USAC_Ammunition</li>
 		</tradeTags>
 		<cookOffProjectile>USAC_Bullet_338Lapua_DU</cookOffProjectile>

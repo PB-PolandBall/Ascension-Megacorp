@@ -142,7 +142,7 @@
   <USAC.UI.Legal.Clause01.Desc>在任何違約情況下，USAC 擁有對本地所有物質資產的絕對優先回收權。</USAC.UI.Legal.Clause01.Desc>
   <USAC.UI.Legal.Clause02.Title>條款 02: 自動化執行</USAC.UI.Legal.Clause02.Title>
   <USAC.UI.Legal.Clause02.Desc>回收過程由軌道平臺自動引導，不接受任何形式的人工辯護或延期申請。</USAC.UI.Legal.Clause02.Desc>
-  <USAC.UI.Legal.Footer>警告：點擊進入本門戶即代表您已默認並簽署了上述所有協議。USAC 不對回收過程中的意外平民傷亡或次生傷害負責。</USAC.UI.Legal.Footer>
+  <USAC.UI.Legal.Footer>警告：點擊進入本門戶即代表您已默認並簽署了上述所有協議。USAC資產回收部門不對回收過程中的意外平民傷亡或次生傷害負責。</USAC.UI.Legal.Footer>
 
   <!-- 交互反饋 -->
   <USAC_PaymentSuccess>[USAC] {0} 核銷完成，信用評分已上調。</USAC_PaymentSuccess>
@@ -171,7 +171,7 @@
   <USAC.UI.Services.Renewal.Remaining>剩餘鏈路時長: {0}</USAC.UI.Services.Renewal.Remaining>
 
   <!-- 債務條目 -->
-  <USAC.Debt.LeaseDrill>USAC 重型突擊採礦機租賃費用</USAC.Debt.LeaseDrill>
+  <USAC.Debt.LeaseDrill>USAC軌道突擊鑽機租賃費用</USAC.Debt.LeaseDrill>
   <USAC.Debt.Renewal>{0} 的臨時帶寬鏈路續期費用</USAC.Debt.Renewal>
 
   <USAC.Message.Renewed>[USAC] 續期成功：已為 {0} 續訂 30 週期帶寬鏈路。</USAC.Message.Renewed>

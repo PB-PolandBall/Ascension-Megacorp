@@ -24,6 +24,9 @@
       <mechWeightClass>Medium</mechWeightClass>
       <mechEnabledWorkTypes>
         <li>Hauling</li>
+        <li MayRequire="frozensnowfox.complexjobs">FSFDeliver</li>
+        <li MayRequire="frozensnowfox.complexjobs">FSFCremating</li>
+        <li MayRequire="frozensnowfox.complexjobs">FSFRearming</li>
       </mechEnabledWorkTypes>
     </race>
     <comps>

@@ -102,7 +102,7 @@
     </graphicData>
     <statBases>
       <DeteriorationRate>0.25</DeteriorationRate>
-      <MarketValue>40</MarketValue>
+      <MarketValue>30</MarketValue>
       <Mass>0.2</Mass>
       <Nutrition>1.0</Nutrition>
     </statBases>
