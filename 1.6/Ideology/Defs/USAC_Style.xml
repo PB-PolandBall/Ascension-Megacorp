@@ -18,14 +18,6 @@
 	</ThingStyleDef>
 
 	<ThingStyleDef>
-		<defName>Apparel_USACRifle</defName>
-		<graphicData>
-			<texPath>Things/Style/USAC/Rifle</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-	</ThingStyleDef>
-
-	<ThingStyleDef>
 		<defName>Gun_USACAutopistol</defName>
 		<graphicData>
 			<texPath>Things/Style/USAC/Autopistol</texPath>
@@ -82,6 +74,33 @@
 		<defName>Gun_USACSniperRifle</defName>
 		<graphicData>
 			<texPath>Things/Style/USAC/SniperRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>Gun_USACChainShotgun</defName>
+		<graphicData>
+			<texPath>Things/Style/USAC/ChainShotgun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>Gun_USACBoltActionRifle</defName>
+		<graphicData>
+			<texPath>Things/Style/USAC/BoltActionRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.1,1.1)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>Gun_USACLMG</defName>
+		<graphicData>
+			<texPath>Things/Style/USAC/LightMachineGun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(1.5,1.5)</drawSize>
 		</graphicData>

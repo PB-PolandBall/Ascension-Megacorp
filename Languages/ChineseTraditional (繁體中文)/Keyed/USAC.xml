@@ -212,6 +212,11 @@
   <!-- EN: Coverup Successful -->
   <USAC_Coverup>罪跡掩蓋</USAC_Coverup>
 
+  <!-- EN: The emergency siren cuts through reentry. USAC has already written this loss off as acceptable risk.
+
+You are four survivors from different contract chains: debt inheritance, automation layoffs, penal security work, and frontier hazard labor. Supplies are limited, support is gone, and every promise now depends on what you can build and defend on this rimworld. -->
+  <USAC_FourPersonStart_GameStartDialog>重返大氣層的警報聲撕裂艙體，USAC早已把這次損失列入可接受風險。\n\n你們四人來自不同的契約鏈：繼承債務者、被自動機兵取代的技工、做過懲戒看守的武裝人員，以及簽下整份免責條款的邊疆勞工。補給有限、支援中斷，從現在起，所有承諾都只取決於你們能在這顆邊緣世界上建立並守住什麼，以及記得履行每個月的債務支付。</USAC_FourPersonStart_GameStartDialog>
+
   <!-- UNUSED -->
   <USAC_SiteLabel_HostileCamp>敵軍據點</USAC_SiteLabel_HostileCamp>
   <USAC_SiteLabel_HostileBase>叛軍營地</USAC_SiteLabel_HostileBase>
