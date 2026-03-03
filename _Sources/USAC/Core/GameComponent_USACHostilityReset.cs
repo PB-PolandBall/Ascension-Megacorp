@@ -7,7 +7,7 @@ namespace USAC
     public class GameComponent_USACHostilityReset : GameComponent
     {
         private int lastResetTick = -1;
-        private const int TicksPerMonth = 60000 * 24 * 15;
+        private const int TicksPerReset = 60000 * 10;
 
         public GameComponent_USACHostilityReset(Game game) : base()
         {
@@ -15,7 +15,7 @@ namespace USAC
 
         public override void GameComponentTick()
         {
-            if (Find.TickManager.TicksGame < lastResetTick + TicksPerMonth)
+            if (Find.TickManager.TicksGame < lastResetTick + TicksPerReset)
                 return;
 
             lastResetTick = Find.TickManager.TicksGame;

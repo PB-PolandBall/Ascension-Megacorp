@@ -232,6 +232,19 @@ namespace USAC
                 EjectAllContents();
             }
 
+            // 发送毁坏信号与意图
+            if (guardLord != null)
+            {
+                if (Faction != null && Faction.HostileTo(Faction.OfPlayer))
+                {
+                    guardLord.ReceiveMemo("RigDestroyed_Hostile");
+                }
+                else
+                {
+                    guardLord.ReceiveMemo("RigDestroyed_Friendly");
+                }
+            }
+
             base.Destroy(mode);
         }
 

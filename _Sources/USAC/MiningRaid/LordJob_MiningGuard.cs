@@ -66,6 +66,10 @@ namespace USAC
             LordToil_ExitMap toilExit = new LordToil_ExitMap(LocomotionUrgency.Jog);
             stateGraph.AddToil(toilExit);
 
+            // 状态定义为敌对机器被毁反击
+            LordToil_AssaultColony toilAssault = new LordToil_AssaultColony(false);
+            stateGraph.AddToil(toilAssault);
+
             // 定义被攻击转化清理威胁逻辑
             Transition transToKill = new Transition(toilDefend, toilKill);
             transToKill.AddTrigger(new Trigger_Memo("StartKillThreats"));
@@ -86,10 +90,19 @@ namespace USAC
             transKillToBoard.AddTrigger(new Trigger_Memo("StartBoarding"));
             stateGraph.AddTransition(transKillToBoard);
 
-            // 定义被毁态转化撤离逻辑
-            Transition transToExit = new Transition(toilBoard, toilExit);
-            transToExit.AddTrigger(new Trigger_Memo("RigDestroyed"));
-            stateGraph.AddTransition(transToExit);
+            // 定义非敌对机器被毁撤退
+            Transition transDestroyExit = new Transition(toilDefend, toilExit);
+            transDestroyExit.AddSource(toilKill);
+            transDestroyExit.AddSource(toilBoard);
+            transDestroyExit.AddTrigger(new Trigger_Memo("RigDestroyed_Friendly"));
+            stateGraph.AddTransition(transDestroyExit);
+
+            // 定义敌对机器被毁反击
+            Transition transDestroyAssault = new Transition(toilDefend, toilAssault);
+            transDestroyAssault.AddSource(toilKill);
+            transDestroyAssault.AddSource(toilBoard);
+            transDestroyAssault.AddTrigger(new Trigger_Memo("RigDestroyed_Hostile"));
+            stateGraph.AddTransition(transDestroyAssault);
 
             // 定义全员登机完成转化结束
             Transition transAllBoarded = new Transition(toilBoard, toilExit);
