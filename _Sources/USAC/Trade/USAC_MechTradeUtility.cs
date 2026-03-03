@@ -45,6 +45,10 @@ namespace USAC
                 fixedBiologicalAge: 0,
                 fixedChronologicalAge: 0
             ));
+            if (mech.def.TryGetModExtension<MechWeaponExtension>(out var ext))
+            {
+                mech.inventory.DestroyAll(); // 清空默认装备
+            }
             capsule.TryAcceptMech(mech);
 
             // 查找空投位置
