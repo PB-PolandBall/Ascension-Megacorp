@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
     <!-- USAC Faction -->
@@ -187,7 +187,7 @@
     <!-- EN: They do not belong to any known faction. -->
   <TraderArrivalNoFaction>他們不屬於任何已知派系。</TraderArrivalNoFaction>
 
-    <!-- Site 站點標籤 -->
+    <!-- Site 站点标签 -->
   <!-- EN: Hostile Outpost -->
   <USAC_SiteLabel_HostileOutpost>敵方前哨</USAC_SiteLabel_HostileOutpost>
   <!-- EN: Enemy Camp -->

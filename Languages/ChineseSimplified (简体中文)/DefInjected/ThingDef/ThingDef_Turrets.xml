@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: heavy machine gun bullet -->
+  <USAC_Bullet_HeavyMachineGun.label>重机枪弹</USAC_Bullet_HeavyMachineGun.label>
+  
+  <!-- EN: Heavy sentry gun -->
+  <USAC_Turret_HMG.label>重型哨戒炮</USAC_Turret_HMG.label>
+  <!-- EN: A multi-purpose heavy machine gun with a lightweight composite material frame and improved design, it is widely used in various weapon platforms and fixed defensive facilities. In the distant past, it was a very successful alternative to the M2 heavy machine gun. -->
+  <USAC_Turret_HMG.description>一种无须外部供能就能够进行索敌与开火的大口径先进炮塔，被广泛用於巨企私有土地上的长期监视与非法入侵者驱赶。</USAC_Turret_HMG.description>
+  
+</LanguageData>

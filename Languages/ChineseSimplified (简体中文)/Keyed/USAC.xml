@@ -4,7 +4,7 @@
     <!-- USAC Faction -->
 
     <!-- EN: A Rising Giant -->
-  <USAC_FactionName>飞升巨企</USAC_FactionName>
+  <USAC_FactionName>飞昇巨企</USAC_FactionName>
 
     <!-- EN: A giant corporation that emerged from the enlightenment of the world, after the departure of the colonial fleet, it monopolized the local energy industry through information and technological advantages, and rapidly expanded through cultural hegemony.  -->
   <USAC_FactionDesc>来自启迪世界崛起的巨企，在殖民舰队离开之後透过讯息与技术优势来垄断当地的能源产业，并且透过文化霸权来快速的扩张并开展边疆计画来将势力范围扩张到新的世界。</USAC_FactionDesc>
@@ -120,7 +120,7 @@
     <!-- Credit Bonds -->
 
     <!-- EN: USAC Credit Bonds -->
-  <USAC_Bond_Label>USAC信用债券</USAC_Bond_Label>
+  <USAC_Bond_Label>信用债券</USAC_Bond_Label>
 
     <!-- EN: A special type of paper made of high-strength fibers, a physical registered certificate issued by USAC corporate dealers in transactions with the ground forces. Its surface is printed with special ink, featuring exquisite anti-counterfeiting marks and the registered owner's information. \n\nAfter the acquisition of goods and the sale of equipment, the remaining residual value can be used to purchase this certificate with fixed purchasing power for the next transaction. Because the certificate is registered, it cannot be used by anyone other than the registered owner. Therefore, this highly durable piece of paper is of virtually no practical use to other factions in the Edge World.  -->
   <USAC_Bond_Desc>一种由高韧度纤维制成的特殊纸张，是USAC企业经销商与地面阵营交易时所印发的实体记名凭证，其表面采用特殊油墨印刷，具有精美的防伪标识与记名所有者讯息。\n\n在商品收购与装备销售後，结余的剩余价值能被用来买入这种具备固定购买力的凭证用於下次交易。由於凭证具有记名性因此无法由记名所有人以外的人使用，因此对边缘世界中的其他阵营来说，这张十分耐磨损的纸基本没有任何实际用途。</USAC_Bond_Desc>
@@ -215,7 +215,7 @@
   <!-- EN: The emergency siren cuts through reentry. USAC has already written this loss off as acceptable risk.
 
 You are four survivors from different contract chains: debt inheritance, automation layoffs, penal security work, and frontier hazard labor. Supplies are limited, support is gone, and every promise now depends on what you can build and defend on this rimworld. -->
-  <USAC_FourPersonStart_GameStartDialog>重返大气层的警报声撕裂舱体，USAC早已把这次损失列入可接受风险。\n\n你们四人来自不同的契约链：继承债务者、被自动机兵取代的技工、做过惩戒看守的武装人员，以及签下整份免责条款的边疆劳工。补给有限、支援中断，从现在起，所有承诺都只取决於你们能在这颗边缘世界上建立并守住什麽，以及记得履行每个月的债务支付。</USAC_FourPersonStart_GameStartDialog>
+  <USAC_FourPersonStart_GameStartDialog>重返大气层的警报声撕裂舱体，USAC早已把这次损失列入可接受风险。\n\n你们四人来自不同的契约链：继承债务者、被自动机兵取代的技工、做过惩戒看守的武装人员，你们都是签下整份免责条款的边疆计画参与者。补给有限、支援中断，从现在起，所有承诺都只取决於你们能在这颗边缘世界上建立并守住什麽。\n\n以及记得履行每个月的债务支付。</USAC_FourPersonStart_GameStartDialog>
 
   <!-- UNUSED -->
   <USAC_SiteLabel_HostileCamp>敌军据点</USAC_SiteLabel_HostileCamp>

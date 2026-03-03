@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Advanced support weapon -->
+  <USAC_Product_ACSW.label>先进支援平台</USAC_Product_ACSW.label>
+  <!-- EN: M307 "Terminator"轻型自动榴弹发射器。集成了高射速与便携性，能够连续发射碎片榴弹压制敌方步兵集群，是战场面杀伤的核心力量。 -->
+  <USAC_Product_ACSW.description>M307 "终结者" 轻型自动榴弹发射器。集成了高射速与便携性，能够连续发射碎片榴弹压制敌方步兵集群，是战场面杀伤的核心力量。</USAC_Product_ACSW.description>
+  <!-- EN: AGL // 自动榴弹 -->
+  <USAC_Product_ACSW.subLabel>AGL // 自动榴弹</USAC_Product_ACSW.subLabel>
+  
+  <!-- EN: Assault helmet -->
+  <USAC_Product_AssaultHelmet.label>突击头盔</USAC_Product_AssaultHelmet.label>
+  <!-- EN: 一种由复合塑钢外壳制成的轻型战术头盔，除了集成的耳罩外，还可以根据需要配备手电筒等不同的附加组件。 -->
+  <USAC_Product_AssaultHelmet.description>一种由复合塑钢外壳制成的轻型战术头盔，除了集成的耳罩外，还可以根据需要配备手电筒等不同的附加组件。</USAC_Product_AssaultHelmet.description>
+  <!-- EN: HEADWEAR // 步兵标准 -->
+  <USAC_Product_AssaultHelmet.subLabel>HEADWEAR // 步兵标准</USAC_Product_AssaultHelmet.subLabel>
+  
+  <!-- EN: Advanced Auto Rifle -->
+  <USAC_Product_AssaultRifle.label>先进自动步枪</USAC_Product_AssaultRifle.label>
+  <!-- EN: 先进自动步枪。USAC 步兵的标准配置，在精度、火力和重量之间达成了完美的“企业平衡”。 -->
+  <USAC_Product_AssaultRifle.description>USAC陆战队与雇佣步枪兵的标准配置，在精度、火力和重量之间达成了完美的“企业平衡”。</USAC_Product_AssaultRifle.description>
+  <!-- EN: RIFLE // 步兵轻型 -->
+  <USAC_Product_AssaultRifle.subLabel>RIFLE // 步兵轻型</USAC_Product_AssaultRifle.subLabel>
+  
+  <!-- EN: Disposable Battery -->
+  <USAC_Product_Battery.label>一次性快充电池</USAC_Product_Battery.label>
+  <!-- EN: 一种圆形的一次性电池，能够快速为机械体充满电。为避免用户将充电装置私自改造重复使用造成安全隐患，该电池被设计为在放电结束後自动短路熔毁。 -->
+  <USAC_Product_Battery.description>一种圆形的一次性电池，能够快速为机械体充满电。为避免用户将充电装置私自改造重复使用造成安全隐患，该电池被设计为在放电结束後自动短路熔毁。</USAC_Product_Battery.description>
+  <!-- EN: ELECTRONICS // 能源模块 -->
+  <USAC_Product_Battery.subLabel>ELECTRONICS // 能源模块</USAC_Product_Battery.subLabel>
+  
+  <!-- EN: Credit bonds -->
+  <USAC_Product_Bond.label>信用债券</USAC_Product_Bond.label>
+  <!-- EN: 一种由高韧度纤维制成的特殊纸张，是USAC企业经销商与地面阵营交易时所印发的实体记名凭证，其表面采用特殊油墨印刷，具有精美的防伪标识与记名所有者信息。在与USAC企业的商品收购及装备销售後，结余的剩余价值能被用来买入这种具备固定购买力的凭证用於下次交易。由於凭证具有记名性因此无法由记名所有人以外的人使用，因此对边缘世界中的其他阵营来说，这张十分耐磨损的纸基本没有任何实际用途。 -->
+  <USAC_Product_Bond.description>一种由高韧度纤维制成的特殊纸张，是USAC企业经销商与地面阵营交易时所印发的实体记名凭证，其表面采用特殊油墨印刷，具有精美的防伪标识与记名所有者信息。在与USAC企业的商品收购及装备销售後，结余的剩余价值能被用来买入这种具备固定购买力的凭证用於下次交易。</USAC_Product_Bond.description>
+  <!-- EN: DOCUMENTS // 信用资产 -->
+  <USAC_Product_Bond.subLabel>DOCUMENTS // 信用资产</USAC_Product_Bond.subLabel>
+  
+  <!-- EN: Bushmaster III -->
+  <USAC_Product_Bushmaster.label>巨蝮蛇III型链炮</USAC_Product_Bushmaster.label>
+  <!-- EN: 大口径链式机关炮。USAC 空中平台与重型单位的核心武装，甚至能击穿轻型舰船装甲。 -->
+  <USAC_Product_Bushmaster.description>大口径链式机关炮。USAC 空中平台与重型单位的核心武装，甚至能击穿轻型舰船装甲。</USAC_Product_Bushmaster.description>
+  <!-- EN: CHAIN-CANNON // 链式机炮 -->
+  <USAC_Product_Bushmaster.subLabel>CHAIN-CANNON // 链式机炮</USAC_Product_Bushmaster.subLabel>
+  
+  <!-- EN: M7 "Cobalt" -->
+  <USAC_Product_Cobalt.label>M7 "钴合金"</USAC_Product_Cobalt.label>
+  <!-- EN: 一种由USAC自主研发的中型四足机兵平台，旨在通过重火力支援步兵推进并执行定点清道任务。其外壳表面采用了专利级耐高温纳米涂层，使其即便在严重的燃烧环境下也能稳步推进，因其沉稳且不可撼动的机械压迫感而被形象地称为“地狱犬”。 -->
+  <USAC_Product_Cobalt.description>一种由USAC自主研发的中型四足机兵平台，旨在通过重火力支援步兵推进并执行定点清道任务。其外壳表面采用了专利级耐高温纳米涂层，使其即便在严重的燃烧环境下也能稳步推进，因其沉稳且不可撼动的机械压迫感而被形象地称为“地狱犬”。</USAC_Product_Cobalt.description>
+  <!-- EN: LOGISTICS // 後勤平台 -->
+  <USAC_Product_Cobalt.subLabel>LOGISTICS // 後勤平台</USAC_Product_Cobalt.subLabel>
+  
+  <!-- EN: Cobra Assault Cannon -->
+  <USAC_Product_Cobra.label>眼镜蛇突击步枪</USAC_Product_Cobra.label>
+  <!-- EN: 眼镜蛇机炮。多用於机兵或重型外骨骼，提供毁灭性的持续面打击火力。 -->
+  <USAC_Product_Cobra.description>多用於机兵或重型外骨骼手持的大型突击步枪，提供毁灭性的持续面打击火力。</USAC_Product_Cobra.description>
+  <!-- EN: AUTOCANNON // 压制机炮 -->
+  <USAC_Product_Cobra.subLabel>AUTOCANNON // 突击机炮</USAC_Product_Cobra.subLabel>
+  
+  <!-- EN: Hardiman unit -->
+  <USAC_Product_ExoSkeleton.label>哈迪曼外骨骼单元</USAC_Product_ExoSkeleton.label>
+  <!-- EN: 能够安装塑钢插板提供防御的中型外骨骼动力装甲。这种由电动机驱动的动力外骨骼系统可以让人员提起并操作重型武器装备。 -->
+  <USAC_Product_ExoSkeleton.description>能够安装塑钢插板提供防御的中型外骨骼动力装甲。这种由电动机驱动的动力外骨骼系统可以让人员提起并操作重型武器装备。</USAC_Product_ExoSkeleton.description>
+  <!-- EN: EXO-SKELETON // 动力骨骼 -->
+  <USAC_Product_ExoSkeleton.subLabel>EXO-SKELETON // 动力骨骼</USAC_Product_ExoSkeleton.subLabel>
+  
+  <!-- EN: XM3 "Gonk" -->
+  <USAC_Product_Gonk.label>XM3 "冈克"</USAC_Product_Gonk.label>
+  <!-- EN: 一种用於在占领市区执行治安战任务的反步兵支援平台，被设计为在巷战环境中针对打击穿戴外骨骼并携带重型反坦克武器的武装伏击者，在生存能力极强的同时搭载了一门具备快速反应能力的实验性激光武器系统。 -->
+  <USAC_Product_Gonk.description>一种用於在占领市区执行治安战任务的反步兵支援平台，被设计为在巷战环境中针对打击穿戴外骨骼并携带重型反坦克武器的武装伏击者，在生存能力极强的同时搭载了一门具备快速反应能力的实验性激光武器系统。</USAC_Product_Gonk.description>
+  <!-- EN: ARTILLERY // 远程排炮 -->
+  <USAC_Product_Gonk.subLabel>Counterinsurgency // 治安战</USAC_Product_Gonk.subLabel>
+  
+  <!-- EN: Heavy helmet -->
+  <USAC_Product_HeavyHelmet.label>重型头盔</USAC_Product_HeavyHelmet.label>
+  <!-- EN: 带有增强正面碎弹防护的复合塑钢全覆面防护头盔，被广泛用於在前线接触地带执行高烈度战斗的机枪手与重型步兵单位。 -->
+  <USAC_Product_HeavyHelmet.description>带有增强正面碎弹防护的全覆面复合塑钢防护头盔，被广泛用於在前线接触地带执行高烈度战斗的机枪手与重型步兵单位。 </USAC_Product_HeavyHelmet.description>
+  <!-- EN: HEADWEAR // 重型守御 -->
+  <USAC_Product_HeavyHelmet.subLabel>HEADWEAR // 重型守御</USAC_Product_HeavyHelmet.subLabel>
+  
+  <!-- EN: Advanced LMG -->
+  <USAC_Product_LMG.label>先进轻机枪</USAC_Product_LMG.label>
+  <!-- EN: 先进轻机枪。通过风冷枪管和链式供弹提供持续压制火力，是战场空间封锁的首选。 -->
+  <USAC_Product_LMG.description>通过风冷枪管和链式供弹提供持续压制火力，是战场空间封锁的首选。</USAC_Product_LMG.description>
+  <!-- EN: LMG // 班组压制 -->
+  <USAC_Product_LMG.subLabel>LMG // 班组压制</USAC_Product_LMG.subLabel>
+  
+  <!-- EN: Marksman Rifle -->
+  <USAC_Product_Marksman.label>先进射手步枪</USAC_Product_Marksman.label>
+  <!-- EN: 先进精确射手步枪。专为远距离快速连续射击设计，使用全威力弹药，能有效穿透常规防弹保护。 -->
+  <USAC_Product_Marksman.description>先进精确射手步枪。专为远距离快速连续射击设计，使用全威力弹药，能有效穿透常规防弹保护。</USAC_Product_Marksman.description>
+  <!-- EN: DMR // 远程精确 -->
+  <USAC_Product_Marksman.subLabel>DMR // 远程精确</USAC_Product_Marksman.subLabel>
+  
+  <!-- EN: Gladiator helmet -->
+  <USAC_Product_MeleeHelmet.label>格斗头盔</USAC_Product_MeleeHelmet.label>
+  <!-- EN: 一种在室内环境中使用的战术头盔，配备了防弹目镜，可以保护眼睛免受碎片和烧伤。虽然其特定角度的反射可能会阻碍射击时的瞄准，但提供了极佳的近战视野保护。 -->
+  <USAC_Product_MeleeHelmet.description>一种在室内环境中使用的战术头盔，配备了防弹目镜，可以保护眼睛免受碎片和烧伤。虽然其特定角度的反射可能会阻碍射击时的瞄准，但提供了极佳的近战视野保护。</USAC_Product_MeleeHelmet.description>
+  <!-- EN: HEADWEAR // 格斗专用 -->
+  <USAC_Product_MeleeHelmet.subLabel>HEADWEAR // 格斗专用</USAC_Product_MeleeHelmet.subLabel>
+  
+  <!-- EN: Neuro-Booster -->
+  <USAC_Product_NeuroBooster.label>神经强化剂</USAC_Product_NeuroBooster.label>
+  <!-- EN: 一种神经增强药剂(Neuro augment Serum)，通过内含的纳米机械强化服用者的脑神经活跃性与理性思考能力，对於在USAC企业下工作的技术工人及军人而言是一种十分普遍的工作用强化剂。由於纳米机械会随时间缓慢失活并使得施用者感到焦躁与情绪不稳定，且有少量易感人群案例表明低活跃性可能导致不明原因的诱发性过敏休克，因此在第一次服用之後需要持续不断的定期施用来维持纳米机械活跃性。 -->
+  <USAC_Product_NeuroBooster.description>一种能够增加控制带宽的神经增强药剂，通过内含的纳米机械强化服用者的脑神经活跃性与理性思考能力，对於在USAC企业下工作的技术工人及军人而言是一种十分普遍的工作用强化剂。</USAC_Product_NeuroBooster.description>
+  <!-- EN: PHARMACEUTICAL // 神经调节 -->
+  <USAC_Product_NeuroBooster.subLabel>PHARMACEUTICAL // 神经调节</USAC_Product_NeuroBooster.subLabel>
+  
+  <!-- EN: Night vision helmet -->
+  <USAC_Product_NightVisionHelmet.label>夜视头盔</USAC_Product_NightVisionHelmet.label>
+  <!-- EN: 带有夜视四眼阵列的轻型战术头盔，可以显着提高夜间作战的射击能力和准确性。虽然前置重心会略微降低近距离格斗的反应时间，但在黑暗中能带来压倒性的优势。 -->
+  <USAC_Product_NightVisionHelmet.description>带有夜视四眼阵列的轻型战术头盔，可以显着提高夜间作战的射击能力和准确性。虽然前置重心会略微降低近距离格斗的反应时间，但在黑暗中能带来压倒性的优势。</USAC_Product_NightVisionHelmet.description>
+  <!-- EN: HEADWEAR // 夜视特战 -->
+  <USAC_Product_NightVisionHelmet.subLabel>HEADWEAR // 夜视特战</USAC_Product_NightVisionHelmet.subLabel>
+  
+  <!-- EN: M110 "Omaha" -->
+  <USAC_Product_Omaha.label>M110 "奥马哈"</USAC_Product_Omaha.label>
+  <!-- EN: 一种被设计用於在交通线上排雷与清扫伏击的超重型破障用机兵，具有一扇厚重的排雷铲以及一对用於远距离清障的火箭牵引排爆索，在专为拆除建筑与防御工事的同时也具备一定的自卫火力用於消灭靠近的非法武装分子与游击队装甲车。 -->
+  <USAC_Product_Omaha.description>一种被设计用於在交通线上排雷与清扫伏击的超重型破障用机兵，具有一扇厚重的排雷铲以及一对用於远距离清障的火箭牵引排爆索，在专为拆除建筑与防御工事的同时也具备一定的自卫火力用於消灭靠近的非法武装分子与游击队装甲车。</USAC_Product_Omaha.description>
+  <!-- EN: ASSAULT // 破障攻坚 -->
+  <USAC_Product_Omaha.subLabel>ASSAULT // 破障攻坚</USAC_Product_Omaha.subLabel>
+  
+  <!-- EN: Objective sniper weapon -->
+  <USAC_Product_OSW.label>理想狙击手武器</USAC_Product_OSW.label>
+  <!-- EN: M109 "Payload"狙击榴弹发射器。专为外骨骼步兵设计的精确打击武器，能够发射成形装药榴弹，精确破坏目标的表面装甲与外部传感器。 -->
+  <USAC_Product_OSW.description>M109 "载荷"狙击榴弹发射器。专为外骨骼步兵设计的精确打击武器，能够发射成形装药榴弹，精确破坏目标的表面装甲与外部传感器。</USAC_Product_OSW.description>
+  <!-- EN: SGL // 狙击榴弹 -->
+  <USAC_Product_OSW.subLabel>SGL // 狙击榴弹</USAC_Product_OSW.subLabel>
+  
+  <!-- EN: M939 "Paraman" -->
+  <USAC_Product_Paraman.label>M939 "空降兵"</USAC_Product_Paraman.label>
+  <!-- EN: 一种大体型的机械骨骼机兵，被设计为USAC机械化空降编队中的多功能无人僚机。随着全领域自动作战水平的同步提升，该型号凭藉极低的损耗率与强大的生存性能，在多次星区级冲突的深空轨道机降行动中展现了卓越的价值，是现代高强度轨道空降作战的基石。 -->
+  <USAC_Product_Paraman.description>一种大体型的机械骨骼机兵，被设计为USAC机械化空降编队中的多功能无人僚机。随着全领域自动作战水平的同步提升，该型号凭藉极低的损耗率与强大的生存性能，在多次星区级冲突的深空轨道机降行动中展现了卓越的价值，是现代高强度轨道空降作战的基石。</USAC_Product_Paraman.description>
+  <!-- EN: AIRBORNE // 轨道机降系统 -->
+  <USAC_Product_Paraman.subLabel>AIRBORNE // 轨道机降系统</USAC_Product_Paraman.subLabel>
+  
+  <!-- EN: B-Ration -->
+  <USAC_Product_Ration.label>B口粮</USAC_Product_Ration.label>
+  <!-- EN: B级战地配给包。极高的保质期，并集成了持续性阵痛成分，显着提升士兵在恶劣环境下的韧性。 -->
+  <USAC_Product_Ration.description>B型冷冻补给餐食。具有极高的保质期并集成了持续性阵痛成分，显着提升士兵在恶劣环境下的韧性。</USAC_Product_Ration.description>
+  <!-- EN: RATIONS // 战地补给 -->
+  <USAC_Product_Ration.subLabel>RATIONS // 战地补给</USAC_Product_Ration.subLabel>
+  
+  <!-- EN: Repair Tool -->
+  <USAC_Product_RepairKit.label>奈米维修工具</USAC_Product_RepairKit.label>
+  <!-- EN: 一种方形的纳米存储容器，能够释放纳米机器并自动分析目标结构来修补受损部位。为避免用户私自改造造成安全隐患，因此该工具被设计为一次性使用。 -->
+  <USAC_Product_RepairKit.description>一种方形的纳米存储容器，能够释放纳米机器并自动分析目标结构来修补受损部位。为避免用户私自改造造成安全隐患，因此该工具被设计为一次性使用。</USAC_Product_RepairKit.description>
+  <!-- EN: CONSUMABLES // 纳米修复 -->
+  <USAC_Product_RepairKit.subLabel>CONSUMABLES // 纳米修复</USAC_Product_RepairKit.subLabel>
+  
+  <!-- EN: M88 "Rocky" -->
+  <USAC_Product_Rocky.label>M88 "洛基"</USAC_Product_Rocky.label>
+  <!-- EN: 一种由USAC自主研发的第二代人造人机兵。基於先进的USAC计算核心与深度的仿生学设计，使其在各类精密战术行动中具备压倒性的智能与隐蔽性优势。因其极高的兼容性与可观的性价比，该型号已成为星区内各级安全部队与私营武装的首选。 -->
+  <USAC_Product_Rocky.description>一种由USAC自主研发的第二代人造人机兵。基於先进的USAC计算核心与深度的仿生学设计，使其在各类精密战术行动中具备压倒性的智能与隐蔽性优势。因其极高的兼容性与可观的性价比，该型号已成为星区内各级安全部队与私营武装的首选。</USAC_Product_Rocky.description>
+  <!-- EN: INFANTRY // 战术机兵 -->
+  <USAC_Product_Rocky.subLabel>INFANTRY // 战术机兵</USAC_Product_Rocky.subLabel>
+  
+  <!-- EN: M29 SABR -->
+  <USAC_Product_SABR.label>先进战斗步枪</USAC_Product_SABR.label>
+  <!-- EN: 模块化集成步枪系统。集成了高精度步枪与 20mm 榴弹发射器，能够应对各种距离和掩体後的威胁。 -->
+  <USAC_Product_SABR.description>M29 "军刀"模块化集成步枪系统。集成了高精度步枪与25毫米口径榴弹发射器，能够应对各种距离和掩体後的威胁。</USAC_Product_SABR.description>
+  <!-- EN: OICW // 复合系统 -->
+  <USAC_Product_SABR.subLabel>OICW // 复合系统</USAC_Product_SABR.subLabel>
+  
+  <!-- EN: Mechlink Serum -->
+  <USAC_Product_Subscription.label>机控神经药剂</USAC_Product_Subscription.label>
+  <!-- EN: 一种神经增强药剂(Neuro augment Serum)，通过内含的神经元纳米机械於大脑中形成脑基接口，并通过灵能方式与轨道上的USAC卫星网络建立通讯。通过季度订阅制提供对机械体的控制与带宽VPN代理服务，可以在服务期间施打来扩充服务期限，但应注意一旦使用者脑活动停止则机控服务将同步中止并清空剩余的订阅服务时间。 -->
+  <USAC_Product_Subscription.description>一种能控制机械体的神经增强药剂，通过内含的神经元纳米机械於大脑中形成脑基接口，并通过灵能通信与轨道上的USAC卫星网络建立通讯。通过季度订阅制提供对机械体的控制与带宽VPN代理服务，可以在服务期间施打来扩充服务期限。</USAC_Product_Subscription.description>
+  <!-- EN: SYSTEM // 密钥协议 -->
+  <USAC_Product_Subscription.subLabel>SYSTEM // 密钥协议</USAC_Product_Subscription.subLabel>
+  
+  <!-- EN: Torchwood RR -->
+  <USAC_Product_Torchwood.label>火炬木无後坐力炮</USAC_Product_Torchwood.label>
+  <!-- EN: 火炬木无後坐力炮。具备极高的穿甲能力与结构破坏力，是攻坚与反坦克行动的终极手段。 -->
+  <USAC_Product_Torchwood.description>火炬木无後坐力炮。具备极高的穿甲能力与结构破坏力，是攻坚与反坦克行动的终极手段。</USAC_Product_Torchwood.description>
+  <!-- EN: RECOILLESS // 破甲攻坚 -->
+  <USAC_Product_Torchwood.subLabel>RECOILLESS // 破甲攻坚</USAC_Product_Torchwood.subLabel>
+  
+  <!-- EN: Viper DMR -->
+  <USAC_Product_Viper.label>蝮蛇反器材步枪</USAC_Product_Viper.label>
+  <!-- EN: 蝰蛇远距离反器材武器。使用 35mm 机炮弹药，专门用於远程精确摧毁敌方装甲和电子设备。 -->
+  <USAC_Product_Viper.description>蝮蛇远距离反器材武器。使用 35mm 机炮弹药，专门用於远程精确摧毁敌方装甲和电子设备。</USAC_Product_Viper.description>
+  <!-- EN: AMR // 反器材拦截 -->
+  <USAC_Product_Viper.subLabel>AMR // 反器材拦截</USAC_Product_Viper.subLabel>
+  
+</LanguageData>

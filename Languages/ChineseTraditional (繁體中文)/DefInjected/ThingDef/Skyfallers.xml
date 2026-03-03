@@ -4,6 +4,12 @@
   <!-- EN: crate (incoming) -->
   <USAC_CrateIncoming.label>箱子(下落中)</USAC_CrateIncoming.label>
   
+  <!-- EN: USAC orbital drill shell -->
+  <USAC_DrillShellProjectile.label>軌道鑽地彈(下落中)</USAC_DrillShellProjectile.label>
+  
+  <!-- EN: orbital gripper (incoming) -->
+  <USAC_GripperIncoming.label>軌道清收天鉤(下落中)</USAC_GripperIncoming.label>
+  
   <!-- EN: mech (incoming) -->
   <USAC_MechIncoming.label>機兵(下落中)</USAC_MechIncoming.label>
   
