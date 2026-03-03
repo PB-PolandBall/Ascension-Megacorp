@@ -32,17 +32,16 @@
         <li>Ludeon.RimWorld.Royalty</li>
         <li>Ludeon.RimWorld.Ideology</li>
         <li>Ludeon.RimWorld.Biotech</li>
-        <li>Ludeon.RimWorld.Anomaly</li>
         <li>AOBA.Framework</li>
     </loadAfter>
-    <description>Ascension Megacorp brings U.S.A.C. (United Stellar Armament Company) to RimWorld, delivering a high-tech faction experience centered on corporate contracts, financial pressure, and mechanized force projection.
+    <description>Ascension Megacorp delivered a high-tech faction experience centered on corporate contracts, financial pressure, and mechanized force projection.
 
-- Adds the USAC faction, background lore, and a new start scenario.
-- Adds multiple USAC mech types (light / heavy / humanoid / quadruped), plus a Readiness maintenance system; low readiness reduces combat effectiveness and requires regular resupply.
-- Adds USAC orbital traders and mech suppliers with exclusive stock pools and orbital mech purchasing.
+- Adds the new faction United Stellar Armament Company - a profit-driven megacorp.
+- Adds 5 new mechs, all having it's own role and design.
+- Adds USAC orbital traders with exclusive stock pools and orbital mech purchasing.
 - Adds a unique USAC trade economy that uses Bodybags and Credit Bonds as transaction currency.
-- Adds debt-focused gameplay (including debt-start scenarios), loan/repayment flow, and USAC portal service pages.
-- Adds custom events, including USAC mech supplier arrivals and USAC mining raids.
+- Adds debt-focused gameplay (including debt-start scenarios), loan/repayment flow, and USAC service.
+- Adds custom events, including Seal operation and Assault rig raids.
 - Optional integrations: Biotech, Ideology, and The Deadman's Switch (enables additional integrated content).
 - Built-in compatibility: Combat Extended.</description>
 </ModMetaData>
