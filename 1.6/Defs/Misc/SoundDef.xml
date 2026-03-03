@@ -77,6 +77,7 @@
           </li>
         </grains>
         <volumeRange>90~95</volumeRange>
+        <pitchRange>1.1~1.4</pitchRange>
       </li>
     </subSounds>
   </SoundDef>
@@ -97,5 +98,39 @@
     </subSounds>
   </SoundDef>
 
-
+  <SoundDef>
+    <defName>USAC_JetFlyBy</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>6</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipPath>USAC/JetFlyBy</clipPath>
+          </li>
+        </grains>
+        <pitchRange>0.954118~1.045882</pitchRange>
+        <volumeRange>20~30</volumeRange>
+        <distRange>0~200</distRange>
+        <muteWhenPaused>true</muteWhenPaused>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>USAC_Shot_Gatling</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>6</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipPath>USAC/2A38</clipPath>
+          </li>
+        </grains>
+        <pitchRange>0.854118~0.945882</pitchRange>
+        <volumeRange>20~24</volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
 </Defs>

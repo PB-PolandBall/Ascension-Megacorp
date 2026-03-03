@@ -30,7 +30,7 @@
                     <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
                     <warmupTime>1.2</warmupTime>
                     <range>75</range>
-                    <soundCast>DMS_MachineGunHeavy_Shot</soundCast>
+                    <soundCast>USAC_MachineGunHeavy_Shot</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
                     <muzzleFlashScale>12</muzzleFlashScale>
                     <recoilPattern>Mounted</recoilPattern>

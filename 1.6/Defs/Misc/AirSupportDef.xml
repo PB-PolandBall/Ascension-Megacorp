@@ -14,7 +14,7 @@
         <delayRange>120~300</delayRange><!-- 從下令到支援抵達之間的間隔Tick -->
         <lastShotDelayRange>120~200</lastShotDelayRange><!-- 請確保最低值為 burstCount * burstInterval-->
         <flyByThingDef>USAC_AirFlyBy_Executioner</flyByThingDef>
-        <soundDef>DMS_Shot_GSh</soundDef>
+        <soundDef>USAC_Shot_Gatling</soundDef>
         <projOffsets>
           <li>(0, 0, 1)</li>
         </projOffsets>
@@ -36,7 +36,7 @@
         </projOffsets>
       </li>
       <li Class="Fortified.AirSupportComp_Sound">
-        <soundDef>DMS_JetFlyBy</soundDef>
+        <soundDef>USAC_JetFlyBy</soundDef>
       </li>
     </comps>
   </Fortified.AirSupportDef>
@@ -61,7 +61,7 @@
         </projOffsets>
       </li>
       <li Class="Fortified.AirSupportComp_Sound">
-        <soundDef>DMS_JetFlyBy</soundDef>
+        <soundDef>USAC_JetFlyBy</soundDef>
       </li>
     </comps>
   </Fortified.AirSupportDef>
@@ -255,5 +255,5 @@
     <speedPerTime>-40~-10</speedPerTime>
     <rotateTowardsMoveDirectionExtraAngle>15</rotateTowardsMoveDirectionExtraAngle>
   </FleckDef>
-  
+
 </Defs>

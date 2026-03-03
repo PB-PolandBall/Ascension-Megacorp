@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- UNUSED -->
+  <USAC.UI.Back>&lt; BACK</USAC.UI.Back>
+  <USAC.UI.Credits>CREDITS</USAC.UI.Credits>
+  <USAC.UI.Home.Title>STRATEGIC_OVERVIEW // Strategic Overview</USAC.UI.Home.Title>
+  <USAC.UI.Home.Banner>UNITED STELLAR ARMAMENT COMPANY\n[CORPORATE_INTRANET_V4.2]</USAC.UI.Home.Banner>
+  <USAC.UI.Home.Slogan>DEFINING THE FUTURE OF PLANETARY SECURITY</USAC.UI.Home.Slogan>
+  <USAC.UI.Home.Description>USAC is the leading force in interstellar resource monopoly and armed trade. Through the orbital settlement network, we ensure absolute asset liquidity.</USAC.UI.Home.Description>
+  <USAC.UI.Home.Bento.Products.Title>ARMORY_CATALOG</USAC.UI.Home.Bento.Products.Title>
+  <USAC.UI.Home.Bento.Products.Desc>Catalog of authorized weapons and mechanized systems</USAC.UI.Home.Bento.Products.Desc>
+  <USAC.UI.Home.Bento.Assets.Title>FINANCIAL_TERMINAL</USAC.UI.Home.Bento.Assets.Title>
+  <USAC.UI.Home.Bento.Assets.Desc>Credit assets and debt leverage management</USAC.UI.Home.Bento.Assets.Desc>
+  <USAC.UI.Home.Bento.Legal.Title>COMPLIANCE</USAC.UI.Home.Bento.Legal.Title>
+  <USAC.UI.Home.Bento.Legal.Desc>Legal clauses and automated collection protocols</USAC.UI.Home.Bento.Legal.Desc>
+  <USAC.UI.Home.Bento.Services.Title>CORPORATE_SERVICES</USAC.UI.Home.Bento.Services.Title>
+  <USAC.UI.Home.Bento.Services.Desc>Customized corporate support and remote asset maintenance</USAC.UI.Home.Bento.Services.Desc>
+  <USAC.UI.Products.Title>AUTHORIZED_PRODUCT_CATALOG // Authorized Catalog</USAC.UI.Products.Title>
+  <USAC.UI.Products.Tab.Mech>Mech Orders</USAC.UI.Products.Tab.Mech>
+  <USAC.UI.Products.Tab.Weapon>Tactical Weapons</USAC.UI.Products.Tab.Weapon>
+  <USAC.UI.Products.Tab.Apparel>Tactical Gear</USAC.UI.Products.Tab.Apparel>
+  <USAC.UI.Products.Tab.Supply>Logistics Supplies</USAC.UI.Products.Tab.Supply>
+  <USAC.UI.Detail.Title>PRODUCT_SPECIFICATION // Product Specification</USAC.UI.Detail.Title>
+  <USAC.UI.Detail.Summary>EXECUTIVE_SUMMARY // Executive Summary</USAC.UI.Detail.Summary>
+  <USAC.UI.Detail.Btn>View Details</USAC.UI.Detail.Btn>
+  <USAC.UI.Stat.Identifier>IDENTIFIER</USAC.UI.Stat.Identifier>
+  <USAC.UI.Stat.Category>CATEGORY</USAC.UI.Stat.Category>
+  <USAC.UI.Stat.SubType>SUB_TYPE</USAC.UI.Stat.SubType>
+  <USAC.UI.Stat.MoveSpeed>MOVE_SPEED</USAC.UI.Stat.MoveSpeed>
+  <USAC.UI.Stat.ArmorSharp>ARMOR_SHARP</USAC.UI.Stat.ArmorSharp>
+  <USAC.UI.Stat.ArmorBlunt>ARMOR_BLUNT</USAC.UI.Stat.ArmorBlunt>
+  <USAC.UI.Stat.HealthFact>HEALTH_FACT</USAC.UI.Stat.HealthFact>
+  <USAC.UI.Stat.WeightClass>WEIGHT_CLASS</USAC.UI.Stat.WeightClass>
+  <USAC.UI.Stat.Damage>DAMAGE</USAC.UI.Stat.Damage>
+  <USAC.UI.Stat.ArmorPen>ARMOR_PEN</USAC.UI.Stat.ArmorPen>
+  <USAC.UI.Stat.Range>RANGE</USAC.UI.Stat.Range>
+  <USAC.UI.Stat.Cooldown>COOLDOWN</USAC.UI.Stat.Cooldown>
+  <USAC.UI.Stat.InsulCold>INSUL_COLD</USAC.UI.Stat.InsulCold>
+  <USAC.UI.Stat.InsulHeat>INSUL_HEAT</USAC.UI.Stat.InsulHeat>
+  <USAC.UI.Stat.Nutrition>NUTRITION</USAC.UI.Stat.Nutrition>
+  <USAC.UI.Stat.MedPotency>MED_POTENCY</USAC.UI.Stat.MedPotency>
+  <USAC.UI.Stat.Mass>LOGISTICS_MASS</USAC.UI.Stat.Mass>
+  <USAC.UI.Assets.Title>ASSET_TERMINAL // Asset Terminal</USAC.UI.Assets.Title>
+  <USAC.UI.Assets.SyncStatus>Synchronizing orbital settlement network database in real time...</USAC.UI.Assets.SyncStatus>
+  <USAC.UI.Assets.CreditLevel>Current Credit Tier: [UNREGISTERED / NONE]</USAC.UI.Assets.CreditLevel>
+  <USAC.UI.Assets.NoAgreement>Warning: No valid asset collateral agreement has been established.</USAC.UI.Assets.NoAgreement>
+  <USAC.UI.Assets.CreditScore>Credit Score: {0}</USAC.UI.Assets.CreditScore>
+  <USAC.UI.Assets.TotalDebt>Total Debt: ₿{0}</USAC.UI.Assets.TotalDebt>
+  <USAC.UI.Assets.ActiveContracts>ACTIVE_CONTRACTS // Active Contracts</USAC.UI.Assets.ActiveContracts>
+  <USAC.UI.Assets.Apply.Title>RISK_PRICING_APPLICATION // Risk Pricing Application</USAC.UI.Assets.Apply.Title>
+  <USAC.UI.Assets.InterestRate>Base Plan Interest Rate</USAC.UI.Assets.InterestRate>
+  <USAC.UI.Assets.GrowthRate>Per-Cycle Risk Fee / Surcharge</USAC.UI.Assets.GrowthRate>
+  <USAC.UI.Assets.Stat.GrowthMode>Risk Growth Basis</USAC.UI.Assets.Stat.GrowthMode>
+  <USAC.UI.Assets.Stat.ActualInterest>Effective Interest Rate</USAC.UI.Assets.Stat.ActualInterest>
+  <USAC.UI.Assets.Stat.CreditDiscount>Credit Discount</USAC.UI.Assets.Stat.CreditDiscount>
+  <USAC.UI.Assets.Apply.Confirm>Confirm Contract Signature</USAC.UI.Assets.Apply.Confirm>
+  <USAC.UI.Assets.Apply.Warning>Warning: You are trading higher interest and risk fees for a larger credit line. Once signed, the USAC orbital collection system will enforce this contract without exception. Any missed payment will trigger asset seizure action.</USAC.UI.Assets.Apply.Warning>
+  <USAC.UI.Assets.NextSettlement>Time Until Settlement</USAC.UI.Assets.NextSettlement>
+  <USAC.UI.Assets.MissedWarning>⚠ Missed payments: {0}! One more miss will trigger forced collection!</USAC.UI.Assets.MissedWarning>
+  <USAC.UI.Assets.Cycle>Per Cycle</USAC.UI.Assets.Cycle>
+  <USAC.UI.Assets.GrowthMode.WealthBased>Wealth-Linked Growth ({0}%/cycle)</USAC.UI.Assets.GrowthMode.WealthBased>
+  <USAC.UI.Assets.GrowthMode.PrincipalBased>Principal-Linked Growth ({0}%/cycle)</USAC.UI.Assets.GrowthMode.PrincipalBased>
+  <USAC.UI.Assets.Block.LowCredit>Credit score too low (requires ≥30). Financing channel has been disabled.</USAC.UI.Assets.Block.LowCredit>
+  <USAC.UI.Assets.Block.LowWealth>Current asset valuation is insufficient for the requested limit. Increase the rate plan to pass assessment.</USAC.UI.Assets.Block.LowWealth>
+  <USAC.UI.Assets.Stat.CreditScore>Credit Score</USAC.UI.Assets.Stat.CreditScore>
+  <USAC.UI.Assets.Stat.Wealth>Total Map Wealth</USAC.UI.Assets.Stat.Wealth>
+  <USAC.UI.Assets.Stat.MaxAmount>Maximum Assessed Limit</USAC.UI.Assets.Stat.MaxAmount>
+  <USAC.UI.Assets.Stat.Growth>Debt Forecast</USAC.UI.Assets.Stat.Growth>
+  <USAC.UI.Assets.MaxAmount>Credit Limit: ₿{0}</USAC.UI.Assets.MaxAmount>
+  <USAC.UI.Assets.Contract.Details>CONTRACT_SPECIFICATIONS // Contract Details</USAC.UI.Assets.Contract.Details>
+  <USAC.UI.Assets.Contract.ID>Contract ID: {0}</USAC.UI.Assets.Contract.ID>
+  <USAC.UI.Assets.Contract.Type>Collateral Mode: {0}</USAC.UI.Assets.Contract.Type>
+  <USAC.UI.Assets.Contract.Status>Execution Status: [ IN_EFFECT / Running ]</USAC.UI.Assets.Contract.Status>
+  <USAC.UI.Assets.Contract.PaidQuarter>Paid This Quarter: ₿{0}</USAC.UI.Assets.Contract.PaidQuarter>
+  <USAC.UI.Assets.Principal>Outstanding Principal</USAC.UI.Assets.Principal>
+  <USAC.UI.Assets.Stat.Principal>Principal-Based Linkage</USAC.UI.Assets.Stat.Principal>
+  <USAC.UI.Assets.Interest>Current Interest</USAC.UI.Assets.Interest>
+  <USAC.UI.Assets.Stat.InterestRate>Interest Rate</USAC.UI.Assets.Stat.InterestRate>
+  <USAC.UI.Assets.Imminent>Settlement Imminent</USAC.UI.Assets.Imminent>
+  <USAC.UI.Assets.Warning.Caution>Missed payments: {0}. Credit score continues to decline. Please settle promptly.</USAC.UI.Assets.Warning.Caution>
+  <USAC.UI.Assets.Warning.Critical>⚠ Missed payments: {0}! One more miss will immediately trigger forced collection procedures!</USAC.UI.Assets.Warning.Critical>
+  <USAC.UI.Assets.InterestPanel.Title>INTEREST_SETTLEMENT // Interest Settlement</USAC.UI.Assets.InterestPanel.Title>
+  <USAC.UI.Assets.InterestPaid>✓ No outstanding interest this period</USAC.UI.Assets.InterestPaid>
+  <USAC.UI.Assets.BondsNeeded>{0} Credit Bonds required</USAC.UI.Assets.BondsNeeded>
+  <USAC.UI.Assets.BondsOwned>Credit Bonds currently held: {0}</USAC.UI.Assets.BondsOwned>
+  <USAC.UI.Assets.PayInterest>Pay Interest ({0} Credit Bonds)</USAC.UI.Assets.PayInterest>
+  <USAC.UI.Assets.RepayPanel.Title>PRINCIPAL_REPAYMENT // Principal Repayment</USAC.UI.Assets.RepayPanel.Title>
+  <USAC.UI.Assets.QuarterFree>Quarterly Free Allowance</USAC.UI.Assets.QuarterFree>
+  <USAC.UI.Assets.Used>Used</USAC.UI.Assets.Used>
+  <USAC.UI.Assets.Repay>Repay Principal ({0} Credit Bonds)</USAC.UI.Assets.Repay>
+  <USAC.UI.Assets.RepaySurcharge>Repay Principal ({0} Credit Bonds, incl. surcharge {1})</USAC.UI.Assets.RepaySurcharge>
+  <USAC.UI.Assets.GrowthForecast>GROWTH_FORECAST // Principal Growth Forecast</USAC.UI.Assets.GrowthForecast>
+  <USAC.UI.Assets.GrowthMode.Wealth>Wealth Percentage Growth ({0}% / cycle)</USAC.UI.Assets.GrowthMode.Wealth>
+  <USAC.UI.Assets.GrowthMode.Principal>Principal Percentage Growth ({0}% / cycle)</USAC.UI.Assets.GrowthMode.Principal>
+  <USAC.UI.Assets.CurrentWealth>Current Map Wealth: ₿{0}</USAC.UI.Assets.CurrentWealth>
+  <USAC.UI.Nav.Home>Strategic Overview</USAC.UI.Nav.Home>
+  <USAC.UI.Nav.Assets>Asset Terminal</USAC.UI.Nav.Assets>
+  <USAC.UI.Nav.Products>Authorized Catalog</USAC.UI.Nav.Products>
+  <USAC.UI.Nav.Legal>Legal Compliance</USAC.UI.Nav.Legal>
+  <USAC.UI.Nav.Services>Corporate Services</USAC.UI.Nav.Services>
+  <USAC.UI.StatusBar>● TUNNEL_ACTIVE // ENCRYPTION: SECURE</USAC.UI.StatusBar>
+  <USAC.UI.Legal.Title>LEGAL_COMPLIANCE // Legal Compliance</USAC.UI.Legal.Title>
+  <USAC.UI.Legal.Ordinance>COLLECTION_ORDINANCE_V1.1 // Collection Ordinance</USAC.UI.Legal.Ordinance>
+  <USAC.UI.Legal.Clause01.Title>Clause 01: Asset Priority</USAC.UI.Legal.Clause01.Title>
+  <USAC.UI.Legal.Clause01.Desc>In any default scenario, USAC holds absolute first-priority collection rights over all local material assets.</USAC.UI.Legal.Clause01.Desc>
+  <USAC.UI.Legal.Clause02.Title>Clause 02: Automated Enforcement</USAC.UI.Legal.Clause02.Title>
+  <USAC.UI.Legal.Clause02.Desc>The collection process is automatically directed by orbital platforms. No manual defense or extension requests will be accepted.</USAC.UI.Legal.Clause02.Desc>
+  <USAC.UI.Legal.Footer>Warning: Entering this portal constitutes default acknowledgement and signature of all agreements listed above. The USAC Asset Collection Division assumes no liability for incidental civilian casualties or secondary harm during collection operations.</USAC.UI.Legal.Footer>
+  <USAC_PaymentSuccess>[USAC] {0} write-off complete. Credit score has been increased.</USAC_PaymentSuccess>
+  <USAC_InsufficientBonds>[USAC] Payment failed: Orbital satellites detected insufficient Credit Bonds within this area's beacon range.</USAC_InsufficientBonds>
+  <USAC_LoanApproved>[USAC] Contract signed successfully: {0} assets have been delivered by orbital drop near the trade beacon.</USAC_LoanApproved>
+  <USAC_FunctionInProgress>[USAC] Access restricted: This module is being upgraded, or your credit tier has not unlocked this permission.</USAC_FunctionInProgress>
+  <USAC.UI.Error.404.Title>CONNECTION_LOST // Connection Lost</USAC.UI.Error.404.Title>
+  <USAC.UI.Error.404.Text>The requested resource is not registered on the USAC intranet, or your access privileges have been revoked.</USAC.UI.Error.404.Text>
+  <USAC.UI.Error.ProductNotFound>Error: Specified product not found</USAC.UI.Error.ProductNotFound>
+  <USAC.UI.Services.Title>CORPORATE_SERVICES // Corporate Services</USAC.UI.Services.Title>
+  <USAC.UI.Services.Lease.Title>LEASE_SERVICES // Lease Services</USAC.UI.Services.Lease.Title>
+  <USAC.UI.Services.Lease.Desc>USAC asset lease program. Heavy assault mining rigs are deployed by orbital platform to designated zones. 1,000 credits per 24-hour operation cycle. Supports dynamic cycle configuration and auto-renewal.</USAC.UI.Services.Lease.Desc>
+  <USAC.UI.Services.Lease.Days>Initial Lease Duration: {0} days</USAC.UI.Services.Lease.Days>
+  <USAC.UI.Services.Lease.Btn>Activate Lease Program</USAC.UI.Services.Lease.Btn>
+  <USAC_ActiveRigs>Asset Deployment Monitor // Active Deployed Rigs</USAC_ActiveRigs>
+  <USAC_LeaseActive>Mining operation in progress</USAC_LeaseActive>
+  <USAC.UI.Services.Renewal.Title>REMOTE_RENEWAL // Remote Renewal</USAC.UI.Services.Renewal.Title>
+  <USAC.UI.Services.Renewal.Desc>Renews encrypted control-bandwidth links for temporary Mechnitor channels. By extending local data-relay authorization, this effectively prolongs uptime for non-permanent mech-control hubs.</USAC.UI.Services.Renewal.Desc>
+  <USAC.UI.Services.Renewal.Btn>Renew Bandwidth Channel</USAC.UI.Services.Renewal.Btn>
+  <USAC.UI.Services.Renewal.Header>Registered Temporary Bandwidth Links</USAC.UI.Services.Renewal.Header>
+  <USAC.UI.Services.Renewal.NoMechnitor>No temporary Mechnitor bandwidth links detected within controlled range.</USAC.UI.Services.Renewal.NoMechnitor>
+  <USAC.UI.Services.Renewal.Remaining>Remaining Link Time: {0}</USAC.UI.Services.Renewal.Remaining>
+  <USAC.Debt.LeaseDrill>USAC orbital assault drill lease fee</USAC.Debt.LeaseDrill>
+  <USAC.Debt.Renewal>Temporary bandwidth link renewal fee for {0}</USAC.Debt.Renewal>
+  <USAC.Message.Renewed>[USAC] Renewal successful: 30-cycle bandwidth link has been renewed for {0}.</USAC.Message.Renewed>
+  <USAC.Message.AutoRenewed>[USAC] Auto-renewed: 30-cycle link duration has been automatically renewed for {0}.</USAC.Message.AutoRenewed>
+  <USAC.Message.AutoRenewFailed>[USAC] Renewal suspended: Auto-renewal service for {0} has been disabled due to insufficient Credit Bond reserves within beacon range.</USAC.Message.AutoRenewFailed>
+  <USAC.Message.InsufficientBonds>[USAC] Payment failed: Insufficient Credit Bond reserves within trade beacon range.</USAC.Message.InsufficientBonds>
+  <USAC.Message.InsufficientBondsForLease>[USAC] Lease suspended: Current Credit Bond reserves are insufficient for the selected initial lease duration.</USAC.Message.InsufficientBondsForLease>
+  <USAC.Message.LeaseAutoRenewed>[USAC] Auto-renewed: The mining rig has been extended by 24 hours through the orbital settlement network.</USAC.Message.LeaseAutoRenewed>
+  <USAC.Message.LeaseAutoRenewFailed>[USAC] Renewal failed: Insufficient Credit Bond reserves near the orbital beacon. Auto-renewal has been disabled for this rig and scheduled collection will proceed.</USAC.Message.LeaseAutoRenewFailed>
+  <USAC_LeaseDurationLeft>Lease Time Remaining: {0}</USAC_LeaseDurationLeft>
+  <USAC.UI.Drill.EmptyMinerals>Empty Ore Hold</USAC.UI.Drill.EmptyMinerals>
+  <USAC.UI.Drill.EmptyMinerals.Desc>Manually eject collected minerals from the sealed hold. Note: If not emptied before extraction, the USAC orbital platform will recover all onboard materials directly.</USAC.UI.Drill.EmptyMinerals.Desc>
+  
+</LanguageData>

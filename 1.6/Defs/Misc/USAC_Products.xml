@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <!-- ========================== MECH ========================== -->
-  <USAC.USACProductDef>
+  <USAC.USACProductDef MayRequire="ludeon.rimworld.biotech">
     <defName>USAC_Product_Rocky</defName>
     <label>M88 "Rocky"</label>
     <thingDef>USAC_MechOrder_Rocky</thingDef>
@@ -10,7 +10,7 @@
     <description>A second-generation humanoid mech independently developed by USAC. Built on an advanced USAC compute core and deep bionic design, it delivers overwhelming intelligence and stealth advantages in precision tactical operations. With very high compatibility and strong cost-effectiveness, it has become the preferred model among security forces and private armed groups across the sector.</description>
   </USAC.USACProductDef>
 
-  <USAC.USACProductDef>
+  <USAC.USACProductDef MayRequire="ludeon.rimworld.biotech">
     <defName>USAC_Product_Cobalt</defName>
     <label>M7 "Cobalt"</label>
     <thingDef>USAC_MechOrder_Cobalt</thingDef>
@@ -19,7 +19,7 @@
     <description>A medium quadruped mech platform independently developed by USAC, designed to support infantry advances with heavy firepower and conduct point-clearance operations. Its hull uses a patented high-temperature-resistant nanocoating, allowing steady movement even in severe fire conditions. Its calm, unstoppable mechanical presence has earned it the nickname "Hellhound."</description>
   </USAC.USACProductDef>
 
-  <USAC.USACProductDef>
+  <USAC.USACProductDef MayRequire="ludeon.rimworld.biotech">
     <defName>USAC_Product_Paraman</defName>
     <label>M939 "Paraman"</label>
     <thingDef>USAC_MechOrder_Paraman</thingDef>
@@ -28,7 +28,7 @@
     <description>A large humanoid mech designed as a multifunctional unmanned wingman for USAC mechanized airborne formations. As all-domain autonomous warfare has advanced, this model's extremely low attrition rate and strong survivability have proven exceptional in multiple sector-scale deep-space orbital insertion operations, making it a cornerstone of modern high-intensity orbital assault warfare.</description>
   </USAC.USACProductDef>
 
-  <USAC.USACProductDef>
+  <USAC.USACProductDef MayRequire="ludeon.rimworld.biotech">
     <defName>USAC_Product_Gonk</defName>
     <label>XM3 "Gonk"</label>
     <thingDef>USAC_MechOrder_Gonk</thingDef>
@@ -37,7 +37,7 @@
     <description>An anti-infantry support platform for security operations in occupied urban zones. It is designed for urban combat against armored ambushers equipped with exoskeletons and heavy anti-tank weapons. With high survivability, it also mounts an experimental rapid-response laser weapon system.</description>
   </USAC.USACProductDef>
 
-  <USAC.USACProductDef>
+  <USAC.USACProductDef MayRequire="ludeon.rimworld.biotech">
     <defName>USAC_Product_Omaha</defName>
     <label>M110 "Omaha"</label>
     <thingDef>USAC_MechOrder_Omaha</thingDef>
@@ -156,7 +156,7 @@
     <description>A neural enhancement drug (Neuro Augment Serum). Embedded nanomachines improve neural activity and rational cognition, making it a common performance enhancer for USAC technical workers and military personnel. As nanomachines gradually deactivate over time, users may experience agitation and emotional instability, and rare susceptible cases suggest low activity can trigger unexplained allergic shock. After first use, regular continued dosing is required to maintain nanomachine activity.</description>
   </USAC.USACProductDef>
 
-  <USAC.USACProductDef>
+  <USAC.USACProductDef MayRequire="ludeon.rimworld.biotech">
     <defName>USAC_Product_Subscription</defName>
     <label>Mechlink Serum</label>
     <thingDef>USAC_TempMechlink</thingDef>
