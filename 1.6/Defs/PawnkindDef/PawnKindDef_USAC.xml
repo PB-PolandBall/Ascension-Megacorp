@@ -48,14 +48,14 @@
             <li>BeltDefensePop</li>
             <li>USAC_HelmetAssault</li>
         </apparelTags>
-        <apparelMoney>1000~1800</apparelMoney>
-        <weaponMoney>400~800</weaponMoney>
+        <apparelMoney>2000~2800</apparelMoney>
+        <weaponMoney>1400~3800</weaponMoney>
         <weaponTags>
             <li>Gun</li>
             <li>USAC_AR</li>
         </weaponTags>
         <techHediffsChance>0.1</techHediffsChance>
-        <techHediffsMoney>500~1000</techHediffsMoney>
+        <techHediffsMoney>500~5000</techHediffsMoney>
         <techHediffsTags>
             <li>Simple</li>
             <li>ImplantEmpireCommon</li>
@@ -79,15 +79,15 @@
         <apparelRequired>
             <li>USAC_Apparel_ExoSkeleton</li>
         </apparelRequired>
-        <apparelMoney>1200~2000</apparelMoney>
+        <apparelMoney>2200~3000</apparelMoney>
         <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
-        <weaponMoney>1200~1500</weaponMoney>
+        <weaponMoney>1200~2500</weaponMoney>
         <weaponTags>
             <li>USAC_OICW</li>
             <li>USAC_LMG</li>
         </weaponTags>
         <techHediffsChance>0.15</techHediffsChance>
-        <techHediffsMoney>800~1200</techHediffsMoney>
+        <techHediffsMoney>800~5200</techHediffsMoney>
         <techHediffsTags>
             <li>Simple</li>
             <li>Advanced</li>
@@ -111,15 +111,15 @@
         <apparelRequired>
             <li>USAC_Apparel_ExoSkeleton</li>
         </apparelRequired>
-        <apparelMoney>1000~1600</apparelMoney>
+        <apparelMoney>2000~2600</apparelMoney>
         <apparelAllowHeadgearChance>0.6</apparelAllowHeadgearChance>
-        <weaponMoney>1200~2500</weaponMoney>
+        <weaponMoney>1200~5500</weaponMoney>
         <weaponTags>
             <li>SniperRifle</li>
             <li>USAC_DMR</li>
         </weaponTags>
         <techHediffsChance>0.1</techHediffsChance>
-        <techHediffsMoney>600~1000</techHediffsMoney>
+        <techHediffsMoney>600~5000</techHediffsMoney>
         <techHediffsTags>
             <li>Simple</li>
             <li>ImplantEmpireCommon</li>
@@ -148,14 +148,14 @@
         <apparelRequired>
             <li>USAC_Apparel_ExoSkeleton</li>
         </apparelRequired>
-        <apparelMoney>1800~3000</apparelMoney>
+        <apparelMoney>2800~4000</apparelMoney>
         <apparelAllowHeadgearChance>0.6</apparelAllowHeadgearChance>
-        <weaponMoney>2100~3500</weaponMoney>
+        <weaponMoney>2100~5500</weaponMoney>
         <weaponTags>
             <li>USAC_HDMR</li>
         </weaponTags>
         <techHediffsChance>0.1</techHediffsChance>
-        <techHediffsMoney>600~1000</techHediffsMoney>
+        <techHediffsMoney>600~5000</techHediffsMoney>
         <techHediffsTags>
             <li>Simple</li>
             <li>ImplantEmpireCommon</li>
@@ -184,9 +184,9 @@
             <li>SpacerMilitary</li>
             <li>BeltDefensePop</li>
         </apparelTags>
-        <apparelMoney>2500~4000</apparelMoney>
+        <apparelMoney>3500~5000</apparelMoney>
         <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
-        <weaponMoney>800~1500</weaponMoney>
+        <weaponMoney>800~5500</weaponMoney>
         <weaponTags>
             <li>IndustrialGunAdvanced</li>
         </weaponTags>
@@ -226,7 +226,7 @@
         </apparelTags>
         <apparelMoney>3000~5000</apparelMoney>
         <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
-        <weaponMoney>1000~2000</weaponMoney>
+        <weaponMoney>1000~8000</weaponMoney>
         <weaponTags>
             <li>IndustrialGunAdvanced</li>
         </weaponTags>

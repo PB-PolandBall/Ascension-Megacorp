@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <USAC_CombatSupplyDrop.label>combat supply drop</USAC_CombatSupplyDrop.label>
+  <USAC_CombatSupplyDrop.description>Request a combat resupply package for immediate frontline use.</USAC_CombatSupplyDrop.description>
+
+  <USAC_LogisticSupplyDrop.label>logistic supply drop</USAC_LogisticSupplyDrop.label>
+  <USAC_LogisticSupplyDrop.description>Request mixed logistical supplies for sustained operations.</USAC_LogisticSupplyDrop.description>
+
+  <USAC_CommandSupplyDrop.label>command supply drop</USAC_CommandSupplyDrop.label>
+  <USAC_CommandSupplyDrop.description>Request high-value command supplies including advanced components and USAC bonds.</USAC_CommandSupplyDrop.description>
+
+  <USAC_CallRifleSquad.label>call rifle squad</USAC_CallRifleSquad.label>
+  <USAC_CallRifleSquad.description>Call a 4 men rifle squad to support combat operations.</USAC_CallRifleSquad.description>
+
+  <USAC_CallHeavyTeam.label>call heavy team</USAC_CallHeavyTeam.label>
+  <USAC_CallHeavyTeam.description>Call a 4 men heavy fireteam equipped for entrenched targets.</USAC_CallHeavyTeam.description>
+
+  <USAC_CallEliteDetachment.label>call elite detachment</USAC_CallEliteDetachment.label>
+  <USAC_CallEliteDetachment.description>Call a 4 men elite detachment for decisive battlefield intervention.</USAC_CallEliteDetachment.description>
+
+  <USAC_CallTransportShuttle.label>call transport shuttle</USAC_CallTransportShuttle.label>
+  <USAC_CallTransportShuttle.description>Call a shuttle for strategic transport of personnel, cargo, and animals.</USAC_CallTransportShuttle.description>
+
+  <USAC_Call_CAS.label>close air strafing</USAC_Call_CAS.label>
+  <USAC_Call_CAS.description>Request close air support from the nearest USAC aerial carrier, including 20mm explosive chaingun strafing and four Hydra rocket strike.</USAC_Call_CAS.description>
+
+  <USAC_Call_CAB.label>close air bombard</USAC_Call_CAB.label>
+  <USAC_Call_CAB.description>Request close air support from the nearest USAC aerial carrier; an attack jet will drop one anti-fortification guided bomb on the designated location.</USAC_Call_CAB.description>
+
+  <USAC_CallOrbitalStrike.label>call orbital strike</USAC_CallOrbitalStrike.label>
+  <USAC_CallOrbitalStrike.description>Call a precision orbital strike on a designated target area.</USAC_CallOrbitalStrike.description>
+
+</LanguageData>

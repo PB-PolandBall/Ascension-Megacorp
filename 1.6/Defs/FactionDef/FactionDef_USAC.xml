@@ -16,6 +16,11 @@
         <canSiege>true</canSiege>
         <canStageAttacks>true</canStageAttacks>
         <leaderTitle>executive</leaderTitle>
+        <royalFavorLabel>commission</royalFavorLabel>
+        <royalFavorIconPath>UI/Icons/RoyalFavor</royalFavorIconPath>
+        <royalTitleTags MayRequire="Ludeon.RimWorld.Royalty" Inherit="false">
+            <li>USAC_Title</li>
+        </royalTitleTags>
         <rescueesCanJoin>true</rescueesCanJoin>
         <leaderForceGenerateNewPawn>true</leaderForceGenerateNewPawn>
         <canRequestOrbitalTrader>true</canRequestOrbitalTrader>
@@ -85,6 +90,14 @@
             <li>Surface</li>
             <li MayRequire="Ludeon.RimWorld.Odyssey">Orbit</li>
         </arrivalLayerWhitelist>
+        <royalTitleInheritanceWorkerClass>RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
+        <royalTitleInheritanceRelations>
+            <li>Child</li>
+            <li>Spouse</li>
+            <li>Sibling</li>
+            <li>HalfSibling</li>
+            <li>Parent</li>
+        </royalTitleInheritanceRelations>
         <xenotypeSet>
             <xenotypeChances>
                 <Hussar MayRequire="Ludeon.Rimworld.Biotech">0.1</Hussar>

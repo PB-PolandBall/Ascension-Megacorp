@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <USAC_AirFlyBy_Executioner.label>MQ-9 "Executioner"</USAC_AirFlyBy_Executioner.label>
+  <USAC_Bullet_CASAC.label>chaingun bullet</USAC_Bullet_CASAC.label>
+  <USAC_Proj_RocketCAS.label>hydra rocket</USAC_Proj_RocketCAS.label>
+  <USAC_Proj_BombCAS.label>guided bomb</USAC_Proj_BombCAS.label>
+
+</LanguageData>

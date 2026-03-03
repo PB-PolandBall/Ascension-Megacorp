@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <Fortified.AirSupportDef>
+    <defName>USAC_StrafingRun</defName>
+    <label>Strafing run</label>
+    <comps>
+      <li Class="Fortified.AirSupportComp_SetOriginRandomEdge" />
+      <li Class="Fortified.AirSupportComp_StrafeII">
+        <ProjectileDef>USAC_Bullet_CASAC</ProjectileDef>
+        <spreadRadius>5</spreadRadius><!-- 散佈 -->
+        <burstCount>60</burstCount><!-- 射擊次數 -->
+        <burstInterval>2</burstInterval><!-- 射擊間隔 -->
+        <singleBurstCount>1</singleBurstCount><!-- 每次射擊數量 -->
+        <delayRange>120~300</delayRange><!-- 從下令到支援抵達之間的間隔Tick -->
+        <lastShotDelayRange>120~200</lastShotDelayRange><!-- 請確保最低值為 burstCount * burstInterval-->
+        <flyByThingDef>USAC_AirFlyBy_Executioner</flyByThingDef>
+        <soundDef>DMS_Shot_GSh</soundDef>
+        <projOffsets>
+          <li>(0, 0, 1)</li>
+        </projOffsets>
+      </li>
+      <li Class="Fortified.AirSupportComp_SetOriginRandomEdge" />
+      <li Class="Fortified.AirSupportComp_StrafeII">
+        <ProjectileDef>USAC_Proj_RocketCAS</ProjectileDef>
+        <spreadRadius>7</spreadRadius><!-- 散佈 -->
+        <burstCount>4</burstCount>
+        <burstInterval>30</burstInterval>
+        <singleBurstCount>3</singleBurstCount>
+        <delayRange>600~1200</delayRange>
+        <lastShotDelayRange>60~120</lastShotDelayRange>
+        <flyByThingDef>USAC_AirFlyBy_Executioner</flyByThingDef>
+        <soundDef>RocketswarmLauncher_Fire</soundDef>
+        <projOffsets>
+          <li>(2, 0, 0)</li>
+          <li>(-2, 0, 0)</li>
+        </projOffsets>
+      </li>
+      <li Class="Fortified.AirSupportComp_Sound">
+        <soundDef>DMS_JetFlyBy</soundDef>
+      </li>
+    </comps>
+  </Fortified.AirSupportDef>
+
+
+  <Fortified.AirSupportDef>
+    <defName>USAC_GuidedBomb</defName>
+    <label>Guided bombard</label>
+    <comps>
+      <li Class="Fortified.AirSupportComp_SetOriginRandomEdge" />
+      <li Class="Fortified.AirSupportComp_StrafeII">
+        <ProjectileDef>USAC_Proj_BombCAS</ProjectileDef>
+        <burstCount>1</burstCount>
+        <burstInterval>30</burstInterval>
+        <singleBurstCount>1</singleBurstCount>
+        <delayRange>600~1200</delayRange>
+        <lastShotDelayRange>30~200</lastShotDelayRange>
+        <flyByThingDef>USAC_AirFlyBy_Executioner</flyByThingDef>
+        <soundDef>RocketswarmLauncher_Fire</soundDef>
+        <projOffsets>
+          <li>(0, 0, 0)</li>
+        </projOffsets>
+      </li>
+      <li Class="Fortified.AirSupportComp_Sound">
+        <soundDef>DMS_JetFlyBy</soundDef>
+      </li>
+    </comps>
+  </Fortified.AirSupportDef>
+
+  <ThingDef ParentName="EtherealThingBase">
+    <defName>USAC_AirFlyBy_Executioner</defName>
+    <label>executioner</label>
+    <thingClass>Fortified.FlyByThing</thingClass>
+    <drawerType>RealtimeOnly</drawerType>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Skyfaller</altitudeLayer>
+    <graphicData>
+      <texPath>Things/Skyfaller/USAC_Mech_Executioner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawOffset>(0,0,0)</drawOffset>
+      <drawSize>10</drawSize>
+    </graphicData>
+    <skyfaller>
+      <speed>120</speed>
+      <zPositionCurve>
+        <points>
+          <li>(-100,7)</li>
+          <li>(-40,5)</li>
+          <li>(-20,4)</li>
+          <li>(0,4.25)</li>
+          <li>(10,4.5)</li>
+          <li>(20,4.75)</li>
+          <li>(40,5)</li>
+          <li>(100,6)</li>
+        </points>
+      </zPositionCurve>
+    </skyfaller>
+    <comps>
+      <li Class="CompProperties_ThrownFleckEmitter">
+        <compClass>Fortified.CompFlyByThrownFleckEmitter</compClass>
+        <fleck>USAC_JetTrail</fleck>
+        <scale>0.25</scale>
+        <emissionInterval>0</emissionInterval>
+        <burstCount>2</burstCount>
+        <offsetMin>(0.5, 0, -0.5)</offsetMin>
+        <offsetMax>(0.5, 0, 0.5)</offsetMax>
+        <rotationRate>-90~90</rotationRate>
+        <!--Actually
+                this reads angle-->
+        <velocityX>179~181</velocityX>
+        <!--Actually
+                this reads speed-->
+        <velocityY>0~60</velocityY>
+      </li>
+      <li Class="CompProperties_ThrownFleckEmitter">
+        <compClass>Fortified.CompFlyByThrownFleckEmitter</compClass>
+        <fleck>USAC_JetTrail</fleck>
+        <scale>0.25</scale>
+        <emissionInterval>0</emissionInterval>
+        <burstCount>2</burstCount>
+        <offsetMin>(-0.5, 0, -0.5)</offsetMin>
+        <offsetMax>(-0.5, 0, 0.5)</offsetMax>
+        <rotationRate>-90~90</rotationRate>
+        <!--Actually
+                this reads angle-->
+        <velocityX>179~181</velocityX>
+        <!--Actually
+                this reads speed-->
+        <velocityY>0~60</velocityY>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="Fortified.ModExt_FlyByThing">
+        <shadowGraphic>
+          <texPath>Things/Skyfaller/USAC_Mech_Executioner_S</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>Transparent</shaderType>
+          <drawSize>10</drawSize>
+          <drawOffset>(-5,0,0)</drawOffset>
+          <color>(0,0,0,0.25)</color>
+        </shadowGraphic>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>USAC_Bullet_CASAC</defName>
+    <label>chaingun bullet</label>
+    <thingClass>Fortified.Bullet_ForAirSupport</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.5,1.5)</drawSize>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>27</damageAmountBase>
+      <stoppingPower>1.1</stoppingPower>
+      <armorPenetrationBase>0.2</armorPenetrationBase>
+      <speed>200</speed>
+      <flyOverhead>true</flyOverhead>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef>
+    <defName>USAC_Proj_RocketCAS</defName>
+    <label>hydra rocket</label>
+    <thingClass>Fortified.Projectile_ConeExplosive</thingClass>
+    <category>Projectile</category>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <useHitPoints>False</useHitPoints>
+    <neverMultiSelect>True</neverMultiSelect>
+    <graphicData>
+      <texPath>Things/Projectile/rocket_CAS</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+      <explosionRadius>3.9</explosionRadius>
+      <stoppingPower>2.1</stoppingPower>
+      <armorPenetrationBase>0.4</armorPenetrationBase>
+      <speed>300</speed>
+      <damageAmountBase>40</damageAmountBase>
+      <arcHeightFactor>0.4</arcHeightFactor>
+      <soundExplode>Explosion_Rocket</soundExplode>
+    </projectile>
+    <modExtensions>
+      <li Class="Fortified.ExplosiveExtension">
+        <damage>Bullet</damage>
+        <damageAmount>21</damageAmount>
+        <armorPen>0</armorPen>
+        <preExplosionOffset>2</preExplosionOffset>
+        <range>8</range>
+        <swayAngle>60</swayAngle>
+        <doVisualEffects>true</doVisualEffects>
+        <effecterDef>USAC_ConeExplosion</effecterDef>
+      </li>
+    </modExtensions>
+    <comps>
+      <li Class="CompProperties_ProjectileEffecter">
+        <effecterDef>FFF_LaunchDust_Recoilless</effecterDef>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef>
+    <defName>USAC_Proj_BombCAS</defName>
+    <label>guided bomb</label>
+    <thingClass>Fortified.Projectile_Parabola</thingClass>
+    <category>Projectile</category>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <useHitPoints>False</useHitPoints>
+    <neverMultiSelect>True</neverMultiSelect>
+    <graphicData>
+      <texPath>USAC/Debt/DrillShell</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+      <drawSize>2</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>BombSuper</damageDef>
+      <explosionRadius>10.9</explosionRadius>
+      <speed>90</speed>
+      <damageAmountBase>400</damageAmountBase>
+      <arcHeightFactor>5</arcHeightFactor>
+      <stoppingPower>4.1</stoppingPower>
+      <armorPenetrationBase>0.8</armorPenetrationBase>
+      <explosionChanceToStartFire>0.02</explosionChanceToStartFire>
+      <explosionDamageFalloff>true</explosionDamageFalloff>
+      <explosionEffect>GiantExplosion</explosionEffect>
+      <flyOverhead>true</flyOverhead>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <soundExplode>Explosion_GiantBomb</soundExplode>
+      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+      <preExplosionSpawnSingleThingDef>CraterMedium</preExplosionSpawnSingleThingDef>
+    </projectile>
+  </ThingDef>
+
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>USAC_JetTrail</defName>
+    <graphicData>
+      <texPath>Things/Mote/Smoke</texPath>
+      <renderInstanced>true</renderInstanced>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.50</fadeInTime>
+    <solidTime>0</solidTime>
+    <fadeOutTime>2.2</fadeOutTime>
+    <growthRate>2</growthRate>
+    <speedPerTime>-40~-10</speedPerTime>
+    <rotateTowardsMoveDirectionExtraAngle>15</rotateTowardsMoveDirectionExtraAngle>
+  </FleckDef>
+  
+</Defs>

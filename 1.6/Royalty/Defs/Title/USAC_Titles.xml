@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RoyalTitleDef Abstract="True" Name="BaseUSACTitle">
+    <tags>
+      <li>USAC_Title</li>
+    </tags>
+    <awardThought>GainedTitle</awardThought>
+    <lostThought>LostTitle</lostThought>
+    <canBeInherited>false</canBeInherited>
+    <allowDignifiedMeditationFocus>false</allowDignifiedMeditationFocus>
+    <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+  </RoyalTitleDef>
+
+  <RoyalTitleDef ParentName="BaseUSACTitle">
+    <defName>USAC_Recruit</defName>
+    <label>Civilian Assistant</label>
+    <description>A civilian collaborator temporarily attached to USAC logistics and support duties under supervision.</description>
+    <seniority>0</seniority>
+    <favorCost>10</favorCost>
+    <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+  </RoyalTitleDef>
+
+  <RoyalTitleDef ParentName="BaseUSACTitle">
+    <defName>USAC_CivilianAide</defName>
+    <label>Civilian Aide</label>
+    <description>A vetted civilian helper handling structured support tasks for USAC field units.</description>
+    <seniority>8</seniority>
+    <favorCost>12</favorCost>
+    <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+  </RoyalTitleDef>
+
+  <RoyalTitleDef ParentName="BaseUSACTitle">
+    <defName>USAC_CivilianCoordinator</defName>
+    <label>Civilian Coordinator</label>
+    <description>A senior civilian liaison trusted to coordinate logistics, procurement, and mission-side administration.</description>
+    <seniority>14</seniority>
+    <favorCost>14</favorCost>
+    <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+  </RoyalTitleDef>
+
+  <RoyalTitleDef ParentName="BaseUSACTitle">
+    <defName>USAC_Private</defName>
+    <label>Private</label>
+    <description>The first true soldier rank, formally enlisted for frontline and field operations.</description>
+    <seniority>24</seniority>
+    <favorCost>16</favorCost>
+    <permitPointsAwarded>1</permitPointsAwarded>
+    <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+  </RoyalTitleDef>
+
+  <RoyalTitleDef ParentName="BaseUSACTitle">
+    <defName>USAC_Corporal</defName>
+    <label>Corporal</label>
+    <description>A frontline soldier assigned limited team-level responsibility in active operations.</description>
+    <seniority>70</seniority>
+    <favorCost>18</favorCost>
+    <permitPointsAwarded>1</permitPointsAwarded>
+    <changeHeirQuestPoints>1200</changeHeirQuestPoints>
+    <commonality>1</commonality>
+  </RoyalTitleDef>
+
+  <RoyalTitleDef ParentName="BaseUSACTitle">
+    <defName>USAC_Sergeant</defName>
+    <label>Ceremonial Sergeant</label>
+    <description>A nominal endpoint title awarded for loyalty and optics; it does not grant additional command authority.</description>
+    <seniority>140</seniority>
+    <favorCost>20</favorCost>
+    <changeHeirQuestPoints>1200</changeHeirQuestPoints>
+    <commonality>0.9</commonality>
+  </RoyalTitleDef>
+
+</Defs>
