@@ -98,7 +98,7 @@
         <damageAmount>60</damageAmount>
         <armorPen>0</armorPen>
         <preExplosionOffset>2</preExplosionOffset>
-        <range>15</range>
+        <range>10</range>
         <swayAngle>120</swayAngle>
         <doVisualEffects>false</doVisualEffects>
         <effecterDef>USAC_ConeExplosion</effecterDef>

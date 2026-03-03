@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <USAC_CombatSupplyDrop.label>战斗补给空投</USAC_CombatSupplyDrop.label>
+  <USAC_CombatSupplyDrop.description>请求一批可立即投入前线的战斗补给。</USAC_CombatSupplyDrop.description>
+
+  <USAC_LogisticSupplyDrop.label>后勤补给空投</USAC_LogisticSupplyDrop.label>
+  <USAC_LogisticSupplyDrop.description>请求混合型后勤物资以支援持续作战。</USAC_LogisticSupplyDrop.description>
+
+  <USAC_CommandSupplyDrop.label>指挥补给空投</USAC_CommandSupplyDrop.label>
+  <USAC_CommandSupplyDrop.description>请求高价值指挥物资，包含进阶零件与信用债券。</USAC_CommandSupplyDrop.description>
+
+  <USAC_CallRifleSquad.label>呼叫步枪班</USAC_CallRifleSquad.label>
+  <USAC_CallRifleSquad.description>呼叫一支4人火力组支援战斗行动。</USAC_CallRifleSquad.description>
+
+  <USAC_CallHeavyTeam.label>呼叫重装火力组</USAC_CallHeavyTeam.label>
+  <USAC_CallHeavyTeam.description>呼叫一支4人重装火力组以压制坚固目标。</USAC_CallHeavyTeam.description>
+
+  <USAC_CallEliteDetachment.label>呼叫菁英分遣队</USAC_CallEliteDetachment.label>
+  <USAC_CallEliteDetachment.description>呼叫一支4人菁英分遣队进行关键战场介入。</USAC_CallEliteDetachment.description>
+
+  <USAC_CallTransportShuttle.label>呼叫运输穿梭机</USAC_CallTransportShuttle.label>
+  <USAC_CallTransportShuttle.description>呼叫一架穿梭机，执行人员、货物与动物的战略运输。</USAC_CallTransportShuttle.description>
+
+  <USAC_Call_CAS.label>近距空中扫射</USAC_Call_CAS.label>
+  <USAC_Call_CAS.description>向最近的USAC空中航母请求近地空中支援，一架攻击机将进场对标定区域进行一次机砲扫射与一轮海德拉火箭打击。</USAC_Call_CAS.description>
+
+  <USAC_Call_CAB.label>近距空中轰炸</USAC_Call_CAB.label>
+  <USAC_Call_CAB.description>向最近的USAC空中航母请求近地空中支援，一架攻击机将进场对标定区域投下反工事导引炸弹。</USAC_Call_CAB.description>
+
+  <USAC_CallOrbitalStrike.label>呼叫轨道打击</USAC_CallOrbitalStrike.label>
+  <USAC_CallOrbitalStrike.description>对指定区域执行精准轨道打击。</USAC_CallOrbitalStrike.description>
+
+</LanguageData>

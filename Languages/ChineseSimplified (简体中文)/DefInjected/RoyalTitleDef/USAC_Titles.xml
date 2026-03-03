@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <USAC_Recruit.label>平民协助者</USAC_Recruit.label>
+  <USAC_Recruit.description>暂时编入USAC后勤与支援体系、受监督的平民协力人员。</USAC_Recruit.description>
+
+  <USAC_CivilianAide.label>平民助理</USAC_CivilianAide.label>
+  <USAC_CivilianAide.description>经审核的平民支援人员，负责USAC野战单位的制式协助任务。</USAC_CivilianAide.description>
+
+  <USAC_CivilianCoordinator.label>平民协调员</USAC_CivilianCoordinator.label>
+  <USAC_CivilianCoordinator.description>资深平民联络角色，负责后勤、采购与任务行政协调。</USAC_CivilianCoordinator.description>
+
+  <USAC_Private.label>二等兵</USAC_Private.label>
+  <USAC_Private.description>第一个真正的士兵阶级，正式编入前线与野战任务。</USAC_Private.description>
+
+  <USAC_Corporal.label>下士</USAC_Corporal.label>
+  <USAC_Corporal.description>前线士兵中的骨干，负责有限的小队层级执行责任。</USAC_Corporal.description>
+
+  <USAC_Sergeant.label>名义中士</USAC_Sergeant.label>
+  <USAC_Sergeant.description>最终名义头衔，主要用于忠诚与形象呈现，不附带额外实际指挥权。</USAC_Sergeant.description>
+
+</LanguageData>

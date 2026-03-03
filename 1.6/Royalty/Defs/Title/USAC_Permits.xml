@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <RoyalTitlePermitDef Name="USAC_DropResourcesBase" Abstract="True">
+        <workerClass>RoyalTitlePermitWorker_DropResources</workerClass>
+        <faction>USAC_Faction</faction>
+        <permitPointCost>1</permitPointCost>
+        <cooldownDays>15</cooldownDays>
+        <usableOnWorldMap>true</usableOnWorldMap>
+        <royalAid>
+            <targetingRange>39.9</targetingRange>
+        </royalAid>
+    </RoyalTitlePermitDef>
+
+    <RoyalTitlePermitDef ParentName="USAC_DropResourcesBase">
+        <defName>USAC_CombatSupplyDrop</defName>
+        <label>combat supply drop</label>
+        <description>Request a combat resupply package for immediate frontline use.</description>
+        <minTitle>USAC_Private</minTitle>
+        <uiPosition>(0,1)</uiPosition>
+        <royalAid>
+            <itemsToDrop>
+                <USAC_MealSurvivalPack>20</USAC_MealSurvivalPack>
+                <MedicineIndustrial>5</MedicineIndustrial>
+                <USAC_DisposableBattery>2</USAC_DisposableBattery>
+            </itemsToDrop>
+            <favorCost>2</favorCost>
+        </royalAid>
+    </RoyalTitlePermitDef>
+
+    <RoyalTitlePermitDef ParentName="USAC_DropResourcesBase">
+        <defName>USAC_LogisticSupplyDrop</defName>
+        <label>logistic supply drop</label>
+        <description>Request mixed logistical supplies for sustained operations.</description>
+        <minTitle>USAC_Corporal</minTitle>
+        <uiPosition>(1,1)</uiPosition>
+        <royalAid>
+            <itemsToDrop>
+                <MealSurvivalPack>20</MealSurvivalPack>
+                <ComponentIndustrial>5</ComponentIndustrial>
+                <USAC_DisposableRepairTool>4</USAC_DisposableRepairTool>
+            </itemsToDrop>
+            <favorCost>4</favorCost>
+        </royalAid>
+    </RoyalTitlePermitDef>
+
+    <RoyalTitlePermitDef ParentName="USAC_DropResourcesBase">
+        <defName>USAC_CommandSupplyDrop</defName>
+        <label>command supply drop</label>
+        <description>Request high-value command supplies including advanced components and USAC bonds.</description>
+        <minTitle>USAC_Corporal</minTitle>
+        <prerequisite>USAC_LogisticSupplyDrop</prerequisite>
+        <uiPosition>(2,1)</uiPosition>
+        <cooldownDays>30</cooldownDays>
+        <royalAid>
+            <itemsToDrop>
+                <ComponentSpacer>8</ComponentSpacer>
+                <USAC_Bond>5</USAC_Bond>
+                <USAC_NeuroBooster>10</USAC_NeuroBooster>
+            </itemsToDrop>
+            <favorCost>7</favorCost>
+        </royalAid>
+    </RoyalTitlePermitDef>
+
+    <RoyalTitlePermitDef>
+        <defName>USAC_CallRifleSquad</defName>
+        <label>call rifle squad</label>
+        <description>Call a USAC rifle squad to support combat operations.</description>
+        <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+        <faction>USAC_Faction</faction>
+        <minTitle>USAC_Corporal</minTitle>
+        <permitPointCost>1</permitPointCost>
+        <uiPosition>(0,3)</uiPosition>
+        <royalAid>
+            <favorCost>4</favorCost>
+            <pawnKindDef>USAC_Mech_Rocky_AR</pawnKindDef>
+            <pawnCount>4</pawnCount>
+            <targetingRange>39.9</targetingRange>
+        </royalAid>
+        <cooldownDays>5</cooldownDays>
+    </RoyalTitlePermitDef>
+
+    <RoyalTitlePermitDef>
+        <defName>USAC_CallHeavyTeam</defName>
+        <label>call heavy team</label>
+        <description>Call a heavy USAC fireteam equipped for entrenched targets.</description>
+        <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+        <faction>USAC_Faction</faction>
+        <minTitle>USAC_Corporal</minTitle>
+        <permitPointCost>1</permitPointCost>
+        <prerequisite>USAC_CallRifleSquad</prerequisite>
+        <uiPosition>(1,3)</uiPosition>
+        <royalAid>
+            <favorCost>6</favorCost>
+            <pawnKindDef>USAC_Mech_Rocky_Heavy</pawnKindDef>
+            <pawnCount>4</pawnCount>
+            <targetingRange>39.9</targetingRange>
+        </royalAid>
+        <cooldownDays>10</cooldownDays>
+    </RoyalTitlePermitDef>
+
+    <RoyalTitlePermitDef>
+        <defName>USAC_CallEliteDetachment</defName>
+        <label>call elite detachment</label>
+        <description>Call an elite USAC detachment for decisive battlefield intervention.</description>
+        <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+        <faction>USAC_Faction</faction>
+        <minTitle>USAC_Corporal</minTitle>
+        <permitPointCost>1</permitPointCost>
+        <prerequisite>USAC_CallHeavyTeam</prerequisite>
+        <uiPosition>(2,3)</uiPosition>
+        <royalAid>
+            <favorCost>8</favorCost>
+            <pawnKindDef>USAC_Elite</pawnKindDef>
+            <pawnCount>4</pawnCount>
+            <targetingRange>39.9</targetingRange>
+            <overrideAcceptableTemperatureRange>-80~50</overrideAcceptableTemperatureRange>
+        </royalAid>
+        <cooldownDays>15</cooldownDays>
+    </RoyalTitlePermitDef>
+
+    <RoyalTitlePermitDef>
+        <defName>USAC_CallTransportShuttle</defName>
+        <label>call transport shuttle</label>
+        <description>Call a shuttle for strategic transport of personnel, cargo, and animals.</description>
+        <workerClass>RoyalTitlePermitWorker_CallShuttle</workerClass>
+        <faction>USAC_Faction</faction>
+        <minTitle>USAC_Corporal</minTitle>
+        <permitPointCost>1</permitPointCost>
+        <cooldownDays>5</cooldownDays>
+        <usableOnWorldMap>true</usableOnWorldMap>
+        <uiPosition>(0,5)</uiPosition>
+        <royalAid>
+            <favorCost>7</favorCost>
+            <targetingRange>44.9</targetingRange>
+            <targetingRequireLOS>false</targetingRequireLOS>
+        </royalAid>
+    </RoyalTitlePermitDef>
+
+    <RoyalTitlePermitDef>
+        <defName>USAC_Call_CAS</defName>
+        <label>Close Air Strafing</label>
+        <description>Request close air support from the nearest USAC aerial carrier. included 20mm explosive chaingun strafing and 4 hydra rocket run.</description>
+        <workerClass>Fortified.RoyalTitlePermitWorker_CallAirSupport</workerClass>
+        <faction>USAC_Faction</faction>
+        <minTitle>USAC_Corporal</minTitle>
+        <permitPointCost>1</permitPointCost>
+        <uiPosition>(1,4)</uiPosition>
+        <royalAid>
+            <favorCost>1</favorCost>
+            <radius>10.9</radius>
+            <targetingRange>99.9</targetingRange>
+        </royalAid>
+        <cooldownDays>5</cooldownDays>
+        <modExtensions>
+            <li Class="Fortified.AirSupportExtension">
+                <airSupportDef>USAC_StrafingRun</airSupportDef>
+            </li>
+        </modExtensions>
+    </RoyalTitlePermitDef>
+
+    <RoyalTitlePermitDef>
+        <defName>USAC_Call_CAB</defName>
+        <label>Close Air Bombard</label>
+        <description>Request close air support from the nearest USAC aerial carrier. a attacker jet with one anti fortification bomb will drop on location.</description>
+        <workerClass>Fortified.RoyalTitlePermitWorker_CallAirSupport</workerClass>
+        <faction>USAC_Faction</faction>
+        <minTitle>USAC_Corporal</minTitle>
+        <permitPointCost>1</permitPointCost>
+        <uiPosition>(2,4)</uiPosition>
+        <prerequisite>USAC_Call_CAS</prerequisite>
+        <royalAid>
+            <favorCost>1</favorCost>
+            <radius>14.9</radius>
+            <targetingRange>99.9</targetingRange>
+        </royalAid>
+        <cooldownDays>10</cooldownDays>
+        <modExtensions>
+            <li Class="Fortified.AirSupportExtension">
+                <airSupportDef>USAC_GuidedBomb</airSupportDef>
+            </li>
+        </modExtensions>
+    </RoyalTitlePermitDef>
+
+    <RoyalTitlePermitDef>
+        <defName>USAC_CallOrbitalStrike</defName>
+        <label>call orbital strike</label>
+        <description>Call a precision orbital strike on a designated target area.</description>
+        <workerClass>RoyalTitlePermitWorker_OrbitalStrike</workerClass>
+        <faction>USAC_Faction</faction>
+        <minTitle>USAC_Corporal</minTitle>
+        <permitPointCost>1</permitPointCost>
+        <cooldownDays>8</cooldownDays>
+        <uiPosition>(1,5)</uiPosition>
+        <royalAid>
+            <favorCost>8</favorCost>
+            <targetingRange>44.9</targetingRange>
+            <radius>2.9</radius>
+            <explosionRadiusRange>7.9</explosionRadiusRange>
+            <explosionCount>6</explosionCount>
+            <intervalTicks>60</intervalTicks>
+            <warmupTicks>120</warmupTicks>
+        </royalAid>
+    </RoyalTitlePermitDef>
+
+</Defs>

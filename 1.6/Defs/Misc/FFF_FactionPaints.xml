@@ -27,7 +27,7 @@
     <pawnKind>USAC_Mech_Omaha</pawnKind>
     <options>
       <li>
-        <weight>100</weight>
+        <weight>50</weight>
         <color1>(192, 175, 158)</color1>
         <color2>(155, 140, 130)</color2>
         <color3>(130, 130, 130)</color3>

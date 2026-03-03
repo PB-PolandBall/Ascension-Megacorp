@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <USAC_Recruit.label>Civilian Assistant</USAC_Recruit.label>
+  <USAC_Recruit.description>A civilian collaborator temporarily attached to USAC logistics and support duties under supervision.</USAC_Recruit.description>
+
+  <USAC_CivilianAide.label>Civilian Aide</USAC_CivilianAide.label>
+  <USAC_CivilianAide.description>A vetted civilian helper handling structured support tasks for USAC field units.</USAC_CivilianAide.description>
+
+  <USAC_CivilianCoordinator.label>Civilian Coordinator</USAC_CivilianCoordinator.label>
+  <USAC_CivilianCoordinator.description>A senior civilian liaison trusted to coordinate logistics, procurement, and mission-side administration.</USAC_CivilianCoordinator.description>
+
+  <USAC_Private.label>Private</USAC_Private.label>
+  <USAC_Private.description>The first true soldier rank, formally enlisted for frontline and field operations.</USAC_Private.description>
+
+  <USAC_Corporal.label>Corporal</USAC_Corporal.label>
+  <USAC_Corporal.description>A frontline soldier assigned limited team-level responsibility in active operations.</USAC_Corporal.description>
+
+  <USAC_Sergeant.label>Ceremonial Sergeant</USAC_Sergeant.label>
+  <USAC_Sergeant.description>A nominal endpoint title awarded for loyalty and optics; it does not grant additional command authority.</USAC_Sergeant.description>
+
+</LanguageData>
