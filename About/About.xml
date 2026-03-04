@@ -23,6 +23,7 @@
         </li>
         <li>
             <packageId>AOBA.Framework</packageId>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/3498575851</steamWorkshopUrl>
             <displayName>Fortified Features Framework</displayName>
         </li>
     </modDependencies>
