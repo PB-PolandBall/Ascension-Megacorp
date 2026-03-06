@@ -49,6 +49,16 @@
 				</nomatch>
 			</li>
 
+
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/ThingDef[defName="USAC_Mech_Rocky"]</xpath>
+				<value>
+					<li Class="CombatExtended.RacePropertiesExtensionCE">
+						<bodyShape>Humanoid</bodyShape>
+					</li>
+				</value>
+			</li>
+
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="USAC_Mech_Rocky"]/comps</xpath>
 				<value>
