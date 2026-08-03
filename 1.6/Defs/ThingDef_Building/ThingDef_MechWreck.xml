@@ -5,7 +5,7 @@
   <ThingDef Name="USAC_BaseMechWreck" ParentName="BuildingBase" Abstract="True">
     <thingClass>Building</thingClass>
     <category>Building</category>
-    <description>The destroyed remains of a USAC mech unit. Can be reinstalled as decoration or deconstructed for basic salvage materials.</description>
+    <description>The wreckage of a destroyed USAC mech. It can be reinstalled as decoration, or deconstructed for basic salvage.</description>
     <randomizeRotationOnSpawn>false</randomizeRotationOnSpawn>
     <drawerType>MapMeshAndRealTime</drawerType>
     <tickerType>Never</tickerType>

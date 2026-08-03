@@ -16,7 +16,7 @@
     <thingDef>USAC_MechOrder_Cobalt</thingDef>
     <category>MECH</category>
     <subLabel>LOGISTICS // Logistics Platform</subLabel>
-    <description>A medium quadruped mech platform independently developed by USAC, designed to support infantry advances with heavy firepower and conduct point-clearance operations. Its hull uses a patented high-temperature-resistant nanocoating, allowing steady movement even in severe fire conditions. Its calm, unstoppable mechanical presence has earned it the nickname "Hellhound."</description>
+    <description>A medium quadruped mech platform independently developed by USAC, designed to support infantry advances with heavy firepower and conduct point-clearance operations. Its hull uses a patented high-temperature-resistant nanocoating, allowing steady movement even in severe fire conditions. Its calm, unstoppable mechanical bearing has earned it the nickname "hellhound."</description>
   </USAC.USACProductDef>
 
   <USAC.USACProductDef MayRequire="ludeon.rimworld.biotech">
@@ -49,11 +49,11 @@
   <!-- ========================== WEAPON ========================== -->
   <USAC.USACProductDef>
     <defName>USAC_Product_AssaultRifle</defName>
-    <label>Advanced Auto Rifle</label>
+    <label>Advanced auto rifle</label>
     <thingDef>USAC_Gun_AssaultRifle</thingDef>
     <category>WEAPON</category>
     <subLabel>RIFLE // Infantry Light</subLabel>
-    <description>An advanced automatic rifle. Standard issue for USAC infantry, achieving a perfect "corporate balance" between accuracy, firepower, and weight.</description>
+    <description>An advanced automatic rifle. Standard issue for USAC infantry, it strikes what marketing calls the perfect "corporate balance" between accuracy, firepower and weight.</description>
   </USAC.USACProductDef>
 
   <USAC.USACProductDef>
@@ -67,7 +67,7 @@
 
   <USAC.USACProductDef>
     <defName>USAC_Product_Marksman</defName>
-    <label>Marksman Rifle</label>
+    <label>Marksman rifle</label>
     <thingDef>USAC_Gun_MarksmanRifle</thingDef>
     <category>WEAPON</category>
     <subLabel>DMR // Long-Range Precision</subLabel>
@@ -85,7 +85,7 @@
 
   <USAC.USACProductDef>
     <defName>USAC_Product_Cobra</defName>
-    <label>Cobra Assault Cannon</label>
+    <label>Cobra assault cannon</label>
     <thingDef>USAC_Gun_CobraAC</thingDef>
     <category>WEAPON</category>
     <subLabel>AUTOCANNON // Suppression Cannon</subLabel>
@@ -144,30 +144,30 @@
     <thingDef>USAC_Bond</thingDef>
     <category>SUPPLY</category>
     <subLabel>DOCUMENTS // Credit Assets</subLabel>
-    <description>A special high-toughness fiber paper voucher issued by USAC dealers during trade with ground factions. Printed with special ink, it includes anti-counterfeit markings and registered ownership data. Remaining value from purchases and equipment sales can be converted into this fixed-purchasing-power certificate for future transactions. Because it is registered, only the listed owner can use it, making this highly durable paper practically useless to other rimworld factions.</description>
+    <description>A special high-toughness fiber paper voucher issued by USAC dealers during trade with ground factions. Printed with special ink, it includes anti-counterfeit markings and registered ownership data. Remaining value from purchases and equipment sales can be converted into this fixed-purchasing-power certificate for future transactions. Because it is registered, only the listed owner can use it, which makes this remarkably durable piece of paper all but useless to any other faction on the rim.</description>
   </USAC.USACProductDef>
 
   <USAC.USACProductDef>
     <defName>USAC_Product_NeuroBooster</defName>
-    <label>Neuro-Booster</label>
+    <label>Neuro-booster</label>
     <thingDef>USAC_NeuroBooster</thingDef>
     <category>SUPPLY</category>
     <subLabel>PHARMACEUTICAL // Neural Regulation</subLabel>
-    <description>A neural enhancement drug (Neuro Augment Serum). Embedded nanomachines improve neural activity and rational cognition, making it a common performance enhancer for USAC technical workers and military personnel. As nanomachines gradually deactivate over time, users may experience agitation and emotional instability, and rare susceptible cases suggest low activity can trigger unexplained allergic shock. After first use, regular continued dosing is required to maintain nanomachine activity.</description>
+    <description>A neural enhancement drug (Neuro Augment Serum). Embedded nanomachines improve neural activity and rational cognition, making it a common performance enhancer for USAC technical workers and military personnel. As nanomachines gradually deactivate over time, users may experience agitation and emotional instability, and in rare susceptible individuals, low nanomachine activity has been known to trigger unexplained anaphylactic shock. After first use, regular continued dosing is required to maintain nanomachine activity.</description>
   </USAC.USACProductDef>
 
   <USAC.USACProductDef MayRequire="ludeon.rimworld.biotech">
     <defName>USAC_Product_Subscription</defName>
-    <label>Mechlink Serum</label>
+    <label>Mechlink serum</label>
     <thingDef>USAC_TempMechlink</thingDef>
     <category>SUPPLY</category>
     <subLabel>SYSTEM // Key Protocol</subLabel>
-    <description>A neural enhancement drug (Neuro Augment Serum). Its neural nanomachines form a brain-base interface and establish psionic communication with the USAC orbital satellite network. It provides mech control and bandwidth VPN proxy services through a quarterly subscription model. Additional doses can extend service duration during active coverage, but if the user's brain activity ceases, mech-control services terminate immediately and all remaining subscription time is cleared.</description>
+    <description>A neural enhancement drug (Neuro Augment Serum). Its neural nanomachines form a direct brain interface and open psychic communication with the USAC orbital satellite network. It provides mech control and bandwidth VPN proxy services through a quarterly subscription model. Additional doses can extend service duration during active coverage, but if the user's brain activity ceases, mech-control services terminate immediately and all remaining subscription time is cleared.</description>
   </USAC.USACProductDef>
 
   <USAC.USACProductDef>
     <defName>USAC_Product_Battery</defName>
-    <label>Disposable Battery</label>
+    <label>Disposable battery</label>
     <thingDef>USAC_DisposableBattery</thingDef>
     <category>SUPPLY</category>
     <subLabel>ELECTRONICS // Power Module</subLabel>
@@ -176,7 +176,7 @@
 
   <USAC.USACProductDef>
     <defName>USAC_Product_RepairKit</defName>
-    <label>Repair Tool</label>
+    <label>Repair tool</label>
     <thingDef>USAC_DisposableRepairTool</thingDef>
     <category>SUPPLY</category>
     <subLabel>CONSUMABLES // Nano Repair</subLabel>
@@ -189,7 +189,7 @@
     <thingDef>USAC_Apparel_ExoSkeleton</thingDef>
     <category>APPAREL</category>
     <subLabel>EXO-SKELETON // Powered Frame</subLabel>
-    <description>An exoskeleton unit that can mount plasteel inserts for defense, with protection effectiveness decreasing as insert durability drops. This motor-driven powered frame allows personnel to lift and operate heavy weapon systems.</description>
+    <description>An exoskeleton unit that can mount plasteel inserts for defense, though its protection falls off as the inserts wear down. This motor-driven powered frame allows personnel to lift and operate heavy weapon systems.</description>
   </USAC.USACProductDef>
 
   <USAC.USACProductDef>
@@ -198,7 +198,7 @@
     <thingDef>USAC_Apparel_MeleeHelmet</thingDef>
     <category>APPAREL</category>
     <subLabel>HEADWEAR // Close-Quarters</subLabel>
-    <description>A tactical helmet for indoor operations equipped with ballistic goggles that protect the eyes from fragments and burns. Although reflective angles may slightly hinder aiming, it offers excellent close-quarters visual protection.</description>
+    <description>A tactical helmet for indoor operations equipped with ballistic goggles that protect the eyes from fragments and burns. Reflections off the visor can hamper aiming slightly, but at close quarters the eye protection is excellent.</description>
   </USAC.USACProductDef>
 
   <USAC.USACProductDef>
@@ -225,16 +225,16 @@
     <thingDef>USAC_Apparel_NightVisionHelmet</thingDef>
     <category>APPAREL</category>
     <subLabel>HEADWEAR // Night Ops</subLabel>
-    <description>A light tactical helmet with a quad-eye night vision array, significantly improving nighttime firing capability and accuracy. While its front-heavy balance slightly reduces close-combat response speed, it provides overwhelming advantages in darkness.</description>
+    <description>A light tactical helmet with a quad-eye night vision array, significantly improving nighttime firing capability and accuracy. Its front-heavy balance slows close-combat reactions a little, but in darkness the advantage it gives is overwhelming.</description>
   </USAC.USACProductDef>
 
   <USAC.USACProductDef>
     <defName>USAC_Product_Ration</defName>
-    <label>B-Ration</label>
+    <label>B-ration</label>
     <thingDef>USAC_MealSurvivalPack</thingDef>
     <category>SUPPLY</category>
     <subLabel>RATIONS // Field Supply</subLabel>
-    <description>Grade-B field ration pack. Extremely long shelf life and integrated sustained analgesic compounds significantly improve soldier endurance in harsh environments.</description>
+    <description>A grade-B field ration pack. Its extremely long shelf life and built-in slow-release analgesics markedly improve a soldier's endurance in harsh conditions.</description>
   </USAC.USACProductDef>
 
 </Defs>

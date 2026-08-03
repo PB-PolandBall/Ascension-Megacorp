@@ -4,22 +4,22 @@
   <!-- EN: Orbital assault rig -->
   <USAC_AssaultRig.label>Orbital assault rig</USAC_AssaultRig.label>
   <!-- EN: Armed groups produce and deploy these flexibly deployable drilling rigs to the surface via on-orbit industrial platforms to carry out mining operations. Their mining methods cause severe surface pollution, which you can prevent by destroying them to contain the pollution and avoid deposit loss.\n\nAlternatively, you can allow them to leave on their own after mining is complete. Regardless, armed groups will deploy troops and supplies to protect their property from intrusion. -->
-  <USAC_AssaultRig.helpText>Armed groups produce and deploy these flexibly deployable drilling rigs to the surface via on-orbit industrial platforms to carry out mining operations. Their mining methods cause severe surface pollution, which you can prevent by destroying them to contain the pollution and avoid deposit loss.
+  <USAC_AssaultRig.helpText>Armed groups build these rigs on orbital industrial platforms and drop them wherever there is something worth digging up. The way they mine leaves the surface badly polluted, so destroying a rig both contains the pollution and stops it stripping the deposit.
 
-Alternatively, you can allow them to leave on their own after mining is complete. Regardless, armed groups will deploy troops and supplies to protect their property from intrusion.</USAC_AssaultRig.helpText>
+Alternatively you can simply let it finish and leave on its own. Either way, the owners will land troops and supplies to protect their property.</USAC_AssaultRig.helpText>
   
   <!-- EN: Bodybag -->
-  <USAC_Bodybag.label>Bodybag</USAC_Bodybag.label>
+  <USAC_Bodybag.label>Body bag</USAC_Bodybag.label>
   <!-- EN: Bodybag is a designated packaging container for medical departments to package organic materials in transactions. USAC have a long history of legally acquiring such unclaimed materials for peaceful research, biological experiments, and medical aesthetics.\n\nBodybag containing samples must be placed within trade beacon range. Furthermore, materials with drug resistance can provide additional market value.\n\nIt is important to note that body bags cannot prevent environmental microorganisms from damaging the integrity of the materials; therefore, for large-scale long-term preservation, large cold storage facilities should be considered to prevent the loss of value due to natural decay. -->
-  <USAC_Bodybag.helpText>Bodybag is a designated packaging container for medical departments to package organic materials in transactions. USAC have a long history of legally acquiring such unclaimed materials for peaceful research, biological experiments, and medical aesthetics.
+  <USAC_Bodybag.helpText>A body bag is the standard container medical departments use to package organic material for trade. USAC has a long history of lawfully acquiring such unclaimed material for peaceful research, biological experimentation and medical aesthetics.
 
-Bodybag containing samples must be placed within trade beacon range. Furthermore, materials with drug resistance can provide additional market value.
+Bags containing samples must sit within trade beacon range to count. Material carrying drug resistance is worth more on the market.
 
-It is important to note that body bags cannot prevent environmental microorganisms from damaging the integrity of the materials; therefore, for large-scale long-term preservation, large cold storage facilities should be considered to prevent the loss of value due to natural decay.</USAC_Bodybag.helpText>
+Bear in mind that a body bag does nothing to stop environmental microbes from degrading its contents. For long-term storage at any scale, build proper cold storage - natural decay eats into value quickly.</USAC_Bodybag.helpText>
   
   <!-- EN: Credit bonds -->
   <USAC_CreditBonds.label>Credit bonds</USAC_CreditBonds.label>
-  <!-- EN: Armed groups and related traders used a form of value called credit bonds as a substitute for silver in the trade. These bonds could only be obtained through specific material transactions, and their registered nature made them difficult to circulate through other means. -->
-  <USAC_CreditBonds.helpText>Armed groups and related traders used a form of value called credit bonds as a substitute for silver in the trade. These bonds could only be obtained through specific material transactions, and their registered nature made them difficult to circulate through other means.</USAC_CreditBonds.helpText>
+  <!-- EN: Armed groups and the traders who serve them use credit bonds in place of silver. Bonds can only be obtained through specific material transactions, and because each one is registered to a holder, they are almost impossible to circulate any other way. -->
+  <USAC_CreditBonds.helpText>Armed groups and the traders who serve them use credit bonds in place of silver. Bonds can only be obtained through specific material transactions, and because each one is registered to a holder, they are almost impossible to circulate any other way.</USAC_CreditBonds.helpText>
   
 </LanguageData>

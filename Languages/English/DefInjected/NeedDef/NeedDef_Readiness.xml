@@ -3,7 +3,7 @@
   
   <!-- EN: readiness -->
   <USAC_Readiness.label>readiness</USAC_Readiness.label>
-  <!-- EN: A measure of the mechanoid's operational readiness. Low readiness causes decreased combat effectiveness. Resupply with industrial components. -->
-  <USAC_Readiness.description>A measure of the mechanoid's operational readiness. Low readiness causes decreased combat effectiveness. Resupply with industrial components.</USAC_Readiness.description>
+  <!-- EN: How well supplied this mechanoid is for operations. Low readiness reduces its combat effectiveness. Resupply it with industrial components. -->
+  <USAC_Readiness.description>How well supplied this mechanoid is for operations. Low readiness reduces its combat effectiveness. Resupply it with industrial components.</USAC_Readiness.description>
   
 </LanguageData>

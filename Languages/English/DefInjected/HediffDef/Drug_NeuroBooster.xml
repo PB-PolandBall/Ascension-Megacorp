@@ -3,15 +3,15 @@
   
   <!-- EN: neuro-booster dependence -->
   <USAC_NeuroBoosterAddiction.label>neuro-booster dependence</USAC_NeuroBoosterAddiction.label>
-  <!-- EN: Permanent alteration of neural pathways. Withdrawal causes severe instability and lethal neural collapse. -->
-  <USAC_NeuroBoosterAddiction.description>Permanent alteration of neural pathways. Withdrawal causes severe instability and lethal neural collapse.</USAC_NeuroBoosterAddiction.description>
+  <!-- EN: The neural pathways have been permanently altered. Withdrawal brings severe instability, and eventually fatal neural collapse. -->
+  <USAC_NeuroBoosterAddiction.description>The neural pathways have been permanently altered. Withdrawal brings severe instability, and eventually fatal neural collapse.</USAC_NeuroBoosterAddiction.description>
   <!-- EN: unmet -->
   <USAC_NeuroBoosterAddiction.stages.unmet.label>unmet</USAC_NeuroBoosterAddiction.stages.unmet.label>
   
   <!-- EN: neural enhancement -->
   <USAC_NeuroBoosterHigh.label>neural enhancement</USAC_NeuroBoosterHigh.label>
-  <!-- EN: Enhanced neural pathways via nanomachines. Increases bandwidth and consciousness at the cost of pain. -->
-  <USAC_NeuroBoosterHigh.description>Enhanced neural pathways via nanomachines. Increases bandwidth and consciousness at the cost of pain.</USAC_NeuroBoosterHigh.description>
+  <!-- EN: Nanomachines are enhancing the neural pathways, raising bandwidth and awareness at the cost of constant pain. -->
+  <USAC_NeuroBoosterHigh.description>Nanomachines are enhancing the neural pathways, raising bandwidth and awareness at the cost of constant pain.</USAC_NeuroBoosterHigh.description>
   <!-- EN: layer 1 -->
   <USAC_NeuroBoosterHigh.stages.layer_1.label>layer 1</USAC_NeuroBoosterHigh.stages.layer_1.label>
   <!-- EN: layer 2 -->

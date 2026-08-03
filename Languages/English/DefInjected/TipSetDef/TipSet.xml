@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  <USAC_Bodybag.tips.0>USAC uses Credit Bonds as its trading currency instead of the silver commonly used on the rim.</USAC_Bodybag.tips.0>
-  <USAC_Bodybag.tips.1>When trading with USAC merchants, make sure your Sealed Bags are inside Trade Beacon coverage.</USAC_Bodybag.tips.1>
-  <USAC_Bodybag.tips.2>Body Bags only store and transport corpses, so build cold storage to slow natural decay. USAC does not buy rotten corpses.</USAC_Bodybag.tips.2>
-  <USAC_Bodybag.tips.3>Body Bag's value is affected by corpse durability and quality. Faster battlefield recovery and refrigeration are usually more profitable than leaving bodies outdoors.</USAC_Bodybag.tips.3>
-  <USAC_Bodybag.tips.4>Body Bag's currency value only counts bags that already contain a corpse. Empty bags provide no trade value.</USAC_Bodybag.tips.4>
+  <USAC_Bodybag.tips.0>USAC trades in credit bonds rather than the silver everyone else on the rim uses.</USAC_Bodybag.tips.0>
+  <USAC_Bodybag.tips.1>When trading with USAC merchants, make sure your sealed bags are inside trade beacon range.</USAC_Bodybag.tips.1>
+  <USAC_Bodybag.tips.2>Body bags only store and transport corpses - they don't preserve them. Build cold storage to slow decay, because USAC will not buy rotten corpses.</USAC_Bodybag.tips.2>
+  <USAC_Bodybag.tips.3>A body bag's value depends on the condition of the corpse inside. Recovering bodies quickly and refrigerating them pays far better than leaving them out in the open.</USAC_Bodybag.tips.3>
+  <USAC_Bodybag.tips.4>Only bags that already contain a corpse count toward your currency. Empty bags are worth nothing in trade.</USAC_Bodybag.tips.4>
 
-  <USAC_Bond.tips.0>USAC uses Credit Bonds as its trading currency instead of the silver commonly used on the rim.</USAC_Bond.tips.0>
-  <USAC_Bond.tips.1>USAC prioritizes collecting bonds in trade. Buying new bonds with bonds may trigger an extra "depreciation fee," so store reserves in a vault and keep its Trade Beacon turned off.</USAC_Bond.tips.1>
-  <USAC_Bond.tips.2>The issued value of a Credit Bond is only 1000, but dealers usually sell at a premium. The premium depends on your faction goodwill with USAC.</USAC_Bond.tips.2>
-  <USAC_Bond.tips.3>Most USAC services consume bonds directly from Trade Beacon coverage instead of your entire map stockpile. Keep reserve bonds outside beacon range if needed.</USAC_Bond.tips.3>
-  <USAC_Bond.tips.4>If you run debt contracts and lease-style services on the same map, keep an extra bond buffer to avoid payment collisions on settlement days.</USAC_Bond.tips.4>
+  <USAC_Bond.tips.0>USAC trades in credit bonds rather than the silver everyone else on the rim uses.</USAC_Bond.tips.0>
+  <USAC_Bond.tips.1>USAC takes bonds first in any trade. Buying new bonds with bonds can incur a "depreciation fee," so keep your reserves in a vault with its trade beacon switched off.</USAC_Bond.tips.1>
+  <USAC_Bond.tips.2>A credit bond is issued at a value of 1000, but dealers sell them at a premium. How large that premium is depends on your goodwill with USAC.</USAC_Bond.tips.2>
+  <USAC_Bond.tips.3>Most USAC services draw bonds from trade beacon range only, not from your whole map. Keep reserves outside beacon range if you want them left alone.</USAC_Bond.tips.3>
+  <USAC_Bond.tips.4>If you run debt contracts and leased services on the same map, keep a buffer of spare bonds so the two don't collide on settlement day.</USAC_Bond.tips.4>
 
-  <USAC_Debt.tips.0>USAC charges debt interest once every 30 days as a quarter. Make sure your colony has enough Credit Bonds available on settlement day.</USAC_Debt.tips.0>
-  <USAC_Debt.tips.1>When repaying principal, any quarterly repayment above 10% of total principal can generate additional surcharge fees based on amount.</USAC_Debt.tips.1>
-  <USAC_Debt.tips.2>If paying down principal is difficult, at least maintain enough income to keep quarterly interest payments stable.</USAC_Debt.tips.2>
-  <USAC_Debt.tips.3>USAC offers two grace periods for unpaid interest, but the third default triggers forced collection.</USAC_Debt.tips.3>
-  <USAC_Debt.tips.4>If your debt is about to become unpayable, consider escape this planet before too late.</USAC_Debt.tips.4>
+  <USAC_Debt.tips.0>USAC charges interest every 30 days - one corporate quarter. Make sure your colony has enough credit bonds on hand when settlement day arrives.</USAC_Debt.tips.0>
+  <USAC_Debt.tips.1>Repaying more than 10% of the total principal in a single quarter incurs a surcharge that scales with the amount.</USAC_Debt.tips.1>
+  <USAC_Debt.tips.2>If you can't pay down the principal, at least keep enough income coming in to cover the quarterly interest.</USAC_Debt.tips.2>
+  <USAC_Debt.tips.3>USAC grants two grace periods on unpaid interest. The third default triggers forced collection.</USAC_Debt.tips.3>
+  <USAC_Debt.tips.4>If your debt is about to become unpayable, consider leaving this planet while you still can.</USAC_Debt.tips.4>
 
-  <USAC_Mech.tips.0>Heavy Mining Rigs produce pollution continuously while operating. Early planning for cleanup and isolation zones reduces disruption to your colony core.</USAC_Mech.tips.0>
-  <USAC_Mech.tips.1>Heavy Mining Rig leases can be extended with bonds. If cash flow is tight, keep the rig running first and refill reserves in the next trade cycle.</USAC_Mech.tips.1>
-  <USAC_Mech.tips.2>Mech readiness decreases over time and causes penalties at very low levels. Stable resupply is usually more efficient than emergency refits.</USAC_Mech.tips.2>
-  <USAC_Mech.tips.3>Each mech resupply restores about 25% of max readiness. A dedicated resupply area and sufficient parts stock greatly reduce frontline downtime.</USAC_Mech.tips.3>
-  <USAC_Mech.tips.4>USAC airdropped units and equipment require valid landing space. If your base is crowded, reserve open tiles in advance to reduce drop failures or drift.</USAC_Mech.tips.4>
+  <USAC_Mech.tips.0>Heavy mining rigs pollute continuously while they run. Planning cleanup and isolation zones early keeps the mess away from your colony core.</USAC_Mech.tips.0>
+  <USAC_Mech.tips.1>Heavy mining rig leases can be extended with bonds. If money is tight, keep the rig running and rebuild your reserves next trade cycle.</USAC_Mech.tips.1>
+  <USAC_Mech.tips.2>Mech readiness falls over time, and very low readiness carries penalties. Steady resupply beats emergency refits.</USAC_Mech.tips.2>
+  <USAC_Mech.tips.3>Each resupply restores about 25% of a mech's maximum readiness. A dedicated resupply area with parts on hand cuts frontline downtime sharply.</USAC_Mech.tips.3>
+  <USAC_Mech.tips.4>Air-dropped USAC units and equipment need clear ground to land on. If your base is crowded, keep some open tiles in reserve so drops don't fail or drift.</USAC_Mech.tips.4>
 </LanguageData>

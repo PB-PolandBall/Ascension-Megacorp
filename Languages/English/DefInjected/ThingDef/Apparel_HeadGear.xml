@@ -2,23 +2,23 @@
 <LanguageData>
   
   <!-- EN: Assault helmet -->
-  <USAC_Apparel_AssaultHelmet.label>Assault helmet</USAC_Apparel_AssaultHelmet.label>
-  <!-- EN: A lightweight tactical helmet made with a composite plasteel shell, which can be fitted with different additional components in addition to earmuffs as needed. -->
-  <USAC_Apparel_AssaultHelmet.description>A lightweight tactical helmet made with a composite plasteel shell, which can be fitted with different additional components in addition to earmuffs as needed.</USAC_Apparel_AssaultHelmet.description>
+  <USAC_Apparel_AssaultHelmet.label>assault helmet</USAC_Apparel_AssaultHelmet.label>
+  <!-- EN: A lightweight tactical helmet built around a composite plasteel shell. Beyond its integrated ear protection, it takes a range of optional attachments. -->
+  <USAC_Apparel_AssaultHelmet.description>A lightweight tactical helmet built around a composite plasteel shell. Beyond its integrated ear protection, it takes a range of optional attachments.</USAC_Apparel_AssaultHelmet.description>
   
   <!-- EN: Heavy helmet -->
-  <USAC_Apparel_HeavyHelmet.label>Heavy helmet</USAC_Apparel_HeavyHelmet.label>
-  <!-- EN: Composite plasteel protective helmets with enhanced frontal shrapnel protection are widely used by machine gunners and heavy infantry support infantry units engaged in high-profile combat on the battlefield contact line. -->
-  <USAC_Apparel_HeavyHelmet.description>Composite plasteel protective helmets with enhanced frontal shrapnel protection are widely used by machine gunners and heavy infantry support infantry units engaged in high-profile combat on the battlefield contact line.</USAC_Apparel_HeavyHelmet.description>
+  <USAC_Apparel_HeavyHelmet.label>heavy helmet</USAC_Apparel_HeavyHelmet.label>
+  <!-- EN: A full-coverage composite plasteel helmet with reinforced frontal fragment protection. Machine gunners and heavy infantry wear it wherever the fighting on the contact line is heaviest. -->
+  <USAC_Apparel_HeavyHelmet.description>A full-coverage composite plasteel helmet with reinforced frontal fragment protection. Machine gunners and heavy infantry wear it wherever the fighting on the contact line is heaviest.</USAC_Apparel_HeavyHelmet.description>
   
   <!-- EN: Gladiator helmet -->
-  <USAC_Apparel_MeleeHelmet.label>Gladiator helmet</USAC_Apparel_MeleeHelmet.label>
-  <!-- EN: A tactical helmet for use in indoor environments features bulletproof eyepieces that protect the eyes from shrapnel and burns, but its reflectivity at certain angles can hinder aiming during firing. -->
-  <USAC_Apparel_MeleeHelmet.description>A tactical helmet for use in indoor environments features bulletproof eyepieces that protect the eyes from shrapnel and burns, but its reflectivity at certain angles can hinder aiming during firing.</USAC_Apparel_MeleeHelmet.description>
+  <USAC_Apparel_MeleeHelmet.label>gladiator helmet</USAC_Apparel_MeleeHelmet.label>
+  <!-- EN: A tactical helmet meant for fighting indoors. Its ballistic eyepieces shield the eyes from fragments and burns, though at some angles their reflections make aiming harder. -->
+  <USAC_Apparel_MeleeHelmet.description>A tactical helmet meant for fighting indoors. Its ballistic eyepieces shield the eyes from fragments and burns, though at some angles their reflections make aiming harder.</USAC_Apparel_MeleeHelmet.description>
   
   <!-- EN: Night vision helmet -->
-  <USAC_Apparel_NightVisionHelmet.label>Night vision helmet</USAC_Apparel_NightVisionHelmet.label>
-  <!-- EN: A lightweight tactical helmet with added night vision goggles can improve shooting ability and accuracy. However, the forward center of gravity reduces reaction time in close-range combat. -->
-  <USAC_Apparel_NightVisionHelmet.description>A lightweight tactical helmet with added night vision goggles can improve shooting ability and accuracy. However, the forward center of gravity reduces reaction time in close-range combat.</USAC_Apparel_NightVisionHelmet.description>
+  <USAC_Apparel_NightVisionHelmet.label>night vision helmet</USAC_Apparel_NightVisionHelmet.label>
+  <!-- EN: A lightweight tactical helmet fitted with night vision goggles, which sharply improves shooting in the dark. Its forward center of gravity does slow the wearer's reactions at close range. -->
+  <USAC_Apparel_NightVisionHelmet.description>A lightweight tactical helmet fitted with night vision goggles, which sharply improves shooting in the dark. Its forward center of gravity does slow the wearer's reactions at close range.</USAC_Apparel_NightVisionHelmet.description>
   
 </LanguageData>

@@ -1,18 +1,18 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
-  <!-- EN: [PAWN_nameDef] spent years extracting valuable resources from harsh rimworld environments. [PAWN_pronoun] developed keen instincts for locating mineral deposits and managing heavy excavation equipment. [PAWN_pronoun] is accustomed to backbreaking labor and harsh working conditions that would exhaust ordinary colonists. -->
-  <USAC_Civilian01.description>[PAWN_nameDef] spent years extracting valuable resources from harsh rimworld environments. [PAWN_pronoun] developed keen instincts for locating mineral deposits and managing heavy excavation equipment. [PAWN_pronoun] is accustomed to backbreaking labor and harsh working conditions that would exhaust ordinary colonists.</USAC_Civilian01.description>
-  <!-- EN: Resource Gatherer -->
-  <USAC_Civilian01.title>Resource Gatherer</USAC_Civilian01.title>
-  <!-- EN: Gatherer -->
-  <USAC_Civilian01.titleShort>Gatherer</USAC_Civilian01.titleShort>
-  
-  <!-- EN: [PAWN_nameDef] participated in the grand colonization and came to a rimworld. [PAWN_pronoun] is one of the most experienced colonists in the Colonization Force, having participated in numerous successful and failed colonization attempts in their lifetime. -->
-  <USAC_Civilian02.description>[PAWN_nameDef] participated in the grand colonization and came to a rimworld. [PAWN_pronoun] is one of the most experienced colonists in the Colonization Force, having participated in numerous successful and failed colonization attempts in their lifetime.</USAC_Civilian02.description>
-  <!-- EN: Survival Expert -->
-  <USAC_Civilian02.title>Survival Expert</USAC_Civilian02.title>
-  <!-- EN: Survivalist -->
-  <USAC_Civilian02.titleShort>Survivalist</USAC_Civilian02.titleShort>
-  
+
+  <!-- EN: [PAWN_nameDef] spent years pulling valuable resources out of hostile rimworld ground. [PAWN_pronoun] developed a sharp instinct for finding deposits and a steady hand on heavy excavation gear, and is used to backbreaking work in conditions that would flatten an ordinary colonist. -->
+  <USAC_Civilian01.description>[PAWN_nameDef] spent years pulling valuable resources out of hostile rimworld ground. [PAWN_pronoun] developed a sharp instinct for finding deposits and a steady hand on heavy excavation gear, and is used to backbreaking work in conditions that would flatten an ordinary colonist.</USAC_Civilian01.description>
+  <!-- EN: resource gatherer -->
+  <USAC_Civilian01.title>resource gatherer</USAC_Civilian01.title>
+  <!-- EN: gatherer -->
+  <USAC_Civilian01.titleShort>gatherer</USAC_Civilian01.titleShort>
+
+  <!-- EN: [PAWN_nameDef] joined the great colonization effort and ended up on a rimworld. [PAWN_pronoun] is among the most experienced colonists in the colonization force, having lived through more settlement attempts - successful and otherwise - than most people ever hear about. -->
+  <USAC_Civilian02.description>[PAWN_nameDef] joined the great colonization effort and ended up on a rimworld. [PAWN_pronoun] is among the most experienced colonists in the colonization force, having lived through more settlement attempts - successful and otherwise - than most people ever hear about.</USAC_Civilian02.description>
+  <!-- EN: survival expert -->
+  <USAC_Civilian02.title>survival expert</USAC_Civilian02.title>
+  <!-- EN: survivalist -->
+  <USAC_Civilian02.titleShort>survivalist</USAC_Civilian02.titleShort>
+
 </LanguageData>

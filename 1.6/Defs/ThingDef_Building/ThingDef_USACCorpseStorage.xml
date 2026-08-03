@@ -4,7 +4,7 @@
     <ThingDef ParentName="BuildingBase">
         <defName>USAC_CorpseStorage</defName>
         <label>USAC standard corpse storage solution</label>
-        <description>The only authorized humanitarian corpse storage container currently approved by USAC, allowing for the storage of multiple corpses in a smaller footprint. This high-end upgrade of the corpse bag provides internal refrigeration when powered, ensuring long-term preservation of wetware assets. re-usable and durable.</description>
+        <description>The only corpse storage container USAC currently certifies as humane, holding several bodies in a compact footprint. It can be ordered solely through USAC-authorized dealers. A clear step up from body bags: powered refrigeration means stored assets lose no value at all over time, which makes this the best option for long-term preservation.</description>
         <thingClass>USAC.Building_USACCorpseStorage</thingClass>
         <graphicData>
             <texPath>Things/Building/USAC_CorpseStorage/USAC_CorpseStorage</texPath>

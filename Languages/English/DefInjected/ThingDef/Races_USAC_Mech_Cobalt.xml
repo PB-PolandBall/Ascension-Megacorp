@@ -3,8 +3,8 @@
   
   <!-- EN: M7 "Cobalt" -->
   <USAC_Mech_Cobalt.label>M7 "Cobalt"</USAC_Mech_Cobalt.label>
-  <!-- EN: A medium quadruped cargo mech with integrated machine gun. Features shotgun-resistant armor plating, cargo hauling capability, and smoke grenade deployment system. -->
-  <USAC_Mech_Cobalt.description>A medium quadruped cargo mech with integrated machine gun. Features shotgun-resistant armor plating, cargo hauling capability, and smoke grenade deployment system.</USAC_Mech_Cobalt.description>
+  <!-- EN: A medium quadruped cargo mech with an integrated machine gun. Its armor plating shrugs off shotgun fire, it hauls cargo, and it carries a smoke grenade dispenser. -->
+  <USAC_Mech_Cobalt.description>A medium quadruped cargo mech with an integrated machine gun. Its armor plating shrugs off shotgun fire, it hauls cargo, and it carries a smoke grenade dispenser.</USAC_Mech_Cobalt.description>
   <!-- EN: head -->
   <USAC_Mech_Cobalt.tools.head.label>head</USAC_Mech_Cobalt.tools.head.label>
   

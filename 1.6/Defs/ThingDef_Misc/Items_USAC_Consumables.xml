@@ -50,7 +50,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>USAC_DisposableRepairTool</defName>
     <label>disposable repair tool</label>
-    <description>A square nano-storage container that releases nanomachines to analyze and repair damaged structures. Designed for single-use to ensure safety and corporate compliance.</description>
+    <description>A square nano-storage container that releases nanomachines to analyze and repair damaged structures. It is single-use, for reasons of safety and corporate compliance.</description>
     <graphicData>
       <texPath>Things/Item/Special/USAC_RepairTool</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -94,8 +94,8 @@
   <!-- Pain Relief Survival Pack -->
   <ThingDef ParentName="MealBase">
     <defName>USAC_MealSurvivalPack</defName>
-    <label>B-Ration</label>
-    <description>A military meal made from a soft split bun, compressed protein patty, and some sharp sauce. Its patented sealed packaging allows it to remain viable for decades when heated unopened. Along with stable calories, it contains a sustained-release analgesic formula that reduces bodily pain for about half a day.</description>
+    <label>B-ration</label>
+    <description>A military meal: a soft split bun, a compressed protein patty and a sharp sauce. Its patented sealed packaging keeps it edible for decades, and it can be heated unopened. Alongside its reliable calorie count, it carries a slow-release analgesic that dulls pain for about half a day.</description>
     <graphicData>
       <texPath>Things/Item/Meal/bRation</texPath>
       <graphicClass>Graphic_MealVariants</graphicClass>
@@ -158,8 +158,8 @@
 
   <RecipeDef>
     <defName>USAC_HeatMealSurvivalPack</defName>
-    <label>heat ration</label>
-    <description>Heat a sealed B-ration to improve taste and dining comfort.</description>
+    <label>heat B-ration</label>
+    <description>Heat a sealed B-ration to make it taste better and more pleasant to eat.</description>
     <jobString>Heating B-ration.</jobString>
     <workAmount>250</workAmount>
     <workSpeedStat>CookSpeed</workSpeedStat>
@@ -190,8 +190,8 @@
 
   <RecipeDef>
     <defName>USAC_HeatMealSurvivalPackx4</defName>
-    <label>heat ration x4</label>
-    <description>Heat 4 sealed B-rations in one batch to improve taste and dining comfort.</description>
+    <label>heat B-ration x4</label>
+    <description>Heat four sealed B-rations at once to make them taste better and more pleasant to eat.</description>
     <jobString>Heating B-ration x4.</jobString>
     <workAmount>900</workAmount>
     <workSpeedStat>CookSpeed</workSpeedStat>
@@ -223,8 +223,8 @@
   <HediffDef>
     <defName>USAC_PainReliefIngestion</defName>
     <label>analgesic effect</label>
-    <labelNoun>analgesic effect from ingested meal</labelNoun>
-    <description>A sustained analgesic effect from ingested b-ration.</description>
+    <labelNoun>analgesic effect from a ration</labelNoun>
+    <description>A slow-release analgesic taken in with a B-ration.</description>
     <hediffClass>HediffWithComps</hediffClass>
     <isBad>false</isBad>
     <maxSeverity>1.0</maxSeverity>

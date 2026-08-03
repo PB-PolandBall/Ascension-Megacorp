@@ -3,7 +3,7 @@
   
   <!-- EN: field backpack -->
   <USAC_Apparel_Backpack.label>field backpack</USAC_Apparel_Backpack.label>
-  <!-- EN: A large field backpack designed for long-distance marches, capable of holding a large number of items but offering no load-bearing capacity. -->
-  <USAC_Apparel_Backpack.description>A large field backpack designed for long-distance marches, capable of holding a large number of items but offering no load-bearing capacity.</USAC_Apparel_Backpack.description>
+  <!-- EN: A large field pack built for long marches. It holds a great deal, but does nothing to help the wearer bear the weight. -->
+  <USAC_Apparel_Backpack.description>A large field pack built for long marches. It holds a great deal, but does nothing to help the wearer bear the weight.</USAC_Apparel_Backpack.description>
   
 </LanguageData>

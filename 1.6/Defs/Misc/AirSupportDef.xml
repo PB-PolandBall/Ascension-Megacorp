@@ -2,7 +2,7 @@
 <Defs>
   <Fortified.AirSupportDef>
     <defName>USAC_StrafingRun</defName>
-    <label>Strafing run</label>
+    <label>strafing run</label>
     <comps>
       <li Class="Fortified.AirSupportComp_SetOriginRandomEdge" />
       <li Class="Fortified.AirSupportComp_StrafeII">
@@ -44,7 +44,7 @@
 
   <Fortified.AirSupportDef>
     <defName>USAC_GuidedBomb</defName>
-    <label>Guided bombard</label>
+    <label>guided bombing run</label>
     <comps>
       <li Class="Fortified.AirSupportComp_SetOriginRandomEdge" />
       <li Class="Fortified.AirSupportComp_StrafeII">
@@ -68,7 +68,7 @@
 
   <ThingDef ParentName="EtherealThingBase">
     <defName>USAC_AirFlyBy_Executioner</defName>
-    <label>executioner</label>
+    <label>MQ-9 "Executioner"</label>
     <thingClass>Fortified.FlyByThing</thingClass>
     <drawerType>RealtimeOnly</drawerType>
     <tickerType>Normal</tickerType>
@@ -306,4 +306,4 @@
     </projectile>
   </ThingDef>
 
-</Defs>
+</Defs>

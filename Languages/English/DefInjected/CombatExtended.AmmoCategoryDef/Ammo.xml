@@ -3,7 +3,7 @@
   
   <!-- EN: Depleted uranium -->
   <USAC_DU.label>Depleted uranium</USAC_DU.label>
-  <!-- EN: Uses depleted uranium as projectile core, It has chemical toxicity and radioactivity., greatly improving armor penetration. -->
-  <USAC_DU.description>Uses depleted uranium as projectile core, It has chemical toxicity and radioactivity., greatly improving armor penetration.</USAC_DU.description>
+  <!-- EN: Uses a depleted uranium penetrator core. Chemically toxic and slightly radioactive, but far better at defeating armor. -->
+  <USAC_DU.description>Uses a depleted uranium penetrator core. Chemically toxic and slightly radioactive, but far better at defeating armor.</USAC_DU.description>
   
 </LanguageData>

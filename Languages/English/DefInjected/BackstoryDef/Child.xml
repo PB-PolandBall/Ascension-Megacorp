@@ -1,101 +1,101 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
-  <!-- EN: Since [PAWN_nameDef] grew up in a gravity-free environment, [PAWN_pronoun] childhood was spent undergoing rehabilitation and gravity exposure treatments. Although these treatments have allowed [PAWN_pronoun] to move regularly in a normal gravity environment, [PAWN_pronoun] physical condition is still far inferior compared to other children of the same age. -->
-  <USAC_CivilianChild01.description>Since [PAWN_nameDef] grew up in a gravity-free environment, [PAWN_pronoun] childhood was spent undergoing rehabilitation and gravity exposure treatments. Although these treatments have allowed [PAWN_pronoun] to move regularly in a normal gravity environment, [PAWN_pronoun] physical condition is still far inferior compared to other children of the same age.</USAC_CivilianChild01.description>
-  <!-- EN: Low G Adjuster -->
-  <USAC_CivilianChild01.title>Low G Adjuster</USAC_CivilianChild01.title>
-  <!-- EN: Adjuster -->
-  <USAC_CivilianChild01.titleShort>Adjuster</USAC_CivilianChild01.titleShort>
-  
-  <!-- EN: [PAWN_nameDef]'s family was unable to repay their loans and were forced to come to the rimworld with [PAWN_pronoun] parents. The harsh rimworld mercilessly took the lives of [PAWN_nameDef]'s parents. [PAWN_nameDef] also found [PAWN_pronoun]self inexplicably inheriting the family's debt. -->
-  <USAC_CivilianChild05.description>[PAWN_nameDef]'s family was unable to repay their loans and were forced to come to the rimworld with [PAWN_pronoun] parents. The harsh rimworld mercilessly took the lives of [PAWN_nameDef]'s parents. [PAWN_nameDef] also found [PAWN_pronoun]self inexplicably inheriting the family's debt.</USAC_CivilianChild05.description>
-  <!-- EN: Debt Inheritor -->
-  <USAC_CivilianChild05.title>Debt Inheritor</USAC_CivilianChild05.title>
-  <!-- EN: Debt Child -->
-  <USAC_CivilianChild05.titleShort>Debt Child</USAC_CivilianChild05.titleShort>
-  
-  <!-- EN: [PAWN_nameDef] signed an organ donation contract early on, stipulating donation of healthy organs upon adulthood. But clever [PAWN_nameDef] quickly used the contract money to establish connections and joined a frontier project to escape to the rimworld and evade the donation contract. -->
-  <USAC_CivilianChild06.description>[PAWN_nameDef] signed an organ donation contract early on, stipulating donation of healthy organs upon adulthood. But clever [PAWN_nameDef] quickly used the contract money to establish connections and joined a frontier project to escape to the rimworld and evade the donation contract.</USAC_CivilianChild06.description>
-  <!-- EN: Organ Dodger -->
-  <USAC_CivilianChild06.title>Organ Dodger</USAC_CivilianChild06.title>
-  <!-- EN: Dodger -->
-  <USAC_CivilianChild06.titleShort>Dodger</USAC_CivilianChild06.titleShort>
-  
-  <!-- EN: [PAWN_nameDef] is the descendant of a colonial fleet that settled the rimworld. After the colonial fleet departed, the influence brought by megacorporations intensified [PAWN_nameDef]'s safe living costs. [PAWN_pronoun] was forced to learn how to shoot guns at an early age. -->
-  <USAC_CivilianChild07.description>[PAWN_nameDef] is the descendant of a colonial fleet that settled the rimworld. After the colonial fleet departed, the influence brought by megacorporations intensified [PAWN_nameDef]'s safe living costs. [PAWN_pronoun] was forced to learn how to shoot guns at an early age.</USAC_CivilianChild07.description>
-  <!-- EN: Colonist Descendant -->
-  <USAC_CivilianChild07.title>Colonist Descendant</USAC_CivilianChild07.title>
-  <!-- EN: Colonist Child -->
-  <USAC_CivilianChild07.titleShort>Colonist Child</USAC_CivilianChild07.titleShort>
-  
-  <!-- EN: [PAWN_nameDef] grew up under excellent family conditions and received a fine education. However, talent saturation and blocked advancement paths forced [PAWN_nameDef] to seek opportunities in the distant rimworld. -->
-  <USAC_CivilianChild08.description>[PAWN_nameDef] grew up under excellent family conditions and received a fine education. However, talent saturation and blocked advancement paths forced [PAWN_nameDef] to seek opportunities in the distant rimworld.</USAC_CivilianChild08.description>
-  <!-- EN: Middle-Class Child -->
-  <USAC_CivilianChild08.title>Middle-Class Child</USAC_CivilianChild08.title>
-  <!-- EN: Privileged Child -->
-  <USAC_CivilianChild08.titleShort>Privileged Child</USAC_CivilianChild08.titleShort>
-  
-  <!-- EN: Young [PAWN_nameDef] pursued the dream of being an adventurer, secretly participating in a frontier project to come to the rimworld without telling anyone. [PAWN_pronoun] quickly learned how cruel the reality behind [PAWN_pronoun]'s dreams truly was. -->
-  <USAC_CivilianChild09.description>Young [PAWN_nameDef] pursued the dream of being an adventurer, secretly participating in a frontier project to come to the rimworld without telling anyone. [PAWN_pronoun] quickly learned how cruel the reality behind [PAWN_pronoun]'s dreams truly was.</USAC_CivilianChild09.description>
-  <!-- EN: Young Adventurer -->
-  <USAC_CivilianChild09.title>Young Adventurer</USAC_CivilianChild09.title>
-  <!-- EN: Adventurer -->
-  <USAC_CivilianChild09.titleShort>Adventurer</USAC_CivilianChild09.titleShort>
-  
-  <!-- EN: [PAWN_nameDef] was born out of wedlock in the colonial fleet stationed on the planet's surface, and his biological father is unknown. Fortunately, the soldiers stationed in the camp treated [PAWN_pronoun] as one of their own, allowing [PAWN_pronoun] to have a relatively complete childhood -->
-  <USAC_MilitaryChild01.description>[PAWN_nameDef] was born out of wedlock in the colonial fleet stationed on the planet's surface, and his biological father is unknown. Fortunately, the soldiers stationed in the camp treated [PAWN_pronoun] as one of their own, allowing [PAWN_pronoun] to have a relatively complete childhood</USAC_MilitaryChild01.description>
-  <!-- EN: Bastard Child -->
-  <USAC_MilitaryChild01.title>Bastard Child</USAC_MilitaryChild01.title>
-  <!-- EN: Child -->
-  <USAC_MilitaryChild01.titleShort>Child</USAC_MilitaryChild01.titleShort>
-  
-  <!-- EN: [PAWN_nameDef] spent childhood searching for survival materials during the day, and shelted in an abandoned mobile dragoon wreck shell in the war zone until [PAWN_pronoun] body grew too large to fit inside. -->
-  <USAC_MilitaryChild04.description>[PAWN_nameDef] spent childhood searching for survival materials during the day, and shelted in an abandoned mobile dragoon wreck shell in the war zone until [PAWN_pronoun] body grew too large to fit inside.</USAC_MilitaryChild04.description>
-  <!-- EN: Dragoon Shell Refugee -->
-  <USAC_MilitaryChild04.title>Dragoon Shell Refugee</USAC_MilitaryChild04.title>
-  <!-- EN: Wreck Refugee -->
-  <USAC_MilitaryChild04.titleShort>Wreck Refugee</USAC_MilitaryChild04.titleShort>
-  
-  <!-- EN: [PAWN_nameDef] was born in a conflict zone where nationalism was rising. Due to the exceptional combat talent [PAWN_pronoun] displayed, [PAWN_nameDef] eventually became a mercenary. [PAWN_pronoun] rarely thinks about anything beyond combat. -->
-  <USAC_MilitaryChild05.description>[PAWN_nameDef] was born in a conflict zone where nationalism was rising. Due to the exceptional combat talent [PAWN_pronoun] displayed, [PAWN_nameDef] eventually became a mercenary. [PAWN_pronoun] rarely thinks about anything beyond combat.</USAC_MilitaryChild05.description>
-  <!-- EN: Child of War -->
-  <USAC_MilitaryChild05.title>Child of War</USAC_MilitaryChild05.title>
-  <!-- EN: War Child -->
-  <USAC_MilitaryChild05.titleShort>War Child</USAC_MilitaryChild05.titleShort>
-  
-  <!-- EN: Due to his outstanding performance in the Colonial Military Academy, [PAWN_nameDef] was trained as an Officer Cadet during his childhood. [PAWN_nameDef] achieved the rank of Warrant Officer upon reaching adulthood. -->
-  <USAC_OfficerChild01.description>Due to his outstanding performance in the Colonial Military Academy, [PAWN_nameDef] was trained as an Officer Cadet during his childhood. [PAWN_nameDef] achieved the rank of Warrant Officer upon reaching adulthood.</USAC_OfficerChild01.description>
-  <!-- EN: Officer Cadet -->
-  <USAC_OfficerChild01.title>Officer Cadet</USAC_OfficerChild01.title>
-  <!-- EN: Cadet -->
-  <USAC_OfficerChild01.titleFemale>Cadet</USAC_OfficerChild01.titleFemale>
-  <!-- EN: Cadet -->
-  <USAC_OfficerChild01.titleShort>Cadet</USAC_OfficerChild01.titleShort>
-  <!-- EN: Cadet -->
-  <USAC_OfficerChild01.titleShortFemale>Cadet</USAC_OfficerChild01.titleShortFemale>
-  
-  <!-- EN: [PAWN_nameDef] grew up on a colonial planet full of turmoil and used [PAWN_pronoun] flexible skills as messenger on the frontline battlefields full of electromagnetic interference and hostile fire. After the war, [PAWN_pronoun] was able to return to school for an education. -->
-  <USAC_OfficerChild02.description>[PAWN_nameDef] grew up on a colonial planet full of turmoil and used [PAWN_pronoun] flexible skills as messenger on the frontline battlefields full of electromagnetic interference and hostile fire. After the war, [PAWN_pronoun] was able to return to school for an education.</USAC_OfficerChild02.description>
-  <!-- EN: Child Orderly -->
-  <USAC_OfficerChild02.title>Child Orderly</USAC_OfficerChild02.title>
-  <!-- EN: Orderly -->
-  <USAC_OfficerChild02.titleShort>Orderly</USAC_OfficerChild02.titleShort>
-  
-  <!-- EN: [PAWN_nameDef]'s parents were declared Missing in Action during their deployment while they were very young. Due to the Military Martyrdom Clause of the Colonial Fleet, they received a scholarship to support them through the Officer Academy Course. -->
-  <USAC_OfficerChild03.description>[PAWN_nameDef]'s parents were declared Missing in Action during their deployment while they were very young. Due to the Military Martyrdom Clause of the Colonial Fleet, they received a scholarship to support them through the Officer Academy Course.</USAC_OfficerChild03.description>
-  <!-- EN: Son of Martyrs -->
-  <USAC_OfficerChild03.title>Son of Martyrs</USAC_OfficerChild03.title>
-  <!-- EN: Daughter of Martyrs -->
-  <USAC_OfficerChild03.titleFemale>Daughter of Martyrs</USAC_OfficerChild03.titleFemale>
-  <!-- EN: Martyrs' Child -->
-  <USAC_OfficerChild03.titleShort>Martyrs' Child</USAC_OfficerChild03.titleShort>
-  
-  <!-- EN: [PAWN_nameDef] thought Automatroids were cool from childhood and eagerly studied Automatroid-related knowledge despite difficult circumstances. Eventually, [PAWN_nameDef]'s performance earned an invitation letter from the academic faction. -->
-  <USAC_OfficerChild06.description>[PAWN_nameDef] thought Automatroids were cool from childhood and eagerly studied Automatroid-related knowledge despite difficult circumstances. Eventually, [PAWN_nameDef]'s performance earned an invitation letter from the academic faction.</USAC_OfficerChild06.description>
-  <!-- EN: Automatroid Enthusiast -->
-  <USAC_OfficerChild06.title>Automatroid Enthusiast</USAC_OfficerChild06.title>
-  <!-- EN: Tech Enthusiast -->
-  <USAC_OfficerChild06.titleShort>Tech Enthusiast</USAC_OfficerChild06.titleShort>
-  
+
+  <!-- EN: [PAWN_nameDef] grew up without gravity, so [PAWN_possessive] childhood was one long course of rehabilitation and gravity exposure therapy. The treatments left [PAWN_objective] able to move normally under full gravity, but [PAWN_possessive] body is still far weaker than those of other children [PAWN_possessive] age. -->
+  <USAC_CivilianChild01.description>[PAWN_nameDef] grew up without gravity, so [PAWN_possessive] childhood was one long course of rehabilitation and gravity exposure therapy. The treatments left [PAWN_objective] able to move normally under full gravity, but [PAWN_possessive] body is still far weaker than those of other children [PAWN_possessive] age.</USAC_CivilianChild01.description>
+  <!-- EN: low-G adjuster -->
+  <USAC_CivilianChild01.title>low-G adjuster</USAC_CivilianChild01.title>
+  <!-- EN: adjuster -->
+  <USAC_CivilianChild01.titleShort>adjuster</USAC_CivilianChild01.titleShort>
+
+  <!-- EN: [PAWN_nameDef]'s family could not repay their loans, and were shipped out to the rimworld along with [PAWN_possessive] parents. The rimworld killed them both without ceremony, and [PAWN_nameDef] somehow inherited the family debt along with everything else. -->
+  <USAC_CivilianChild05.description>[PAWN_nameDef]'s family could not repay their loans, and were shipped out to the rimworld along with [PAWN_possessive] parents. The rimworld killed them both without ceremony, and [PAWN_nameDef] somehow inherited the family debt along with everything else.</USAC_CivilianChild05.description>
+  <!-- EN: debt inheritor -->
+  <USAC_CivilianChild05.title>debt inheritor</USAC_CivilianChild05.title>
+  <!-- EN: debt child -->
+  <USAC_CivilianChild05.titleShort>debt child</USAC_CivilianChild05.titleShort>
+
+  <!-- EN: [PAWN_nameDef] signed an organ donation contract early in life, promising healthy organs on reaching adulthood. Being clever, [PAWN_pronoun] spent the contract money on the right connections, talked [PAWN_objective]self onto a frontier project, and fled to the rimworld before anyone came to collect. -->
+  <USAC_CivilianChild06.description>[PAWN_nameDef] signed an organ donation contract early in life, promising healthy organs on reaching adulthood. Being clever, [PAWN_pronoun] spent the contract money on the right connections, talked [PAWN_objective]self onto a frontier project, and fled to the rimworld before anyone came to collect.</USAC_CivilianChild06.description>
+  <!-- EN: organ dodger -->
+  <USAC_CivilianChild06.title>organ dodger</USAC_CivilianChild06.title>
+  <!-- EN: dodger -->
+  <USAC_CivilianChild06.titleShort>dodger</USAC_CivilianChild06.titleShort>
+
+  <!-- EN: [PAWN_nameDef] descends from a colonial fleet that settled this rimworld. After the fleet moved on, the megacorporations moved in, and the price of simply staying alive climbed year after year. [PAWN_pronoun] was taught to shoot before [PAWN_pronoun] was taught much else. -->
+  <USAC_CivilianChild07.description>[PAWN_nameDef] descends from a colonial fleet that settled this rimworld. After the fleet moved on, the megacorporations moved in, and the price of simply staying alive climbed year after year. [PAWN_pronoun] was taught to shoot before [PAWN_pronoun] was taught much else.</USAC_CivilianChild07.description>
+  <!-- EN: colonist descendant -->
+  <USAC_CivilianChild07.title>colonist descendant</USAC_CivilianChild07.title>
+  <!-- EN: colonist child -->
+  <USAC_CivilianChild07.titleShort>colonist child</USAC_CivilianChild07.titleShort>
+
+  <!-- EN: [PAWN_nameDef] grew up comfortable and well educated. Even so, there were far more qualified people than there were positions, and every path upward was already blocked - so [PAWN_pronoun] went looking for opportunity out on the rim instead. -->
+  <USAC_CivilianChild08.description>[PAWN_nameDef] grew up comfortable and well educated. Even so, there were far more qualified people than there were positions, and every path upward was already blocked - so [PAWN_pronoun] went looking for opportunity out on the rim instead.</USAC_CivilianChild08.description>
+  <!-- EN: middle-class child -->
+  <USAC_CivilianChild08.title>middle-class child</USAC_CivilianChild08.title>
+  <!-- EN: privileged child -->
+  <USAC_CivilianChild08.titleShort>privileged child</USAC_CivilianChild08.titleShort>
+
+  <!-- EN: Young [PAWN_nameDef] dreamed of being an adventurer, and signed onto a frontier project bound for the rimworld without telling anyone. It did not take long to learn what that dream actually cost. -->
+  <USAC_CivilianChild09.description>Young [PAWN_nameDef] dreamed of being an adventurer, and signed onto a frontier project bound for the rimworld without telling anyone. It did not take long to learn what that dream actually cost.</USAC_CivilianChild09.description>
+  <!-- EN: young adventurer -->
+  <USAC_CivilianChild09.title>young adventurer</USAC_CivilianChild09.title>
+  <!-- EN: adventurer -->
+  <USAC_CivilianChild09.titleShort>adventurer</USAC_CivilianChild09.titleShort>
+
+  <!-- EN: [PAWN_nameDef] was born out of wedlock in a colonial fleet camp on the planet's surface, and [PAWN_possessive] biological father was never named. The soldiers stationed there raised [PAWN_objective] as one of their own, which gave [PAWN_objective] something close to a whole childhood. -->
+  <USAC_MilitaryChild01.description>[PAWN_nameDef] was born out of wedlock in a colonial fleet camp on the planet's surface, and [PAWN_possessive] biological father was never named. The soldiers stationed there raised [PAWN_objective] as one of their own, which gave [PAWN_objective] something close to a whole childhood.</USAC_MilitaryChild01.description>
+  <!-- EN: camp bastard -->
+  <USAC_MilitaryChild01.title>camp bastard</USAC_MilitaryChild01.title>
+  <!-- EN: bastard -->
+  <USAC_MilitaryChild01.titleShort>bastard</USAC_MilitaryChild01.titleShort>
+
+  <!-- EN: [PAWN_nameDef] spent childhood days scavenging for anything worth keeping, and childhood nights sheltering inside the gutted shell of a mobile dragoon in the war zone - right up until [PAWN_possessive] body grew too big to fit inside it. -->
+  <USAC_MilitaryChild04.description>[PAWN_nameDef] spent childhood days scavenging for anything worth keeping, and childhood nights sheltering inside the gutted shell of a mobile dragoon in the war zone - right up until [PAWN_possessive] body grew too big to fit inside it.</USAC_MilitaryChild04.description>
+  <!-- EN: dragoon shell refugee -->
+  <USAC_MilitaryChild04.title>dragoon shell refugee</USAC_MilitaryChild04.title>
+  <!-- EN: wreck refugee -->
+  <USAC_MilitaryChild04.titleShort>wreck refugee</USAC_MilitaryChild04.titleShort>
+
+  <!-- EN: [PAWN_nameDef] was born in a conflict zone in the middle of a nationalist surge. The talent for combat [PAWN_pronoun] showed there made the outcome obvious, and [PAWN_pronoun] ended up a mercenary. [PAWN_pronoun] rarely thinks about much beyond the fight in front of [PAWN_objective]. -->
+  <USAC_MilitaryChild05.description>[PAWN_nameDef] was born in a conflict zone in the middle of a nationalist surge. The talent for combat [PAWN_pronoun] showed there made the outcome obvious, and [PAWN_pronoun] ended up a mercenary. [PAWN_pronoun] rarely thinks about much beyond the fight in front of [PAWN_objective].</USAC_MilitaryChild05.description>
+  <!-- EN: child of war -->
+  <USAC_MilitaryChild05.title>child of war</USAC_MilitaryChild05.title>
+  <!-- EN: war child -->
+  <USAC_MilitaryChild05.titleShort>war child</USAC_MilitaryChild05.titleShort>
+
+  <!-- EN: [PAWN_nameDef] performed well enough at the colonial military academy to be trained as an officer cadet while still a child, and made warrant officer on reaching adulthood. -->
+  <USAC_OfficerChild01.description>[PAWN_nameDef] performed well enough at the colonial military academy to be trained as an officer cadet while still a child, and made warrant officer on reaching adulthood.</USAC_OfficerChild01.description>
+  <!-- EN: officer cadet -->
+  <USAC_OfficerChild01.title>officer cadet</USAC_OfficerChild01.title>
+  <!-- EN: officer cadet -->
+  <USAC_OfficerChild01.titleFemale>officer cadet</USAC_OfficerChild01.titleFemale>
+  <!-- EN: cadet -->
+  <USAC_OfficerChild01.titleShort>cadet</USAC_OfficerChild01.titleShort>
+  <!-- EN: cadet -->
+  <USAC_OfficerChild01.titleShortFemale>cadet</USAC_OfficerChild01.titleShortFemale>
+
+  <!-- EN: [PAWN_nameDef] grew up on a colonial planet in permanent turmoil, running messages across front lines thick with jamming and hostile fire because nothing else could get through. Once the war ended, [PAWN_pronoun] finally got to go back to school. -->
+  <USAC_OfficerChild02.description>[PAWN_nameDef] grew up on a colonial planet in permanent turmoil, running messages across front lines thick with jamming and hostile fire because nothing else could get through. Once the war ended, [PAWN_pronoun] finally got to go back to school.</USAC_OfficerChild02.description>
+  <!-- EN: child orderly -->
+  <USAC_OfficerChild02.title>child orderly</USAC_OfficerChild02.title>
+  <!-- EN: orderly -->
+  <USAC_OfficerChild02.titleShort>orderly</USAC_OfficerChild02.titleShort>
+
+  <!-- EN: Both of [PAWN_nameDef]'s parents were declared missing in action on deployment while [PAWN_pronoun] was very young. Under the colonial fleet's military martyrdom clause, [PAWN_pronoun] received a scholarship that carried [PAWN_objective] through the officer academy course. -->
+  <USAC_OfficerChild03.description>Both of [PAWN_nameDef]'s parents were declared missing in action on deployment while [PAWN_pronoun] was very young. Under the colonial fleet's military martyrdom clause, [PAWN_pronoun] received a scholarship that carried [PAWN_objective] through the officer academy course.</USAC_OfficerChild03.description>
+  <!-- EN: son of martyrs -->
+  <USAC_OfficerChild03.title>son of martyrs</USAC_OfficerChild03.title>
+  <!-- EN: daughter of martyrs -->
+  <USAC_OfficerChild03.titleFemale>daughter of martyrs</USAC_OfficerChild03.titleFemale>
+  <!-- EN: martyrs' child -->
+  <USAC_OfficerChild03.titleShort>martyrs' child</USAC_OfficerChild03.titleShort>
+
+  <!-- EN: [PAWN_nameDef] thought automatroids were the coolest thing in existence, and studied everything about them that could be scraped together under difficult circumstances. That work eventually earned [PAWN_objective] an invitation from the academic faction. -->
+  <USAC_OfficerChild06.description>[PAWN_nameDef] thought automatroids were the coolest thing in existence, and studied everything about them that could be scraped together under difficult circumstances. That work eventually earned [PAWN_objective] an invitation from the academic faction.</USAC_OfficerChild06.description>
+  <!-- EN: automatroid enthusiast -->
+  <USAC_OfficerChild06.title>automatroid enthusiast</USAC_OfficerChild06.title>
+  <!-- EN: tech enthusiast -->
+  <USAC_OfficerChild06.titleShort>tech enthusiast</USAC_OfficerChild06.titleShort>
+
 </LanguageData>

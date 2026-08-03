@@ -31,7 +31,7 @@
   <ThingDef ParentName="USAC_BaseMechOrder" MayRequire="Ludeon.Rimworld.Biotech">
     <defName>USAC_MechOrder_Rocky</defName>
     <label>M88 "Rocky" order</label>
-    <description>A USAC military contract for one M88 "Rocky" synthetic infantry unit. When purchased, an inactive mech will be delivered via drop pod.</description>
+    <description>A USAC military contract for one M88 "Rocky" synthetic infantry unit. Once purchased, an inactive mech is delivered by drop pod.</description>
     <graphicData>
       <texPath>Things/Mech/rocky_south</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -50,7 +50,7 @@
   <ThingDef ParentName="USAC_BaseMechOrder" MayRequire="Ludeon.Rimworld.Biotech">
     <defName>USAC_MechOrder_Paraman</defName>
     <label>M939 "Paraman" order</label>
-    <description>A USAC military contract for one M939 "Paraman" airborne unit. When purchased, an inactive mech will be delivered via drop pod.</description>
+    <description>A USAC military contract for one M939 "Paraman" airborne unit. Once purchased, an inactive mech is delivered by drop pod.</description>
     <graphicData>
       <texPath>Things/Mech/paraman_south</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -70,7 +70,7 @@
   <ThingDef ParentName="USAC_BaseMechOrder" MayRequire="Ludeon.Rimworld.Biotech">
     <defName>USAC_MechOrder_Cobalt</defName>
     <label>M7 "Cobalt" order</label>
-    <description>A USAC military contract for one M7 "Cobalt" cargo mech. When purchased, an inactive mech will be delivered via drop pod.</description>
+    <description>A USAC military contract for one M7 "Cobalt" cargo mech. Once purchased, an inactive mech is delivered by drop pod.</description>
     <graphicData>
       <texPath>Things/Mech/cobalt_south</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -89,7 +89,7 @@
   <ThingDef ParentName="USAC_BaseMechOrder" MayRequire="Ludeon.Rimworld.Biotech">
     <defName>USAC_MechOrder_Gonk</defName>
     <label>XM3 "Gonk" order</label>
-    <description>A USAC military contract for one XM3 "Gonk" heavy artillery mech. When purchased, an inactive mech will be delivered via drop pod.</description>
+    <description>A USAC military contract for one XM3 "Gonk" heavy artillery mech. Once purchased, an inactive mech is delivered by drop pod.</description>
     <graphicData>
       <texPath>Things/Mech/gonk_south</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -108,7 +108,7 @@
   <ThingDef ParentName="USAC_BaseMechOrder" MayRequire="Ludeon.Rimworld.Biotech">
     <defName>USAC_MechOrder_Omaha</defName>
     <label>M110 "Omaha" order</label>
-    <description>A USAC military contract for one M110 "Omaha" amphibious assault mech. When purchased, an inactive mech will be delivered via drop pod.</description>
+    <description>A USAC military contract for one M110 "Omaha" amphibious assault mech. Once purchased, an inactive mech is delivered by drop pod.</description>
     <graphicData>
       <texPath>Things/Mech/omaha_south</texPath>
       <graphicClass>Graphic_Single</graphicClass>

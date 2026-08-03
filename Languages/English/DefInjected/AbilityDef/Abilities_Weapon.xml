@@ -3,7 +3,7 @@
   
   <!-- EN: programmable shaped charge -->
   <USAC_GrenadeLauncher.label>programmable shaped charge</USAC_GrenadeLauncher.label>
-  <!-- EN: An airburst smart grenade that uses an electronic fire control system to set a timed fuse at launch can effectively strike enemies behind cover. -->
-  <USAC_GrenadeLauncher.description>An airburst smart grenade that uses an electronic fire control system to set a timed fuse at launch can effectively strike enemies behind cover.</USAC_GrenadeLauncher.description>
+  <!-- EN: An airburst smart grenade. An electronic fire control system sets its fuse at the moment of launch, letting it strike enemies behind cover. -->
+  <USAC_GrenadeLauncher.description>An airburst smart grenade. An electronic fire control system sets its fuse at the moment of launch, letting it strike enemies behind cover.</USAC_GrenadeLauncher.description>
   
 </LanguageData>

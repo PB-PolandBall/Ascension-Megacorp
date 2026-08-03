@@ -6,8 +6,8 @@
   
   <!-- EN: advanced support weapon -->
   <USAC_Gun_ACSW.label>advanced support weapon</USAC_Gun_ACSW.label>
-  <!-- EN: Project ACSW M307 "Terminator", A lightweight automatic grenade launcher that can fire fragmentation grenades in succession to kill infantry. require exoskeleton to carrying ammunition and handheld. -->
-  <USAC_Gun_ACSW.description>Project ACSW M307 "Terminator", A lightweight automatic grenade launcher that can fire fragmentation grenades in succession to kill infantry. require exoskeleton to carrying ammunition and handheld.</USAC_Gun_ACSW.description>
+  <!-- EN: The Project ACSW M307 "Terminator", a lightweight automatic grenade launcher that walks fragmentation grenades across infantry formations. An exoskeleton is required to carry both the weapon and its ammunition. -->
+  <USAC_Gun_ACSW.description>The Project ACSW M307 "Terminator", a lightweight automatic grenade launcher that walks fragmentation grenades across infantry formations. An exoskeleton is required to carry both the weapon and its ammunition.</USAC_Gun_ACSW.description>
   <!-- EN: stock -->
   <USAC_Gun_ACSW.tools.stock.label>stock</USAC_Gun_ACSW.tools.stock.label>
   <!-- EN: barrel -->
@@ -16,19 +16,19 @@
   <USAC_Gun_ACSW.verbs.Verb_ShootCE.label>advanced support weapon</USAC_Gun_ACSW.verbs.Verb_ShootCE.label>
   
   <!-- EN: Advanced battle rifle -->
-  <USAC_Gun_BattleRifle.label>Advanced battle rifle</USAC_Gun_BattleRifle.label>
-  <!-- EN: M29 "SABR", an infantry weapon platform integrated automatic rifle and grenade launcher, capable of both direct fire suppression and indirect fire support. Although heavy, it boasts excellent aiming accuracy, making it ideal for use as a gunner's weapon in small units. -->
-  <USAC_Gun_BattleRifle.description>M29 "SABR", an infantry weapon platform integrated automatic rifle and grenade launcher, capable of both direct fire suppression and indirect fire support. Although heavy, it boasts excellent aiming accuracy, making it ideal for use as a gunner's weapon in small units.</USAC_Gun_BattleRifle.description>
+  <USAC_Gun_BattleRifle.label>advanced battle rifle</USAC_Gun_BattleRifle.label>
+  <!-- EN: The M29 "SABR", an infantry weapon platform combining an automatic rifle with a grenade launcher, capable of direct suppression and indirect support alike. It is heavy, but remarkably accurate - an ideal weapon for a small unit's designated gunner. -->
+  <USAC_Gun_BattleRifle.description>The M29 "SABR", an infantry weapon platform combining an automatic rifle with a grenade launcher, capable of direct suppression and indirect support alike. It is heavy, but remarkably accurate - an ideal weapon for a small unit's designated gunner.</USAC_Gun_BattleRifle.description>
   <!-- EN: Advanced battle rifle -->
-  <USAC_Gun_BattleRifle.verbs.Verb_ShootCE.label>Advanced battle rifle</USAC_Gun_BattleRifle.verbs.Verb_ShootCE.label>
+  <USAC_Gun_BattleRifle.verbs.Verb_ShootCE.label>advanced battle rifle</USAC_Gun_BattleRifle.verbs.Verb_ShootCE.label>
   
   <!-- UNUSED -->
-  <USAC_Gun_BattleRifle.verbs.Verb_Shoot.label>Advanced battle rifle</USAC_Gun_BattleRifle.verbs.Verb_Shoot.label>
+  <USAC_Gun_BattleRifle.verbs.Verb_Shoot.label>advanced battle rifle</USAC_Gun_BattleRifle.verbs.Verb_Shoot.label>
   
   <!-- EN: objective sniper weapon -->
   <USAC_Gun_OSW.label>objective sniper weapon</USAC_Gun_OSW.label>
-  <!-- EN: Project OSW M109 "Payload", A sniper grenade launcher carried and used by exoskeleton infantrymen, capable of firing shaped charge grenades to precisely strike and damage the surface armor and external sensors of targets. -->
-  <USAC_Gun_OSW.description>Project OSW M109 "Payload", A sniper grenade launcher carried and used by exoskeleton infantrymen, capable of firing shaped charge grenades to precisely strike and damage the surface armor and external sensors of targets.</USAC_Gun_OSW.description>
+  <!-- EN: The Project OSW M109 "Payload", a sniper grenade launcher carried by exoskeleton infantry. Its shaped-charge grenades are placed precisely enough to strip a target's surface armor and external sensors. -->
+  <USAC_Gun_OSW.description>The Project OSW M109 "Payload", a sniper grenade launcher carried by exoskeleton infantry. Its shaped-charge grenades are placed precisely enough to strip a target's surface armor and external sensors.</USAC_Gun_OSW.description>
   <!-- EN: stock -->
   <USAC_Gun_OSW.tools.stock.label>stock</USAC_Gun_OSW.tools.stock.label>
   <!-- EN: barrel -->

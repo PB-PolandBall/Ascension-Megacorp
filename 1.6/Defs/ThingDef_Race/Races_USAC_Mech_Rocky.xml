@@ -6,7 +6,7 @@
   <ThingDef ParentName="USAC_BaseHumanoidMech">
     <defName>USAC_Mech_Rocky</defName>
     <label>M88 "Rocky"</label>
-    <description>A USAC Marine Corps synthetic infantry unit. Designed to use standard infantry weapons and can wear human armor. Provides basic infantry support with moderate protection.</description>
+    <description>A USAC Marine Corps synthetic infantry unit. It handles standard infantry weapons and wears human armor, giving reliable infantry support behind moderate protection.</description>
     <thingClass>Fortified.HumanlikeMech</thingClass>
     <statBases>
       <MoveSpeed>4.2</MoveSpeed>

@@ -4,7 +4,7 @@
 		<defName>USAC_DU</defName>
 		<label>Depleted uranium</label>
 		<labelShort>DU</labelShort>
-		<description>Uses depleted uranium as projectile core, It has chemical toxicity and radioactivity., greatly improving armor penetration.</description>
+		<description>Uses a depleted uranium penetrator core. Chemically toxic and slightly radioactive, but far better at defeating armor.</description>
 		<advanced>true</advanced>
 	</CombatExtended.AmmoCategoryDef>
 

@@ -3,7 +3,7 @@
 	<ThingDef ParentName="BaseGun">
 		<defName>USAC_HeavyMachineGunMounted</defName>
 		<label>Foxhound GPMG</label>
-		<description>A multi-purpose heavy machine gun with a lightweight composite material frame and improved design, it is widely used in various weapon platforms and fixed defensive facilities. In the distant past, before materials were almost discontinued due to war, it was a very successful alternative to the M2 heavy machine gun.</description>
+		<description>A general-purpose heavy machine gun built on a lightweight composite frame, found on weapon platforms and fixed defenses everywhere. Long ago, before the war choked off the materials it needed, it was a highly successful replacement for the M2 heavy machine gun.</description>
 		<graphicData>
 			<texPath>Things/Building/Turrets/USAC_Gun_Foxhound</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

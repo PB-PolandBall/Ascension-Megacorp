@@ -2,7 +2,7 @@
 <Defs>
     <DamageDef ParentName="Scratch">
     <defName>UASC_Radiotoxicity</defName>
-    <label>Radiotoxicity</label>
+    <label>radiotoxicity</label>
     <additionalHediffs>
       <li>
         <hediff>ToxicBuildup</hediff>

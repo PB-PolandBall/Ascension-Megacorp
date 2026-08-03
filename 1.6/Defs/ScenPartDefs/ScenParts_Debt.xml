@@ -2,8 +2,8 @@
 <Defs>
   <ScenPartDef>
     <defName>USAC_ScenPart_Debt</defName>
-    <label>USAC Debt Contract</label>
-    <description>Carrying specified debt of USAC at the start.</description>
+    <label>USAC debt contract</label>
+    <description>Start the game carrying a set amount of USAC debt.</description>
     <scenPartClass>USAC.ScenPart_USACDebt</scenPartClass>
     <category>PlayerPawnModifier</category><!-- 出现在剧本编辑器的添加列表中 -->
     <selectionWeight>1.0</selectionWeight>

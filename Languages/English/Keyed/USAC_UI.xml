@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
   <!-- UNUSED -->
   <USAC.UI.Back>&lt; BACK</USAC.UI.Back>
   <USAC.UI.Credits>CREDITS</USAC.UI.Credits>
-  <USAC.UI.Home.Title>STRATEGIC_OVERVIEW // Strategic Overview</USAC.UI.Home.Title>
+  <USAC.UI.Home.Title>STRATEGIC_OVERVIEW // Strategic overview</USAC.UI.Home.Title>
   <USAC.UI.Home.Banner>UNITED STELLAR ARMAMENT COMPANY\n[CORPORATE_INTRANET_V4.2]</USAC.UI.Home.Banner>
   <USAC.UI.Home.Slogan>DEFINING THE FUTURE OF PLANETARY SECURITY</USAC.UI.Home.Slogan>
-  <USAC.UI.Home.Description>USAC is the leading force in interstellar resource monopoly and armed trade. Through the orbital settlement network, we ensure absolute asset liquidity.</USAC.UI.Home.Description>
+  <USAC.UI.Home.Description>USAC leads the field in interstellar resource monopoly and armed trade. Through our orbital settlement network, we guarantee absolute asset liquidity.</USAC.UI.Home.Description>
   <USAC.UI.Home.Bento.Products.Title>ARMORY_CATALOG</USAC.UI.Home.Bento.Products.Title>
   <USAC.UI.Home.Bento.Products.Desc>Catalog of authorized weapons and mechanized systems</USAC.UI.Home.Bento.Products.Desc>
   <USAC.UI.Home.Bento.Assets.Title>FINANCIAL_TERMINAL</USAC.UI.Home.Bento.Assets.Title>
@@ -15,15 +15,15 @@
   <USAC.UI.Home.Bento.Legal.Title>COMPLIANCE</USAC.UI.Home.Bento.Legal.Title>
   <USAC.UI.Home.Bento.Legal.Desc>Legal clauses and automated collection protocols</USAC.UI.Home.Bento.Legal.Desc>
   <USAC.UI.Home.Bento.Services.Title>CORPORATE_SERVICES</USAC.UI.Home.Bento.Services.Title>
-  <USAC.UI.Home.Bento.Services.Desc>Customized corporate support and remote asset maintenance</USAC.UI.Home.Bento.Services.Desc>
-  <USAC.UI.Products.Title>AUTHORIZED_PRODUCT_CATALOG // Authorized Catalog</USAC.UI.Products.Title>
-  <USAC.UI.Products.Tab.Mech>Mech Orders</USAC.UI.Products.Tab.Mech>
-  <USAC.UI.Products.Tab.Weapon>Tactical Weapons</USAC.UI.Products.Tab.Weapon>
-  <USAC.UI.Products.Tab.Apparel>Tactical Gear</USAC.UI.Products.Tab.Apparel>
-  <USAC.UI.Products.Tab.Supply>Logistics Supplies</USAC.UI.Products.Tab.Supply>
-  <USAC.UI.Detail.Title>PRODUCT_SPECIFICATION // Product Specification</USAC.UI.Detail.Title>
-  <USAC.UI.Detail.Summary>EXECUTIVE_SUMMARY // Executive Summary</USAC.UI.Detail.Summary>
-  <USAC.UI.Detail.Btn>View Details</USAC.UI.Detail.Btn>
+  <USAC.UI.Home.Bento.Services.Desc>Tailored corporate support and remote asset maintenance</USAC.UI.Home.Bento.Services.Desc>
+  <USAC.UI.Products.Title>AUTHORIZED_PRODUCT_CATALOG // Authorized catalog</USAC.UI.Products.Title>
+  <USAC.UI.Products.Tab.Mech>Mech orders</USAC.UI.Products.Tab.Mech>
+  <USAC.UI.Products.Tab.Weapon>Tactical weapons</USAC.UI.Products.Tab.Weapon>
+  <USAC.UI.Products.Tab.Apparel>Tactical gear</USAC.UI.Products.Tab.Apparel>
+  <USAC.UI.Products.Tab.Supply>Logistics supplies</USAC.UI.Products.Tab.Supply>
+  <USAC.UI.Detail.Title>PRODUCT_SPECIFICATION // Product specification</USAC.UI.Detail.Title>
+  <USAC.UI.Detail.Summary>EXECUTIVE_SUMMARY // Executive summary</USAC.UI.Detail.Summary>
+  <USAC.UI.Detail.Btn>View details</USAC.UI.Detail.Btn>
   <USAC.UI.Stat.Identifier>IDENTIFIER</USAC.UI.Stat.Identifier>
   <USAC.UI.Stat.Category>CATEGORY</USAC.UI.Stat.Category>
   <USAC.UI.Stat.SubType>SUB_TYPE</USAC.UI.Stat.SubType>
@@ -41,325 +41,325 @@
   <USAC.UI.Stat.Nutrition>NUTRITION</USAC.UI.Stat.Nutrition>
   <USAC.UI.Stat.MedPotency>MED_POTENCY</USAC.UI.Stat.MedPotency>
   <USAC.UI.Stat.Mass>LOGISTICS_MASS</USAC.UI.Stat.Mass>
-  <USAC.UI.Assets.Title>ASSET_TERMINAL // Asset Terminal</USAC.UI.Assets.Title>
-  <USAC.UI.Assets.SyncStatus>Synchronizing orbital settlement network database in real time...</USAC.UI.Assets.SyncStatus>
-  <USAC.UI.Assets.CreditLevel>Current Credit Tier: [UNREGISTERED / NONE]</USAC.UI.Assets.CreditLevel>
-  <USAC.UI.Assets.NoAgreement>Warning: No valid asset collateral agreement has been established.</USAC.UI.Assets.NoAgreement>
-  <USAC.UI.Assets.CreditScore>Credit Score: {0}</USAC.UI.Assets.CreditScore>
-  <USAC.UI.Assets.TotalDebt>Total Debt: ₿{0}</USAC.UI.Assets.TotalDebt>
-  <USAC.UI.Assets.ActiveContracts>ACTIVE_CONTRACTS // Active Contracts</USAC.UI.Assets.ActiveContracts>
-  <USAC.UI.Assets.Apply.Title>RISK_PRICING_APPLICATION // Risk Pricing Application</USAC.UI.Assets.Apply.Title>
-  <USAC.UI.Assets.InterestRate>Base Plan Interest Rate</USAC.UI.Assets.InterestRate>
-  <USAC.UI.Assets.GrowthRate>Per-Cycle Risk Fee / Surcharge</USAC.UI.Assets.GrowthRate>
-  <USAC.UI.Assets.Stat.GrowthMode>Principal Growth Method</USAC.UI.Assets.Stat.GrowthMode>
-  <USAC.UI.Assets.Stat.ActualInterest>Effective Interest Rate</USAC.UI.Assets.Stat.ActualInterest>
-  <USAC.UI.Assets.Stat.CreditDiscount>Credit Discount</USAC.UI.Assets.Stat.CreditDiscount>
-  <USAC.UI.Assets.Apply.Confirm>Confirm Contract Signature</USAC.UI.Assets.Apply.Confirm>
-  <USAC.UI.Assets.Apply.Warning>Warning: You are trading higher interest and risk fees for a larger credit line. Once signed, the USAC orbital collection system will enforce this contract without exception. Any missed payment will trigger asset seizure action.</USAC.UI.Assets.Apply.Warning>
-  <USAC.UI.Assets.NextSettlement>Time Until Settlement</USAC.UI.Assets.NextSettlement>
-  <USAC.UI.Assets.MissedWarning>⚠ Missed payments: {0}! One more miss will trigger forced collection!</USAC.UI.Assets.MissedWarning>
-  <USAC.UI.Assets.Cycle>Per Cycle</USAC.UI.Assets.Cycle>
-  <USAC.UI.Assets.GrowthMode.WealthBased>Grows by Map Wealth (×{0}%/cycle)</USAC.UI.Assets.GrowthMode.WealthBased>
-  <USAC.UI.Assets.GrowthMode.PrincipalBased>Grows by Current Principal (×{0}%/cycle)</USAC.UI.Assets.GrowthMode.PrincipalBased>
-  <USAC.UI.Assets.Block.LowCredit>Credit score too low (requires ≥30). Financing channel has been disabled.</USAC.UI.Assets.Block.LowCredit>
-  <USAC.UI.Assets.Block.LowWealth>Current asset valuation is insufficient for the requested limit. Increase the rate plan to pass assessment.</USAC.UI.Assets.Block.LowWealth>
-  <USAC.UI.Assets.Stat.CreditScore>Credit Score</USAC.UI.Assets.Stat.CreditScore>
-  <USAC.UI.Assets.Stat.Wealth>Total Map Wealth</USAC.UI.Assets.Stat.Wealth>
-  <USAC.UI.Assets.Stat.MaxAmount>Maximum Assessed Limit</USAC.UI.Assets.Stat.MaxAmount>
-  <USAC.UI.Assets.Stat.Growth>Debt Forecast</USAC.UI.Assets.Stat.Growth>
-  <USAC.UI.Assets.MaxAmount>Credit Limit: ₿{0}</USAC.UI.Assets.MaxAmount>
-  <USAC.UI.Assets.Contract.Details>CONTRACT_SPECIFICATIONS // Contract Details</USAC.UI.Assets.Contract.Details>
+  <USAC.UI.Assets.Title>ASSET_TERMINAL // Asset terminal</USAC.UI.Assets.Title>
+  <USAC.UI.Assets.SyncStatus>Synchronizing with the orbital settlement network...</USAC.UI.Assets.SyncStatus>
+  <USAC.UI.Assets.CreditLevel>Current credit tier: [UNREGISTERED / NONE]</USAC.UI.Assets.CreditLevel>
+  <USAC.UI.Assets.NoAgreement>Warning: no valid asset collateral agreement on file.</USAC.UI.Assets.NoAgreement>
+  <USAC.UI.Assets.CreditScore>Credit score: {0}</USAC.UI.Assets.CreditScore>
+  <USAC.UI.Assets.TotalDebt>Total debt: ₿{0}</USAC.UI.Assets.TotalDebt>
+  <USAC.UI.Assets.ActiveContracts>ACTIVE_CONTRACTS // Active contracts</USAC.UI.Assets.ActiveContracts>
+  <USAC.UI.Assets.Apply.Title>RISK_PRICING_APPLICATION // Risk pricing application</USAC.UI.Assets.Apply.Title>
+  <USAC.UI.Assets.InterestRate>Base plan interest rate</USAC.UI.Assets.InterestRate>
+  <USAC.UI.Assets.GrowthRate>Risk fee per cycle</USAC.UI.Assets.GrowthRate>
+  <USAC.UI.Assets.Stat.GrowthMode>Principal growth method</USAC.UI.Assets.Stat.GrowthMode>
+  <USAC.UI.Assets.Stat.ActualInterest>Effective interest rate</USAC.UI.Assets.Stat.ActualInterest>
+  <USAC.UI.Assets.Stat.CreditDiscount>Credit discount</USAC.UI.Assets.Stat.CreditDiscount>
+  <USAC.UI.Assets.Apply.Confirm>Sign the contract</USAC.UI.Assets.Apply.Confirm>
+  <USAC.UI.Assets.Apply.Warning>Warning: you are trading higher interest and risk fees for a larger credit line. Once signed, the USAC orbital collection system enforces this contract without exception. Any missed payment triggers asset seizure.</USAC.UI.Assets.Apply.Warning>
+  <USAC.UI.Assets.NextSettlement>Time until settlement</USAC.UI.Assets.NextSettlement>
+  <USAC.UI.Assets.MissedWarning>⚠ Missed payments: {0}! One more will trigger forced collection!</USAC.UI.Assets.MissedWarning>
+  <USAC.UI.Assets.Cycle>Per cycle</USAC.UI.Assets.Cycle>
+  <USAC.UI.Assets.GrowthMode.WealthBased>Grows with map wealth (×{0}%/cycle)</USAC.UI.Assets.GrowthMode.WealthBased>
+  <USAC.UI.Assets.GrowthMode.PrincipalBased>Grows with current principal (×{0}%/cycle)</USAC.UI.Assets.GrowthMode.PrincipalBased>
+  <USAC.UI.Assets.Block.LowCredit>Credit score too low (30 required). Financing has been disabled.</USAC.UI.Assets.Block.LowCredit>
+  <USAC.UI.Assets.Block.LowWealth>Your asset valuation is too low for the requested limit. Raise the rate plan to pass assessment.</USAC.UI.Assets.Block.LowWealth>
+  <USAC.UI.Assets.Stat.CreditScore>Credit score</USAC.UI.Assets.Stat.CreditScore>
+  <USAC.UI.Assets.Stat.Wealth>Total map wealth</USAC.UI.Assets.Stat.Wealth>
+  <USAC.UI.Assets.Stat.MaxAmount>Maximum assessed limit</USAC.UI.Assets.Stat.MaxAmount>
+  <USAC.UI.Assets.Stat.Growth>Debt forecast</USAC.UI.Assets.Stat.Growth>
+  <USAC.UI.Assets.MaxAmount>Credit limit: ₿{0}</USAC.UI.Assets.MaxAmount>
+  <USAC.UI.Assets.Contract.Details>CONTRACT_SPECIFICATIONS // Contract details</USAC.UI.Assets.Contract.Details>
   <USAC.UI.Assets.Contract.ID>Contract ID: {0}</USAC.UI.Assets.Contract.ID>
-  <USAC.UI.Assets.Contract.Type>Collateral Mode: {0}</USAC.UI.Assets.Contract.Type>
-  <USAC.UI.Assets.Contract.Status>Execution Status: [ IN_EFFECT / Running ]</USAC.UI.Assets.Contract.Status>
-  <USAC.UI.Assets.Contract.PaidQuarter>Paid This Quarter: ₿{0}</USAC.UI.Assets.Contract.PaidQuarter>
-  <USAC.UI.Assets.Principal>Outstanding Principal</USAC.UI.Assets.Principal>
-  <USAC.UI.Assets.Stat.Principal>Principal-Based Linkage</USAC.UI.Assets.Stat.Principal>
-  <USAC.UI.Assets.Interest>Current Interest</USAC.UI.Assets.Interest>
-  <USAC.UI.Assets.Stat.InterestRate>Interest Rate</USAC.UI.Assets.Stat.InterestRate>
-  <USAC.UI.Assets.Imminent>Settlement Imminent</USAC.UI.Assets.Imminent>
-  <USAC.UI.Assets.Warning.Caution>Missed payments: {0}. Credit score continues to decline. Please settle promptly.</USAC.UI.Assets.Warning.Caution>
-  <USAC.UI.Assets.Warning.Critical>⚠ Missed payments: {0}! One more miss will immediately trigger forced collection procedures!</USAC.UI.Assets.Warning.Critical>
-  <USAC.UI.Assets.InterestPanel.Title>INTEREST_SETTLEMENT // Interest Settlement</USAC.UI.Assets.InterestPanel.Title>
+  <USAC.UI.Assets.Contract.Type>Collateral mode: {0}</USAC.UI.Assets.Contract.Type>
+  <USAC.UI.Assets.Contract.Status>Execution status: [ IN_EFFECT / Running ]</USAC.UI.Assets.Contract.Status>
+  <USAC.UI.Assets.Contract.PaidQuarter>Paid this quarter: ₿{0}</USAC.UI.Assets.Contract.PaidQuarter>
+  <USAC.UI.Assets.Principal>Outstanding principal</USAC.UI.Assets.Principal>
+  <USAC.UI.Assets.Stat.Principal>Principal-based linkage</USAC.UI.Assets.Stat.Principal>
+  <USAC.UI.Assets.Interest>Current interest</USAC.UI.Assets.Interest>
+  <USAC.UI.Assets.Stat.InterestRate>Interest rate</USAC.UI.Assets.Stat.InterestRate>
+  <USAC.UI.Assets.Imminent>Settlement imminent</USAC.UI.Assets.Imminent>
+  <USAC.UI.Assets.Warning.Caution>Missed payments: {0}. Your credit score keeps falling. Settle soon.</USAC.UI.Assets.Warning.Caution>
+  <USAC.UI.Assets.Warning.Critical>⚠ Missed payments: {0}! One more will immediately trigger forced collection!</USAC.UI.Assets.Warning.Critical>
+  <USAC.UI.Assets.InterestPanel.Title>INTEREST_SETTLEMENT // Interest settlement</USAC.UI.Assets.InterestPanel.Title>
   <USAC.UI.Assets.InterestPaid>✓ No outstanding interest this period</USAC.UI.Assets.InterestPaid>
-  <USAC.UI.Assets.BondsNeeded>{0} Credit Bonds required</USAC.UI.Assets.BondsNeeded>
-  <USAC.UI.Assets.BondsOwned>Credit Bonds currently held: {0}</USAC.UI.Assets.BondsOwned>
-  <USAC.UI.Assets.PayInterest>Pay Interest ({0} Credit Bonds)</USAC.UI.Assets.PayInterest>
-  <USAC.UI.Assets.RepayPanel.Title>PRINCIPAL_REPAYMENT // Principal Repayment</USAC.UI.Assets.RepayPanel.Title>
-  <USAC.UI.Assets.QuarterFree>Quarterly Free Allowance</USAC.UI.Assets.QuarterFree>
+  <USAC.UI.Assets.BondsNeeded>{0} credit bonds required</USAC.UI.Assets.BondsNeeded>
+  <USAC.UI.Assets.BondsOwned>Credit bonds held: {0}</USAC.UI.Assets.BondsOwned>
+  <USAC.UI.Assets.PayInterest>Pay interest ({0} credit bonds)</USAC.UI.Assets.PayInterest>
+  <USAC.UI.Assets.RepayPanel.Title>PRINCIPAL_REPAYMENT // Principal repayment</USAC.UI.Assets.RepayPanel.Title>
+  <USAC.UI.Assets.QuarterFree>Quarterly free allowance</USAC.UI.Assets.QuarterFree>
   <USAC.UI.Assets.Used>Used</USAC.UI.Assets.Used>
-  <USAC.UI.Assets.Repay>Repay Principal ({0} Credit Bonds)</USAC.UI.Assets.Repay>
-  <USAC.UI.Assets.RepaySurcharge>Repay Principal ({0} Credit Bonds, incl. surcharge {1})</USAC.UI.Assets.RepaySurcharge>
-  <USAC.UI.Assets.GrowthForecast>GROWTH_FORECAST // Principal Growth Forecast</USAC.UI.Assets.GrowthForecast>
-  <USAC.UI.Assets.CycleForecast>CYCLE_FORECAST // Cycle Forecast</USAC.UI.Assets.CycleForecast>
-  <USAC.UI.Assets.NextInterest>Next Cycle Interest</USAC.UI.Assets.NextInterest>
-  <USAC.UI.Assets.GrowthNote>Principal growth will be added directly to principal each cycle</USAC.UI.Assets.GrowthNote>
-  <USAC.UI.Assets.GrowthMode.Wealth>Principal increase = Map Wealth × {0}% / cycle</USAC.UI.Assets.GrowthMode.Wealth>
-  <USAC.UI.Assets.GrowthMode.Principal>Principal increase = Current Principal × {0}% / cycle</USAC.UI.Assets.GrowthMode.Principal>
-  <USAC.UI.Assets.CurrentWealth>Current Map Wealth: ₿{0}</USAC.UI.Assets.CurrentWealth>
-  <USAC.UI.Nav.Home>Strategic Overview</USAC.UI.Nav.Home>
-  <USAC.UI.Nav.Assets>Asset Terminal</USAC.UI.Nav.Assets>
-  <USAC.UI.Nav.Products>Authorized Catalog</USAC.UI.Nav.Products>
-  <USAC.UI.Nav.Legal>Legal Compliance</USAC.UI.Nav.Legal>
-  <USAC.UI.Nav.Services>Corporate Services</USAC.UI.Nav.Services>
+  <USAC.UI.Assets.Repay>Repay principal ({0} credit bonds)</USAC.UI.Assets.Repay>
+  <USAC.UI.Assets.RepaySurcharge>Repay principal ({0} credit bonds, incl. {1} surcharge)</USAC.UI.Assets.RepaySurcharge>
+  <USAC.UI.Assets.GrowthForecast>GROWTH_FORECAST // Principal growth forecast</USAC.UI.Assets.GrowthForecast>
+  <USAC.UI.Assets.CycleForecast>CYCLE_FORECAST // Cycle forecast</USAC.UI.Assets.CycleForecast>
+  <USAC.UI.Assets.NextInterest>Next cycle's interest</USAC.UI.Assets.NextInterest>
+  <USAC.UI.Assets.GrowthNote>Principal growth is added straight to the principal each cycle</USAC.UI.Assets.GrowthNote>
+  <USAC.UI.Assets.GrowthMode.Wealth>Principal increase = map wealth × {0}% per cycle</USAC.UI.Assets.GrowthMode.Wealth>
+  <USAC.UI.Assets.GrowthMode.Principal>Principal increase = current principal × {0}% per cycle</USAC.UI.Assets.GrowthMode.Principal>
+  <USAC.UI.Assets.CurrentWealth>Current map wealth: ₿{0}</USAC.UI.Assets.CurrentWealth>
+  <USAC.UI.Nav.Home>Strategic overview</USAC.UI.Nav.Home>
+  <USAC.UI.Nav.Assets>Asset terminal</USAC.UI.Nav.Assets>
+  <USAC.UI.Nav.Products>Authorized catalog</USAC.UI.Nav.Products>
+  <USAC.UI.Nav.Legal>Legal compliance</USAC.UI.Nav.Legal>
+  <USAC.UI.Nav.Services>Corporate services</USAC.UI.Nav.Services>
   <USAC.UI.StatusBar>● TUNNEL_ACTIVE // ENCRYPTION: SECURE</USAC.UI.StatusBar>
-  <USAC.UI.Legal.Title>LEGAL_COMPLIANCE // Legal Compliance</USAC.UI.Legal.Title>
-  <USAC.UI.Legal.Ordinance>COLLECTION_ORDINANCE_V1.1 // Collection Ordinance</USAC.UI.Legal.Ordinance>
-  <USAC.UI.Legal.Clause01.Title>Clause 01: Asset Priority</USAC.UI.Legal.Clause01.Title>
-  <USAC.UI.Legal.Clause01.Desc>In any default scenario, USAC holds absolute first-priority collection rights over all local material assets.</USAC.UI.Legal.Clause01.Desc>
-  <USAC.UI.Legal.Clause02.Title>Clause 02: Automated Enforcement</USAC.UI.Legal.Clause02.Title>
-  <USAC.UI.Legal.Clause02.Desc>The collection process is automatically directed by orbital platforms. No manual defense or extension requests will be accepted.</USAC.UI.Legal.Clause02.Desc>
-  <USAC.UI.Legal.Footer>Warning: Entering this portal constitutes default acknowledgement and signature of all agreements listed above. The USAC Asset Collection Division assumes no liability for incidental civilian casualties or secondary harm during collection operations.</USAC.UI.Legal.Footer>
-  <USAC_PaymentSuccess>[USAC] {0} write-off complete. Credit score has been increased.</USAC_PaymentSuccess>
-  <USAC_InsufficientBonds>[USAC] Payment failed: Orbital satellites detected insufficient Credit Bonds within this area's beacon range.</USAC_InsufficientBonds>
-  <USAC_LoanApproved>[USAC] Contract signed successfully: {0} assets have been delivered by orbital drop near the trade beacon.</USAC_LoanApproved>
-  <USAC_FunctionInProgress>[USAC] Access restricted: This module is being upgraded, or your credit tier has not unlocked this permission.</USAC_FunctionInProgress>
-  <USAC.UI.Error.404.Title>CONNECTION_LOST // Connection Lost</USAC.UI.Error.404.Title>
+  <USAC.UI.Legal.Title>LEGAL_COMPLIANCE // Legal compliance</USAC.UI.Legal.Title>
+  <USAC.UI.Legal.Ordinance>COLLECTION_ORDINANCE_V1.1 // Collection ordinance</USAC.UI.Legal.Ordinance>
+  <USAC.UI.Legal.Clause01.Title>Clause 01: Asset priority</USAC.UI.Legal.Clause01.Title>
+  <USAC.UI.Legal.Clause01.Desc>In any default, USAC holds absolute first-priority collection rights over all local material assets.</USAC.UI.Legal.Clause01.Desc>
+  <USAC.UI.Legal.Clause02.Title>Clause 02: Automated enforcement</USAC.UI.Legal.Clause02.Title>
+  <USAC.UI.Legal.Clause02.Desc>Collection is directed automatically by orbital platforms. No manual defense or request for extension will be accepted.</USAC.UI.Legal.Clause02.Desc>
+  <USAC.UI.Legal.Footer>Warning: entering this portal constitutes acknowledgement and signature of every agreement listed above. The USAC Asset Collection Division accepts no liability for incidental civilian casualties or secondary harm during collection operations.</USAC.UI.Legal.Footer>
+  <USAC_PaymentSuccess>[USAC] {0} written off. Your credit score has risen.</USAC_PaymentSuccess>
+  <USAC_InsufficientBonds>[USAC] Payment failed: orbital satellites detected insufficient credit bonds within this area's beacon range.</USAC_InsufficientBonds>
+  <USAC_LoanApproved>[USAC] Contract signed: {0} in assets has been dropped near the trade beacon.</USAC_LoanApproved>
+  <USAC_FunctionInProgress>[USAC] Access restricted: this module is being upgraded, or your credit tier does not unlock it.</USAC_FunctionInProgress>
+  <USAC.UI.Error.404.Title>CONNECTION_LOST // Connection lost</USAC.UI.Error.404.Title>
   <USAC.UI.Error.404.Text>The requested resource is not registered on the USAC intranet, or your access privileges have been revoked.</USAC.UI.Error.404.Text>
-  <USAC.UI.Error.ProductNotFound>Error: Specified product not found</USAC.UI.Error.ProductNotFound>
-  <USAC.UI.Services.Title>CORPORATE_SERVICES // Corporate Services</USAC.UI.Services.Title>
-  <USAC.UI.Services.Lease.Title>LEASE_SERVICES // Lease Services</USAC.UI.Services.Lease.Title>
-  <USAC.UI.Services.Lease.Desc>USAC asset lease program. Heavy assault mining rigs are deployed by orbital platform to designated zones. 1,000 credits per 24-hour operation cycle. Supports dynamic cycle configuration and auto-renewal.</USAC.UI.Services.Lease.Desc>
-  <USAC.UI.Services.Lease.Days>Initial Lease Duration: {0} days</USAC.UI.Services.Lease.Days>
-  <USAC.UI.Services.Lease.Btn>Activate Lease Program</USAC.UI.Services.Lease.Btn>
-  <USAC_ActiveRigs>Asset Deployment Monitor // Active Deployed Rigs</USAC_ActiveRigs>
+  <USAC.UI.Error.ProductNotFound>Error: product not found</USAC.UI.Error.ProductNotFound>
+  <USAC.UI.Services.Title>CORPORATE_SERVICES // Corporate services</USAC.UI.Services.Title>
+  <USAC.UI.Services.Lease.Title>LEASE_SERVICES // Lease services</USAC.UI.Services.Lease.Title>
+  <USAC.UI.Services.Lease.Desc>The USAC asset lease program. Heavy assault mining rigs are dropped by orbital platform onto a zone of your choosing, at 1,000 credits per 24-hour operating cycle. Cycle length is configurable, and auto-renewal is supported.</USAC.UI.Services.Lease.Desc>
+  <USAC.UI.Services.Lease.Days>Initial lease duration: {0} days</USAC.UI.Services.Lease.Days>
+  <USAC.UI.Services.Lease.Btn>Activate lease program</USAC.UI.Services.Lease.Btn>
+  <USAC_ActiveRigs>ASSET_DEPLOYMENT_MONITOR // Deployed rigs</USAC_ActiveRigs>
   <USAC_LeaseActive>Mining operation in progress</USAC_LeaseActive>
-  <USAC.UI.Services.Renewal.Title>REMOTE_RENEWAL // Remote Renewal</USAC.UI.Services.Renewal.Title>
-  <USAC.UI.Services.Renewal.Desc>Renews encrypted control-bandwidth links for temporary Mechnitor channels. By extending local data-relay authorization, this effectively prolongs uptime for non-permanent mech-control hubs.</USAC.UI.Services.Renewal.Desc>
-  <USAC.UI.Services.Renewal.Btn>Renew Bandwidth Channel</USAC.UI.Services.Renewal.Btn>
-  <USAC.UI.Services.Renewal.Header>Registered Temporary Bandwidth Links</USAC.UI.Services.Renewal.Header>
-  <USAC.UI.Services.Renewal.NoMechnitor>No temporary Mechnitor bandwidth links detected within controlled range.</USAC.UI.Services.Renewal.NoMechnitor>
-  <USAC.UI.Services.Renewal.Remaining>Remaining Link Time: {0}</USAC.UI.Services.Renewal.Remaining>
-  <USAC.UI.Services.Trader.Title>ORBITAL_TRADE_REQUEST // Orbital Trade Request</USAC.UI.Services.Trader.Title>
-  <USAC.UI.Services.Trader.Desc>Send a priority trade request through the orbital settlement network. A USAC orbital trade ship will arrive in this area in approximately one hour.</USAC.UI.Services.Trader.Desc>
-  <USAC.UI.Services.Trader.Btn>Send Request</USAC.UI.Services.Trader.Btn>
+  <USAC.UI.Services.Renewal.Title>REMOTE_RENEWAL // Remote renewal</USAC.UI.Services.Renewal.Title>
+  <USAC.UI.Services.Renewal.Desc>Renews the encrypted control-bandwidth links behind temporary mechanitor channels. Extending local data-relay authorization keeps non-permanent mech control hubs running for longer.</USAC.UI.Services.Renewal.Desc>
+  <USAC.UI.Services.Renewal.Btn>Renew bandwidth channel</USAC.UI.Services.Renewal.Btn>
+  <USAC.UI.Services.Renewal.Header>Registered temporary bandwidth links</USAC.UI.Services.Renewal.Header>
+  <USAC.UI.Services.Renewal.NoMechnitor>No temporary mechanitor bandwidth links detected within controlled range.</USAC.UI.Services.Renewal.NoMechnitor>
+  <USAC.UI.Services.Renewal.Remaining>Link time remaining: {0}</USAC.UI.Services.Renewal.Remaining>
+  <USAC.UI.Services.Trader.Title>ORBITAL_TRADE_REQUEST // Orbital trade request</USAC.UI.Services.Trader.Title>
+  <USAC.UI.Services.Trader.Desc>Send a priority trade request over the orbital settlement network. A USAC orbital trade ship will reach this area in roughly one hour.</USAC.UI.Services.Trader.Desc>
+  <USAC.UI.Services.Trader.Btn>Send request</USAC.UI.Services.Trader.Btn>
   <USAC.UI.Services.Trader.Pending>Trade ship en route</USAC.UI.Services.Trader.Pending>
-  <USAC.UI.Services.Trader.Status.Title>ORBITAL_INBOUND // Trade Ship Arrival Status</USAC.UI.Services.Trader.Status.Title>
-  <USAC.UI.Services.Trader.Status.ETA>Estimated Arrival: {0}</USAC.UI.Services.Trader.Status.ETA>
-  <USAC.UI.Services.Trader.Status.Desc>USAC orbital trade ship is inbound</USAC.UI.Services.Trader.Status.Desc>
-  <USAC.Message.TraderCalled>[USAC] Request accepted: A USAC orbital trade ship is en route to your location and is expected to arrive in about one hour.</USAC.Message.TraderCalled>
-  <USAC.Message.TraderArrived>[USAC] Orbital trade ship in position: The USAC orbital trade ship is now available for trading.</USAC.Message.TraderArrived>
+  <USAC.UI.Services.Trader.Status.Title>ORBITAL_INBOUND // Trade ship arrival status</USAC.UI.Services.Trader.Status.Title>
+  <USAC.UI.Services.Trader.Status.ETA>Estimated arrival: {0}</USAC.UI.Services.Trader.Status.ETA>
+  <USAC.UI.Services.Trader.Status.Desc>A USAC orbital trade ship is inbound</USAC.UI.Services.Trader.Status.Desc>
+  <USAC.Message.TraderCalled>[USAC] Request accepted: a USAC orbital trade ship is en route and should arrive in about one hour.</USAC.Message.TraderCalled>
+  <USAC.Message.TraderArrived>[USAC] Trade ship in position: the USAC orbital trade ship is ready to trade.</USAC.Message.TraderArrived>
   <USAC.Debt.LeaseDrill>USAC orbital assault drill lease fee</USAC.Debt.LeaseDrill>
   <USAC.Debt.Renewal>Temporary bandwidth link renewal fee for {0}</USAC.Debt.Renewal>
-  <USAC.Message.Renewed>[USAC] Renewal successful: 30-cycle bandwidth link has been renewed for {0}.</USAC.Message.Renewed>
-  <USAC.Message.AutoRenewed>[USAC] Auto-renewed: 30-cycle link duration has been automatically renewed for {0}.</USAC.Message.AutoRenewed>
-  <USAC.Message.AutoRenewFailed>[USAC] Renewal suspended: Auto-renewal service for {0} has been disabled due to insufficient Credit Bond reserves within beacon range.</USAC.Message.AutoRenewFailed>
-  <USAC.Message.InsufficientBonds>[USAC] Payment failed: Insufficient Credit Bond reserves within trade beacon range.</USAC.Message.InsufficientBonds>
-  <USAC.Message.InsufficientBondsForLease>[USAC] Lease suspended: Current Credit Bond reserves are insufficient for the selected initial lease duration.</USAC.Message.InsufficientBondsForLease>
-  <USAC.Message.LeaseAutoRenewed>[USAC] Auto-renewed: The mining rig has been extended by 24 hours through the orbital settlement network.</USAC.Message.LeaseAutoRenewed>
-  <USAC.Message.LeaseAutoRenewFailed>[USAC] Renewal failed: Insufficient Credit Bond reserves near the orbital beacon. Auto-renewal has been disabled for this rig and scheduled collection will proceed.</USAC.Message.LeaseAutoRenewFailed>
-  <USAC_LeaseDurationLeft>Lease Time Remaining: {0}</USAC_LeaseDurationLeft>
-  <USAC.UI.Drill.EmptyMinerals>Empty Ore Hold</USAC.UI.Drill.EmptyMinerals>
-  <USAC.UI.Drill.EmptyMinerals.Desc>Manually eject collected minerals from the sealed hold. Note: If not emptied before extraction, the USAC orbital platform will recover all onboard materials directly.</USAC.UI.Drill.EmptyMinerals.Desc>
-  <USAC.Alert.DebtRepayment.Label>USAC Debt Settlement</USAC.Alert.DebtRepayment.Label>
-  <USAC.Alert.DebtRepayment.LabelWithTime>USAC Settlement: {0} days ({1} contracts)</USAC.Alert.DebtRepayment.LabelWithTime>
-  <USAC.Alert.DebtRepayment.Explanation.Header>Credit Score: {0}\nBeacon Bond Count: {1}\n\n</USAC.Alert.DebtRepayment.Explanation.Header>
-  <USAC.Alert.DebtRepayment.Explanation.ContractEntry>▸ {0}\n  Principal: ₿{1}  Est. Interest: ₿{2}\n  Due In: {3} days  Missed: {4}\n\n</USAC.Alert.DebtRepayment.Explanation.ContractEntry>
-  <USAC.Alert.DebtRepayment.Explanation.ContractEntryWithGrowth>▸ {0}\n  Principal: ₿{1}  Est. Interest: ₿{2}\n  Est. Principal Growth: +₿{5}\n  Due In: {3} days  Missed: {4}\n\n</USAC.Alert.DebtRepayment.Explanation.ContractEntryWithGrowth>
-  <USAC.Alert.DebtRepayment.Explanation.ImminentWarning>⚠ The nearest contract is due soon! Please prepare enough USAC bonds.</USAC.Alert.DebtRepayment.Explanation.ImminentWarning>
-  <USAC.Debt.Dialog.Repayment.Text>[USAC Financial Node] {0} audit completed\n\nInterest due this cycle: ₿{1} (requires {2} bonds)\nCurrent principal: ₿{3}\nMissed payments: {4}\n\nConfirm using "USAC Credit Bonds" within trade beacon range for settlement.\n</USAC.Debt.Dialog.Repayment.Text>
+  <USAC.Message.Renewed>[USAC] Renewal complete: a 30-cycle bandwidth link has been renewed for {0}.</USAC.Message.Renewed>
+  <USAC.Message.AutoRenewed>[USAC] Auto-renewed: the link for {0} has been extended by 30 cycles.</USAC.Message.AutoRenewed>
+  <USAC.Message.AutoRenewFailed>[USAC] Renewal suspended: auto-renewal for {0} has been disabled due to insufficient credit bond reserves within beacon range.</USAC.Message.AutoRenewFailed>
+  <USAC.Message.InsufficientBonds>[USAC] Payment failed: insufficient credit bond reserves within trade beacon range.</USAC.Message.InsufficientBonds>
+  <USAC.Message.InsufficientBondsForLease>[USAC] Lease suspended: your credit bond reserves cannot cover the selected initial lease duration.</USAC.Message.InsufficientBondsForLease>
+  <USAC.Message.LeaseAutoRenewed>[USAC] Auto-renewed: the mining rig's lease has been extended by 24 hours through the orbital settlement network.</USAC.Message.LeaseAutoRenewed>
+  <USAC.Message.LeaseAutoRenewFailed>[USAC] Renewal failed: insufficient credit bond reserves near the orbital beacon. Auto-renewal has been disabled for this rig, and scheduled collection will proceed.</USAC.Message.LeaseAutoRenewFailed>
+  <USAC_LeaseDurationLeft>Lease time remaining: {0}</USAC_LeaseDurationLeft>
+  <USAC.UI.Drill.EmptyMinerals>Empty ore hold</USAC.UI.Drill.EmptyMinerals>
+  <USAC.UI.Drill.EmptyMinerals.Desc>Manually eject the minerals collected in the sealed hold. If the hold is not emptied before extraction, the USAC orbital platform will recover everything on board.</USAC.UI.Drill.EmptyMinerals.Desc>
+  <USAC.Alert.DebtRepayment.Label>USAC debt settlement</USAC.Alert.DebtRepayment.Label>
+  <USAC.Alert.DebtRepayment.LabelWithTime>USAC settlement: {0} days ({1} contracts)</USAC.Alert.DebtRepayment.LabelWithTime>
+  <USAC.Alert.DebtRepayment.Explanation.Header>Credit score: {0}\nBonds in beacon range: {1}\n\n</USAC.Alert.DebtRepayment.Explanation.Header>
+  <USAC.Alert.DebtRepayment.Explanation.ContractEntry>▸ {0}\n  Principal: ₿{1}  Est. interest: ₿{2}\n  Due in: {3} days  Missed: {4}\n\n</USAC.Alert.DebtRepayment.Explanation.ContractEntry>
+  <USAC.Alert.DebtRepayment.Explanation.ContractEntryWithGrowth>▸ {0}\n  Principal: ₿{1}  Est. interest: ₿{2}\n  Est. principal growth: +₿{5}\n  Due in: {3} days  Missed: {4}\n\n</USAC.Alert.DebtRepayment.Explanation.ContractEntryWithGrowth>
+  <USAC.Alert.DebtRepayment.Explanation.ImminentWarning>⚠ The nearest contract is due soon! Make sure you have enough USAC bonds on hand.</USAC.Alert.DebtRepayment.Explanation.ImminentWarning>
+  <USAC.Debt.Dialog.Repayment.Text>[USAC financial node] Audit of {0} complete.\n\nInterest due this cycle: ₿{1} ({2} bonds required)\nCurrent principal: ₿{3}\nMissed payments: {4}\n\nConfirm to settle using USAC credit bonds within trade beacon range.\n</USAC.Debt.Dialog.Repayment.Text>
   <USAC.Debt.Dialog.Repayment.Warning>⚠ One more missed payment will trigger forced collection!</USAC.Debt.Dialog.Repayment.Warning>
   <USAC.Debt.Dialog.Repayment.Option.Pay>Settle now (use bonds)</USAC.Debt.Dialog.Repayment.Option.Pay>
-  <USAC.Debt.Dialog.Repayment.Option.Refuse>Cannot pay / Refuse</USAC.Debt.Dialog.Repayment.Option.Refuse>
-  <USAC.Debt.Dialog.Repayment.Title>USAC {0} Settlement</USAC.Debt.Dialog.Repayment.Title>
-  <USAC.Debt.Message.InterestPaid>[USAC] {0} interest payment complete</USAC.Debt.Message.InterestPaid>
-  <USAC.Debt.Message.ForceCollectPausedByShield>[USAC] Target colony is under orbital shielding; forced collection has been postponed.</USAC.Debt.Message.ForceCollectPausedByShield>
-  <USAC.Debt.Transaction.ForceCollect>{0} forced collection (missed #{1})</USAC.Debt.Transaction.ForceCollect>
+  <USAC.Debt.Dialog.Repayment.Option.Refuse>Cannot pay / refuse</USAC.Debt.Dialog.Repayment.Option.Refuse>
+  <USAC.Debt.Dialog.Repayment.Title>USAC {0} settlement</USAC.Debt.Dialog.Repayment.Title>
+  <USAC.Debt.Message.InterestPaid>[USAC] Interest on {0} paid in full</USAC.Debt.Message.InterestPaid>
+  <USAC.Debt.Message.ForceCollectPausedByShield>[USAC] The target colony is under orbital shielding. Forced collection has been postponed.</USAC.Debt.Message.ForceCollectPausedByShield>
+  <USAC.Debt.Transaction.ForceCollect>{0} forced collection (missed payment #{1})</USAC.Debt.Transaction.ForceCollect>
   <USAC.Debt.Transaction.SignContract>Signed {0} contract</USAC.Debt.Transaction.SignContract>
-  <USAC.Debt.Log.LegacyMigrated>[USAC] Legacy debt data migrated to new contract system</USAC.Debt.Log.LegacyMigrated>
-  <USAC.Debt.Type.WholeMortgage>Whole Mortgage Loan</USAC.Debt.Type.WholeMortgage>
-  <USAC.Debt.Type.DynamicLoan>Dynamic Credit</USAC.Debt.Type.DynamicLoan>
-  <USAC.Debt.Type.Unknown>Unknown Contract</USAC.Debt.Type.Unknown>
+  <USAC.Debt.Log.LegacyMigrated>[USAC] Legacy debt data migrated to the new contract system</USAC.Debt.Log.LegacyMigrated>
+  <USAC.Debt.Type.WholeMortgage>Whole mortgage loan</USAC.Debt.Type.WholeMortgage>
+  <USAC.Debt.Type.DynamicLoan>Dynamic credit</USAC.Debt.Type.DynamicLoan>
+  <USAC.Debt.Type.Unknown>Unknown contract</USAC.Debt.Type.Unknown>
   <USAC.Debt.Transaction.PrincipalGrowth>{0} principal growth ({1}%)</USAC.Debt.Transaction.PrincipalGrowth>
   <USAC.Debt.Transaction.CycleInterest>{0} cycle interest</USAC.Debt.Transaction.CycleInterest>
   <USAC.Debt.Message.CycleProcessed>[USAC] {0}: principal +₿{1}, cycle interest ₿{2}</USAC.Debt.Message.CycleProcessed>
   <USAC.Debt.Transaction.MissedPayment>{0} missed payment #{1}; interest rolled into principal</USAC.Debt.Transaction.MissedPayment>
   <USAC.Debt.Transaction.InterestPayment>{0} interest payment</USAC.Debt.Transaction.InterestPayment>
-  <USAC.Debt.Error.PayInterestFirst>Please pay current interest first</USAC.Debt.Error.PayInterestFirst>
-  <USAC.Debt.Error.NotEnoughBondsWithFee>{0} bonds required (including {1} surcharge bonds)</USAC.Debt.Error.NotEnoughBondsWithFee>
+  <USAC.Debt.Error.PayInterestFirst>Pay the current interest first</USAC.Debt.Error.PayInterestFirst>
+  <USAC.Debt.Error.NotEnoughBondsWithFee>{0} bonds required (including {1} in surcharge)</USAC.Debt.Error.NotEnoughBondsWithFee>
   <USAC.Debt.Transaction.PrincipalRepay>{0} principal repayment</USAC.Debt.Transaction.PrincipalRepay>
   <USAC.Debt.Transaction.RepaySurcharge>{0} excess repayment surcharge</USAC.Debt.Transaction.RepaySurcharge>
-  <USAC.Debt.Message.ContractSettled>[USAC] {0} fully settled!</USAC.Debt.Message.ContractSettled>
-  <USAC.Debt.GrowthMode.WealthBase>By Map Wealth</USAC.Debt.GrowthMode.WealthBase>
-  <USAC.Debt.GrowthMode.PrincipalBase>By Current Principal</USAC.Debt.GrowthMode.PrincipalBase>
+  <USAC.Debt.Message.ContractSettled>[USAC] {0} settled in full!</USAC.Debt.Message.ContractSettled>
+  <USAC.Debt.GrowthMode.WealthBase>By map wealth</USAC.Debt.GrowthMode.WealthBase>
+  <USAC.Debt.GrowthMode.PrincipalBase>By current principal</USAC.Debt.GrowthMode.PrincipalBase>
   <USAC.Debt.ScenPart.Summary>USAC {0}: ₿{1}\nCycle growth: {2}% ({3})\nCycle interest: {4}%</USAC.Debt.ScenPart.Summary>
-  <USAC.Debt.ScenPart.InitialDebt>Initial Debt Principal: </USAC.Debt.ScenPart.InitialDebt>
-  <USAC.Debt.ScenPart.DebtType>Debt Type: </USAC.Debt.ScenPart.DebtType>
-  <USAC.Debt.ScenPart.DynamicLoanReserved>Dynamic Credit (reserved)</USAC.Debt.ScenPart.DynamicLoanReserved>
-  <USAC.Debt.ScenPart.GrowthBase>Growth Basis: </USAC.Debt.ScenPart.GrowthBase>
-  <USAC.Debt.ScenPart.GrowthRatePct>Cycle Growth Rate (%): </USAC.Debt.ScenPart.GrowthRatePct>
-  <USAC.Debt.ScenPart.InterestRatePct>Cycle Interest Rate (%): </USAC.Debt.ScenPart.InterestRatePct>
+  <USAC.Debt.ScenPart.InitialDebt>Initial debt principal: </USAC.Debt.ScenPart.InitialDebt>
+  <USAC.Debt.ScenPart.DebtType>Debt type: </USAC.Debt.ScenPart.DebtType>
+  <USAC.Debt.ScenPart.DynamicLoanReserved>Dynamic credit (reserved)</USAC.Debt.ScenPart.DynamicLoanReserved>
+  <USAC.Debt.ScenPart.GrowthBase>Growth basis: </USAC.Debt.ScenPart.GrowthBase>
+  <USAC.Debt.ScenPart.GrowthRatePct>Cycle growth rate (%): </USAC.Debt.ScenPart.GrowthRatePct>
+  <USAC.Debt.ScenPart.InterestRatePct>Cycle interest rate (%): </USAC.Debt.ScenPart.InterestRatePct>
   <USAC.Debt.Transaction.ScenarioStart>Scenario start {0}</USAC.Debt.Transaction.ScenarioStart>
   <USAC.Debt.Message.GripperTargetLost>[USAC] Orbital gripper capture failed: target lost.</USAC.Debt.Message.GripperTargetLost>
   <USAC.Debt.Transaction.GripperDestroyed>Orbital gripper destroyed (damage compensation)</USAC.Debt.Transaction.GripperDestroyed>
-  <USAC.Debt.Message.GripperDestroyedPenalty>[USAC] Orbital gripper destroyed! Additional fee ₿{0} has been added to the bill.</USAC.Debt.Message.GripperDestroyedPenalty>
+  <USAC.Debt.Message.GripperDestroyedPenalty>[USAC] Orbital gripper destroyed! A fee of ₿{0} has been added to your bill.</USAC.Debt.Message.GripperDestroyedPenalty>
   <USAC.Debt.Message.OrganHarvested>[USAC] Organ-mortgage collection executed: organs harvested from {0}, value ₿{1}</USAC.Debt.Message.OrganHarvested>
-  <USAC.Debt.Message.PawnDemolished>[USAC] Debt liquidation executed: {0} has been fully dismantled.</USAC.Debt.Message.PawnDemolished>
-  <USAC.Debt.Message.CreditDanger>[USAC] Credit rating has dropped to dangerous levels. USAC trade channel will soon be closed.</USAC.Debt.Message.CreditDanger>
-  <USAC.Debt.Message.CreditPenalty>[USAC] Credit-loan missed payment: Credit score -25 (current: {0})</USAC.Debt.Message.CreditPenalty>
-  <USAC.UI.Assets.SurchargeHint>Quarterly free allowance ₿{0} (remaining ₿{4})  ▸  This surcharge ₿{2}  →  Total cost ₿{3}</USAC.UI.Assets.SurchargeHint>
+  <USAC.Debt.Message.PawnDemolished>[USAC] Debt liquidation executed: {0} has been completely dismantled.</USAC.Debt.Message.PawnDemolished>
+  <USAC.Debt.Message.CreditDanger>[USAC] Your credit rating has fallen to a dangerous level. The USAC trade channel will close soon.</USAC.Debt.Message.CreditDanger>
+  <USAC.Debt.Message.CreditPenalty>[USAC] Missed credit-loan payment: credit score -25 (now {0})</USAC.Debt.Message.CreditPenalty>
+  <USAC.UI.Assets.SurchargeHint>Quarterly free allowance ₿{0} (₿{4} left)  ▸  Surcharge ₿{2}  →  Total cost ₿{3}</USAC.UI.Assets.SurchargeHint>
 <USAC.UI.Assets.AccessDenied>ACCESS_DENIED//ACCESS DENIED.\n\n Insufficient permission to access...</USAC.UI.Assets.AccessDenied>
 
   <!-- 债务清偿结局 (Settled) -->
   <USAC.Ending.Settled.Loading>Generating settlement report...</USAC.Ending.Settled.Loading>
   <USAC.Ending.Settled.Title>DEBT_SETTLED//Debt write-off report</USAC.Ending.Settled.Title>
-  <USAC.Ending.Settled.Intro>Dear Interstellar Citizen：\n\nWe are pleased to inform you that all your asset-backed agreements filed with the Debt Management Department have been officially written off. Throughout the lengthy settlement process, you had demonstrated an exceptionally high level of commitment. Despite the unpredictable risks lurking in this RimWorld, you have proven that credit is the most universally accepted form of currency.</USAC.Ending.Settled.Intro>
-  <USAC.Ending.Settled.CreditScore>Final Credit Score：{0} </USAC.Ending.Settled.CreditScore>
-  <USAC.Ending.Settled.Close>Your credit history has been filed. The Debt Management Department has terminated risk monitoring of your settlement. We hope you will continue to maintain this exceptional level of compliance through out the furture.</USAC.Ending.Settled.Close>
-  <USAC.Ending.Settled.Ending>"Contract ends, Prosperity endures."</USAC.Ending.Settled.Ending>
+  <USAC.Ending.Settled.Intro>Dear interstellar citizen,\n\nWe are pleased to inform you that every asset-backed agreement filed with the Debt Management Department has now been formally written off. Across a long and difficult settlement process, you showed an exceptional level of commitment. Despite the unpredictable risks of this rimworld, you have proven that credit is the most widely accepted currency of all.</USAC.Ending.Settled.Intro>
+  <USAC.Ending.Settled.CreditScore>Final credit score: {0}</USAC.Ending.Settled.CreditScore>
+  <USAC.Ending.Settled.Close>Your credit history has been filed, and the Debt Management Department has ended risk monitoring of your account. We trust you will maintain this exceptional standard of compliance in the years ahead.</USAC.Ending.Settled.Close>
+  <USAC.Ending.Settled.Ending>"The contract ends. Prosperity endures."</USAC.Ending.Settled.Ending>
 
   <!-- 债务清算结局 (Liquidation) -->
   <USAC.Ending.Liquidation.Loading>Generating liquidation certificate...</USAC.Ending.Liquidation.Loading>
   <USAC.Ending.Liquidation.Title>LIQUIDATION_COMPLETE//Asset liquidation confirmation</USAC.Ending.Liquidation.Title>
-  <USAC.Ending.Liquidation.Intro>The process has begun. Target asset location has been confirmed, and the Debt Management Department will begin the final asset liquidation. Everything is being done accordance with regulations.</USAC.Ending.Liquidation.Intro>
-  <USAC.Ending.Liquidation.Body>The piercing alarm was instantly shattered by a shriek from the sky. You looked up and saw dozens of massive steel clamps piercing the clouds, leaving orange trails behind them. With a violent clanging of metal, the roof you were on shattered instantly, and amidst the billowing smoke and dust, the heavy hum of the hydraulic clamps closing became the last picture of your home. You felt yourself being roughly gripped by the clamps, your face and body enveloped in a cold oxygen mask and spray coating. With the roar of the thrusters igniting again, gravity reversed completely in that moment. You saw the crops you had carefully tended, the bricks you had painstakingly laid, and your terrified companions, all plummeting rapidly into the distance...\n\nOr rather, you were all rapidly ascending into the boundless depths of space. Before the suffocating silence claimed everything, the last thing you saw was the desolate land below, where everything you care of were vanishing with the rising dust.</USAC.Ending.Liquidation.Body>
-  <USAC.Ending.Liquidation.FinancialReport>Summary of Asset Liquidation Financial Report:</USAC.Ending.Liquidation.FinancialReport>
-  <USAC.Ending.Liquidation.TotalDebtLiquidated>Total amount of write-off</USAC.Ending.Liquidation.TotalDebtLiquidated>
-  <USAC.Ending.Liquidation.CapturedAssets>{0} has been delivered as collateral for overdue payments.</USAC.Ending.Liquidation.CapturedAssets>
-  <USAC.Ending.Liquidation.Close>The dust has settled. The land returns to silence, awaiting the next poor soul.</USAC.Ending.Liquidation.Close>
+  <USAC.Ending.Liquidation.Intro>The process has begun. The target assets have been located, and the Debt Management Department will now carry out final liquidation. Everything is being done in accordance with regulation.</USAC.Ending.Liquidation.Intro>
+  <USAC.Ending.Liquidation.Body>The wailing alarm was cut short by a shriek from the sky. You looked up and saw dozens of vast steel clamps punch through the clouds, dragging orange trails behind them. With a violent clang of metal the roof under your feet shattered, and through the billowing smoke and dust, the heavy hum of hydraulic clamps closing became the last thing you ever heard of your home. You felt yourself seized and dragged upward, your face wrapped in a cold oxygen mask and sealing spray. The thrusters lit again, and gravity turned over entirely. You saw the crops you had tended, the bricks you had laid by hand, and your terrified companions, all falling away beneath you...\n\nOr rather, you were the one rising, faster and faster, into the endless dark. Before the suffocating silence took everything, the last thing you saw was that desolate land below, where all you had ever cared for disappeared into the rising dust.</USAC.Ending.Liquidation.Body>
+  <USAC.Ending.Liquidation.FinancialReport>Asset liquidation financial summary:</USAC.Ending.Liquidation.FinancialReport>
+  <USAC.Ending.Liquidation.TotalDebtLiquidated>Total amount written off</USAC.Ending.Liquidation.TotalDebtLiquidated>
+  <USAC.Ending.Liquidation.CapturedAssets>{0} has been delivered as collateral against overdue payments.</USAC.Ending.Liquidation.CapturedAssets>
+  <USAC.Ending.Liquidation.Close>The dust has settled. The land falls silent again, waiting for the next poor soul.</USAC.Ending.Liquidation.Close>
   <USAC.Ending.Liquidation.Ending>"The debt has been written off."</USAC.Ending.Liquidation.Ending>
 
   <!-- 债权转移结局 (Transfer) -->
-  <USAC.Ending.Transfer.NegotiationTitle>Announcement of Debt Sale</USAC.Ending.Transfer.NegotiationTitle>
-  <USAC.Ending.Transfer.NegotiationText>Given your unauthorized interference with the collection process, the Debt Management Department has determined that the direct write-off cost of this bad debt is too costly. We have sold your debt package to a third-party faction: {0}.\n\nDue to the change in the nature of the debt, your current arrears amount has been increased to {2} Silver due to late payment penalties. The financial connection will be officially closed within 24 hours. After this, your credit record will longer exist. Instead, a new creditors will make indefinite claims on your assets.</USAC.Ending.Transfer.NegotiationText>
-  <USAC.Ending.Transfer.Option.Pay>Pay silver to the new creditor ({0})</USAC.Ending.Transfer.Option.Pay>
-  <USAC.Ending.Transfer.Option.Refuse>Refuse. Prepare for the liquidation in {0} days.</USAC.Ending.Transfer.Option.Refuse>
-  <USAC.Ending.Transfer.BuyoutFail>Payment failed: The silver reserves on the map ({0}) are insufficient to settle the debt ({1}). Prepare for the attack.</USAC.Ending.Transfer.BuyoutFail>
-  <USAC.Ending.Transfer.BuyoutSuccess>Debt buyer {0} has received the silver, and all your debts have been fully written off within the framework of Interstellar Law.</USAC.Ending.Transfer.BuyoutSuccess>
-  <USAC.Ending.Transfer.CountdownLabel>Debt assignment effective</USAC.Ending.Transfer.CountdownLabel>
-  <USAC.Ending.Transfer.CountdownText>USAC has officially exited your debt contract. Faction {0} now has the right to dispose of all your assets. They have issued an ultimatum: a full-scale seizure operation will begin in {1} days.</USAC.Ending.Transfer.CountdownText>
-  <USAC.Ending.Transfer.SiegeStartLabel>Asset seizure operation begins</USAC.Ending.Transfer.SiegeStartLabel>
-  <USAC.Ending.Transfer.SiegeStartText>The armed debt collection team dispatched by {0} has arrived! They plan to completely destroy your will through relentless attacks over the next {1} days. Endures, or pay the price in blood.</USAC.Ending.Transfer.SiegeStartText>
-  <USAC.Ending.Transfer.VictoryLabel>Debt cancellation</USAC.Ending.Transfer.VictoryLabel>
-  <USAC.Ending.Transfer.VictoryText>After paying a heavy price, {0} has officially announced the abandonment of enforcement proceedings against this debt due to excessive losses. Your debt status has been updated to "overdue and void," and from now on, no faction will bother you with this old debt.</USAC.Ending.Transfer.VictoryText>
-  
-  <USAC.Ending.Transfer.Credits.Title>DEBT_ASSIGNMENT//Report on Transfer of Claims</USAC.Ending.Transfer.Credits.Title>
-  <USAC.Ending.Transfer.Credits.Intro>Faction {0} has purchased your debt, valued at ₿{1}, from the Debt Management Department through the secondary market.</USAC.Ending.Transfer.Credits.Intro>
-  <USAC.Ending.Transfer.Credits.Body>Note: The Debt Management Department always strives for efficiency and balance. When the cost-effectiveness of risk hedging becomes unbalanced, transferring the asset package to a local third party with receiving capabilities is standard procedure.\n\nThank you for being our credit client, we bid you good luck in your future asset restructuring.</USAC.Ending.Transfer.Credits.Body>
-  <USAC.Ending.Transfer.Credits.Close>"The financial connection has been safely disconnected."</USAC.Ending.Transfer.Credits.Close>
+  <USAC.Ending.Transfer.NegotiationTitle>Notice of debt sale</USAC.Ending.Transfer.NegotiationTitle>
+  <USAC.Ending.Transfer.NegotiationText>Given your unauthorized interference with the collection process, the Debt Management Department has judged the cost of writing off this bad debt to be excessive. Your debt package has been sold to a third party: {0}.\n\nBecause the nature of the debt has changed, late payment penalties have raised your arrears to {2} silver. The financial link will be formally closed within 24 hours. After that, your credit record will no longer exist - only a new creditor, with an open-ended claim on your assets.</USAC.Ending.Transfer.NegotiationText>
+  <USAC.Ending.Transfer.Option.Pay>Pay the new creditor in silver ({0})</USAC.Ending.Transfer.Option.Pay>
+  <USAC.Ending.Transfer.Option.Refuse>Refuse. Prepare for liquidation in {0} days.</USAC.Ending.Transfer.Option.Refuse>
+  <USAC.Ending.Transfer.BuyoutFail>Payment failed: the silver on this map ({0}) is not enough to settle the debt ({1}). Prepare for the attack.</USAC.Ending.Transfer.BuyoutFail>
+  <USAC.Ending.Transfer.BuyoutSuccess>{0} has received the silver, and every one of your debts is written off in full under interstellar law.</USAC.Ending.Transfer.BuyoutSuccess>
+  <USAC.Ending.Transfer.CountdownLabel>Debt assignment in effect</USAC.Ending.Transfer.CountdownLabel>
+  <USAC.Ending.Transfer.CountdownText>USAC has formally exited your debt contract. {0} now holds the right to dispose of all your assets, and they have issued an ultimatum: a full seizure operation begins in {1} days.</USAC.Ending.Transfer.CountdownText>
+  <USAC.Ending.Transfer.SiegeStartLabel>Asset seizure begins</USAC.Ending.Transfer.SiegeStartLabel>
+  <USAC.Ending.Transfer.SiegeStartText>The armed collection team sent by {0} has arrived. They intend to break your will with relentless attacks over the next {1} days. Endure, or pay in blood.</USAC.Ending.Transfer.SiegeStartText>
+  <USAC.Ending.Transfer.VictoryLabel>Debt cancelled</USAC.Ending.Transfer.VictoryLabel>
+  <USAC.Ending.Transfer.VictoryText>After paying a heavy price, {0} has formally abandoned enforcement of this debt - the losses were simply too great. Your debt is now marked "overdue and void," and no faction will trouble you over it again.</USAC.Ending.Transfer.VictoryText>
 
-  <USAC.Ending.Transfer.Victory.Title>WAR_OF_DEBT//Final war of debt</USAC.Ending.Transfer.Victory.Title>
-  <USAC.Ending.Transfer.Victory.Body>You solved your financial problems in the most primitive and thorough way: By eliminating the creditors.\n\nAfter days of bloody defense, the creditors finally realized that collecting debts from a group of armed to teeth, fanatical colonists was a losing proposition. With the retreat of the last commando unit, the shackles of debt officially snapped. Freedom comes with a price, you have paid in full by creditor blood.</USAC.Ending.Transfer.Victory.Body>
+  <USAC.Ending.Transfer.Credits.Title>DEBT_ASSIGNMENT//Report on transfer of claims</USAC.Ending.Transfer.Credits.Title>
+  <USAC.Ending.Transfer.Credits.Intro>{0} has purchased your debt, valued at ₿{1}, from the Debt Management Department on the secondary market.</USAC.Ending.Transfer.Credits.Intro>
+  <USAC.Ending.Transfer.Credits.Body>Note: the Debt Management Department always strives for efficiency and balance. When the cost of hedging a risk outweighs its return, transferring the asset package to a local third party with the capacity to receive it is standard procedure.\n\nThank you for being our credit client. We wish you luck in your future asset restructuring.</USAC.Ending.Transfer.Credits.Body>
+  <USAC.Ending.Transfer.Credits.Close>"The financial link has been safely disconnected."</USAC.Ending.Transfer.Credits.Close>
+
+  <USAC.Ending.Transfer.Victory.Title>WAR_OF_DEBT//The final war of debt</USAC.Ending.Transfer.Victory.Title>
+  <USAC.Ending.Transfer.Victory.Body>You solved your financial troubles in the oldest and most thorough way there is: you killed the creditors.\n\nAfter days of bloody defense, they finally understood that collecting from a band of fanatical colonists armed to the teeth was a losing proposition. As the last commando squad pulled back, the shackles of debt broke for good. Freedom always has a price, and you paid yours in full - in your creditors' blood.</USAC.Ending.Transfer.Victory.Body>
   <USAC.Ending.Transfer.Victory.Close>"The debt is gone."</USAC.Ending.Transfer.Victory.Close>
 
   <!-- Silver Buyout Ending -->
-  <USAC.Ending.Transfer.SilverBuyout.Title>SILVER_SETTLEMENT//Silver Repayment Report</USAC.Ending.Transfer.SilverBuyout.Title>
-  <USAC.Ending.Transfer.SilverBuyout.Body>Faction {0} has confirmed receipt of the full payment of {1} silver. Your debt status has been updated to "Settled."
+  <USAC.Ending.Transfer.SilverBuyout.Title>SILVER_SETTLEMENT//Silver repayment report</USAC.Ending.Transfer.SilverBuyout.Title>
+  <USAC.Ending.Transfer.SilverBuyout.Body>{0} confirms receipt of {1} silver in full. Your debt status has been updated to "settled."
 
-The data flow of the orbital settlement network came to a brief halt at this moment. The debt management department's risk control algorithm repeatedly verified the legality of this transaction, yet could never understand the logic behind it: You held such a massive silver reserve and had countless ways to convert it into payment methods we recognize, yet chose to remain inactive for multiple settlement cycles, instead enduring until debt transfer, then buying out the entire debt with cash in one go.
+For a moment, the data flowing through the orbital settlement network stalled. The Debt Management Department's risk model verified the transaction's legality again and again, and still could not make sense of it. You held an enormous silver reserve and countless ways to convert it into instruments we recognize, yet you sat on it through settlement cycle after settlement cycle, waited out the debt transfer, and then bought the whole thing out in cash at once.
 
-Silver itself has no value to USAC's orbital settlement network—our system only recognizes specific payment credentials. But {0} clearly doesn't mind. They will inject this batch of silver into the local trade network, ultimately recovering costs through a long and inefficient resale process. For a faction that just took over a "non-performing asset," this windfall was enough to make their financial director freeze for three minutes.
+Silver is worthless to the USAC orbital settlement network - our systems recognize only specific payment credentials. But {0} clearly does not mind. They will feed this silver into the local trade network and recover their costs through a long, inefficient chain of resales. For a faction that had just taken on a non-performing asset, the windfall was enough to leave their finance director staring at the wall for three minutes.
 
-This operation is extremely rare in our historical records. Usually only two types of people do this: either financial geniuses skilled in calculation who found arbitrage opportunities in the gray area of debt transfer, or gamblers who simply enjoy the thrill of being chased for debt, proving in the most expensive way that "when you have enough money, rules are just suggestions."
+Operations like this are exceedingly rare in our records. Usually only two kinds of people attempt them: financial talents who found an arbitrage window in the gray area of debt transfer, or gamblers who enjoy being hunted for money, proving in the most expensive way possible that rules are merely suggestions once you are rich enough.
 
-Whichever category you belong to, at least it proves one thing: in this rimworld, there are always people who can achieve their goals in the most absurd ways.</USAC.Ending.Transfer.SilverBuyout.Body>
-  <USAC.Ending.Transfer.SilverBuyout.Close>The debt management department has filed this case as "atypical settlement behavior" and recommends that future risk control models add the assessment dimension of "deliberate delay with payment capacity."
+Whichever you are, you have proven one thing: on this rimworld, there is always someone who will reach their goal by the most absurd route available.</USAC.Ending.Transfer.SilverBuyout.Body>
+  <USAC.Ending.Transfer.SilverBuyout.Close>The Debt Management Department has filed this case as "atypical settlement behavior" and recommends that future risk models account for "deliberate delay despite capacity to pay."
 
-The dust has settled. Your credit record has been erased from the system, replaced by a cold data entry marked "Settled (Silver Buyout)."</USAC.Ending.Transfer.SilverBuyout.Close>
-  <USAC.Ending.Transfer.SilverBuyout.Ending>"Rich and willful."</USAC.Ending.Transfer.SilverBuyout.Ending>
+The dust has settled. Your credit record is gone from the system, replaced by a single cold entry: "Settled (silver buyout)."</USAC.Ending.Transfer.SilverBuyout.Close>
+  <USAC.Ending.Transfer.SilverBuyout.Ending>"Rich, and willful."</USAC.Ending.Transfer.SilverBuyout.Ending>
 
   <!-- 围攻相关提示 -->
   <USAC.Alert.SiegeCountdown.Label>Asset seizure countdown</USAC.Alert.SiegeCountdown.Label>
   <USAC.Alert.SiegeCountdown.LabelActive>Final defense in progress</USAC.Alert.SiegeCountdown.LabelActive>
-  <USAC.Alert.SiegeCountdown.Explanation>Time remaining until the seizure operation begins: {0}
+  <USAC.Alert.SiegeCountdown.Explanation>Time until the seizure operation begins: {0}
 
-Current creditors: {1}
+Current creditor: {1}
 
-Once the countdown ends, this faction will launch an unlimited forced seizure. Please ensure your defenses are in place.</USAC.Alert.SiegeCountdown.Explanation>
-  <USAC.Alert.SiegeCountdown.ExplanationActive>Defense time remaining: {0}\n\nCurrently defending against a sustained attack from {1}. If you can maintain defensive within the time limit, the opponent will be forced to abandon their claim due to excessive costs.</USAC.Alert.SiegeCountdown.ExplanationActive>
+When the countdown ends, this faction will launch an unlimited forced seizure. Make sure your defenses are ready.</USAC.Alert.SiegeCountdown.Explanation>
+  <USAC.Alert.SiegeCountdown.ExplanationActive>Defense time remaining: {0}\n\nYou are under sustained attack from {1}. Hold out until the time runs down and the losses will force them to abandon their claim.</USAC.Alert.SiegeCountdown.ExplanationActive>
 
-  <USAC_DebtSite_WarningLetterLabel>Asset security level Raised</USAC_DebtSite_WarningLetterLabel>
-  <USAC_DebtSite_WarningLetterText>Given your default during the {0} settlement process, the debt management department has defined your credit rating as "high-risk default." All external credit access has been simultaneously locked. It is recommended that you immediately resume compliance performance to avoid further escalation of the security procedure.</USAC_DebtSite_WarningLetterText>
+  <USAC_DebtSite_WarningLetterLabel>Asset security level raised</USAC_DebtSite_WarningLetterLabel>
+  <USAC_DebtSite_WarningLetterText>Given your default during the {0} settlement process, the Debt Management Department has classified your credit rating as "high-risk default." All external credit access has been locked at the same time. We advise you to resume compliant performance immediately, before the security procedure escalates further.</USAC_DebtSite_WarningLetterText>
   <USAC_DebtSite_LoanLockedWarning>Financial access has been locked.</USAC_DebtSite_LoanLockedWarning>
 
   <!-- 二次抗收升级提示 -->
-  <USAC_DebtSite_EscalationLetterLabel>Notice of Change in Compulsory Collection Strategy</USAC_DebtSite_EscalationLetterLabel>
-  <USAC_DebtSite_EscalationLetterText>Due to ongoing obstacles encountered in the asset preservation efforts against {0}, the Debt Management Department has determined that conventional recovery methods are ineffective. This means we will no longer attempt any synchronous settlement communications with you, and instead, automated assessment systems will take over the subsequent processes. These systems will deploy necessary long-term, on-site preservation facilities near your location based on security feedback, and their behavior will depend entirely on the compliance of the situation. Please be aware that all secondary damages arising therefrom will be borne by the defaulting party.</USAC_DebtSite_EscalationLetterText>
+  <USAC_DebtSite_EscalationLetterLabel>Change of compulsory collection strategy</USAC_DebtSite_EscalationLetterLabel>
+  <USAC_DebtSite_EscalationLetterText>Because asset preservation efforts against {0} continue to meet obstruction, the Debt Management Department has concluded that conventional recovery is ineffective. We will therefore attempt no further direct settlement communication with you. Automated assessment systems will take over from here. Based on security feedback, those systems will establish whatever long-term on-site preservation facilities they deem necessary near your location, and their conduct will depend entirely on how compliant the situation remains. Be advised that all secondary damage arising from this is borne by the defaulting party.</USAC_DebtSite_EscalationLetterText>
 
   <!-- 债权转移锁定 -->
   <USAC.UI.Assets.TransferLocked.Title>ACCOUNT_TERMINATED//Confirmation of offshore transfer of asset package</USAC.UI.Assets.TransferLocked.Title>
-  <USAC.UI.Assets.TransferLocked.Desc>Service Announcement: In accordance with the risk management agreement, as your credit model has been determined to be a "non-performing asset," the debt management department has officially completed the offshore transfer of this bad debt. This asset stripping action is irreversible. \n\nUSAC has now officially terminated your interface access, and your account is now in a logically segregated state. All subsequent valuation and recovery procedures will be independently executed by the trustee faction. We wish you well in the new cycle.</USAC.UI.Assets.TransferLocked.Desc>
+  <USAC.UI.Assets.TransferLocked.Desc>Service notice: under the risk management agreement, and following the classification of your credit model as a non-performing asset, the Debt Management Department has completed the offshore transfer of this bad debt. The stripping of these assets is irreversible.\n\nUSAC has formally terminated your interface access, and your account is now logically segregated. All further valuation and recovery procedures will be carried out independently by the trustee faction. We wish you well in the new cycle.</USAC.UI.Assets.TransferLocked.Desc>
 
   <!-- 和谈系统 -->
   <USAC.UI.Assets.Negotiation.Title>QUASI-LEGAL_SETTLEMENT//Default settlement proposal</USAC.UI.Assets.Negotiation.Title>
-  <USAC.UI.Assets.Negotiation.Available>The system has detected positive cash flow in your account. The debt management department has specifically authorized the opening of a "second chance" asset recovery window. We can discuss how to rebuild our partnership.</USAC.UI.Assets.Negotiation.Available>
-  <USAC.UI.Assets.Negotiation.Locked>Under the "Patriot Financial Security Act", your account is currently under punitive control. We need to observe at least two consecutive acts of proactive compliance (current assessment progress: {0}/2) before the compliance officer will intervene to reassess your risk. Please continue to demonstrate your commitment.</USAC.UI.Assets.Negotiation.Locked>
-  <USAC.UI.Assets.Negotiation.Btn>Submit the "Application for Asset Restoration and Default Settlement"</USAC.UI.Assets.Negotiation.Btn>
-  <USAC.UI.Assets.Negotiation.Success>Congratulations! Your default waiver agreement has been approved. We have decided to reassess your risk model and your financial access has been restored to standard level. Remember: credit is more important than life.</USAC.UI.Assets.Negotiation.Success>
+  <USAC.UI.Assets.Negotiation.Available>Our systems have detected positive cash flow in your account. The Debt Management Department has authorized a "second chance" asset recovery window. We can discuss how to rebuild our partnership.</USAC.UI.Assets.Negotiation.Available>
+  <USAC.UI.Assets.Negotiation.Locked>Under the Patriot Financial Security Act, your account is currently under punitive control. We must observe at least two consecutive acts of proactive compliance (current progress: {0}/2) before a compliance officer will step in to reassess your risk. Please continue to demonstrate your commitment.</USAC.UI.Assets.Negotiation.Locked>
+  <USAC.UI.Assets.Negotiation.Btn>Submit an application for asset restoration and default settlement</USAC.UI.Assets.Negotiation.Btn>
+  <USAC.UI.Assets.Negotiation.Success>Congratulations. Your default waiver has been approved. We have reassessed your risk model, and your financial access is restored to standard tier. Remember: credit matters more than life.</USAC.UI.Assets.Negotiation.Success>
 
   <!-- 尸体储存货柜相关 -->
-  <USAC.UI.Storage.Contents>Contain Asset: {0}/ {1}</USAC.UI.Storage.Contents>
+  <USAC.UI.Storage.Contents>Assets held: {0}/{1}</USAC.UI.Storage.Contents>
 
 
   <!-- 贸易终端 -->
-  <USAC.Trade.Terminal>TRADE_TERMINAL//Orbital Trade Terminal</USAC.Trade.Terminal>
-  <USAC.Trade.SearchPlaceholder>Search for items, categories, or descriptions...</USAC.Trade.SearchPlaceholder>
-  <USAC.Trade.PlayerItems>Colony Item</USAC.Trade.PlayerItems>
-  <USAC.Trade.TraderItems>Trader Item</USAC.Trade.TraderItems>
-  <USAC.Trade.Summary>Transaction Summary</USAC.Trade.Summary>
+  <USAC.Trade.Terminal>TRADE_TERMINAL//Orbital trade terminal</USAC.Trade.Terminal>
+  <USAC.Trade.SearchPlaceholder>Search items, categories, or descriptions...</USAC.Trade.SearchPlaceholder>
+  <USAC.Trade.PlayerItems>Colony items</USAC.Trade.PlayerItems>
+  <USAC.Trade.TraderItems>Trader items</USAC.Trade.TraderItems>
+  <USAC.Trade.Summary>Transaction summary</USAC.Trade.Summary>
   <USAC.Trade.NoActiveTrades>No transactions yet</USAC.Trade.NoActiveTrades>
-  <USAC.Trade.SelectCount>Select {0} for the number of transactions.</USAC.Trade.SelectCount>
-  
-  <USAC.Trade.Summary.Buy>Buy Amounts</USAC.Trade.Summary.Buy>
-  <USAC.Trade.Summary.Sell>Sell Amounts</USAC.Trade.Summary.Sell>
+  <USAC.Trade.SelectCount>Select how many {0} to trade.</USAC.Trade.SelectCount>
+
+  <USAC.Trade.Summary.Buy>Buying</USAC.Trade.Summary.Buy>
+  <USAC.Trade.Summary.Sell>Selling</USAC.Trade.Summary.Sell>
   <USAC.Trade.Summary.Net>Net expenditure</USAC.Trade.Summary.Net>
   <USAC.Trade.Summary.Settlement>Settlement</USAC.Trade.Summary.Settlement>
-  <USAC.Trade.Summary.IncludeWastage>incl. change loss ₿{0}</USAC.Trade.Summary.IncludeWastage>
+  <USAC.Trade.Summary.IncludeWastage>incl. ₿{0} lost as change</USAC.Trade.Summary.IncludeWastage>
   <USAC.Trade.Summary.Current>Current assets</USAC.Trade.Summary.Current>
   <USAC.Trade.Summary.CurrentAssets>Current</USAC.Trade.Summary.CurrentAssets>
   <USAC.Trade.Summary.After>After the transaction</USAC.Trade.Summary.After>
   <USAC.Trade.Summary.AfterTransaction>After</USAC.Trade.Summary.AfterTransaction>
   <USAC.Trade.Summary.AfterRemain>Remaining</USAC.Trade.Summary.AfterRemain>
-  <USAC.Trade.Summary.NoChange>No asset change</USAC.Trade.Summary.NoChange>
-  <USAC.Trade.Summary.Wastage>Change loss: ₿{0}</USAC.Trade.Summary.Wastage>
+  <USAC.Trade.Summary.NoChange>No change in assets</USAC.Trade.Summary.NoChange>
+  <USAC.Trade.Summary.Wastage>Lost as change: ₿{0}</USAC.Trade.Summary.Wastage>
   <USAC.Trade.Summary.BuyingFrom>Buying from: {0}</USAC.Trade.Summary.BuyingFrom>
   <USAC.Trade.Summary.SellingTo>Selling to: {0}</USAC.Trade.Summary.SellingTo>
 
-  <USAC.Trade.Summary.Tip_0>Click on the item icon to view details.</USAC.Trade.Summary.Tip_0>
+  <USAC.Trade.Summary.Tip_0>Click an item's icon to see its details.</USAC.Trade.Summary.Tip_0>
   <USAC.Trade.Summary.Tip_1>You said you didn't want to be here~ (Selected Works of the Chairman of USAC, 3:43)</USAC.Trade.Summary.Tip_1>
-  <USAC.Trade.Summary.Tip_2>USAC does not offer currency splitting or change services.</USAC.Trade.Summary.Tip_2>
+  <USAC.Trade.Summary.Tip_2>USAC does not split currency or give change.</USAC.Trade.Summary.Tip_2>
   <USAC.Trade.Summary.Tip_3>GuguGaga</USAC.Trade.Summary.Tip_3>
-  <USAC.Trade.Summary.Tip_4>Click the input box to enter precise numbers.</USAC.Trade.Summary.Tip_4>
-  
+  <USAC.Trade.Summary.Tip_4>Click the input box to type an exact number.</USAC.Trade.Summary.Tip_4>
+
   <USAC.Trade.Header.Item>Item</USAC.Trade.Header.Item>
   <USAC.Trade.Header.Held>Held</USAC.Trade.Header.Held>
   <USAC.Trade.Header.Stock>Stock</USAC.Trade.Header.Stock>
   <USAC.Trade.Header.Price>Price</USAC.Trade.Header.Price>
 
-  <USAC.Trade.Dialog.Cancel>Cancle</USAC.Trade.Dialog.Cancel>
+  <USAC.Trade.Dialog.Cancel>Cancel</USAC.Trade.Dialog.Cancel>
   <USAC.Trade.Dialog.Confirm>Confirm</USAC.Trade.Dialog.Confirm>
-  <USAC.Trade.Dialog.Available>Available quantity: {0}</USAC.Trade.Dialog.Available>
+  <USAC.Trade.Dialog.Available>Available: {0}</USAC.Trade.Dialog.Available>
 
   <USAC.Trade.Currency.Combined>{0} x{1} + {2} x{3}</USAC.Trade.Currency.Combined>
   <USAC.Trade.Currency.Single>{0} x{1}</USAC.Trade.Currency.Single>
-  <USAC.Trade.Currency.CorpseBag>Body Bag</USAC.Trade.Currency.CorpseBag>
+  <USAC.Trade.Currency.CorpseBag>Body bags</USAC.Trade.Currency.CorpseBag>
   <USAC.Trade.Currency.Bond>Credit bonds</USAC.Trade.Currency.Bond>
-  <USAC.Trade.Currency.Empty>Orbital network did not detect any legitimate assets within the trade beacon range of the area.</USAC.Trade.Currency.Empty>
-  
+  <USAC.Trade.Currency.Empty>The orbital network detected no valid assets within this area's trade beacon range.</USAC.Trade.Currency.Empty>
+
   <USAC_Currency_Breakdown>Asset details:</USAC_Currency_Breakdown>
   <USAC_Currency_CorpseBagValue>Body bag value: ₿{0}</USAC_Currency_CorpseBagValue>
-  <USAC_Currency_BondValue>Credit bonds ({0} bonds): ₿{1}</USAC_Currency_BondValue>
-  <USAC_Currency_TotalValue>Available payment: ₿{0}</USAC_Currency_TotalValue>
-  <USAC_Currency_SmallestBag>Smallest body bag value: ₿{0}</USAC_Currency_SmallestBag>
-  <USAC_Currency_Desc>USAC prioritizes body bags for payment unless you enable "Prioritize payment using bonds". Note: USAC does not provide change, excess value will be lost.</USAC_Currency_Desc>
-  <USAC_Currency_LabelEmpty>USAC Currency</USAC_Currency_LabelEmpty>
-  
+  <USAC_Currency_BondValue>Credit bonds ({0}): ₿{1}</USAC_Currency_BondValue>
+  <USAC_Currency_TotalValue>Available to spend: ₿{0}</USAC_Currency_TotalValue>
+  <USAC_Currency_SmallestBag>Least valuable body bag: ₿{0}</USAC_Currency_SmallestBag>
+  <USAC_Currency_Desc>USAC spends body bags first unless you enable "Prioritize payment using bonds". Note that USAC gives no change - any excess value is lost.</USAC_Currency_Desc>
+  <USAC_Currency_LabelEmpty>USAC currency</USAC_Currency_LabelEmpty>
+
   <USAC.UI.Storage.Capacity>Capacity: {0}/{1}</USAC.UI.Storage.Capacity>
-  <USAC.UI.Storage.RefrigerationActive>Refrigeration Active</USAC.UI.Storage.RefrigerationActive>
-  <USAC.UI.Storage.NoPower>No Power</USAC.UI.Storage.NoPower>
+  <USAC.UI.Storage.RefrigerationActive>Refrigeration active</USAC.UI.Storage.RefrigerationActive>
+  <USAC.UI.Storage.NoPower>No power</USAC.UI.Storage.NoPower>
 
   <!-- 债券支付选项 -->
   <USAC.Trade.EnableBonds>Enable bond payments</USAC.Trade.EnableBonds>
   <USAC.Trade.PriorityBonds>Prioritize payment using bonds</USAC.Trade.PriorityBonds>
 
   <!-- 建筑交付 -->
-  <USAC.Trade.PlaceDelivery>Select the deployment location {0}</USAC.Trade.PlaceDelivery>
-  <USAC.Trade.CannotPlace>Cannot be placed at this location</USAC.Trade.CannotPlace>
-  <USAC.Trade.CannotPlaceUnderThickRoof>Unable to deploy under thick roof</USAC.Trade.CannotPlaceUnderThickRoof>
-  <USAC.Trade.SelectPlacement>Please select a deployment location for {0} (press Q/E to rotate).</USAC.Trade.SelectPlacement>
-  <USAC.Trade.DeliveriesDispatched>All buildings have been delivered using transport clamps.</USAC.Trade.DeliveriesDispatched>
-  <USAC.Trade.CannotOverlapWithPending>Unable to overlap with the pre-planned airdrop area</USAC.Trade.CannotOverlapWithPending>
-  <USAC.Trade.CannotLandOnBuilding>Unable to land on existing buildings</USAC.Trade.CannotLandOnBuilding>
+  <USAC.Trade.PlaceDelivery>Select a deployment location for {0}</USAC.Trade.PlaceDelivery>
+  <USAC.Trade.CannotPlace>Cannot be placed here</USAC.Trade.CannotPlace>
+  <USAC.Trade.CannotPlaceUnderThickRoof>Cannot be deployed under a thick roof</USAC.Trade.CannotPlaceUnderThickRoof>
+  <USAC.Trade.SelectPlacement>Select a deployment location for {0} (press Q/E to rotate).</USAC.Trade.SelectPlacement>
+  <USAC.Trade.DeliveriesDispatched>All buildings have been delivered by transport clamp.</USAC.Trade.DeliveriesDispatched>
+  <USAC.Trade.CannotOverlapWithPending>Cannot overlap with a planned drop zone</USAC.Trade.CannotOverlapWithPending>
+  <USAC.Trade.CannotLandOnBuilding>Cannot land on an existing building</USAC.Trade.CannotLandOnBuilding>
 
-  <USAC.Trade.NotEnoughCurrency>Payment failed: There is not enough currency (body bags or bonds) within your trade beacon range to settle this bill.</USAC.Trade.NotEnoughCurrency>
+  <USAC.Trade.NotEnoughCurrency>Payment failed: there is not enough currency (body bags or bonds) within trade beacon range to settle this bill.</USAC.Trade.NotEnoughCurrency>
 </LanguageData>

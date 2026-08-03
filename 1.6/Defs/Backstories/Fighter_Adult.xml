@@ -2,9 +2,9 @@
 <Defs>
     <BackstoryDef>
         <defName>USAC_Military01</defName>
-        <title>Reformed Bandit</title>
-        <titleShort>Bandit</titleShort>
-        <description>[PAWN_nameDef] failed as a bandit and was unfortunately captured by a merc group. While serving a labor sentence, [PAWN_nameDef] realized how much better the life of these people had and decided to stay after being released.</description>
+        <title>reformed bandit</title>
+        <titleShort>bandit</titleShort>
+        <description>[PAWN_nameDef] made a poor bandit, and was eventually caught by a mercenary company. Serving out a labor sentence among them, [PAWN_pronoun] noticed how much better these people lived than [PAWN_pronoun] ever had - and chose to stay on once released.</description>
         <slot>Adulthood</slot>
         <spawnCategories>
             <li>USAC_Fighter</li>
@@ -23,9 +23,9 @@
 
     <BackstoryDef>
         <defName>USAC_Military02</defName>
-        <title>Retired Medic</title>
-        <titleShort>Medic</titleShort>
-        <description>[PAWN_nameDef] served as a medic in the Armed Forces and retired from military life prematurely after a serious injury.</description>
+        <title>retired medic</title>
+        <titleShort>medic</titleShort>
+        <description>[PAWN_nameDef] served as a medic in the armed forces, and was invalided out of the service early after a serious injury.</description>
         <slot>Adulthood</slot>
         <spawnCategories>
             <li>USAC_Fighter</li>
@@ -43,9 +43,9 @@
 
     <BackstoryDef>
         <defName>USAC_Military03</defName>
-        <title>Correctional Officer</title>
-        <titleShort>Deputy</titleShort>
-        <description>[PAWN_nameDef] was a security for guarding the bandits and raiders who were captured, Supervising them until they were free to go after serving their sentences.</description>
+        <title>correctional officer</title>
+        <titleShort>deputy</titleShort>
+        <description>[PAWN_nameDef] guarded captured bandits and raiders, keeping watch over them until their sentences ran out and they walked free.</description>
         <slot>Adulthood</slot>
         <spawnCategories>
             <li>USAC_Fighter</li>
@@ -64,9 +64,9 @@
 
     <BackstoryDef>
         <defName>USAC_Military04</defName>
-        <title>Fired Bodyguard</title>
-        <titleShort>Bodyguard</titleShort>
-        <description>[PAWN_nameDef] was once a bodyguard for military contractor groups, but was laid off because Automatroids proved to be stronger in competitive combat capability. [PAWN_nameDef] eventually had to follow a frontier project to the rimworld to seek a living.</description>
+        <title>laid-off bodyguard</title>
+        <titleShort>bodyguard</titleShort>
+        <description>[PAWN_nameDef] worked as a bodyguard for military contractors until automatroids proved they could do the job better, and [PAWN_pronoun] was laid off. In the end [PAWN_pronoun] signed onto a frontier project and came to the rimworld to make a living.</description>
         <slot>Adulthood</slot>
         <spawnCategories>
             <li>USAC_Fighter</li>
@@ -87,9 +87,9 @@
 
     <BackstoryDef>
         <defName>USAC_Military05</defName>
-        <title>Struggling Mercenary</title>
-        <titleShort>Mercenary</titleShort>
-        <description>[PAWN_nameDef] was a mercenary in armed groups. However, Automatroids have squeezed out the mercenaries' living space with both superior combat power and cost efficiency. [PAWN_nameDef] proved that [PAWN_pronoun]'s blood and sweat could be cheaper than an Automatroid's lubricant oil.</description>
+        <title>struggling mercenary</title>
+        <titleShort>mercenary</titleShort>
+        <description>[PAWN_nameDef] fought as a mercenary for hire, but automatroids squeezed the mercenary trade out of existence - better in a fight, and cheaper by the hour. [PAWN_nameDef] proved that [PAWN_possessive] blood and sweat could still undercut an automatroid's lubricant.</description>
         <slot>Adulthood</slot>
         <spawnCategories>
             <li>USAC_Fighter</li>
@@ -113,9 +113,9 @@
 
     <BackstoryDef>
         <defName>USAC_Military06</defName>
-        <title>Frontier Worker</title>
-        <titleShort>Worker</titleShort>
-        <description>The profits and opportunities brought by frontier projects attracted many unemployed laborers like [PAWN_nameDef]. Like many others following the frontier project, [PAWN_nameDef] signed liability waivers to come to the rimworld.</description>
+        <title>frontier worker</title>
+        <titleShort>worker</titleShort>
+        <description>The money and opportunity promised by frontier projects drew in crowds of out-of-work laborers like [PAWN_nameDef]. Like all the rest of them, [PAWN_pronoun] signed the liability waivers and shipped out to the rimworld.</description>
         <slot>Adulthood</slot>
         <spawnCategories>
             <li>USAC_Fighter</li>
@@ -135,9 +135,9 @@
 
     <BackstoryDef>
         <defName>USAC_Military07</defName>
-        <title>Megacorp Coroner</title>
-        <titleShort>Coroner</titleShort>
-        <description>[PAWN_nameDef] worked for a megacorporation as a forensic assistant accepting credit collateral. Unlike those with special interests, [PAWN_nameDef] was pushed to the brink of collapse by daily work pressure, but also honed advanced medical skills in the process.</description>
+        <title>megacorp coroner</title>
+        <titleShort>coroner</titleShort>
+        <description>[PAWN_nameDef] worked for a megacorporation as a forensic assistant, processing the bodies posted as credit collateral. With no connections to protect [PAWN_objective], the daily workload pushed [PAWN_objective] to the edge of collapse - but it also sharpened [PAWN_possessive] medical skills to a fine edge.</description>
         <slot>Adulthood</slot>
         <spawnCategories>
             <li>USAC_Fighter</li>
@@ -160,9 +160,9 @@
 
     <BackstoryDef>
         <defName>USAC_Military08</defName>
-        <title>Automatroid Maintenance Tech</title>
-        <titleShort>Mech Tech</titleShort>
-        <description>As technology and Automatroids continued to iterate, [PAWN_nameDef] was eventually laid off from maintaining Automatroids. However, in an era where Automatroids run rampant, the laid-off [PAWN_nameDef] remains an important talent for mercenaries, pirates, and private armed groups.</description>
+        <title>automatroid maintenance tech</title>
+        <titleShort>mech tech</titleShort>
+        <description>As automatroid designs kept iterating, [PAWN_nameDef] was finally laid off from maintaining them. In an age overrun by automatroids, though, a technician who knows their insides is exactly what mercenaries, pirates and private armies are looking for.</description>
         <slot>Adulthood</slot>
         <spawnCategories>
             <li>USAC_Fighter</li>
@@ -181,9 +181,9 @@
 
     <BackstoryDef>
         <defName>USAC_Military09</defName>
-        <title>Lawless Rogue</title>
-        <titleShort>Rogue</titleShort>
-        <description>[PAWN_nameDef] came to the rimworld with a frontier project, doing whatever [PAWN_pronoun] wanted. Because [PAWN_pronoun] offended many people and violated most contract terms, [PAWN_pronoun] is now being hunted. But this kind of life is exactly what [PAWN_pronoun] pursues.</description>
+        <title>lawless rogue</title>
+        <titleShort>rogue</titleShort>
+        <description>[PAWN_nameDef] arrived on the rimworld with a frontier project and proceeded to do exactly as [PAWN_pronoun] pleased. Having offended a great many people and broken most of the contract, [PAWN_pronoun] is now hunted - which is very much the life [PAWN_pronoun] was after.</description>
         <slot>Adulthood</slot>
         <spawnCategories>
             <li>USAC_Fighter</li>
@@ -201,9 +201,9 @@
 
     <BackstoryDef>
         <defName>USAC_Military10</defName>
-        <title>Retired General</title>
-        <titleShort>General</titleShort>
-        <description>[PAWN_nameDef] was once a high-ranking officer in the military, but became a political scapegoat in the factional struggles within the military and military-industrial complex. Although [PAWN_nameDef] kept [PAWN_pronoun]'s life through military connections, [PAWN_pronoun] had to follow a frontier project to the rimworld.</description>
+        <title>retired general</title>
+        <titleShort>general</titleShort>
+        <description>[PAWN_nameDef] once held high rank, until the infighting between the military and the arms industry needed a scapegoat. Old connections were enough to keep [PAWN_objective] alive, but not enough to keep [PAWN_objective] home - [PAWN_pronoun] left with a frontier project bound for the rimworld.</description>
         <slot>Adulthood</slot>
         <spawnCategories>
             <li>USAC_Fighter</li>
@@ -228,9 +228,9 @@
 
     <BackstoryDef>
         <defName>USAC_Military11</defName>
-        <title>Traumatized Veteran</title>
-        <titleShort>Veteran</titleShort>
-        <description>[PAWN_nameDef] dedicated [PAWN_pronoun]'s youth to [PAWN_pronoun]'s country. However, the brutality of the battlefield left [PAWN_nameDef] with post-traumatic stress disorder. After the war, [PAWN_pronoun] received no proper treatment, and the difficulties of daily life forced [PAWN_pronoun] to come to the rimworld to seek a living.</description>
+        <title>traumatized veteran</title>
+        <titleShort>veteran</titleShort>
+        <description>[PAWN_nameDef] gave [PAWN_possessive] youth to [PAWN_possessive] country, and the battlefield gave back post-traumatic stress. No proper treatment ever came after the war, and the grind of ordinary life eventually drove [PAWN_objective] out to the rimworld to make a living.</description>
         <slot>Adulthood</slot>
         <spawnCategories>
             <li>USAC_Fighter</li>
@@ -248,9 +248,9 @@
 
     <BackstoryDef>
         <defName>USAC_Military12</defName>
-        <title>Automatroid Godfather</title>
-        <titleShort>Godfather</titleShort>
-        <description>[PAWN_nameDef] once hired and sheltered technicians to help Automatroids learn the knowledge of self-maintenance. [PAWN_pronoun] also frequently taught Automatroids life philosophy. [PAWN_pronoun]'s powerful Automatroid armed group is viewed as an eyesore by many, but none can shake [PAWN_pronoun]'s position.</description>
+        <title>automatroid godfather</title>
+        <titleShort>godfather</titleShort>
+        <description>[PAWN_nameDef] hired and sheltered technicians to teach automatroids how to maintain themselves, and spent just as much time teaching them a philosophy of life. Plenty of people resent the automatroid outfit [PAWN_pronoun] built, but nobody has managed to shift [PAWN_objective] yet.</description>
         <slot>Adulthood</slot>
         <spawnCategories>
             <li>USAC_Fighter</li>

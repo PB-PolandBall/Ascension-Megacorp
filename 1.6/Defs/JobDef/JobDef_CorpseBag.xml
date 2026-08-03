@@ -4,7 +4,7 @@
     <JobDef>
         <defName>USAC_PackCorpse</defName>
         <driverClass>USAC.JobDriver_PackCorpse</driverClass>
-        <reportString>packing corpse into bag.</reportString>
+        <reportString>packing a corpse into a body bag.</reportString>
         <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
     </JobDef>
 

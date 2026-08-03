@@ -61,8 +61,8 @@
 
   <ThingDef ParentName="USAC_HelmetBase">
     <defName>USAC_Apparel_AssaultHelmet</defName>
-    <label>Assault helmet</label>
-    <description>A lightweight tactical helmet made with a composite plasteel shell, which can be fitted with different additional components in addition to earmuffs as needed.</description>
+    <label>assault helmet</label>
+    <description>A lightweight tactical helmet built around a composite plasteel shell. Beyond its integrated ear protection, it takes a range of optional attachments.</description>
     <graphicData>
       <texPath>Things/Apparel/AssaultHelmet/Icon</texPath>
     </graphicData>
@@ -94,8 +94,8 @@
 
   <ThingDef ParentName="USAC_HelmetBase">
     <defName>USAC_Apparel_HeavyHelmet</defName>
-    <label>Heavy helmet</label>
-    <description>Composite plasteel protective helmets with enhanced frontal shrapnel protection are widely used by machine gunners and heavy infantry support infantry units engaged in high-profile combat on the battlefield contact line.</description>
+    <label>heavy helmet</label>
+    <description>A full-coverage composite plasteel helmet with reinforced frontal fragment protection. Machine gunners and heavy infantry wear it wherever the fighting on the contact line is heaviest.</description>
     <graphicData>
       <texPath>Things/Apparel/HeavyHelmet/Icon</texPath>
     </graphicData>
@@ -122,8 +122,8 @@
 
   <ThingDef ParentName="USAC_HelmetBase">
     <defName>USAC_Apparel_MeleeHelmet</defName>
-    <label>Gladiator helmet</label>
-    <description>A tactical helmet for use in indoor environments features bulletproof eyepieces that protect the eyes from shrapnel and burns, but its reflectivity at certain angles can hinder aiming during firing.</description>
+    <label>gladiator helmet</label>
+    <description>A tactical helmet meant for fighting indoors. Its ballistic eyepieces shield the eyes from fragments and burns, though at some angles their reflections make aiming harder.</description>
     <graphicData>
       <texPath>Things/Apparel/MeleeHelmet/Icon</texPath>
     </graphicData>
@@ -151,8 +151,8 @@
 
   <ThingDef ParentName="USAC_HelmetBase">
     <defName>USAC_Apparel_NightVisionHelmet</defName>
-    <label>Night vision helmet</label>
-    <description>A lightweight tactical helmet with added night vision goggles can improve shooting ability and accuracy. However, the forward center of gravity reduces reaction time in close-range combat.</description>
+    <label>night vision helmet</label>
+    <description>A lightweight tactical helmet fitted with night vision goggles, which sharply improves shooting in the dark. Its forward center of gravity does slow the wearer's reactions at close range.</description>
     <graphicData>
       <texPath>Things/Apparel/NightHelmet/Icon</texPath>
     </graphicData>

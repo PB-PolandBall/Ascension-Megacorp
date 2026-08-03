@@ -25,28 +25,28 @@
   <SitePartDef ParentName="USAC_DebtSiteBase">
     <defName>USAC_CommercialOutpost</defName>
     <label>USAC commercial outpost</label>
-    <description>This outpost is selling intelligence and supplies to local pirates, centralizing their attacks against you to clear your debt.</description>
+    <description>This outpost sells intelligence and supplies to local pirates, steering their attacks toward you until your debt is settled.</description>
     <selectionWeight>0</selectionWeight>
   </SitePartDef>
 
   <SitePartDef ParentName="USAC_DebtSiteBase">
     <defName>USAC_ArtilleryPosition</defName>
     <label>USAC artillery position</label>
-    <description>This outpost is selling artillery support. Most raids against your settlement will be accompanied by multiple rounds of creeping artillery bombardment.</description>
+    <description>This outpost sells artillery support. Most raids on your settlement will now come with several rounds of creeping bombardment..</description>
     <selectionWeight>0</selectionWeight>
   </SitePartDef>
 
   <SitePartDef ParentName="USAC_DebtSiteBase">
     <defName>USAC_Airbase</defName>
     <label>USAC temporary airbase</label>
-    <description>This outpost offers airstrike services. Most raids against your settlement will consider purchasing smart bombs and EMP bombardments.</description>
+    <description>This outpost sells airstrike services. Raiders hitting your settlement can now buy in smart bombs and EMP bombardment.</description>
     <selectionWeight>0</selectionWeight>
   </SitePartDef>
 
   <!-- 债务据点专用 WorldObjectDef，用于挂载逻辑组件 -->
   <WorldObjectDef ParentName="Site">
     <defName>USAC_DebtSite</defName>
-    <label>debt management site</label>
+    <label>USAC risk control site</label>
     <texture>World/WorldObjects/USAC_Settlement</texture>
     <expandingIconTexture>World/WorldObjects/Expanding/USAC_Icon</expandingIconTexture>
     <comps>

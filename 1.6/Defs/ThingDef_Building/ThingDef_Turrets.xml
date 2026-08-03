@@ -49,8 +49,8 @@
 
     <ThingDef ParentName="USAC_BaseTurretBuilding">
         <defName>USAC_Turret_HMG</defName>
-        <label>Heavy sentry gun</label>
-        <description>A multi-purpose heavy machine gun with a lightweight composite material frame and improved design, it is widely used in various weapon platforms and fixed defensive facilities. In the distant past, it was a very successful alternative to the M2 heavy machine gun.</description>
+        <label>heavy sentry gun</label>
+        <description>A general-purpose heavy machine gun built on a lightweight composite frame, found on weapon platforms and fixed defenses everywhere. Long ago it was a highly successful replacement for the M2 heavy machine gun.</description>
         <graphicData>
             <texPath>Things/Building/Turrets/USAC_HeavyMachineGunMounted</texPath>
             <graphicClass>Graphic_Single</graphicClass>

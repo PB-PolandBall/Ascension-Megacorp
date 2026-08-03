@@ -11,24 +11,24 @@
   <USAC_CommandSupplyDrop.description>Request high-value command supplies including advanced components and USAC bonds.</USAC_CommandSupplyDrop.description>
 
   <USAC_CallRifleSquad.label>call rifle squad</USAC_CallRifleSquad.label>
-  <USAC_CallRifleSquad.description>Call a 4 men rifle squad to support combat operations.</USAC_CallRifleSquad.description>
+  <USAC_CallRifleSquad.description>Call in a four-person rifle squad to support combat operations.</USAC_CallRifleSquad.description>
 
   <USAC_CallHeavyTeam.label>call heavy team</USAC_CallHeavyTeam.label>
-  <USAC_CallHeavyTeam.description>Call a 4 men heavy fireteam equipped for entrenched targets.</USAC_CallHeavyTeam.description>
+  <USAC_CallHeavyTeam.description>Call in a four-person heavy fireteam equipped for entrenched targets.</USAC_CallHeavyTeam.description>
 
   <USAC_CallEliteDetachment.label>call elite detachment</USAC_CallEliteDetachment.label>
-  <USAC_CallEliteDetachment.description>Call a 4 men elite detachment for decisive battlefield intervention.</USAC_CallEliteDetachment.description>
+  <USAC_CallEliteDetachment.description>Call in a four-person elite detachment for decisive battlefield intervention.</USAC_CallEliteDetachment.description>
 
   <USAC_CallTransportShuttle.label>call transport shuttle</USAC_CallTransportShuttle.label>
-  <USAC_CallTransportShuttle.description>Call a shuttle for strategic transport of personnel, cargo, and animals.</USAC_CallTransportShuttle.description>
+  <USAC_CallTransportShuttle.description>Call in a shuttle for strategic transport of personnel, cargo and animals.</USAC_CallTransportShuttle.description>
 
   <USAC_Call_CAS.label>close air strafing</USAC_Call_CAS.label>
-  <USAC_Call_CAS.description>Request close air support from the nearest USAC aerial carrier, including 20mm explosive chaingun strafing and four Hydra rocket strike.</USAC_Call_CAS.description>
+  <USAC_Call_CAS.description>Request close air support from the nearest USAC aerial carrier, comprising a 20mm explosive chaingun strafing run and four Hydra rockets.</USAC_Call_CAS.description>
 
   <USAC_Call_CAB.label>close air bombard</USAC_Call_CAB.label>
   <USAC_Call_CAB.description>Request close air support from the nearest USAC aerial carrier; an attack jet will drop one anti-fortification guided bomb on the designated location.</USAC_Call_CAB.description>
 
   <USAC_CallOrbitalStrike.label>call orbital strike</USAC_CallOrbitalStrike.label>
-  <USAC_CallOrbitalStrike.description>Call a precision orbital strike on a designated target area.</USAC_CallOrbitalStrike.description>
+  <USAC_CallOrbitalStrike.description>Call in a precision orbital strike on a designated target area.</USAC_CallOrbitalStrike.description>
 
 </LanguageData>

@@ -6,7 +6,7 @@
     <defName>USAC_Readiness</defName>
     <needClass>USAC.Need_Readiness</needClass>
     <label>readiness</label>
-    <description>A measure of the mechanoid's operational readiness. Low readiness causes decreased combat effectiveness. Resupply with industrial components.</description>
+    <description>How well supplied this mechanoid is for operations. Low readiness reduces its combat effectiveness. Resupply it with industrial components.</description>
     <showOnNeedList>true</showOnNeedList>
     <minIntelligence>ToolUser</minIntelligence>
     <onlyIfCausedByHediff>false</onlyIfCausedByHediff>
@@ -21,7 +21,7 @@
     <defName>USAC_LowReadiness</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <label>low readiness</label>
-    <description>This mechanoid is running low on operational supplies. Its combat effectiveness is reduced.</description>
+    <description>This mechanoid is running low on operational supplies, and its combat effectiveness has suffered for it.</description>
     <isBad>true</isBad>
     <defaultLabelColor>(0.8, 0.6, 0.2)</defaultLabelColor>
     <stages>
