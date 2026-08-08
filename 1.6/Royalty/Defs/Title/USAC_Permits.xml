@@ -65,7 +65,7 @@
     <RoyalTitlePermitDef>
         <defName>USAC_CallRifleSquad</defName>
         <label>call rifle squad</label>
-        <description>Call a USAC rifle squad to support combat operations.</description>
+        <description>Call in a four-person rifle squad to support combat operations.</description>
         <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
         <faction>USAC_Faction</faction>
         <minTitle>USAC_Corporal</minTitle>
@@ -83,7 +83,7 @@
     <RoyalTitlePermitDef>
         <defName>USAC_CallHeavyTeam</defName>
         <label>call heavy team</label>
-        <description>Call a heavy USAC fireteam equipped for entrenched targets.</description>
+        <description>Call in a four-person heavy fireteam equipped for entrenched targets.</description>
         <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
         <faction>USAC_Faction</faction>
         <minTitle>USAC_Corporal</minTitle>
@@ -102,7 +102,7 @@
     <RoyalTitlePermitDef>
         <defName>USAC_CallEliteDetachment</defName>
         <label>call elite detachment</label>
-        <description>Call an elite USAC detachment for decisive battlefield intervention.</description>
+        <description>Call in a four-person elite detachment for decisive battlefield intervention.</description>
         <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
         <faction>USAC_Faction</faction>
         <minTitle>USAC_Corporal</minTitle>
@@ -122,7 +122,7 @@
     <RoyalTitlePermitDef>
         <defName>USAC_CallTransportShuttle</defName>
         <label>call transport shuttle</label>
-        <description>Call a shuttle for strategic transport of personnel, cargo, and animals.</description>
+        <description>Call in a shuttle for strategic transport of personnel, cargo and animals.</description>
         <workerClass>RoyalTitlePermitWorker_CallShuttle</workerClass>
         <faction>USAC_Faction</faction>
         <minTitle>USAC_Corporal</minTitle>
@@ -139,8 +139,8 @@
 
     <RoyalTitlePermitDef>
         <defName>USAC_Call_CAS</defName>
-        <label>Close Air Strafing</label>
-        <description>Request close air support from the nearest USAC aerial carrier. included 20mm explosive chaingun strafing and 4 hydra rocket run.</description>
+        <label>close air strafing</label>
+        <description>Request close air support from the nearest USAC aerial carrier, comprising a 20mm explosive chaingun strafing run and four Hydra rockets.</description>
         <workerClass>Fortified.RoyalTitlePermitWorker_CallAirSupport</workerClass>
         <faction>USAC_Faction</faction>
         <minTitle>USAC_Corporal</minTitle>
@@ -161,8 +161,8 @@
 
     <RoyalTitlePermitDef>
         <defName>USAC_Call_CAB</defName>
-        <label>Close Air Bombard</label>
-        <description>Request close air support from the nearest USAC aerial carrier. a attacker jet with one anti fortification bomb will drop on location.</description>
+        <label>close air bombard</label>
+        <description>Request close air support from the nearest USAC aerial carrier; an attack jet will drop one anti-fortification guided bomb on the designated location.</description>
         <workerClass>Fortified.RoyalTitlePermitWorker_CallAirSupport</workerClass>
         <faction>USAC_Faction</faction>
         <minTitle>USAC_Corporal</minTitle>
@@ -185,7 +185,7 @@
     <RoyalTitlePermitDef>
         <defName>USAC_CallOrbitalStrike</defName>
         <label>call orbital strike</label>
-        <description>Call a precision orbital strike on a designated target area.</description>
+        <description>Call in a precision orbital strike on a designated target area.</description>
         <workerClass>RoyalTitlePermitWorker_OrbitalStrike</workerClass>
         <faction>USAC_Faction</faction>
         <minTitle>USAC_Corporal</minTitle>

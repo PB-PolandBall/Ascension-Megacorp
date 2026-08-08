@@ -5,7 +5,7 @@
   <ThingDef ParentName="USAC_BaseQuadMech">
     <defName>USAC_Mech_Cobalt</defName>
     <label>M7 "Cobalt"</label>
-    <description>A medium quadruped cargo mech with integrated machine gun. Features shotgun-resistant armor plating, cargo hauling capability, and smoke grenade deployment system.</description>
+    <description>A medium quadruped cargo mech with an integrated machine gun. Its armor plating shrugs off shotgun fire, it hauls cargo, and it carries a smoke grenade dispenser.</description>
     <statBases>
       <MoveSpeed>6.0</MoveSpeed>
       <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
@@ -57,6 +57,10 @@
           <li>A_SuppressWeapon</li>
           <li>DMS_MechWeaponTransHeavy</li>
           <li>USAC_AGL</li>
+          <!-- 與下方 PawnKindDef 的 weaponTags 保持一致，否則生成的武器無法被裝備 -->
+          <li>USAC_Cobalt_GPMG</li><!--Foxhound GPMG-->
+          <li>USAC_HDMR</li><!--Viper DMR-->
+          <li>USAC_SGL</li><!--OSW-->
         </UsableWeaponTags>
         <BypassUsableWeapons />
       </li>

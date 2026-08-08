@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN: armour plate -->
-  <USAC_ArmourPlate.label>armour plate</USAC_ArmourPlate.label>
+  <!-- EN: armor plate -->
+  <USAC_ArmourPlate.label>armor plate</USAC_ArmourPlate.label>
   
   <!-- EN: Battery -->
-  <USAC_Battery.label>Battery</USAC_Battery.label>
+  <USAC_Battery.label>battery</USAC_Battery.label>
   
   <!-- EN: chassis -->
   <USAC_Chassis.label>chassis</USAC_Chassis.label>

@@ -14,7 +14,7 @@
 
   <RoyalTitleDef ParentName="BaseUSACTitle">
     <defName>USAC_Recruit</defName>
-    <label>Civilian Assistant</label>
+    <label>civilian assistant</label>
     <description>A civilian collaborator temporarily attached to USAC logistics and support duties under supervision.</description>
     <seniority>0</seniority>
     <favorCost>1</favorCost>
@@ -23,7 +23,7 @@
 
   <RoyalTitleDef ParentName="BaseUSACTitle">
     <defName>USAC_CivilianAide</defName>
-    <label>Civilian Aide</label>
+    <label>civilian aide</label>
     <description>A vetted civilian helper handling structured support tasks for USAC field units.</description>
     <seniority>8</seniority>
     <favorCost>12</favorCost>
@@ -32,7 +32,7 @@
 
   <RoyalTitleDef ParentName="BaseUSACTitle">
     <defName>USAC_CivilianCoordinator</defName>
-    <label>Civilian Coordinator</label>
+    <label>civilian coordinator</label>
     <description>A senior civilian liaison trusted to coordinate logistics, procurement, and mission-side administration.</description>
     <seniority>14</seniority>
     <favorCost>14</favorCost>
@@ -41,7 +41,7 @@
 
   <RoyalTitleDef ParentName="BaseUSACTitle">
     <defName>USAC_Private</defName>
-    <label>Private</label>
+    <label>private</label>
     <description>The first true soldier rank, formally enlisted for frontline and field operations.</description>
     <seniority>24</seniority>
     <favorCost>16</favorCost>
@@ -51,7 +51,7 @@
 
   <RoyalTitleDef ParentName="BaseUSACTitle">
     <defName>USAC_Corporal</defName>
-    <label>Corporal</label>
+    <label>corporal</label>
     <description>A frontline soldier assigned limited team-level responsibility in active operations.</description>
     <seniority>70</seniority>
     <favorCost>18</favorCost>
@@ -62,8 +62,8 @@
 
   <RoyalTitleDef ParentName="BaseUSACTitle">
     <defName>USAC_Sergeant</defName>
-    <label>Ceremonial Sergeant</label>
-    <description>A nominal endpoint title awarded for loyalty and optics; it does not grant additional command authority.</description>
+    <label>ceremonial sergeant</label>
+    <description>A nominal final rank, awarded for loyalty and appearances. It carries no additional command authority.</description>
     <seniority>140</seniority>
     <favorCost>20</favorCost>
     <changeHeirQuestPoints>1200</changeHeirQuestPoints>

@@ -5,7 +5,7 @@
   <ThingDef ParentName="MechanitorImplantBase" MayRequire="Ludeon.Rimworld.Biotech">
     <defName>USAC_TempMechlink</defName>
     <label>mechlink serum</label>
-    <description>A neuro-augment serum that forms a temporary neural interface. Connects the user to the USAC satellite network for mechanoid control via a subscription model. Only active while brain activity is sustained.</description>
+    <description>A neuro-augment serum that forms a temporary neural interface, linking the user to the USAC satellite network for mech control on a subscription basis. It functions only while brain activity continues.</description>
     <thingClass>Mechlink</thingClass>
     <descriptionHyperlinks>
       <HediffDef>MechlinkImplant</HediffDef>
@@ -61,7 +61,7 @@
     <defName>USAC_TempMechlinkTrigger</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <label>temporary mechlink</label>
-    <description>Subscription-based bandwidth control service via USAC satellite network. Provides 6 bandwidth. Lost upon brain death or service expiration.</description>
+    <description>A subscription bandwidth service running over the USAC satellite network. Provides 6 bandwidth, and is lost on brain death or when the subscription expires.</description>
     <defaultLabelColor>(0.5, 0.8, 1.0)</defaultLabelColor>
     <isBad>false</isBad>
     <initialSeverity>1</initialSeverity>
@@ -95,7 +95,7 @@
     <defName>USAC_TempMechlinkKillSwitch</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <label>mechlink kill switch</label>
-    <description>Destroys the mechlink upon user death by overloading the interface.</description>
+    <description>Overloads the interface on the user's death, destroying the mechlink.</description>
     <defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
     <initialSeverity>1</initialSeverity>
     <isBad>false</isBad>

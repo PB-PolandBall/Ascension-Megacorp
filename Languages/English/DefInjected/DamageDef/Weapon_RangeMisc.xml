@@ -3,7 +3,7 @@
   
   <!-- EN: beam -->
   <USAC_BeamPluse.label>beam</USAC_BeamPluse.label>
-  <!-- EN: {0} has been beamed to death. -->
-  <USAC_BeamPluse.deathMessage>{0} has been beamed to death.</USAC_BeamPluse.deathMessage>
+  <!-- EN: {0} has been burned to death by a pulse beam. -->
+  <USAC_BeamPluse.deathMessage>{0} has been burned to death by a pulse beam.</USAC_BeamPluse.deathMessage>
   
 </LanguageData>

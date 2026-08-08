@@ -3,7 +3,7 @@
   
   <Fortified.FFF_OverlayDef>
     <defName>FFF_Overlay_Omaha_Test</defName>
-    <label>Omaha(Default)</label>
+    <label>Omaha (default)</label>
     <texPath>Things/Mech/Overlays/omaha</texPath>
     <multiplyBase>false</multiplyBase>
     <applicablePawnKinds>
@@ -14,7 +14,7 @@
   
   <Fortified.FFF_OverlayDef>
     <defName>FFF_Overlay_Paraman</defName>
-    <label>Paraman(Default)</label>
+    <label>Paraman (default)</label>
     <texPath>Things/Mech/Overlays/paraman</texPath>
     <multiplyBase>false</multiplyBase>
     <applicablePawnKinds>

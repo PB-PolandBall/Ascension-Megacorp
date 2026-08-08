@@ -4,9 +4,9 @@
 
     <BackstoryDef>
         <defName>USAC_CivilianChild01</defName>
-        <title>Low G Adjuster</title>
-        <titleShort>Adjuster</titleShort>
-        <description>Since [PAWN_nameDef] grew up in a gravity-free environment, [PAWN_pronoun] childhood was spent undergoing rehabilitation and gravity exposure treatments. Although these treatments have allowed [PAWN_pronoun] to move regularly in a normal gravity environment, [PAWN_pronoun] physical condition is still far inferior compared to other children of the same age.</description>
+        <title>low-G adjuster</title>
+        <titleShort>adjuster</titleShort>
+        <description>[PAWN_nameDef] grew up without gravity, so [PAWN_possessive] childhood was one long course of rehabilitation and gravity exposure therapy. The treatments left [PAWN_objective] able to move normally under full gravity, but [PAWN_possessive] body is still far weaker than those of other children [PAWN_possessive] age.</description>
         <slot>Childhood</slot>
         <spawnCategories>
             <li>USAC_Common</li>
@@ -18,11 +18,11 @@
 
     <BackstoryDef>
         <defName>USAC_OfficerChild01</defName>
-        <title>Officer Cadet</title>
-        <titleFemale>Cadet</titleFemale>
-        <titleShort>Cadet</titleShort>
-        <titleShortFemale>Cadet</titleShortFemale>
-        <description>Due to his outstanding performance in the Colonial Military Academy, [PAWN_nameDef] was trained as an Officer Cadet during his childhood. [PAWN_nameDef] achieved the rank of Warrant Officer upon reaching adulthood.</description>
+        <title>officer cadet</title>
+        <titleFemale>officer cadet</titleFemale>
+        <titleShort>cadet</titleShort>
+        <titleShortFemale>cadet</titleShortFemale>
+        <description>[PAWN_nameDef] performed well enough at the colonial military academy to be trained as an officer cadet while still a child, and made warrant officer on reaching adulthood.</description>
         <slot>Childhood</slot>
         <spawnCategories>
             <li>USAC_Officer</li>
@@ -35,9 +35,9 @@
 
     <BackstoryDef>
         <defName>USAC_OfficerChild02</defName>
-        <title>Child Orderly</title>
-        <titleShort>Orderly</titleShort>
-        <description>[PAWN_nameDef] grew up on a colonial planet full of turmoil and used [PAWN_pronoun] flexible skills as messenger on the frontline battlefields full of electromagnetic interference and hostile fire. After the war, [PAWN_pronoun] was able to return to school for an education.</description>
+        <title>child orderly</title>
+        <titleShort>orderly</titleShort>
+        <description>[PAWN_nameDef] grew up on a colonial planet in permanent turmoil, running messages across front lines thick with jamming and hostile fire because nothing else could get through. Once the war ended, [PAWN_pronoun] finally got to go back to school.</description>
         <slot>Childhood</slot>
         <spawnCategories>
             <li>USAC_Officer</li>
@@ -52,10 +52,10 @@
 
     <BackstoryDef>
         <defName>USAC_OfficerChild03</defName>
-        <title>Son of Martyrs</title>
-        <titleFemale>Daughter of Martyrs</titleFemale>
-        <titleShort>Martyrs' Child</titleShort>
-        <description>[PAWN_nameDef]'s parents were declared Missing in Action during their deployment while they were very young. Due to the Military Martyrdom Clause of the Colonial Fleet, they received a scholarship to support them through the Officer Academy Course.</description>
+        <title>son of martyrs</title>
+        <titleFemale>daughter of martyrs</titleFemale>
+        <titleShort>martyrs' child</titleShort>
+        <description>Both of [PAWN_nameDef]'s parents were declared missing in action on deployment while [PAWN_pronoun] was very young. Under the colonial fleet's military martyrdom clause, [PAWN_pronoun] received a scholarship that carried [PAWN_objective] through the officer academy course.</description>
         <slot>Childhood</slot>
         <spawnCategories>
             <li>USAC_Officer</li>
@@ -72,9 +72,9 @@
 
     <BackstoryDef>
         <defName>USAC_MilitaryChild01</defName>
-        <title>Bastard Child</title>
-        <titleShort>Child</titleShort>
-        <description>[PAWN_nameDef] was born out of wedlock in the colonial fleet stationed on the planet's surface, and his biological father is unknown. Fortunately, the soldiers stationed in the camp treated [PAWN_pronoun] as one of their own, allowing [PAWN_pronoun] to have a relatively complete childhood</description>
+        <title>camp bastard</title>
+        <titleShort>bastard</titleShort>
+        <description>[PAWN_nameDef] was born out of wedlock in a colonial fleet camp on the planet's surface, and [PAWN_possessive] biological father was never named. The soldiers stationed there raised [PAWN_objective] as one of their own, which gave [PAWN_objective] something close to a whole childhood.</description>
         <slot>Childhood</slot>
         <spawnCategories>
             <li>USAC_Officer</li>
@@ -87,9 +87,9 @@
 
     <BackstoryDef>
         <defName>USAC_CivilianChild05</defName>
-        <title>Debt Inheritor</title>
-        <titleShort>Debt Child</titleShort>
-        <description>[PAWN_nameDef]'s family was unable to repay their loans and were forced to come to the rimworld with [PAWN_pronoun] parents. The harsh rimworld mercilessly took the lives of [PAWN_nameDef]'s parents. [PAWN_nameDef] also found [PAWN_pronoun]self inexplicably inheriting the family's debt.</description>
+        <title>debt inheritor</title>
+        <titleShort>debt child</titleShort>
+        <description>[PAWN_nameDef]'s family could not repay their loans, and were shipped out to the rimworld along with [PAWN_possessive] parents. The rimworld killed them both without ceremony, and [PAWN_nameDef] somehow inherited the family debt along with everything else.</description>
         <slot>Childhood</slot>
         <spawnCategories>
             <li>USAC_Common</li>
@@ -102,9 +102,9 @@
 
     <BackstoryDef>
         <defName>USAC_CivilianChild06</defName>
-        <title>Organ Dodger</title>
-        <titleShort>Dodger</titleShort>
-        <description>[PAWN_nameDef] signed an organ donation contract early on, stipulating donation of healthy organs upon adulthood. But clever [PAWN_nameDef] quickly used the contract money to establish connections and joined a frontier project to escape to the rimworld and evade the donation contract.</description>
+        <title>organ dodger</title>
+        <titleShort>dodger</titleShort>
+        <description>[PAWN_nameDef] signed an organ donation contract early in life, promising healthy organs on reaching adulthood. Being clever, [PAWN_pronoun] spent the contract money on the right connections, talked [PAWN_objective]self onto a frontier project, and fled to the rimworld before anyone came to collect.</description>
         <slot>Childhood</slot>
         <spawnCategories>
             <li>USAC_Common</li>
@@ -116,9 +116,9 @@
 
     <BackstoryDef>
         <defName>USAC_CivilianChild07</defName>
-        <title>Colonist Descendant</title>
-        <titleShort>Colonist Child</titleShort>
-        <description>[PAWN_nameDef] is the descendant of a colonial fleet that settled the rimworld. After the colonial fleet departed, the influence brought by megacorporations intensified [PAWN_nameDef]'s safe living costs. [PAWN_pronoun] was forced to learn how to shoot guns at an early age.</description>
+        <title>colonist descendant</title>
+        <titleShort>colonist child</titleShort>
+        <description>[PAWN_nameDef] descends from a colonial fleet that settled this rimworld. After the fleet moved on, the megacorporations moved in, and the price of simply staying alive climbed year after year. [PAWN_pronoun] was taught to shoot before [PAWN_pronoun] was taught much else.</description>
         <slot>Childhood</slot>
         <spawnCategories>
             <li>USAC_Common</li>
@@ -131,9 +131,9 @@
 
     <BackstoryDef>
         <defName>USAC_MilitaryChild04</defName>
-        <title>Dragoon Shell Refugee</title>
-        <titleShort>Wreck Refugee</titleShort>
-        <description>[PAWN_nameDef] spent childhood searching for survival materials during the day, and shelted in an abandoned mobile dragoon wreck shell in the war zone until [PAWN_pronoun] body grew too large to fit inside.</description>
+        <title>dragoon shell refugee</title>
+        <titleShort>wreck refugee</titleShort>
+        <description>[PAWN_nameDef] spent childhood days scavenging for anything worth keeping, and childhood nights sheltering inside the gutted shell of a mobile dragoon in the war zone - right up until [PAWN_possessive] body grew too big to fit inside it.</description>
         <slot>Childhood</slot>
         <spawnCategories>
             <li>USAC_Fighter</li>
@@ -148,9 +148,9 @@
 
     <BackstoryDef>
         <defName>USAC_CivilianChild08</defName>
-        <title>Middle-Class Child</title>
-        <titleShort>Privileged Child</titleShort>
-        <description>[PAWN_nameDef] grew up under excellent family conditions and received a fine education. However, talent saturation and blocked advancement paths forced [PAWN_nameDef] to seek opportunities in the distant rimworld.</description>
+        <title>middle-class child</title>
+        <titleShort>privileged child</titleShort>
+        <description>[PAWN_nameDef] grew up comfortable and well educated. Even so, there were far more qualified people than there were positions, and every path upward was already blocked - so [PAWN_pronoun] went looking for opportunity out on the rim instead.</description>
         <slot>Childhood</slot>
         <spawnCategories>
             <li>USAC_Common</li>
@@ -165,9 +165,9 @@
 
     <BackstoryDef>
         <defName>USAC_MilitaryChild05</defName>
-        <title>Child of War</title>
-        <titleShort>War Child</titleShort>
-        <description>[PAWN_nameDef] was born in a conflict zone where nationalism was rising. Due to the exceptional combat talent [PAWN_pronoun] displayed, [PAWN_nameDef] eventually became a mercenary. [PAWN_pronoun] rarely thinks about anything beyond combat.</description>
+        <title>child of war</title>
+        <titleShort>war child</titleShort>
+        <description>[PAWN_nameDef] was born in a conflict zone in the middle of a nationalist surge. The talent for combat [PAWN_pronoun] showed there made the outcome obvious, and [PAWN_pronoun] ended up a mercenary. [PAWN_pronoun] rarely thinks about much beyond the fight in front of [PAWN_objective].</description>
         <slot>Childhood</slot>
         <spawnCategories>
             <li>USAC_Fighter</li>
@@ -187,9 +187,9 @@
 
     <BackstoryDef>
         <defName>USAC_CivilianChild09</defName>
-        <title>Young Adventurer</title>
-        <titleShort>Adventurer</titleShort>
-        <description>Young [PAWN_nameDef] pursued the dream of being an adventurer, secretly participating in a frontier project to come to the rimworld without telling anyone. [PAWN_pronoun] quickly learned how cruel the reality behind [PAWN_pronoun]'s dreams truly was.</description>
+        <title>young adventurer</title>
+        <titleShort>adventurer</titleShort>
+        <description>Young [PAWN_nameDef] dreamed of being an adventurer, and signed onto a frontier project bound for the rimworld without telling anyone. It did not take long to learn what that dream actually cost.</description>
         <slot>Childhood</slot>
         <spawnCategories>
             <li>USAC_Common</li>
@@ -202,9 +202,9 @@
 
     <BackstoryDef>
         <defName>USAC_OfficerChild06</defName>
-        <title>Automatroid Enthusiast</title>
-        <titleShort>Tech Enthusiast</titleShort>
-        <description>[PAWN_nameDef] thought Automatroids were cool from childhood and eagerly studied Automatroid-related knowledge despite difficult circumstances. Eventually, [PAWN_nameDef]'s performance earned an invitation letter from the academic faction.</description>
+        <title>automatroid enthusiast</title>
+        <titleShort>tech enthusiast</titleShort>
+        <description>[PAWN_nameDef] thought automatroids were the coolest thing in existence, and studied everything about them that could be scraped together under difficult circumstances. That work eventually earned [PAWN_objective] an invitation from the academic faction.</description>
         <slot>Childhood</slot>
         <spawnCategories>
             <li>USAC_Officer</li>

@@ -3,9 +3,9 @@
   
   <!-- EN: analgesic effect -->
   <USAC_PainReliefIngestion.label>analgesic effect</USAC_PainReliefIngestion.label>
-  <!-- EN: A sustained analgesic effect from ingested b-ration. -->
-  <USAC_PainReliefIngestion.description>A sustained analgesic effect from ingested b-ration.</USAC_PainReliefIngestion.description>
-  <!-- EN: analgesic effect from ingested meal -->
-  <USAC_PainReliefIngestion.labelNoun>analgesic effect from ingested meal</USAC_PainReliefIngestion.labelNoun>
+  <!-- EN: A slow-release analgesic taken in with a B-ration. -->
+  <USAC_PainReliefIngestion.description>A slow-release analgesic taken in with a B-ration.</USAC_PainReliefIngestion.description>
+  <!-- EN: analgesic effect from a ration -->
+  <USAC_PainReliefIngestion.labelNoun>analgesic effect from a ration</USAC_PainReliefIngestion.labelNoun>
   
 </LanguageData>

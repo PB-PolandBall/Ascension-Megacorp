@@ -5,7 +5,7 @@
 
   <BodyPartDef>
     <defName>USAC_ArmourPlate</defName>
-    <label>armour plate</label>
+    <label>armor plate</label>
     <hitPoints>30</hitPoints>
     <frostbiteVulnerability>0</frostbiteVulnerability>
     <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
@@ -73,7 +73,7 @@
 
   <BodyPartDef>
     <defName>USAC_Battery</defName>
-    <label>Battery</label>
+    <label>battery</label>
     <hitPoints>15</hitPoints>
     <frostbiteVulnerability>0</frostbiteVulnerability>
     <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
@@ -295,13 +295,13 @@
         </li>
         <li>
           <def>USAC_ArmourPlate</def>
-          <customLabel>waist armour plate</customLabel>
+          <customLabel>waist armor plate</customLabel>
           <coverage>0.1</coverage>
           <depth>Outside</depth>
         </li>
         <li>
           <def>USAC_ArmourPlate</def>
-          <customLabel>chest armour plate</customLabel>
+          <customLabel>chest armor plate</customLabel>
           <coverage>0.1</coverage>
           <depth>Outside</depth>
         </li>
@@ -703,7 +703,7 @@
           <parts>
             <li>
               <def>USAC_ArmourPlate</def>
-              <customLabel>leg armour plate</customLabel>
+              <customLabel>leg armor plate</customLabel>
               <coverage>0.3</coverage>
               <depth>Outside</depth>
             </li>
@@ -725,7 +725,7 @@
           <parts>
             <li>
               <def>USAC_ArmourPlate</def>
-              <customLabel>leg armour plate</customLabel>
+              <customLabel>leg armor plate</customLabel>
               <coverage>0.3</coverage>
               <depth>Outside</depth>
             </li>
@@ -738,13 +738,13 @@
         </li>
         <li>
           <def>USAC_ArmourPlate</def>
-          <customLabel>waist armour plate</customLabel>
+          <customLabel>waist armor plate</customLabel>
           <coverage>0.1</coverage>
           <depth>Outside</depth>
         </li>
         <li>
           <def>USAC_ArmourPlate</def>
-          <customLabel>chest armour plate</customLabel>
+          <customLabel>chest armor plate</customLabel>
           <coverage>0.1</coverage>
           <depth>Outside</depth>
         </li>

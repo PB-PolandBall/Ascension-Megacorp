@@ -2,10 +2,10 @@
 <Defs>
     <ScenarioDef ParentName="ScenarioBase">
         <defName>USAC_ScenarioDebtStart</defName>
-        <label>The Debt squad</label>
-        <description>Four people tied to USAC contracts hit atmosphere in a failing drop pod line: a debt inheritor, a laid-off mech technician, a former security hand, and a frontier laborer who signed every waiver put in front of them. None of them were meant to lead a colony, but all of them were built to survive hard terms. On this rimworld, contracts mean nothing unless you can defend them.</description>
+        <label>The Debt Squad</label>
+        <description>Four people bound by USAC contracts hit atmosphere in a failing line of drop pods: a debt inheritor, a laid-off mech technician, a former security hand, and a frontier laborer who signed every waiver put in front of them. None of them were meant to lead a colony. All of them were built to survive hard terms. On this rimworld, a contract means nothing unless you can defend it.</description>
         <scenario>
-            <summary>Four USAC-linked survivors: debt, layoffs, war experience, and frontier contracts forged into one desperate start.</summary>
+            <summary>Four USAC-bound survivors - debt, layoffs, hard war experience and frontier contracts - thrown together into one desperate start.</summary>
             <parts>
                 <li Class="USAC.ScenPart_USACDebt">
                     <def>USAC_ScenPart_Debt</def>

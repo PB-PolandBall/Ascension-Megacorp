@@ -3,7 +3,7 @@
   <ThingDef ParentName="ApparelBase">
     <defName>USAC_Apparel_ExoSkeleton</defName>
     <label>hardiman powered unit</label>
-    <description>A powered exoskeleton suit driven by an electric motor. It allows personal to lift and operate heavy weapons and equipment, and features bulletproof plate mounting points for protection. Its design dates back to the Cold War era on ancient Earth and may be the earliest known prototype of a powered exoskeleton suit.</description>
+    <description>A powered exoskeleton suit driven by an electric motor. It lets its wearer lift and operate heavy weapons and equipment, and features bulletproof plate mounting points for protection. The design traces back to the Cold War on ancient Earth, and may be the earliest known prototype of a powered exoskeleton.</description>
     <techLevel>Industrial</techLevel>
     <costList>
       <Plasteel>150</Plasteel>

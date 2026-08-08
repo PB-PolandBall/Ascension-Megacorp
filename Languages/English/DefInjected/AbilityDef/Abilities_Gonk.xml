@@ -3,7 +3,7 @@
   
   <!-- EN: APS -->
   <USAC_APS.label>APS</USAC_APS.label>
-  <!-- EN: Activate the Active Defense System to intercept nearby low-speed and explosive projectiles in a short period of time. -->
-  <USAC_APS.description>Activate the Active Defense System to intercept nearby low-speed and explosive projectiles in a short period of time.</USAC_APS.description>
+  <!-- EN: Activate the active protection system, intercepting nearby slow-moving and explosive projectiles for a short time. -->
+  <USAC_APS.description>Activate the active protection system, intercepting nearby slow-moving and explosive projectiles for a short time.</USAC_APS.description>
   
 </LanguageData>

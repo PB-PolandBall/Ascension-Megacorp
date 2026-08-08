@@ -30,12 +30,12 @@
   
   <HistoryEventDef>
     <defName>USAC_Coverup</defName>
-    <label>Coverup successful</label>
+    <label>Cover-up successful</label>
   </HistoryEventDef>
 
   <HistoryEventDef>
     <defName>USAC_Exposure</defName>
-    <label>Coverup failed: Identity exposed</label>
+    <label>Cover-up failed: identity exposed</label>
   </HistoryEventDef>
 
 </Defs>

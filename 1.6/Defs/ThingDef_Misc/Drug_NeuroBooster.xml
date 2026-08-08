@@ -5,7 +5,7 @@
   <ThingDef ParentName="MakeableDrugBase">
     <defName>USAC_NeuroBooster</defName>
     <label>neuro-booster</label>
-    <description>A potent neuro-augment serum that enhances neural activity and rational thinking. Widely used by USAC technical workers and soldiers. It causes high addiction and requires regular administration to maintain stability, but provides significant bandwidth and consciousness boosts./n/nStudies have shown a small number of unexplained anaphylactic shock deaths in susceptible individuals when in a state of low activity, but USAC has substantial evidence to suggest its harmlessness.</description>
+    <description>A potent neuro-augment serum that enhances neural activity and rational thinking. Widely used by USAC technical workers and soldiers. It is highly addictive and must be taken regularly to keep the user stable, but it delivers a substantial boost to bandwidth and awareness.\\n\\nA small number of susceptible individuals have died of unexplained anaphylactic shock while nanomachine activity was low. USAC maintains that it holds substantial evidence of the product's harmlessness.</description>
     <descriptionHyperlinks>
       <HediffDef>USAC_NeuroBoosterHigh</HediffDef>
       <HediffDef>USAC_NeuroBoosterAddiction</HediffDef>
@@ -76,7 +76,7 @@
     <defName>USAC_NeuroBoosterHigh</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <label>neural enhancement</label>
-    <description>Enhanced neural pathways via nanomachines. Increases bandwidth and consciousness at the cost of pain.</description>
+    <description>Nanomachines are enhancing the neural pathways, raising bandwidth and awareness at the cost of constant pain.</description>
     <defaultLabelColor>(0.4,0.8,1.0)</defaultLabelColor>
     <scenarioCanAdd>false</scenarioCanAdd>
     <maxSeverity>20.0</maxSeverity>
@@ -389,7 +389,7 @@
   <HediffDef ParentName="AddictionBase">
     <defName>USAC_NeuroBoosterAddiction</defName>
     <label>neuro-booster dependence</label>
-    <description>Permanent alteration of neural pathways. Withdrawal causes severe instability and lethal neural collapse.</description>
+    <description>The neural pathways have been permanently altered. Withdrawal brings severe instability, and eventually fatal neural collapse.</description>
     <hediffClass>Hediff_Addiction</hediffClass>
     <chemicalNeed>Chemical_USAC_NeuroBooster</chemicalNeed>
     <everCurableByItem>false</everCurableByItem>

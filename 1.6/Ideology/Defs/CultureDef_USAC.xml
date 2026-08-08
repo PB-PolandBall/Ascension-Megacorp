@@ -4,7 +4,9 @@
     <CultureDef MayRequire="ludeon.rimworld.ideology">
         <defName>USAC_Culture</defName>
         <label>Zenith Ascension</label>
-        <description>Zenith Ascension is a military-industrial complex under the United Stellar Armament Company, whose core business is coordinating military development projects across various technical departments and selling arms abroad.\n\nDespite its impressive financial statements, it harbors a vast network of bribery and cronyism. which does not prevent their capability to physically eliminating and annexing competitor's assets and running their privateering fleets to monopolizing the arms market through money-for-power deals.</description>
+        <description>Zenith Ascension is a military-industrial complex under the United Stellar Armament Company, whose core business is coordinating military development projects across various technical departments and selling arms abroad.
+
+Its financial statements are impressive, and beneath them lies a vast network of bribery and cronyism - none of which has ever slowed it down. It still eliminates competitors outright, absorbs their assets, and runs privateering fleets to corner the arms market on the back of money-for-power deals.</description>
         <ideoNameMaker MayRequire="ludeon.rimworld.ideology">NamerIdeo_USAC</ideoNameMaker>
         <deityNameMaker MayRequire="ludeon.rimworld.ideology">NamerDeity_USAC</deityNameMaker>
         <deityTypeMaker MayRequire="ludeon.rimworld.ideology">DeityTypeMaker_USAC</deityTypeMaker>

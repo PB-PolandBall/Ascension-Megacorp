@@ -20,7 +20,7 @@
   <AbilityDef>
     <defName>USAC_MICLIC_Towed</defName>
     <label>towed mineclearing line</label>
-    <description>Launch a rocket that tows a continuous demolition cable behind it. Upon impact, the cable detonates along its entire path to clear mines.</description>
+    <description>Launch a rocket trailing a continuous demolition cable. On impact the cable detonates along its whole length, clearing any mines beneath it.</description>
     <iconPath>UI/Abilities/USAC_MICLIC</iconPath>
     <cooldownTicksRange>60000</cooldownTicksRange>
     <cooldownPerCharge>true</cooldownPerCharge>
@@ -65,7 +65,7 @@
   <AbilityDef>
     <defName>USAC_MineclearingShovel</defName>
     <label>mineclearing shovel</label>
-    <description>The mech dashes forward to the target location and releases two powerful fan-shaped explosions along the path to clear mines and obstacles.</description>
+    <description>The mech charges to the target position, setting off two powerful fan-shaped blasts along the way to clear mines and obstacles.</description>
     <iconPath>UI/Abilities/USAC_MineclearingShovel</iconPath>
     <cooldownTicksRange>12000</cooldownTicksRange>
     <jobDef>CastJump</jobDef>

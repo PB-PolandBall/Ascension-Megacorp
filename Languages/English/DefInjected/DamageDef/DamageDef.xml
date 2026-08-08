@@ -2,8 +2,8 @@
 <LanguageData>
   
   <!-- EN: Radiotoxicity -->
-  <UASC_Radiotoxicity.label>Radiotoxicity</UASC_Radiotoxicity.label>
-  <!-- EN: {0} has been torn to death. -->
-  <UASC_Radiotoxicity.deathMessage>{0} has been torn to death.</UASC_Radiotoxicity.deathMessage>
+  <UASC_Radiotoxicity.label>radiotoxicity</UASC_Radiotoxicity.label>
+  <!-- EN: {0} has died of radiation poisoning. -->
+  <UASC_Radiotoxicity.deathMessage>{0} has died of radiation poisoning.</UASC_Radiotoxicity.deathMessage>
   
 </LanguageData>

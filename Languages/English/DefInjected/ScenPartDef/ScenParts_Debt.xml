@@ -1,9 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN: USAC 债务合约 -->
-  <USAC_ScenPart_Debt.label>USAC 债务合约</USAC_ScenPart_Debt.label>
-  <!-- EN: 在游戏开始时携带指定的 USAC 初始债务。 -->
-  <USAC_ScenPart_Debt.description>在游戏开始时携带指定的 USAC 初始债务。</USAC_ScenPart_Debt.description>
+  <USAC_ScenPart_Debt.label>USAC debt contract</USAC_ScenPart_Debt.label>
+  <USAC_ScenPart_Debt.description>Start the game carrying a set amount of USAC debt.</USAC_ScenPart_Debt.description>
   
 </LanguageData>

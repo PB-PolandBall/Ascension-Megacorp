@@ -58,7 +58,7 @@
   <ThingDef ParentName="BaseGun">
     <defName>USAC_Gun_OpticInterceptor</defName>
     <label>XM931 Pulsar II</label>
-    <description>High-power pulse beam systems with low-altitude projectile interception capabilities, as well as the ability to kill conventional infantry and armored targets, are widely used as anti-drone and anti-missile interception systems on urban warfare weapon platforms.</description>
+    <description>A high-power pulse beam system able to intercept low-altitude projectiles as readily as it cuts down infantry and armor. Weapon platforms built for urban warfare carry it widely as an anti-drone and anti-missile system.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/USAC_Gun_Pluser</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -207,7 +207,7 @@
     <label>beam</label>
     <workerClass>DamageWorker_AddInjury</workerClass>
     <externalViolence>true</externalViolence>
-    <deathMessage>{0} has been beamed to death.</deathMessage>
+    <deathMessage>{0} has been burned to death by a pulse beam.</deathMessage>
     <hediff>BeamWound</hediff>
     <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
     <impactSoundType>Bullet</impactSoundType>
@@ -223,7 +223,7 @@
 
   <ThingDef ParentName="BaseBullet">
     <defName>USAC_Bullet_BeamPluser</defName>
-    <label>pluser beam</label>
+    <label>pulser beam</label>
     <thingClass>Beam</thingClass>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>

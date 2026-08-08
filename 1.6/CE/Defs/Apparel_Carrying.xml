@@ -4,7 +4,7 @@
 		<defName>USAC_Apparel_Backpack</defName>
 		<label>field backpack</label>
 		<!-- 一種用於長距離行軍的大型野戰背包，能夠裝入大量的物品但並不提供任何負重能力的支持。 -->
-		<description>A large field backpack designed for long-distance marches, capable of holding a large number of items but offering no load-bearing capacity.</description>
+		<description>A large field pack built for long marches. It holds a great deal, but does nothing to help the wearer bear the weight.</description>
 		<graphicData>
 			<texPath>Things/Apparel/FieldBackpack/icon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

@@ -3,15 +3,15 @@
   
   <!-- EN: XM3 "Gonk" -->
   <USAC_Mech_Gonk.label>XM3 "Gonk"</USAC_Mech_Gonk.label>
-  <!-- EN: A heavy self-propelled artillery mech with tank-level armor, very slow movement, and extreme long-range firepower. Based on the geochelone chassis. -->
-  <USAC_Mech_Gonk.description>A heavy self-propelled artillery mech with tank-level armor, very slow movement, and extreme long-range firepower. Based on the geochelone chassis.</USAC_Mech_Gonk.description>
+  <!-- EN: A heavy self-propelled artillery mech: tank-grade armor, extreme long-range firepower, and almost no speed at all. Built on the geochelone chassis. -->
+  <USAC_Mech_Gonk.description>A heavy self-propelled artillery mech: tank-grade armor, extreme long-range firepower, and almost no speed at all. Built on the geochelone chassis.</USAC_Mech_Gonk.description>
   <!-- EN: head -->
   <USAC_Mech_Gonk.tools.head.label>head</USAC_Mech_Gonk.tools.head.label>
   
   <!-- EN: M110 "Omaha" -->
   <USAC_Mech_Omaha.label>M110 "Omaha"</USAC_Mech_Omaha.label>
-  <!-- EN: An amphibious assault mech capable of operating both on land and water, providing close to mid-range fire support for USAC operations. Based on the Krepost heavy walker chassis. -->
-  <USAC_Mech_Omaha.description>An amphibious assault mech capable of operating both on land and water, providing close to mid-range fire support for USAC operations. Based on the Krepost heavy walker chassis.</USAC_Mech_Omaha.description>
+  <!-- EN: An amphibious assault mech equally at home on land and in water, providing close and mid-range fire support for USAC operations. Built on the Krepost heavy walker chassis. -->
+  <USAC_Mech_Omaha.description>An amphibious assault mech equally at home on land and in water, providing close and mid-range fire support for USAC operations. Built on the Krepost heavy walker chassis.</USAC_Mech_Omaha.description>
   <!-- EN: left leg -->
   <USAC_Mech_Omaha.tools.left_leg.label>left leg</USAC_Mech_Omaha.tools.left_leg.label>
   <!-- EN: right leg -->

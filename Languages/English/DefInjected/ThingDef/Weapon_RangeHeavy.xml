@@ -15,8 +15,8 @@
   
   <!-- EN: Bushmaster autocannon -->
   <USAC_Gun_BushmasterAC.label>Bushmaster autocannon</USAC_Gun_BushmasterAC.label>
-  <!-- EN: An M901 "Bushmaster III" large-caliber chain cannon designed for mounting on armored vehicles and aircraft. Capable of firing large-caliber depleted uranium autocannon rounds that can inflict devastating damage against infantry and lightly armored units. Provides devastating anti-personnel and anti-armor capabilities. -->
-  <USAC_Gun_BushmasterAC.description>An M901 "Bushmaster III" large-caliber chain cannon designed for mounting on armored vehicles and aircraft. Capable of firing large-caliber depleted uranium autocannon rounds that can inflict devastating damage against infantry and lightly armored units. Provides devastating anti-personnel and anti-armor capabilities.</USAC_Gun_BushmasterAC.description>
+  <!-- EN: An M901 "Bushmaster III" large-caliber chain cannon, built to be mounted on armored vehicles and aircraft. It fires depleted uranium autocannon rounds that tear through infantry and light armor alike. -->
+  <USAC_Gun_BushmasterAC.description>An M901 "Bushmaster III" large-caliber chain cannon, built to be mounted on armored vehicles and aircraft. It fires depleted uranium autocannon rounds that tear through infantry and light armor alike.</USAC_Gun_BushmasterAC.description>
   <!-- EN: stock -->
   <USAC_Gun_BushmasterAC.tools.stock.label>stock</USAC_Gun_BushmasterAC.tools.stock.label>
   <!-- EN: barrel -->
@@ -28,8 +28,8 @@
   
   <!-- EN: Cobra assault cannon -->
   <USAC_Gun_CobraAC.label>Cobra assault cannon</USAC_Gun_CobraAC.label>
-  <!-- EN: A large-scale assault rifle designed to provide suppressive fire. Commonly used as the standard weapon for medium Automatroids, it can also be wielded by large augmented humans or soldiers wearing heavy exoskeletons. The weapon's high rate of fire makes it effective for sustained suppression against infantry targets. -->
-  <USAC_Gun_CobraAC.description>A large-scale assault rifle designed to provide suppressive fire. Commonly used as the standard weapon for medium Automatroids, it can also be wielded by large augmented humans or soldiers wearing heavy exoskeletons. The weapon's high rate of fire makes it effective for sustained suppression against infantry targets.</USAC_Gun_CobraAC.description>
+  <!-- EN: A large-scale assault rifle designed to provide suppressive fire. Standard armament for medium automatroids, it can also be wielded by large augmented humans or soldiers wearing heavy exoskeletons. The weapon's high rate of fire makes it effective for sustained suppression against infantry targets. -->
+  <USAC_Gun_CobraAC.description>A large-scale assault rifle designed to provide suppressive fire. Standard armament for medium automatroids, it can also be wielded by large augmented humans or soldiers wearing heavy exoskeletons. The weapon's high rate of fire makes it effective for sustained suppression against infantry targets.</USAC_Gun_CobraAC.description>
   <!-- EN: stock -->
   <USAC_Gun_CobraAC.tools.stock.label>stock</USAC_Gun_CobraAC.tools.stock.label>
   <!-- EN: barrel -->
@@ -41,8 +41,8 @@
   
   <!-- EN: Torchwood recoilless rifle -->
   <USAC_Gun_TorchwoodRR.label>Torchwood recoilless rifle</USAC_Gun_TorchwoodRR.label>
-  <!-- EN: M40A3 "Torchwood", a heavy recoilless rifle with automatic loading system. Due to its lightweight characteristics derived from recoilless operation, it serves as an effective anti-fortification weapon with its explosive frag shell. Capable of devastating infantry demolish and structural destruction. -->
-  <USAC_Gun_TorchwoodRR.description>M40A3 "Torchwood", a heavy recoilless rifle with automatic loading system. Due to its lightweight characteristics derived from recoilless operation, it serves as an effective anti-fortification weapon with its explosive frag shell. Capable of devastating infantry demolish and structural destruction.</USAC_Gun_TorchwoodRR.description>
+  <!-- EN: The M40A3 "Torchwood", a heavy recoilless rifle with an automatic loading system. Recoilless operation keeps it light for its caliber, and its explosive fragmentation shell makes it a superb anti-fortification weapon - devastating against massed infantry and structures alike. -->
+  <USAC_Gun_TorchwoodRR.description>The M40A3 "Torchwood", a heavy recoilless rifle with an automatic loading system. Recoilless operation keeps it light for its caliber, and its explosive fragmentation shell makes it a superb anti-fortification weapon - devastating against massed infantry and structures alike.</USAC_Gun_TorchwoodRR.description>
   <!-- EN: stock -->
   <USAC_Gun_TorchwoodRR.tools.stock.label>stock</USAC_Gun_TorchwoodRR.tools.stock.label>
   <!-- EN: barrel -->
@@ -54,8 +54,8 @@
   
   <!-- EN: Viper DMR -->
   <USAC_Gun_ViperDMR.label>Viper DMR</USAC_Gun_ViperDMR.label>
-  <!-- EN: An M905 "Viper" large-caliber precision anti-materiel weapon system using autocannon ammunition. Designed to be mounted on medium Automatroids as an anti-materiel weapon, it can also be wielded by large augmented humans or soldiers wearing heavy exoskeletons. Excels at long-range precision strikes against armored targets. -->
-  <USAC_Gun_ViperDMR.description>An M905 "Viper" large-caliber precision anti-materiel weapon system using autocannon ammunition. Designed to be mounted on medium Automatroids as an anti-materiel weapon, it can also be wielded by large augmented humans or soldiers wearing heavy exoskeletons. Excels at long-range precision strikes against armored targets.</USAC_Gun_ViperDMR.description>
+  <!-- EN: An M905 "Viper" large-caliber precision anti-materiel weapon system using autocannon ammunition. Designed to be mounted on medium automatroids, it can also be wielded by large augmented humans or soldiers wearing heavy exoskeletons. Excels at long-range precision strikes against armored targets. -->
+  <USAC_Gun_ViperDMR.description>An M905 "Viper" large-caliber precision anti-materiel weapon system using autocannon ammunition. Designed to be mounted on medium automatroids, it can also be wielded by large augmented humans or soldiers wearing heavy exoskeletons. Excels at long-range precision strikes against armored targets.</USAC_Gun_ViperDMR.description>
   <!-- EN: stock -->
   <USAC_Gun_ViperDMR.tools.stock.label>stock</USAC_Gun_ViperDMR.tools.stock.label>
   <!-- EN: barrel -->

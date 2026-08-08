@@ -13,7 +13,7 @@ This agreement is entered into by the user (hereinafter referred to as the "User
   1.2 Ownership of data and derivatives. All physical samples, analytical models, and related intellectual property generated from the Preliminary Telemetry Data are exclusively acquired and fully owned by USAC. The User hereby grants USAC complete, irrevocable, royalty-free rights covering all star sectors involved in the Company's services.
 
 2. Service Availability and Force Majeure
-  2.1 Service capability limits. USAC will make commercially reasonable efforts to maintain the normal operation of communication and logistics services. The Company bears no liability for breach or culpa in contrahendo for degraded transmission or dispatch caused by objective factors not directly attributable to the Company, including abnormal deep-space physical constants, orbital occlusion, or equipment overload.
+  2.1 Service capability limits. USAC will make commercially reasonable efforts to maintain the normal operation of communication and logistics services. The Company bears no liability for breach, nor for pre-contractual fault, in respect of degraded transmission or dispatch caused by objective factors not directly attributable to the Company, including abnormal deep-space physical constants, orbital occlusion, or equipment overload.
   2.2 Asset recovery rights under extreme circumstances. In the event of extreme financial restructuring or the withdrawal of strategic defense systems, USAC reserves the right, without prior notice, to forcibly recover and reallocate armed facilities and resources that have been delivered but not yet actually consumed, in order to preserve baseline redundancy and the Company's overall interests. The User may not raise claims or allege breach on this basis.
 
 3. Shipment and Delivery Terms
@@ -40,12 +40,12 @@ During the validity period of the Service authorization, the User is expressly p
   6.1 Exclusive compensation cap. Unless the parties separately execute a supplemental property exemption agreement, the maximum cumulative liability of USAC and its co-signing carriers for any direct or indirect physical damage, friendly-fire incident, or total facility collapse arising from the use or inability to use the Service shall be limited to refunding the exact amount actually paid by the User for the service currently in dispute. The Company expressly disclaims any legal compensation for unknown losses, consequential damages, prospective value loss, goodwill impairment, or other indirect damages.
   6.2 Sole right of interpretation. USAC reserves the final right of interpretation regarding any textual ambiguity or dispute over the application of this agreement to specific circumstances, and that interpretation shall be binding on the User.</USAC.Terms.Content>
 
-  <USAC.Terms.Accept>Accept Agreement</USAC.Terms.Accept>
+  <USAC.Terms.Accept>Accept agreement</USAC.Terms.Accept>
   <USAC.Terms.Decline>Decline</USAC.Terms.Decline>
   <USAC.Terms.DeclineMessage>[USAC] You declined the user agreement and cannot use the USAC trade terminal.</USAC.Terms.DeclineMessage>
 
   <!-- Settings -->
   <USAC.Settings.EnableUSACTerminal>Enable USAC trade terminal and agreement popup</USAC.Settings.EnableUSACTerminal>
-  <USAC.Settings.EnableUSACTerminalDesc>If enabled, the vanilla comms console will be intercepted and the USAC agreement will appear before the first trade. If you decline the agreement in-game, this option will be automatically unchecked. If disabled, the game will revert to and permanently use the default vanilla or third-party trading interface.</USAC.Settings.EnableUSACTerminalDesc>
+  <USAC.Settings.EnableUSACTerminalDesc>If enabled, the vanilla comms console will be intercepted and the USAC agreement will appear before the first trade. If you decline the agreement in-game, this option will be automatically unchecked. If disabled, the game will permanently revert to the default vanilla or third-party trading interface.</USAC.Settings.EnableUSACTerminalDesc>
 
 </LanguageData>

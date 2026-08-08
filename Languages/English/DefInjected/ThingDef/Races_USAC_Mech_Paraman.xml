@@ -3,8 +3,8 @@
   
   <!-- EN: M939 "Paraman" -->
   <USAC_Mech_Paraman.label>M939 "Paraman"</USAC_Mech_Paraman.label>
-  <!-- EN: A medium mechanized airborne unit. Designed for rapid deployment operations with enhanced mobility and moderate firepower. Based on the battle frame chassis. -->
-  <USAC_Mech_Paraman.description>A medium mechanized airborne unit. Designed for rapid deployment operations with enhanced mobility and moderate firepower. Based on the battle frame chassis.</USAC_Mech_Paraman.description>
+  <!-- EN: A medium mechanized airborne unit built for rapid deployment, trading firepower for mobility. Built on the battle frame chassis. -->
+  <USAC_Mech_Paraman.description>A medium mechanized airborne unit built for rapid deployment, trading firepower for mobility. Built on the battle frame chassis.</USAC_Mech_Paraman.description>
   <!-- EN: head -->
   <USAC_Mech_Paraman.tools.head.label>head</USAC_Mech_Paraman.tools.head.label>
   <!-- EN: left fist -->

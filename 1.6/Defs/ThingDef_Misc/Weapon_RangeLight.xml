@@ -37,7 +37,7 @@
   <ThingDef ParentName="USAC_BaseGun">
     <defName>USAC_Gun_AssaultRifle</defName>
     <label>advanced auto rifle</label>
-    <description>An advanced precision rifle that strikes a good balance between accuracy, power and weight. Its full-power ammunition can effectively penetrate conventional bulletproof plates and cause effective damage, but its firing interval is relatively slow.</description>
+    <description>An advanced precision rifle that strikes a fine balance between accuracy, power and weight. Its full-power ammunition punches through conventional ballistic plate, though it fires more slowly than a standard assault rifle.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/USAC_Gun_AssaultRifle</texPath>
       <drawSize>1.2</drawSize>
@@ -102,8 +102,8 @@
 
   <ThingDef ParentName="USAC_BaseGun">
     <defName>USAC_Gun_LightMachinegun</defName>
-    <label>Advanced LMG</label>
-    <description>A precision rifle that has been modified to provide sustained firepower through an air-cooled barrel and belt-fed ammunition. Its full-power rounds can effectively penetrate conventional ballistic protection, but it is bulky and requires squad cover.</description>
+    <label>advanced LMG</label>
+    <description>A precision rifle rebuilt for sustained fire, with an air-cooled barrel and belt feed. Its full-power rounds punch through conventional ballistic protection, but the weapon is bulky enough that its user needs the rest of the squad covering them.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/USAC_Gun_LightMachinegun</texPath>
       <drawSize>1.2</drawSize>
@@ -169,7 +169,7 @@
   <ThingDef ParentName="USAC_BaseGun">
     <defName>USAC_Gun_MarksmanRifle</defName>
     <label>advanced marksman rifle</label>
-    <description>A modified precision rifle designed for long-range burst fire, using full-power ammunition that can effectively penetrate conventional ballistic protection at long range, making it an ideal marksman rifle.</description>
+    <description>A precision rifle modified for rapid follow-up shots at long range. Its full-power ammunition still defeats conventional ballistic protection at distance, which makes it an ideal marksman's weapon.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/USAC_Gun_MarksmanRifle</texPath>
       <drawSize>1.2</drawSize>

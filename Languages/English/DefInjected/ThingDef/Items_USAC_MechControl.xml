@@ -3,9 +3,9 @@
   
   <!-- EN: mechlink serum -->
   <USAC_TempMechlink.label>mechlink serum</USAC_TempMechlink.label>
-  <!-- EN: A neuro-augment serum that forms a temporary neural interface. Connects the user to the USAC satellite network for mechanoid control via a subscription model. Only active while brain activity is sustained. -->
-  <USAC_TempMechlink.description>A neuro-augment serum that forms a temporary neural interface. Connects the user to the USAC satellite network for mechanoid control via a subscription model. Only active while brain activity is sustained.</USAC_TempMechlink.description>
-  <!-- EN: Inject {0_label} to become mechanitor -->
-  <USAC_TempMechlink.comps.CompUsableImplant.useLabel>Inject {0_label} to become mechanitor</USAC_TempMechlink.comps.CompUsableImplant.useLabel>
+  <!-- EN: A neuro-augment serum that forms a temporary neural interface, linking the user to the USAC satellite network for mech control on a subscription basis. It functions only while brain activity continues. -->
+  <USAC_TempMechlink.description>A neuro-augment serum that forms a temporary neural interface, linking the user to the USAC satellite network for mech control on a subscription basis. It functions only while brain activity continues.</USAC_TempMechlink.description>
+  <!-- EN: Inject {0_label} to become a mechanitor -->
+  <USAC_TempMechlink.comps.CompUsableImplant.useLabel>Inject {0_label} to become a mechanitor</USAC_TempMechlink.comps.CompUsableImplant.useLabel>
   
 </LanguageData>
